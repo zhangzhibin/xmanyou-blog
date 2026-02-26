@@ -4,9 +4,11 @@ description: "有时候需要在同一个非80或者443端口上同时启用http
 pubDate: 2021-08-18T06:52:01.000Z
 author: "阿斌"
 tags: ["traefik", "开发笔记"]
+tagSlugs: ["traefik", "dev"]
 draft: false
 type: post
 slug: "traefik-redirect-http-request-to-https-on-same-entrypoint"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="httphttps">配置http与https使用相同端口</h2>

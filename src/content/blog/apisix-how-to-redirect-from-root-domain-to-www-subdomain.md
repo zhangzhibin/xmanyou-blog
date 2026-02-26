@@ -4,9 +4,11 @@ description: "要如何配置redirect插件呢？"
 pubDate: 2024-05-22T06:03:57.000Z
 author: "影子工作室"
 tags: ["Apisix"]
+tagSlugs: ["apisix"]
 draft: false
 type: post
 slug: "apisix-how-to-redirect-from-root-domain-to-www-subdomain"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

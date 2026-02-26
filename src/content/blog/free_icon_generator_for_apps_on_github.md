@@ -4,9 +4,11 @@ description: "Github 是个大宝库，很多东西都能在上边找到。除�
 pubDate: 2019-09-23T01:57:28.000Z
 author: "阿斌"
 tags: ["酷APP"]
+tagSlugs: ["cool-apps"]
 draft: false
 type: post
 slug: "free_icon_generator_for_apps_on_github"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Github 是个大宝库，很多东西都能在上边找到。除了代码，还有很多工具。</p>

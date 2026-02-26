@@ -4,9 +4,11 @@ description: "鸿蒙到底能干啥？除了手机，鸿蒙还可以开车~"
 pubDate: 2021-02-16T03:39:47.000Z
 author: "阿斌"
 tags: ["鸿蒙"]
+tagSlugs: ["hong-meng"]
 draft: false
 type: post
 slug: "harmony-iot-wifi-hispark-car-3861"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>去年去深圳学习的时候，得到了一辆鸿蒙小车，由于种种原因（俗称“懒”），一直没有组装起来。</p>

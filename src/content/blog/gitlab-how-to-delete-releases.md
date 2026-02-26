@@ -4,9 +4,11 @@ description: "办法是删除对应的标签"
 pubDate: 2021-04-22T03:24:27.000Z
 author: "阿斌"
 tags: ["gitlab", "开发笔记"]
+tagSlugs: ["gitlab", "dev"]
 draft: false
 type: post
 slug: "gitlab-how-to-delete-releases"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

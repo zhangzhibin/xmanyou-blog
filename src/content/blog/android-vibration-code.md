@@ -4,9 +4,11 @@ description: "代码参考"
 pubDate: 2020-12-21T08:38:11.000Z
 author: "阿斌"
 tags: ["android", "开发笔记"]
+tagSlugs: ["android", "dev"]
 draft: false
 type: post
 slug: "android-vibration-code"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">代码解析</h1>

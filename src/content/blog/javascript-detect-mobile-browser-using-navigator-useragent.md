@@ -4,9 +4,11 @@ description: "有些事情，原理很简单，但是实现起来很麻烦。"
 pubDate: 2021-09-18T02:41:49.000Z
 author: "阿斌"
 tags: ["JavaScript", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["javascript", "h5", "dev"]
 draft: false
 type: post
 slug: "javascript-detect-mobile-browser-using-navigator-useragent"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

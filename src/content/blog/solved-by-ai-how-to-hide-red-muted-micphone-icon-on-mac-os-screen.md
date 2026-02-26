@@ -4,9 +4,11 @@ description: "如果你刚好买了罗技MX键盘，那问题可能是Logitech O
 pubDate: 2025-03-21T01:59:13.000Z
 author: "阿斌"
 tags: ["AI"]
+tagSlugs: ["ai"]
 draft: false
 type: post
 slug: "solved-by-ai-how-to-hide-red-muted-micphone-icon-on-mac-os-screen"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && data.authorSlug);
+  const slugSet = new Set(posts.map((p) => p.data.authorSlug).filter(Boolean));
+  return Array.from(slugSet).map((slug) => ({
+    params: { slug },
+    props: { slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const posts = (await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && data.authorSlug === slug))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const authorName = posts[0]?.data.author ?? slug;
+---
+
+<Layout title={`${authorName} - 厦门暗游网络科技有限公司`} description={`${authorName} 的文章列表`}>
+  <article class="author-page">
+    <header>
+      <h1>{authorName}</h1>
+    </header>
+    <ul>
+      {posts.map((entry) => {
+        const postSlug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
+        const primaryTag = entry.data.tags[0] ?? entry.data.tagSlugs[0] ?? '';
+        return (
+          <li>
+            <a href={`/${postSlug}/`}>
+              {primaryTag ? `[${primaryTag} ${entry.data.title}]` : entry.data.title}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </article>
+</Layout>

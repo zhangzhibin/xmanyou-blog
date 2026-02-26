@@ -4,9 +4,11 @@ description: "利用几个命令行可以快速实现"
 pubDate: 2021-02-23T05:38:04.000Z
 author: "阿斌"
 tags: ["mac", "linux", "杂七杂八", "开发笔记"]
+tagSlugs: ["mac", "linux", "za-qi-za-ba", "dev"]
 draft: false
 type: post
 slug: "mac-calculate-file-count"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>分两种情况</p>

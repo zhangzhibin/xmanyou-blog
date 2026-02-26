@@ -4,9 +4,11 @@ description: "利用TestFlight进行beta测试，好不容易通过了审核，�
 pubDate: 2019-07-14T15:05:29.000Z
 author: "阿斌"
 tags: ["开发笔记", "App Store", "TestFlight", "ios"]
+tagSlugs: ["dev", "app-store", "testflight", "ios"]
 draft: false
 type: post
 slug: "app-store-testflight-this-beta-isnt-accepting-any-new-testers-right-now"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题描述</h2>

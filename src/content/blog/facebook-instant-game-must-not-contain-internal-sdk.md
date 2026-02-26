@@ -4,9 +4,11 @@ description: "原因是fb不允许从游戏包中直接加载fb sdk库。"
 pubDate: 2021-01-29T03:57:35.000Z
 author: "阿斌"
 tags: ["facebook instant game", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["facebook-instant-game", "h5", "dev"]
 draft: false
 type: post
 slug: "facebook-instant-game-must-not-contain-internal-sdk"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

@@ -4,9 +4,11 @@ description: "来，为你的鸿蒙智能手表设计一个表盘吧"
 pubDate: 2021-07-07T14:36:05.000Z
 author: "阿斌"
 tags: ["表盘", "华为", "杂七杂八"]
+tagSlugs: ["biao-pan", "hua-wei", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "how-to-build-huawei-watch-theme"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="1themestudio">1. 下载华为表盘设计工具 Theme Studio</h2>

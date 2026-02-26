@@ -11,7 +11,7 @@ import { getCollection } from 'astro:content';
         .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
         .map((entry) => (
           <li>
-            <a href={`/blog/${(entry.data.slug || entry.id || '').replace(/\.mdx?$/, '')}/`}>
+            <a href={`/${(entry.data.slug || entry.id || '').replace(/\.mdx?$/, '')}/`}>
               {entry.data.title}
             </a>
             <span> — {entry.data.author}</span>

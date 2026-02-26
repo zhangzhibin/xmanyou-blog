@@ -4,9 +4,11 @@ description: "Unity2019.2beta无法正常打开VSCode的一个解决方法"
 pubDate: 2019-05-27T12:49:14.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity"]
+tagSlugs: ["dev", "unity"]
 draft: false
 type: post
 slug: "unity-unity-2019ban-ben-shuang-ji-cs"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最新的Unity2019.2.0beta出了一个非常讨厌的大bug：双击脚本文件的时候，无法正常打开Visual Studio Code或者VS。有的用户甚至无法正常代码提示。</p>

@@ -4,9 +4,11 @@ description: "mc是管理minio的客户端命令行工具"
 pubDate: 2021-09-30T09:07:05.000Z
 author: "阿斌"
 tags: ["minio", "开发笔记"]
+tagSlugs: ["minio", "dev"]
 draft: false
 type: post
 slug: "minio-client-quick-guide"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="0minio">0. 关于Minio</h1>

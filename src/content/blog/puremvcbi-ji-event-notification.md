@@ -4,9 +4,11 @@ description: "在PureMVC中（其实在实际项目里），提到了3个很相�
 pubDate: 2018-11-14T11:20:11.000Z
 author: "阿斌"
 tags: ["开发笔记", "PureMVC"]
+tagSlugs: ["dev", "puremvc"]
 draft: false
 type: post
 slug: "puremvcbi-ji-event-notification"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>在PureMVC中（其实在实际项目里），提到了3个很相似的概念：Event，Notification和Command。</p>

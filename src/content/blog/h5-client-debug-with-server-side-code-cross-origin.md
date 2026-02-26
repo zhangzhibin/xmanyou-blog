@@ -4,9 +4,11 @@ description: "H5游戏在与服务端联调时，经常会遇到跨域的问题�
 pubDate: 2019-11-14T05:50:47.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "h5-client-debug-with-server-side-code-cross-origin"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

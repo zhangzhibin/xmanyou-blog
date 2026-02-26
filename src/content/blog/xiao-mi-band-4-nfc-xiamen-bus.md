@@ -4,9 +4,11 @@ description: "这是一个悲惨的故事……"
 pubDate: 2019-09-03T05:26:38.000Z
 author: "阿斌"
 tags: ["杂七杂八"]
+tagSlugs: ["za-qi-za-ba"]
 draft: false
 type: post
 slug: "xiao-mi-band-4-nfc-xiamen-bus"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">答案</h2>

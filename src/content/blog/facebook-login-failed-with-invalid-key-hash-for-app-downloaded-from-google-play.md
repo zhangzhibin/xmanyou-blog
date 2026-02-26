@@ -4,9 +4,11 @@ description: "Google Play商店自动签名引发的问题"
 pubDate: 2021-05-10T06:53:45.000Z
 author: "阿斌"
 tags: ["google play", "android", "开发笔记"]
+tagSlugs: ["google-play", "android", "dev"]
 draft: false
 type: post
 slug: "facebook-login-failed-with-invalid-key-hash-for-app-downloaded-from-google-play"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

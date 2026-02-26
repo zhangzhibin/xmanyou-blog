@@ -4,9 +4,11 @@ description: "用别的ubuntu系统镜像导入创建的虚拟机，会继续沿
 pubDate: 2021-04-10T04:37:25.000Z
 author: "阿斌"
 tags: ["linux", "开发笔记"]
+tagSlugs: ["linux", "dev"]
 draft: false
 type: post
 slug: "ubuntu-change-hostname"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>用别的ubuntu系统镜像导入创建的虚拟机，会继续沿用之前的主机名hostname。为了不与原系统混在一起，需要修改主机名hostname。</p>

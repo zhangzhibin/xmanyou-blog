@@ -4,9 +4,11 @@ description: "Shell脚本使用一些特殊变量来处理内部参数。"
 pubDate: 2021-11-19T07:23:57.000Z
 author: "阿斌"
 tags: ["Shell Script", "linux", "开发笔记"]
+tagSlugs: ["shell-script", "linux", "dev"]
 draft: false
 type: post
 slug: "shell-jiao-ben-de-bian-liang"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Shell脚本中有一些特殊的变量:</p>

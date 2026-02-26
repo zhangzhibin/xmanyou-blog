@@ -4,9 +4,11 @@ description: "分享tempcsv.com的实现过程。AI 编程肯定是大势所趋�
 pubDate: 2026-02-02T09:48:31.000Z
 author: "阿斌"
 tags: ["AI"]
+tagSlugs: ["ai"]
 draft: false
 type: post
 slug: "building-tempcsv-with-ai"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">背景</h2>

@@ -4,10 +4,12 @@ description: "你有一个未满周岁精力旺盛的娃，然后还想参加世
 pubDate: 2017-12-05T14:09:55.000Z
 author: "阿斌"
 tags: ["杂七杂八", "Ludum Dare", "LD40"]
+tagSlugs: ["za-qi-za-ba", "ludum-dare", "ld40"]
 draft: false
 type: post
 slug: "lun-ru-he-zai-dai-wa-de-bai-mang-zhi-zhong-chou-kong-can-jia-shi-jie-shang-zui-da-de-you-xi-da-sai"
 image: "/images/2017/12/Snip20171204_19.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>首先，你得有个娃。<br>

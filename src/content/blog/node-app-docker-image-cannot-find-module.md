@@ -4,9 +4,11 @@ description: "原来是文件名大小写惹的错"
 pubDate: 2021-12-03T10:35:48.000Z
 author: "阿斌"
 tags: ["Node.js", "docker", "开发笔记"]
+tagSlugs: ["node-js", "docker", "dev"]
 draft: false
 type: post
 slug: "node-app-docker-image-cannot-find-module"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

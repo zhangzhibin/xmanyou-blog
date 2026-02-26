@@ -4,9 +4,11 @@ description: "如题"
 pubDate: 2021-02-07T07:50:55.000Z
 author: "阿斌"
 tags: ["docker", "阿里云", "开发笔记"]
+tagSlugs: ["docker", "aliyun", "dev"]
 draft: false
 type: post
 slug: "a-li-yun-ubuntu-ecs-install-dockerhe-docker-compose-manually"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>在阿里云的Ubuntu云服务器上安装docker/docker-compose的详细步骤如下：</p>

@@ -4,9 +4,11 @@ description: "什么是低代码引擎？你是否真的需要建设一个自己
 pubDate: 2022-04-23T14:44:44.000Z
 author: "阿斌"
 tags: ["低代码", "开发笔记"]
+tagSlugs: ["di-dai-ma", "dev"]
 draft: false
 type: post
 slug: "ali-lowcode-engine-quick-review"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>国内大厂阿里于今年开源了内部的低代码引擎LowCodeEngine：</p>

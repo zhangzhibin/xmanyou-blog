@@ -4,9 +4,11 @@ description: "参照官方示例尝试动态绑定image，居然失败了？"
 pubDate: 2021-12-03T10:28:42.000Z
 author: "阿斌"
 tags: ["Nuxt.js", "开发笔记"]
+tagSlugs: ["nuxt-js", "dev"]
 draft: false
 type: post
 slug: "nuxt-js-bind-image-src-dynamically"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

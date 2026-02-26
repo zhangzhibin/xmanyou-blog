@@ -4,9 +4,11 @@ description: "利用find查找指定大小的文件"
 pubDate: 2021-02-25T10:18:39.000Z
 author: "阿斌"
 tags: ["mac", "linux", "开发笔记"]
+tagSlugs: ["mac", "linux", "dev"]
 draft: false
 type: post
 slug: "mac-find-file-by-size"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">命令</h1>

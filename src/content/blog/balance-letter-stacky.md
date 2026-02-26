@@ -4,10 +4,12 @@ description: "这是一款不可消除的异形俄罗斯方块类物理游戏。
 pubDate: 2019-07-26T03:10:39.000Z
 author: "影子工作室"
 tags: ["我们和我们的游戏", "cocos creator"]
+tagSlugs: ["games", "cocos-creator"]
 draft: false
 type: post
 slug: "balance-letter-stacky"
 image: "/images/2019/07/Banner1024x500.png"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: html--><iframe src="https://www.taptap.com/widget/171560?platform=android" frameborder="0" width="470px" height="90px"></iframe><!--kg-card-end: html--><!--kg-card-begin: markdown--><p>影子工作室的新游戏开始测试了。</p>

@@ -4,9 +4,11 @@ description: "H5游戏出海赚美元咯~"
 pubDate: 2020-07-01T04:07:08.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "laya"]
+tagSlugs: ["dev", "h5", "laya"]
 draft: false
 type: post
 slug: "laya-how-to-publish-to-facebook-instant-game"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="1">1. 官方文档</h1>

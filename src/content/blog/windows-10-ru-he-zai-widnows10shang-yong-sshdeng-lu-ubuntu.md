@@ -4,9 +4,11 @@ description: "如何不用每次登录Ubuntu都输入密码"
 pubDate: 2019-03-29T01:53:02.000Z
 author: "阿斌"
 tags: ["开发笔记", "linux", "windows"]
+tagSlugs: ["dev", "linux", "windows"]
 draft: false
 type: post
 slug: "windows-10-ru-he-zai-widnows10shang-yong-sshdeng-lu-ubuntu"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">使用用户密码登录</h3>

@@ -4,9 +4,11 @@ description: "这一章主要涉及 命名，声明，变量，赋值，包和�
 pubDate: 2019-09-22T14:54:44.000Z
 author: "remote_pluto"
 tags: ["读书笔记", "go"]
+tagSlugs: ["books", "go"]
 draft: false
 type: post
 slug: "go-language-tutorial2"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">第二章 程序结构</h2><h3 id="2-1-">2.1 命名</h3><ul><li>简单的命名规则：一个名字必须以一个字母（ Unicode字母） 或下划线开头，后面可以跟任意数量的字母、数字或下划线。大写字母和小写字母是不同的：heapSort和Heapsort是两个不<br>同的名字</li><li>Go语言中有关键字和预定义名字，关键字不能用于自定义名字，而预定义名字可以再次定义使用它们.</li><li>如果一个名字是在函数内部定义，那么它的就只在函数内部有效。如果是在函数外部定义，那么将在当前包的所有文件中都可以访问。名字的开头字母的大小写决定了名字在包外的可见性.如果一个名字是大写字母开头的，那么它将是导出的，也就是说可以被外部的包访问</li></ul><h3 id="2-2-">2.2 声明</h3><ul><li>Go语言主要有四种类型的声明语句：var、const、type和func，分别对应变量、常量、类型和函数实体对象的声明。</li></ul><h3 id="2-3-">2.3 变量</h3><ul><li>变量声明的一般语法如下：</li></ul><!--kg-card-begin: code--><pre><code>var 变量名字 类型 = 表达式

@@ -4,9 +4,11 @@ description: "Mac下如何下载电驴链接？你需要aMule~"
 pubDate: 2019-09-17T18:21:16.000Z
 author: "阿斌"
 tags: ["酷APP", "杂七杂八", "mac"]
+tagSlugs: ["cool-apps", "za-qi-za-ba", "mac"]
 draft: false
 type: post
 slug: "amule-for-mac-download"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>aMule是类似eMule的全平台p2p软件。</p>

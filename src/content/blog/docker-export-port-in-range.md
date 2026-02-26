@@ -4,9 +4,11 @@ description: "一次导出连续port"
 pubDate: 2021-04-16T06:04:57.000Z
 author: "阿斌"
 tags: ["docker", "开发笔记"]
+tagSlugs: ["docker", "dev"]
 draft: false
 type: post
 slug: "docker-export-port-in-range"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">用法</h1>

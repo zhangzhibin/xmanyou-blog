@@ -4,9 +4,11 @@ description: "好不容易争取到的一个安装邀请怎么就不能用了？
 pubDate: 2021-10-21T12:59:59.000Z
 author: "阿斌"
 tags: ["TestFlight", "ios", "App Store"]
+tagSlugs: ["testflight", "ios", "app-store"]
 draft: false
 type: post
 slug: "testflightgai-yao-qing-yi-che-xiao-huo-wu-xiao-qing-xiang-kai-fa-zhe-qing-qiu-xin-de-yao-qing"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

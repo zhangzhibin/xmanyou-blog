@@ -4,9 +4,11 @@ description: "想在Cocos Creator的场景编辑器的使用自定义的ccclass�
 pubDate: 2019-02-26T10:54:49.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator", "typescript", "ccclass"]
+tagSlugs: ["dev", "h5", "cocos-creator", "typescript", "ccclass"]
 draft: false
 type: post
 slug: "cocos-creator-ccclass-name"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>想在Cocos Creator的场景编辑器的使用自定义的ccclass子类，却遇到这个奇葩的错误：</p>

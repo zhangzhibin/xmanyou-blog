@@ -4,9 +4,11 @@ description: "有什么办法呢？其实很简单。"
 pubDate: 2020-05-19T06:36:49.000Z
 author: "阿斌"
 tags: ["开发笔记", "influxdb"]
+tagSlugs: ["dev", "influxdb"]
 draft: false
 type: post
 slug: "influxdb-calculate-difference-between-fields"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

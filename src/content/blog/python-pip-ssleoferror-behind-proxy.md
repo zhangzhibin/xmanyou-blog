@@ -4,9 +4,11 @@ description: "新版的Urllib3在windows无法正常与某些vpn软件工作，�
 pubDate: 2022-04-24T14:21:26.000Z
 author: "阿斌"
 tags: ["python", "开发笔记"]
+tagSlugs: ["python", "dev"]
 draft: false
 type: post
 slug: "python-pip-ssleoferror-behind-proxy"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

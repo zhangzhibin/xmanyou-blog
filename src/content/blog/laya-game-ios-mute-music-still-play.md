@@ -4,9 +4,11 @@ description: "一行代码解决Facebook这个常见的审核问题。"
 pubDate: 2021-03-06T03:48:11.000Z
 author: "阿斌"
 tags: ["facebook instant game", "laya", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["facebook-instant-game", "laya", "h5", "dev"]
 draft: false
 type: post
 slug: "laya-game-ios-mute-music-still-play"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

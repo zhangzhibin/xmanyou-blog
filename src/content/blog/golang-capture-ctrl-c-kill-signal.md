@@ -4,9 +4,11 @@ description: "有什么办法可以知道用户按下了Ctrl+C来终止程序呢
 pubDate: 2019-11-21T07:32:38.000Z
 author: "阿斌"
 tags: ["开发笔记", "go"]
+tagSlugs: ["dev", "go"]
 draft: false
 type: post
 slug: "golang-capture-ctrl-c-kill-signal"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

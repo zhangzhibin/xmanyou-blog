@@ -4,9 +4,11 @@ description: "安装kubernetes默认需要禁用swap"
 pubDate: 2021-03-30T03:43:56.000Z
 author: "阿斌"
 tags: ["Kubernetes", "Ubuntu"]
+tagSlugs: ["kubernetes", "ubuntu"]
 draft: false
 type: post
 slug: "k8s-failed-to-run-kubelet-running-with-swap-on-is-not-supported"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

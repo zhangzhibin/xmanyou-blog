@@ -4,9 +4,11 @@ description: "动作师好不容易做好的动作，放到游戏里却出现了
 pubDate: 2020-01-22T03:45:24.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发", "DragonBones"]
+tagSlugs: ["dev", "cocos-creator", "h5", "dragonbones"]
 draft: false
 type: post
 slug: "cocos-creator-2-steps-for-dragonbones-blackline-issue"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

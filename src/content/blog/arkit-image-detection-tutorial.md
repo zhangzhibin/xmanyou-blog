@@ -4,10 +4,12 @@ description: "本教程包含：如何用ARKit进行图片识别，如何添加�
 pubDate: 2019-06-05T04:28:19.000Z
 author: "阿斌"
 tags: ["开发笔记", "arkit", "AR 增强现实"]
+tagSlugs: ["dev", "arkit", "ar"]
 draft: false
 type: post
 slug: "arkit-image-detection-tutorial"
 image: "/images/2019/06/Snip20190604_20-2.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>WWDC2019发布了ARKit3.0， 如果你对ARKit不是很了解，想尝试一下，本文将引导你实现ARKit的图片识别功能。</p>

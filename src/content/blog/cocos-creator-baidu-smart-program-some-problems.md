@@ -4,9 +4,11 @@ description: "一些不大不小但是有点烦人的问题，以及相应的对
 pubDate: 2019-11-29T07:36:42.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "baidu", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "baidu", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-baidu-smart-program-some-problems"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>测试版本：Cocos Creator 2.2.0</p>

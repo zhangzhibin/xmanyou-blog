@@ -4,9 +4,11 @@ description: "使用network可以将多个容器连接到一起，并且相互�
 pubDate: 2021-08-17T08:22:13.000Z
 author: "阿斌"
 tags: ["docker", "开发笔记"]
+tagSlugs: ["docker", "dev"]
 draft: false
 type: post
 slug: "access-docker-container-by-name-with-network"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

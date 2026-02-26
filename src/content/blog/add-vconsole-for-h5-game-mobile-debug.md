@@ -4,9 +4,11 @@ description: "腾讯前端开发组开源了一个前端调试工具vConsole，�
 pubDate: 2021-03-03T05:05:45.000Z
 author: "阿斌"
 tags: ["h5 小游戏开发", "facebook instant game", "微信小游戏"]
+tagSlugs: ["h5", "facebook-instant-game", "wxgame"]
 draft: false
 type: post
 slug: "add-vconsole-for-h5-game-mobile-debug"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>任何游戏都需要调试，H5游戏也不例外。</p>

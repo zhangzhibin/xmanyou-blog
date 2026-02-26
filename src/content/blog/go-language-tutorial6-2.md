@@ -4,9 +4,11 @@ description: "本章主要记录了Go语言方法的一些要点"
 pubDate: 2019-12-08T12:17:32.000Z
 author: "remote_pluto"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "go-language-tutorial6-2"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">第六章 方法</h2><h3 id="6-4-">6.4 方法值和方法表达式</h3><ul><li>我们经常选择一个方法，并且在同一个表达式里执行，比如常见的p.Distance()形式，实际上将其分成两步来执行也是可能的。p.Distance叫作“选择器”，选择器会返回一个方法"值"-&gt;一个将方法(Point.Distance)绑定到特定接收器变量的函数</li></ul><!--kg-card-begin: code--><pre><code>p := Point{1, 2}

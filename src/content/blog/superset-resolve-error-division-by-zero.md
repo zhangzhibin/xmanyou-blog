@@ -4,9 +4,11 @@ description: "使用NULLIF函数可以解决除数为0的情况。"
 pubDate: 2023-06-09T10:47:40.000Z
 author: "阿斌"
 tags: ["SuperSet", "数据分析", "mysql"]
+tagSlugs: ["superset", "shu-ju-fen-xi", "mysql"]
 draft: false
 type: post
 slug: "superset-resolve-error-division-by-zero"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

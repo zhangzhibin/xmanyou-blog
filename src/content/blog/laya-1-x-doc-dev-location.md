@@ -4,9 +4,11 @@ description: "Laya各个版本的地址"
 pubDate: 2020-10-14T08:25:52.000Z
 author: "阿斌"
 tags: ["开发笔记", "laya", "h5 小游戏开发"]
+tagSlugs: ["dev", "laya", "h5"]
 draft: false
 type: post
 slug: "laya-1-x-doc-dev-location"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Laya Air发布了新版本2.x以后，旧版本Laya 1.x的文档入口，就在官网上消失了。</p>

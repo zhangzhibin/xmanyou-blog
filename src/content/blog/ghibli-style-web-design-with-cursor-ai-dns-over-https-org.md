@@ -4,9 +4,11 @@ description: "https://dns-over-https.org 是一个由AI辅助搭建的吉卜力�
 pubDate: 2025-03-29T16:25:27.000Z
 author: "阿斌"
 tags: ["AI", "Cursor"]
+tagSlugs: ["ai", "cursor"]
 draft: false
 type: post
 slug: "ghibli-style-web-design-with-cursor-ai-dns-over-https-org"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/images/2025/03/ghibli-style-web-design-dns-over-https-org.png" alt="ghibli-style-web-design-dns-over-https-org"></p>

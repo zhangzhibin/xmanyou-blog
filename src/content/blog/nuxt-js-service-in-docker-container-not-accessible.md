@@ -4,9 +4,11 @@ description: "测试环境中运行的好好的，但是打包后就不行了，
 pubDate: 2021-09-07T09:01:39.000Z
 author: "阿斌"
 tags: ["Nuxt.js", "开发笔记"]
+tagSlugs: ["nuxt-js", "dev"]
 draft: false
 type: post
 slug: "nuxt-js-service-in-docker-container-not-accessible"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

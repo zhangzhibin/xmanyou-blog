@@ -4,9 +4,11 @@ description: "gradlew --stop 终止Gradle的后台任务"
 pubDate: 2020-02-24T08:36:11.000Z
 author: "阿斌"
 tags: ["开发笔记", "android", "gradle"]
+tagSlugs: ["dev", "android", "gradle"]
 draft: false
 type: post
 slug: "android-studio-stop-gradle-background-sync-task"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

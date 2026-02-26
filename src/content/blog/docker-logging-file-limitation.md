@@ -4,9 +4,11 @@ description: "默认设置下，Docker对日志是没有限制的，很容易将
 pubDate: 2021-03-02T09:21:53.000Z
 author: "阿斌"
 tags: ["docker", "开发笔记"]
+tagSlugs: ["docker", "dev"]
 draft: false
 type: post
 slug: "docker-logging-file-limitation"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

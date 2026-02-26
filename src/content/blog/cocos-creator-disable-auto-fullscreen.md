@@ -4,9 +4,11 @@ description: "有什么办法能关闭自动全屏这个烦人的设定呢？"
 pubDate: 2021-08-19T04:35:49.000Z
 author: "阿斌"
 tags: ["cocos creator", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["cocos-creator", "h5", "dev"]
 draft: false
 type: post
 slug: "cocos-creator-disable-auto-fullscreen"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

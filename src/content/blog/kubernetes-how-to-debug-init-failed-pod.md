@@ -4,9 +4,11 @@ description: "调试是每个程序员都躲不过去的必修课"
 pubDate: 2021-05-14T03:49:09.000Z
 author: "阿斌"
 tags: ["Kubernetes", "开发笔记", "Elastic"]
+tagSlugs: ["kubernetes", "dev", "elastic"]
 draft: false
 type: post
 slug: "kubernetes-how-to-debug-init-failed-pod"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>任何应用的开发过程，都不总会一帆风顺，那么，怎么调试，就是一个很重要的问题。</p>

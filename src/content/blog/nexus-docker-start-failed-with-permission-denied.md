@@ -4,9 +4,11 @@ description: "其实官方文档中已经给出了建议"
 pubDate: 2021-12-16T16:05:52.000Z
 author: "阿斌"
 tags: ["Nexus", "docker", "开发笔记"]
+tagSlugs: ["nexus", "docker", "dev"]
 draft: false
 type: post
 slug: "nexus-docker-start-failed-with-permission-denied"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

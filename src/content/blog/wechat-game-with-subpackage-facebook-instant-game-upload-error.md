@@ -4,9 +4,11 @@ description: "微信和Facebook神仙打架？"
 pubDate: 2021-02-25T10:56:55.000Z
 author: "影子工作室"
 tags: ["facebook instant game", "h5 小游戏开发", "开发笔记", "微信小游戏"]
+tagSlugs: ["facebook-instant-game", "h5", "dev", "wxgame"]
 draft: false
 type: post
 slug: "wechat-game-with-subpackage-facebook-instant-game-upload-error"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

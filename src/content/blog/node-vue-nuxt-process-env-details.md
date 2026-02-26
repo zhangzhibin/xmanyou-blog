@@ -4,9 +4,11 @@ description: "一次搞定环境变量的问题。"
 pubDate: 2021-11-19T10:40:57.000Z
 author: "阿斌"
 tags: ["Nuxt.js", "Node.js", "Vue", "开发笔记"]
+tagSlugs: ["nuxt-js", "node-js", "vue", "dev"]
 draft: false
 type: post
 slug: "node-vue-nuxt-process-env-details"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="1nodejsprocessenv">1. Node.js的环境变量对象 process.env</h1>

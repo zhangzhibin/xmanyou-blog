@@ -4,9 +4,11 @@ description: "Shift + Command + g 前往任意文件夹"
 pubDate: 2020-02-24T09:05:15.000Z
 author: "阿斌"
 tags: ["杂七杂八", "mac"]
+tagSlugs: ["za-qi-za-ba", "mac"]
 draft: false
 type: post
 slug: "macos-finder-goto-folder-short-key"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

@@ -4,9 +4,11 @@ description: "错误速查表"
 pubDate: 2020-02-25T08:03:44.000Z
 author: "阿斌"
 tags: ["开发笔记", "android"]
+tagSlugs: ["dev", "android"]
 draft: false
 type: post
 slug: "google-play-service-error-code"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

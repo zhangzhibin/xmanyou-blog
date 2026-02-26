@@ -4,9 +4,11 @@ description: "对于很多没有提供原生支持的游戏引擎，WebView提�
 pubDate: 2021-07-05T15:20:14.000Z
 author: "阿斌"
 tags: ["鸿蒙", "Unity"]
+tagSlugs: ["hong-meng", "unity"]
 draft: false
 type: post
 slug: "run-unity-game-on-harmony-device-by-webview"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>上一次测试了Cocos直接打包鸿蒙应用，体验极度舒适。</p>

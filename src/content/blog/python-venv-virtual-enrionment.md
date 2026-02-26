@@ -4,9 +4,11 @@ description: "环境冲突是开发人员最头痛的问题之一，venv为pytho
 pubDate: 2020-04-21T04:34:43.000Z
 author: "阿斌"
 tags: ["开发笔记", "python", "venv"]
+tagSlugs: ["dev", "python", "venv"]
 draft: false
 type: post
 slug: "python-venv-virtual-enrionment"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/images/2020/04/python.png" alt="python"></p>

@@ -4,9 +4,11 @@ description: "想要看看应用是否被抓包，可以试试这个方法。"
 pubDate: 2021-07-06T04:26:01.000Z
 author: "阿斌"
 tags: ["安卓", "开发笔记"]
+tagSlugs: ["an-zhuo", "dev"]
 draft: false
 type: post
 slug: "android-how-to-detect-apk-source-installer"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

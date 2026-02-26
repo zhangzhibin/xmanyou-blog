@@ -4,9 +4,11 @@ description: "web开发可以使用document的接口来实现动态加载。"
 pubDate: 2021-09-24T04:45:43.000Z
 author: "阿斌"
 tags: ["JavaScript", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["javascript", "h5", "dev"]
 draft: false
 type: post
 slug: "javascript-dynamically-load-script-and-set-parameters"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

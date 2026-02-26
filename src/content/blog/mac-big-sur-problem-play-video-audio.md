@@ -4,9 +4,11 @@ description: "每次升级Mac系统总会遇到一点奇怪的问题，这次是
 pubDate: 2021-01-11T13:56:05.000Z
 author: "阿斌"
 tags: ["mac", "杂七杂八"]
+tagSlugs: ["mac", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "mac-big-sur-problem-play-video-audio"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题描述</h1>

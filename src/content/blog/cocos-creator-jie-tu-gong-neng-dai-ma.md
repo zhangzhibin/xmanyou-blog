@@ -4,9 +4,11 @@ description: "Cocos Creator 2.0.5 测试过的截图组件"
 pubDate: 2018-12-18T01:11:09.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator", "facebook instant game"]
+tagSlugs: ["dev", "h5", "cocos-creator", "facebook-instant-game"]
 draft: false
 type: post
 slug: "cocos-creator-jie-tu-gong-neng-dai-ma"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>Cocos官方提供的截图功能代码有明显的错误，没法直接用。</p>

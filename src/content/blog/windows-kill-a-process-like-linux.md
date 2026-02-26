@@ -4,9 +4,11 @@ description: "使用taskkill命令可以在windows下实现一些类似Linux的k
 pubDate: 2021-04-12T16:58:01.000Z
 author: "阿斌"
 tags: ["windows", "杂七杂八"]
+tagSlugs: ["windows", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "windows-kill-a-process-like-linux"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

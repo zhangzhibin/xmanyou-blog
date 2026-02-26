@@ -4,9 +4,11 @@ description: "想要使用一些第三方服务，比如Facebook或者谷歌广�
 pubDate: 2021-11-30T09:47:16.000Z
 author: "阿斌"
 tags: ["Nginx", "反向代理", "开发笔记"]
+tagSlugs: ["nginx", "fan-xiang-dai-li", "dev"]
 draft: false
 type: post
 slug: "nginx-set-location-for-single-file"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

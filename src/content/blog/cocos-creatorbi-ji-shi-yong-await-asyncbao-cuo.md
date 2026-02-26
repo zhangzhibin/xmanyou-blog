@@ -4,9 +4,11 @@ description: "能否在Cocos Creator 的JS代码中使用await/async呢？"
 pubDate: 2018-11-16T01:49:15.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator"]
+tagSlugs: ["dev", "h5", "cocos-creator"]
 draft: false
 type: post
 slug: "cocos-creatorbi-ji-shi-yong-await-asyncbao-cuo"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">错误</h3>

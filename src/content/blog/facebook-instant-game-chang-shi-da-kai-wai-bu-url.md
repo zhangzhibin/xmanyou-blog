@@ -4,9 +4,11 @@ description: "如题"
 pubDate: 2019-03-22T14:50:48.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "facebook instant game", "cocos creator"]
+tagSlugs: ["dev", "h5", "facebook-instant-game", "cocos-creator"]
 draft: false
 type: post
 slug: "facebook-instant-game-chang-shi-da-kai-wai-bu-url"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>想在Facebook Instant Game中直接打开别的页面，毫不意外地失败了。</p>

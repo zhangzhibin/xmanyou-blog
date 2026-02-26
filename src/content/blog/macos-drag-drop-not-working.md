@@ -4,9 +4,11 @@ description: "重启Finder可以解决"
 pubDate: 2019-10-12T11:58:38.000Z
 author: "阿斌"
 tags: ["杂七杂八", "mac"]
+tagSlugs: ["za-qi-za-ba", "mac"]
 draft: false
 type: post
 slug: "macos-drag-drop-not-working"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

@@ -4,9 +4,11 @@ description: "利用Unity编辑器脚本来自动修改XCode工程"
 pubDate: 2019-07-26T09:06:15.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity"]
+tagSlugs: ["dev", "unity"]
 draft: false
 type: post
 slug: "unity-using-script-modify-xcode-project"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>

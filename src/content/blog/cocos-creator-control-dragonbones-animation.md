@@ -4,9 +4,11 @@ description: "龙骨动作的常见操作笔记"
 pubDate: 2020-02-06T08:07:33.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发", "DragonBones"]
+tagSlugs: ["dev", "cocos-creator", "h5", "dragonbones"]
 draft: false
 type: post
 slug: "cocos-creator-control-dragonbones-animation"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">前言</h2>

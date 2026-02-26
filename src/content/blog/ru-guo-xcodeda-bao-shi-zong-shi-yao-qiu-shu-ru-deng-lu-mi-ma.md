@@ -4,9 +4,11 @@ description: "有什么解决办法呢？"
 pubDate: 2017-12-13T14:58:16.000Z
 author: "阿斌"
 tags: ["杂七杂八", "mac"]
+tagSlugs: ["za-qi-za-ba", "mac"]
 draft: false
 type: post
 slug: "ru-guo-xcodeda-bao-shi-zong-shi-yao-qiu-shu-ru-deng-lu-mi-ma"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>像这样子：<br>

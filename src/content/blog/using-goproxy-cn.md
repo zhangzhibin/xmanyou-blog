@@ -4,9 +4,11 @@ description: "go env -w GOPROXY=https://goproxy.cn,direct\n"
 pubDate: 2020-05-22T14:00:47.000Z
 author: "阿斌"
 tags: ["开发笔记", "go"]
+tagSlugs: ["dev", "go"]
 draft: false
 type: post
 slug: "using-goproxy-cn"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题</h1>

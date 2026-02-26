@@ -4,9 +4,11 @@ description: "介绍一个远程开启ESXi主机ssh访问功能的方法。"
 pubDate: 2021-03-19T06:43:46.000Z
 author: "阿斌"
 tags: ["vmware", "开发笔记"]
+tagSlugs: ["vmware", "dev"]
 draft: false
 type: post
 slug: "vmware-esxi-enable-ssh-connection"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

@@ -4,9 +4,11 @@ description: "> https://github.com/typescript-eslint/typescript-eslint/blob/main
 pubDate: 2022-10-31T06:52:28.000Z
 author: "影子工作室"
 tags: []
+tagSlugs: []
 draft: true
 type: post
 slug: "untitled"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><blockquote>

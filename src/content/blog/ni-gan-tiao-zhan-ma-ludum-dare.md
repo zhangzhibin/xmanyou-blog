@@ -4,10 +4,12 @@ description: "比Game Jam还早的Game Jam，你敢尝试么？"
 pubDate: 2017-11-27T12:33:12.000Z
 author: "阿斌"
 tags: ["杂七杂八", "Ludum Dare"]
+tagSlugs: ["za-qi-za-ba", "ludum-dare"]
 draft: false
 type: post
 slug: "ni-gan-tiao-zhan-ma-ludum-dare"
 image: "/images/2017/11/70898681-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">前言</h3>

@@ -4,9 +4,11 @@ description: "重复造轮子是没有意义的，要怎么做才能使用npm的
 pubDate: 2018-12-18T08:14:21.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator", "typescript"]
+tagSlugs: ["dev", "h5", "cocos-creator", "typescript"]
 draft: false
 type: post
 slug: "cocos-creator-typescript-xia-yin-yong-di-san-fang-nodeku"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>首先，参考一下官方关于第三方库的使用教程<br>

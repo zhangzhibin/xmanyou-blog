@@ -4,9 +4,11 @@ description: "k8s学习笔记(1). 各种概念"
 pubDate: 2021-04-30T03:16:41.000Z
 author: "阿斌"
 tags: ["Kubernetes", "开发笔记"]
+tagSlugs: ["kubernetes", "dev"]
 draft: false
 type: post
 slug: "kubenetes-k8s-note-01-concepts"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="1kubernetes">1. 什么是kubernetes？</h1>

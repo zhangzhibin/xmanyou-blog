@@ -4,9 +4,11 @@ description: "通过账号设置修改显示语言"
 pubDate: 2021-03-08T05:40:03.000Z
 author: "阿斌"
 tags: ["gitlab", "杂七杂八"]
+tagSlugs: ["gitlab", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "gitlab-change-default-language-preference"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>截止2021年，根据gitlab官方的这个issue，gitlab暂时还不支持修改系统全局语言设置。</p>

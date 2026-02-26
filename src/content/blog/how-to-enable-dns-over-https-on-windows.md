@@ -4,9 +4,11 @@ description: "如何开启Windows 10系统自带的DoH功能？"
 pubDate: 2021-11-26T16:21:59.000Z
 author: "阿斌"
 tags: ["杂七杂八", "DoH"]
+tagSlugs: ["za-qi-za-ba", "doh"]
 draft: false
 type: post
 slug: "how-to-enable-dns-over-https-on-windows"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="doh">什么是DoH?</h1>

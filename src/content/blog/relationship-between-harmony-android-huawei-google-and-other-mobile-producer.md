@@ -4,9 +4,11 @@ description: "冷眼看世界"
 pubDate: 2021-06-11T05:01:43.000Z
 author: "影子工作室"
 tags: ["杂七杂八", "鸿蒙", "安卓", "华为"]
+tagSlugs: ["za-qi-za-ba", "hong-meng", "an-zhuo", "hua-wei"]
 draft: false
 type: post
 slug: "relationship-between-harmony-android-huawei-google-and-other-mobile-producer"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><p>转载一篇关于鸿蒙与安卓，华为和其他手机厂商（例如小米、oppo、vivo、三星）与谷歌的关系的文章。</p>

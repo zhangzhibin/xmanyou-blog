@@ -4,9 +4,11 @@ description: "遇到一个奇怪的错误，不要慌。"
 pubDate: 2018-12-18T02:40:41.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator"]
+tagSlugs: ["dev", "h5", "cocos-creator"]
 draft: false
 type: post
 slug: "cocos-creator-error-1510"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/12/Snipaste_2018-12-18_10-33-45.png" alt="Snipaste_2018-12-18_10-33-45"></p>

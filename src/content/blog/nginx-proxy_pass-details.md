@@ -4,9 +4,11 @@ description: "研读文档后的一点笔记"
 pubDate: 2021-09-16T08:01:01.000Z
 author: "阿斌"
 tags: ["Nginx", "反向代理", "开发笔记", "DevOps"]
+tagSlugs: ["nginx", "fan-xiang-dai-li", "dev", "devops"]
 draft: false
 type: post
 slug: "nginx-proxy_pass-details"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="proxy_pass">关于proxy_pass模块</h1>

@@ -4,9 +4,11 @@ description: "标记并引导玩家点击相应按钮，是比较常见的做法
 pubDate: 2019-08-29T15:38:10.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "use-cocos-creator-create-an-input-area"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">前言</h2>

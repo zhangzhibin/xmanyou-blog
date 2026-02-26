@@ -4,9 +4,11 @@ description: "如何使用开源视频编辑软件OpenShot输出1080x1920的竖�
 pubDate: 2019-03-13T05:03:36.000Z
 author: "阿斌"
 tags: ["开发笔记", "openshot"]
+tagSlugs: ["dev", "openshot"]
 draft: false
 type: post
 slug: "openshot-ru-he-yong-openshotshu-chu-shu-ping-fen-bian-lu-de-shi-pin"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>OpenShot 是一个开源的视频编辑软件。</p>

@@ -4,9 +4,11 @@ description: "Facebook Instant Game 为每个玩家提供了一个云空间，�
 pubDate: 2018-12-13T14:37:54.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "facebook instant game"]
+tagSlugs: ["dev", "h5", "facebook-instant-game"]
 draft: false
 type: post
 slug: "facebook-instant-game-yun-cun-chu"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>Facebook Instant Game 为每个玩家提供了一个云空间，每个游戏都可以保存不超过1M的数据。</p>

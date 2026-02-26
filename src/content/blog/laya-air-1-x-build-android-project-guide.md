@@ -4,9 +4,11 @@ description: "简明流程"
 pubDate: 2020-10-16T02:01:22.000Z
 author: "阿斌"
 tags: ["laya", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["laya", "h5", "dev"]
 draft: false
 type: post
 slug: "laya-air-1-x-build-android-project-guide"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="1">1. 官方文档</h1>

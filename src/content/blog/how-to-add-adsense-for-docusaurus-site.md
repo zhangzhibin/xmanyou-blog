@@ -4,9 +4,11 @@ description: "Docusaurus是一个基于React的快速建站工具，与基于Vue
 pubDate: 2023-09-10T11:44:17.000Z
 author: "影子工作室"
 tags: ["Docusaurus", "开发笔记"]
+tagSlugs: ["docusaurus", "dev"]
 draft: false
 type: post
 slug: "how-to-add-adsense-for-docusaurus-site"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><p>Docusaurus是一个基于React的快速建站工具，与基于Vue的快速建站工具VuePress有很多相似之处。该项目由Facebook团队开发，并开源。</p>

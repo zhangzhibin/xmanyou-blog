@@ -4,9 +4,11 @@ description: "Sequel Pro号称是Mac上最好用的MySql管理工具，而且是
 pubDate: 2018-03-21T14:28:30.000Z
 author: "阿斌"
 tags: ["开发笔记", "mac", "mysql", "sequal pro"]
+tagSlugs: ["dev", "mac", "mysql", "sequal-pro"]
 draft: false
 type: post
 slug: "macshang-kuai-su-an-zhuang"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>Sequel Pro号称是Mac上最好用的MySql管理工具，而且是免费且开源的。<br>

@@ -4,9 +4,11 @@ description: "自己动手为Laya添加一个PageView组件"
 pubDate: 2020-12-18T09:21:16.000Z
 author: "阿斌"
 tags: ["laya", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["laya", "h5", "dev"]
 draft: false
 type: post
 slug: "laya-pageview"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

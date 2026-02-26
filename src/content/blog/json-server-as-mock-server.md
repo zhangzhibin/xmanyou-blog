@@ -4,9 +4,11 @@ description: "Json-server项目是一个开源的REST API服务器。使用者�
 pubDate: 2021-11-17T07:12:10.000Z
 author: "阿斌"
 tags: ["json-server", "开发笔记"]
+tagSlugs: ["json-server", "dev"]
 draft: false
 type: post
 slug: "json-server-as-mock-server"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Json-server项目是一个开源的REST API服务器。使用者通过json定义好数据，就可以自动生成相关的API接口，并提供了很多自定义选项。</p>

@@ -4,9 +4,11 @@ description: "2019.4.2 本周Facebook小游戏排行榜分析：问答类继续�
 pubDate: 2019-04-02T03:37:35.000Z
 author: "阿斌"
 tags: ["facebook instant game", "h5 小游戏开发", "Marketing"]
+tagSlugs: ["facebook-instant-game", "h5", "marketing"]
 draft: false
 type: post
 slug: "facebook-instant-game-top-you-xi-lie-biao-2019-4-2"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">数据来源：</h3>

@@ -4,9 +4,11 @@ description: "利用MacFUSE和sshfs可以实现"
 pubDate: 2021-02-23T06:21:55.000Z
 author: "阿斌"
 tags: ["mac", "开发笔记"]
+tagSlugs: ["mac", "dev"]
 draft: false
 type: post
 slug: "mac-mount-remote-folder"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

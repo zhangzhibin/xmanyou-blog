@@ -4,10 +4,12 @@ description: "我一直希望能为游戏《影子来了》增加一点roguelike
 pubDate: 2017-11-17T13:01:51.000Z
 author: "阿斌"
 tags: ["开发笔记", "影子来了", "shadowrunner", "level design"]
+tagSlugs: ["dev", "ying-zi-lai-liao", "shadowrunner", "level-design"]
 draft: false
 type: post
 slug: "2dping-tai-tiao-yue-you-xi-guan-qia-de-zi-dong-sheng-cheng-si-lu"
 image: "/images/2017/11/75165643-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>作为一个程序员，我经常会沉迷于如何通过程序来自动构建关卡的想法中。</p>

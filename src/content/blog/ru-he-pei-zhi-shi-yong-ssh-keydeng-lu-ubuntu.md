@@ -4,9 +4,11 @@ description: "首先，你要先有一个密钥。\n然后，执行以下命令�
 pubDate: 2018-03-21T08:48:36.000Z
 author: "阿斌"
 tags: ["开发笔记", "mac", "linux", "ssh"]
+tagSlugs: ["dev", "mac", "linux", "ssh"]
 draft: false
 type: post
 slug: "ru-he-pei-zhi-shi-yong-ssh-keydeng-lu-ubuntu"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><strong>首先</strong>，你要先有一个密钥。<br>

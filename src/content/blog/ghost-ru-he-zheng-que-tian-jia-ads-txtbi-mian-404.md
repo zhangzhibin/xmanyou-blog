@@ -4,9 +4,11 @@ description: "本文介绍如何不配置网关，直接使用ghost建站工具�
 pubDate: 2023-06-08T18:43:26.000Z
 author: "阿斌"
 tags: ["ghost"]
+tagSlugs: ["ghost-tag"]
 draft: false
 type: post
 slug: "ghost-ru-he-zheng-que-tian-jia-ads-txtbi-mian-404"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

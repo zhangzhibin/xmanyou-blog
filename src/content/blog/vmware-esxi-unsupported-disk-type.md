@@ -4,9 +4,11 @@ description: "在ESXi主机上安装openwrt koolshare lede版本时，很容易�
 pubDate: 2021-03-19T06:56:17.000Z
 author: "阿斌"
 tags: ["vmware"]
+tagSlugs: ["vmware"]
 draft: false
 type: post
 slug: "vmware-esxi-unsupported-disk-type"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

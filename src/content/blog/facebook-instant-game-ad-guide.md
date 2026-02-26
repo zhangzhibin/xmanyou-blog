@@ -4,9 +4,11 @@ description: "H5小游戏出海赚美元必备知识"
 pubDate: 2021-01-28T08:58:01.000Z
 author: "阿斌"
 tags: ["facebook instant game", "h5 小游戏开发", "cocos creator", "laya"]
+tagSlugs: ["facebook-instant-game", "h5", "cocos-creator", "laya"]
 draft: false
 type: post
 slug: "facebook-instant-game-ad-guide"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>文档更新记录</p>

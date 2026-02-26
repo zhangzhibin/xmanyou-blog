@@ -4,9 +4,11 @@ description: "解决方法居然是不用proxy？？？"
 pubDate: 2020-02-25T02:32:54.000Z
 author: "阿斌"
 tags: ["开发笔记", "android", "gradle"]
+tagSlugs: ["dev", "android", "gradle"]
 draft: false
 type: post
 slug: "android-studio-gradle-sync-fail"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

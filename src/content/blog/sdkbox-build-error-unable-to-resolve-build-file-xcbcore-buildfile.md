@@ -4,9 +4,11 @@ description: "SDKBox的示例工程打iOS包时报了一个奇怪的错误：Una
 pubDate: 2019-07-03T01:20:28.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator", "sdkbox"]
+tagSlugs: ["dev", "h5", "cocos-creator", "sdkbox"]
 draft: false
 type: post
 slug: "sdkbox-build-error-unable-to-resolve-build-file-xcbcore-buildfile"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">环境</h2>

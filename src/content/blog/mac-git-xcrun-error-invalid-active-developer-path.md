@@ -4,9 +4,11 @@ description: "git突然不能用了，不要急，你可能需要升级一下xco
 pubDate: 2021-03-05T09:27:55.000Z
 author: "阿斌"
 tags: ["mac", "开发笔记"]
+tagSlugs: ["mac", "dev"]
 draft: false
 type: post
 slug: "mac-git-xcrun-error-invalid-active-developer-path"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题</h1>

@@ -4,9 +4,11 @@ description: "使用Docker一分钟快速安装个人相册Piwigo"
 pubDate: 2019-09-10T01:27:11.000Z
 author: "阿斌"
 tags: ["开发笔记", "docker", "Piwigo"]
+tagSlugs: ["dev", "docker", "piwigo"]
 draft: false
 type: post
 slug: "install-piwigo-with-docker-in-minutes"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="github">GitHub 库</h2>

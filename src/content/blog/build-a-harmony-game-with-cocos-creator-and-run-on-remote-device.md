@@ -4,9 +4,11 @@ description: "终于等来了带真机调试的DevEco和可以打包鸿蒙的Coc
 pubDate: 2021-06-25T17:40:35.000Z
 author: "阿斌"
 tags: ["鸿蒙", "cocos creator", "h5 小游戏开发", "开发笔记", "华为"]
+tagSlugs: ["hong-meng", "cocos-creator", "h5", "dev", "hua-wei"]
 draft: false
 type: post
 slug: "build-a-harmony-game-with-cocos-creator-and-run-on-remote-device"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>6.25新鲜出炉的DevEco 2.2 beta 提供了远程真机调试，而上周6.18发布的Cocos Creator 3.2 支持一键打包鸿蒙项目。</p>

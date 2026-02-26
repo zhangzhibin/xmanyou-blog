@@ -4,9 +4,11 @@ description: "k8s集群安装失败了，准备重新安装，在这之前都需
 pubDate: 2021-05-07T07:28:33.000Z
 author: "阿斌"
 tags: ["Kubernetes", "开发笔记"]
+tagSlugs: ["kubernetes", "dev"]
 draft: false
 type: post
 slug: "kubernetes-how-to-cleanup-a-k8s-cluster"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>k8s集群安装失败了，准备重新安装，在这之前需要做一些清理工作：</p>

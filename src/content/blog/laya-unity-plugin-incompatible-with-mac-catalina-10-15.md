@@ -4,9 +4,11 @@ description: "旧版开发工具与新版操作系统的冲突"
 pubDate: 2020-11-02T05:12:20.000Z
 author: "阿斌"
 tags: ["Unity", "laya", "开发笔记", "h5 小游戏开发"]
+tagSlugs: ["unity", "laya", "dev", "h5"]
 draft: false
 type: post
 slug: "laya-unity-plugin-incompatible-with-mac-catalina-10-15"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

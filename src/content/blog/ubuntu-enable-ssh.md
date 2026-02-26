@@ -4,9 +4,11 @@ description: "为ubuntu 安装、查看、启动 ssh 服务"
 pubDate: 2021-04-10T03:43:45.000Z
 author: "阿斌"
 tags: ["linux", "ssh"]
+tagSlugs: ["linux", "ssh"]
 draft: false
 type: post
 slug: "ubuntu-enable-ssh"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>新装的Ubuntu 有时候并没有自动安装ssh服务。</p>

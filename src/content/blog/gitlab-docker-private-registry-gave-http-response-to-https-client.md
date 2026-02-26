@@ -4,9 +4,11 @@ description: "docker服务器没有设置tls的话，需要在客户端添加一
 pubDate: 2021-03-10T02:36:50.000Z
 author: "阿斌"
 tags: ["docker", "开发笔记"]
+tagSlugs: ["docker", "dev"]
 draft: false
 type: post
 slug: "gitlab-docker-private-registry-gave-http-response-to-https-client"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

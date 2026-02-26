@@ -4,9 +4,11 @@ description: "本地安装Stable Diffusion的简明步骤和可能遇到的问�
 pubDate: 2023-05-10T08:06:49.000Z
 author: "阿斌"
 tags: ["AI", "Stable Diffusion"]
+tagSlugs: ["ai", "stable-diffusion"]
 draft: false
 type: post
 slug: "install-stable-diffusion-locally"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>首先，请仔细阅读git项目</p>

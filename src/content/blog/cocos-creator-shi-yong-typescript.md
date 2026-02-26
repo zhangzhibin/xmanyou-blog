@@ -4,9 +4,11 @@ description: "在Cocos Creator 中使用TypeScript真的好吗？"
 pubDate: 2018-08-22T12:42:41.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-shi-yong-typescript"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>在折腾了一年的Egret之后，我决定尝试一下Cocos Creator，现在的最新版本是2.0。</p>

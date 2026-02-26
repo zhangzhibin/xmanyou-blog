@@ -4,10 +4,12 @@ description: "Unity在官方博客宣布支持WWDC2019上发布的ARKit3."
 pubDate: 2019-06-13T08:52:18.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity", "arkit", "AR 增强现实"]
+tagSlugs: ["dev", "unity", "arkit", "ar"]
 draft: false
 type: post
 slug: "unity-ar-fundation-2-2-support-arkit3"
 image: "/images/2019/06/Snip20190609_38-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><strong>“ARKit3发布的第三天，Unity在官方博客宣布支持ARKit3。”</strong></p>

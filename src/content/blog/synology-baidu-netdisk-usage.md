@@ -4,9 +4,11 @@ description: "在NAS中用百度网盘客户端下载的小视频找不到了可
 pubDate: 2021-07-23T14:39:25.000Z
 author: "阿斌"
 tags: ["群晖", "百度网盘", "dockder", "杂七杂八"]
+tagSlugs: ["qun-hui", "bai-du-wang-pan", "dockder", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "synology-baidu-netdisk-usage"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

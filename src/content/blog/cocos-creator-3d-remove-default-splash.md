@@ -4,9 +4,11 @@ description: "本文介绍两种移除插屏提高游戏启动速度的方法"
 pubDate: 2020-10-20T05:55:22.000Z
 author: "阿斌"
 tags: ["cocos creator", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["cocos-creator", "h5", "dev"]
 draft: false
 type: post
 slug: "cocos-creator-3d-remove-default-splash"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

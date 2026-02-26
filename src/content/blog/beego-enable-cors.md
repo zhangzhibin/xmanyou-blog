@@ -4,9 +4,11 @@ description: "几个配置方法"
 pubDate: 2020-05-15T06:09:30.000Z
 author: "阿斌"
 tags: ["开发笔记", "beego", "go"]
+tagSlugs: ["dev", "beego", "go"]
 draft: false
 type: post
 slug: "beego-enable-cors"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题</h2>

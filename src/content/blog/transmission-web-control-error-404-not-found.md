@@ -4,9 +4,11 @@ description: "需要修复transmission-web-control安装脚本的路径错误"
 pubDate: 2021-11-06T14:55:17.000Z
 author: "阿斌"
 tags: ["群晖", "transmission"]
+tagSlugs: ["qun-hui", "transmission"]
 draft: false
 type: post
 slug: "transmission-web-control-error-404-not-found"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

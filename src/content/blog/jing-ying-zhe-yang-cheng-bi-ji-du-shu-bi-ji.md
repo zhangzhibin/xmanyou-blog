@@ -4,9 +4,11 @@ description: "优衣库的创始人柳井正教你如何做一个能够兑现承
 pubDate: 2018-08-03T02:04:41.000Z
 author: "阿斌"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "jing-ying-zhe-yang-cheng-bi-ji-du-shu-bi-ji"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/08/-------.jpeg" alt="-------"><br>

@@ -4,9 +4,11 @@ description: "利用minio和nginx快速搭建静态网站"
 pubDate: 2021-08-26T10:25:54.000Z
 author: "阿斌"
 tags: ["minio", "Nginx", "开发笔记"]
+tagSlugs: ["minio", "nginx", "dev"]
 draft: false
 type: post
 slug: "setup-static-website-with-minio-and-nginx"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="1dockercomposeyml">1. docker-compose.yml</h1>

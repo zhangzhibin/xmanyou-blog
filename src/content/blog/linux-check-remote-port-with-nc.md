@@ -4,9 +4,11 @@ description: "nc -zv <address> <port> 可以用来测试端口是否正常"
 pubDate: 2021-05-07T02:16:25.000Z
 author: "阿斌"
 tags: ["linux", "Ubuntu", "开发笔记", "杂七杂八"]
+tagSlugs: ["linux", "ubuntu", "dev", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "linux-check-remote-port-with-nc"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>使用nc命令可以检查远程端口是否打开，用来判断连接是否可用。</p>

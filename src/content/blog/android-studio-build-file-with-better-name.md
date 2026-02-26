@@ -4,9 +4,11 @@ description: "修改gradle设置可以让输出的文件更有规律可追踪。
 pubDate: 2021-07-16T06:35:54.000Z
 author: "阿斌"
 tags: ["android", "开发笔记"]
+tagSlugs: ["android", "dev"]
 draft: false
 type: post
 slug: "android-studio-build-file-with-better-name"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

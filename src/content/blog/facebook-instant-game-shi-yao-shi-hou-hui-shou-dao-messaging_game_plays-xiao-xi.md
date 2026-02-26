@@ -4,9 +4,11 @@ description: "Facebook Instant Game与微信小游戏最大的不同点之一，
 pubDate: 2018-12-13T15:19:33.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "facebook instant game"]
+tagSlugs: ["dev", "h5", "facebook-instant-game"]
 draft: false
 type: post
 slug: "facebook-instant-game-shi-yao-shi-hou-hui-shou-dao-messaging_game_plays-xiao-xi"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>Facebook Instant Game与微信小游戏最大的不同点之一，是Facebook推荐使用Bot来提升用户的留存。</p>

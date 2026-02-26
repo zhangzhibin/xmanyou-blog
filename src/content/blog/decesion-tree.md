@@ -4,9 +4,11 @@ description: "本篇主要介绍了决策树算法"
 pubDate: 2019-12-01T06:40:45.000Z
 author: "remote_pluto"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "decesion-tree"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">算法思想</h2><p>决策树（decision tree）是一个树结构（可以是二叉树或非二叉树）。<br>其每个非叶节点表示一个特征属性上的测试，每个分支代表这个特征属性在某个值域上的输出，而每个叶节点存放一个类别。</p><p>使用决策树进行决策的过程就是从根节点开始，测试待分类项中相应的特征属性，并按照其值选择输出分支，直到到达叶子节点，将叶子节点存放的类别作为决策结果</p><p>对于如下数据:</p><p> </p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/images/2019/12/image-1.png" class="kg-image"></figure><!--kg-card-end: image--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/images/2019/12/image.png" class="kg-image"></figure><!--kg-card-end: image--><p>摘自 &lt;周志华-机器学习&gt;</p><h2 id="--1">算法需要解决的问题:</h2><p>如何构建这样一棵树，为什么初始选择特征是纹理二不是选择根蒂，以什么样的标准来选择特征，这就是决策树的关键步骤分裂属性，所谓的分裂属性就是在某个节点处按照某一特征属性的不同划分构造不同的分支，其目标是让各个分裂子集尽可能地“纯”。尽可能“纯”就是尽量让一个分裂子集中待分类项属于同一类别。</p><h2 id="--2">方法:</h2><h3 id="id3">ID3</h3><h4 id="--3">思路：</h4><p>决策树的分支节点所包含的样本尽可能的是同一类，也就是尽可能的纯。样本纯度的度量指标就是信息熵（information entropy）</p><p><code>\sum_{k=1}^{n}</code></p><!--kg-card-begin: code--><pre><code class="language-math">E(D) = -\sum_{k=1}^{n}\ p_{k}log_{2}p_{k}

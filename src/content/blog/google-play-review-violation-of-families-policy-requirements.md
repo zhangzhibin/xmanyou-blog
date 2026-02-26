@@ -4,9 +4,11 @@ description: "不要以为只有苹果审核会拒人，Google Play也会哦~"
 pubDate: 2020-10-13T01:34:32.000Z
 author: "阿斌"
 tags: ["android", "google play", "开发笔记"]
+tagSlugs: ["android", "google-play", "dev"]
 draft: false
 type: post
 slug: "google-play-review-violation-of-families-policy-requirements"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

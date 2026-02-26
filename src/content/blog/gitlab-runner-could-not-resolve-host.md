@@ -4,9 +4,11 @@ description: "gitlab-runner使用docker执行自动任务时报错了"
 pubDate: 2021-03-11T05:05:35.000Z
 author: "阿斌"
 tags: ["gitlab", "gitlab-runner", "CI", "开发笔记"]
+tagSlugs: ["gitlab", "gitlab-runner", "ci", "dev"]
 draft: false
 type: post
 slug: "gitlab-runner-could-not-resolve-host"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

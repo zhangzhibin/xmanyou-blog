@@ -4,9 +4,11 @@ description: "很多App也提供从App Store之外下载的方式，如币安，
 pubDate: 2021-03-11T05:27:22.000Z
 author: "阿斌"
 tags: ["ios", "mac", "杂七杂八"]
+tagSlugs: ["ios", "mac", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "iphone-ios-verify-app"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

@@ -4,9 +4,11 @@ description: "遇到网卡无法识别问题，需要自己制作ESXi镜像来�
 pubDate: 2021-03-29T09:27:21.000Z
 author: "阿斌"
 tags: ["vmware"]
+tagSlugs: ["vmware"]
 draft: false
 type: post
 slug: "vmware-esxi-unrecognize-network-adpater-realtek"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

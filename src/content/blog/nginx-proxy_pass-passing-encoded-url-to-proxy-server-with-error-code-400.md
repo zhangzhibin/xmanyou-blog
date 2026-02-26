@@ -4,9 +4,11 @@ description: "包含特殊字符的url进行反向代理的解决方法。"
 pubDate: 2021-08-25T10:02:56.000Z
 author: "阿斌"
 tags: ["Nginx", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["nginx", "h5", "dev"]
 draft: false
 type: post
 slug: "nginx-proxy_pass-passing-encoded-url-to-proxy-server-with-error-code-400"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

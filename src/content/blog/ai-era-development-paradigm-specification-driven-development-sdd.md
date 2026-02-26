@@ -4,9 +4,11 @@ description: "当AI的辅助编程和自动编程不可避免，是否需要引�
 pubDate: 2025-09-19T07:58:25.000Z
 author: "阿斌"
 tags: ["AI", "开发笔记"]
+tagSlugs: ["ai", "dev"]
 draft: false
 type: post
 slug: "ai-era-development-paradigm-specification-driven-development-sdd"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>本文使用Cursor翻译，原文在：<a href="https://github.com/github/spec-kit/blob/main/spec-driven.md">https://github.com/github/spec-kit/blob/main/spec-driven.md</a></p>

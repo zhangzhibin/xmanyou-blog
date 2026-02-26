@@ -4,9 +4,11 @@ description: "三步解决远程图片下载问题"
 pubDate: 2020-04-11T16:43:25.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "facebook instant game"]
+tagSlugs: ["dev", "h5", "facebook-instant-game"]
 draft: false
 type: post
 slug: "facebook-instant-game-download-external-image-csp"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

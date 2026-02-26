@@ -4,9 +4,11 @@ description: "当iPhone 13不香了，该怎么重启呢？"
 pubDate: 2021-10-11T15:31:42.000Z
 author: "阿斌"
 tags: ["ios"]
+tagSlugs: ["ios"]
 draft: false
 type: post
 slug: "how-to-restart-an-iphone13"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>去年iPhone12上市的时候，大家纷纷戏称iPhone 13才香，因为十三香。</p>

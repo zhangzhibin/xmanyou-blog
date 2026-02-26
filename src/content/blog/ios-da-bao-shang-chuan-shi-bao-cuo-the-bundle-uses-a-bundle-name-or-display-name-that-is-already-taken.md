@@ -4,9 +4,11 @@ description: "为什么有时候使用了明显没有冲突的App Name也会报�
 pubDate: 2019-07-11T11:23:17.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity", "App Store"]
+tagSlugs: ["dev", "unity", "app-store"]
 draft: false
 type: post
 slug: "ios-da-bao-shang-chuan-shi-bao-cuo-the-bundle-uses-a-bundle-name-or-display-name-that-is-already-taken"
+authorSlug: "dev"
 ---
 
 <p></p><!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

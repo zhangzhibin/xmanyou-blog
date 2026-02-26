@@ -4,9 +4,11 @@ description: "相同的谷歌分析代码，在普通页面上正常运行，但
 pubDate: 2022-03-11T15:12:17.000Z
 author: "阿斌"
 tags: ["h5 小游戏开发", "开发笔记"]
+tagSlugs: ["h5", "dev"]
 draft: false
 type: post
 slug: "ga-gtag-event-failed-storage-not-available-aborting-hit"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

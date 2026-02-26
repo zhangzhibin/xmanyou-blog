@@ -4,9 +4,11 @@ description: "go语言圣经 读书笔记"
 pubDate: 2019-09-15T09:19:18.000Z
 author: "remote_pluto"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "go-language-tutorial"
+authorSlug: "remote_pluto"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">前言</h2>

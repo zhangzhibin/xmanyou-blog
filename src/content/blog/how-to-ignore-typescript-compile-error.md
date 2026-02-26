@@ -4,9 +4,11 @@ description: "//@ts-ignore解决你的烦恼"
 pubDate: 2020-05-25T05:25:45.000Z
 author: "阿斌"
 tags: ["开发笔记", "typescript"]
+tagSlugs: ["dev", "typescript"]
 draft: false
 type: post
 slug: "how-to-ignore-typescript-compile-error"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题</h1>

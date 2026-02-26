@@ -4,9 +4,11 @@ description: "移除一行注释即可实现"
 pubDate: 2020-02-28T09:39:12.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity", "android"]
+tagSlugs: ["dev", "unity", "android"]
 draft: false
 type: post
 slug: "unity-export-android-studio-without-overriding"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

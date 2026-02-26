@@ -4,9 +4,11 @@ description: "最近我们用阿里云和Ghost搭建了影子工作室（厦门�
 pubDate: 2017-11-06T02:06:31.000Z
 author: "阿斌"
 tags: ["开发笔记", "阿里云", "ghost"]
+tagSlugs: ["dev", "aliyun", "ghost-tag"]
 draft: false
 type: post
 slug: "yong-a-li-yun-he-ghostda-jian-blog"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近我们用阿里云和Ghost搭建了影子工作室（厦门暗游）的官方网站。<br>

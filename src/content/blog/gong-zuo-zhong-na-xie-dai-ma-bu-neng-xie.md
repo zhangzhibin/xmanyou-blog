@@ -4,9 +4,11 @@ description: "工作中，乱写代码是有风险的。"
 pubDate: 2017-11-13T12:17:27.000Z
 author: "阿斌"
 tags: ["开发笔记"]
+tagSlugs: ["dev"]
 draft: false
 type: post
 slug: "gong-zuo-zhong-na-xie-dai-ma-bu-neng-xie"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近，有同学偶尔会问我一些学习过程中遇到的<em>简单</em>问题，比如：<br>

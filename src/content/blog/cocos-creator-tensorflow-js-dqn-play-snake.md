@@ -4,10 +4,12 @@ description: "看AI玩贪吃蛇是一种什么体验？"
 pubDate: 2019-08-29T15:00:27.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "AI", "TensorFlow"]
+tagSlugs: ["dev", "cocos-creator", "ai", "tensorflow"]
 draft: false
 type: post
 slug: "cocos-creator-tensorflow-js-dqn-play-snake"
 image: "/images/2019/08/1919be4d-a2a7-47e9-8c98-898f87c7e105.jpg"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>本文是公众号文章：<a href="https://mp.weixin.qq.com/s/KtMVe1IeORiaBoVE_ND-Bw">《用Cocos + TensorFlow 训练一个神经网络做为游戏陪练怎么样？》</a> 的一个摘要。</p>

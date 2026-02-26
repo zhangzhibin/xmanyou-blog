@@ -4,9 +4,11 @@ description: "当老项目遇上新设备……"
 pubDate: 2021-04-17T16:20:37.000Z
 author: "阿斌"
 tags: ["鸿蒙", "开发笔记"]
+tagSlugs: ["hong-meng", "dev"]
 draft: false
 type: post
 slug: "harmony-os-install-parse-failed-usersdk-error"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

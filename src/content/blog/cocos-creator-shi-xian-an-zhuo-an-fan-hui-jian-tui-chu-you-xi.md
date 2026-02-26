@@ -4,9 +4,11 @@ description: "3步实现按【后退】键退出游戏"
 pubDate: 2019-10-18T09:09:36.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-shi-xian-an-zhuo-an-fan-hui-jian-tui-chu-you-xi"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Cocos Creator打包出来的安卓游戏，默认是不响应安卓系统的[<strong>后退</strong>]按键的，需要监听相应的系统事件来实现。</p>

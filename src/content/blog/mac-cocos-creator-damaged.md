@@ -4,9 +4,11 @@ description: "苹果提示CocosCreator已损坏，打不开，真的应该把它
 pubDate: 2019-03-18T02:44:06.000Z
 author: "阿斌"
 tags: ["开发笔记", "mac", "cocos creator"]
+tagSlugs: ["dev", "mac", "cocos-creator"]
 draft: false
 type: post
 slug: "mac-cocos-creator-damaged"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>今天在Mac上安装新版本CocosCreator，居然报了这么个错误：</p>

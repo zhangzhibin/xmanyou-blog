@@ -4,9 +4,11 @@ description: "添加registry_external_url参数即可开启"
 pubDate: 2021-03-09T06:03:35.000Z
 author: "阿斌"
 tags: ["gitlab", "docker", "开发笔记"]
+tagSlugs: ["gitlab", "docker", "dev"]
 draft: false
 type: post
 slug: "gitlab-enable-docker-registry"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>gitlab是自带docker registry模块的，但是默认是关闭的。</p>

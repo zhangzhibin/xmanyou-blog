@@ -4,9 +4,11 @@ description: "没有key store也一样能获取apk签名的hash值"
 pubDate: 2021-08-13T04:06:35.000Z
 author: "阿斌"
 tags: ["android", "google play", "开发笔记"]
+tagSlugs: ["android", "google-play", "dev"]
 draft: false
 type: post
 slug: "generate-facebook-login-hash-key-from-google-sign-sha1"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

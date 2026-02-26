@@ -4,9 +4,11 @@ description: "ssh登录、用户管理、组管理、sudo设置等等。"
 pubDate: 2021-02-03T01:33:57.000Z
 author: "阿斌"
 tags: ["linux", "开发笔记", "centos"]
+tagSlugs: ["linux", "dev", "centos"]
 draft: false
 type: post
 slug: "centos-shell-script"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="sshid">复制ssh id</h1>

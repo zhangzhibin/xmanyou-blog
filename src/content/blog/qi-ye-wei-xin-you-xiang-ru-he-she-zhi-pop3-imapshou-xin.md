@@ -4,9 +4,11 @@ description: "要通过程序来收企业微信邮箱，需要经过2个步骤�
 pubDate: 2026-02-26T08:00:49.000Z
 author: "阿斌"
 tags: ["杂七杂八"]
+tagSlugs: ["za-qi-za-ba"]
 draft: false
 type: post
 slug: "qi-ye-wei-xin-you-xiang-ru-he-she-zhi-pop3-imapshou-xin"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题</h2>

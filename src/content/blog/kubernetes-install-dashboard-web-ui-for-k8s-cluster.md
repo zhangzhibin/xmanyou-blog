@@ -4,9 +4,11 @@ description: "Dashboard 是基于网页的 Kubernetes 用户界面。 "
 pubDate: 2021-05-08T09:43:00.000Z
 author: "阿斌"
 tags: ["Kubernetes", "开发笔记"]
+tagSlugs: ["kubernetes", "dev"]
 draft: false
 type: post
 slug: "kubernetes-install-dashboard-web-ui-for-k8s-cluster"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="dashboard">关于dashboard</h2>

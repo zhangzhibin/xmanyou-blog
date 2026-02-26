@@ -4,9 +4,11 @@ description: "添加proxy_intercept_errors on可以捕获300以上错误码，�
 pubDate: 2021-09-15T07:30:10.000Z
 author: "阿斌"
 tags: ["Nginx", "反向代理", "开发笔记"]
+tagSlugs: ["nginx", "fan-xiang-dai-li", "dev"]
 draft: false
 type: post
 slug: "nginx-set-customer-error-page-for-proxy-server"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

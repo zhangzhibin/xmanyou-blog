@@ -4,9 +4,11 @@ description: "Nginx开放跨域访问的配置"
 pubDate: 2020-04-11T08:59:43.000Z
 author: "阿斌"
 tags: ["开发笔记", "Nginx"]
+tagSlugs: ["dev", "nginx"]
 draft: false
 type: post
 slug: "nginx-wide-open-cors"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><blockquote>

@@ -4,9 +4,11 @@ description: "1小时搞定服务器迁移"
 pubDate: 2019-07-23T15:09:34.000Z
 author: "阿斌"
 tags: ["阿里云", "开发笔记"]
+tagSlugs: ["aliyun", "dev"]
 draft: false
 type: post
 slug: "aliyun-ecs-copy-server-migration"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

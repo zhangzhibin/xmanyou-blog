@@ -4,9 +4,11 @@ description: "填255.255.255.0为什么不对？"
 pubDate: 2021-05-07T01:39:02.000Z
 author: "阿斌"
 tags: ["Ubuntu", "开发笔记"]
+tagSlugs: ["ubuntu", "dev"]
 draft: false
 type: post
 slug: "ubuntu-static-ip-with-subnet"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>参考：<a href="https://askubuntu.com/questions/1034317/static-ip-with-netplan">https://askubuntu.com/questions/1034317/static-ip-with-netplan</a></p>

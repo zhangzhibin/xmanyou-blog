@@ -4,9 +4,11 @@ description: "利用CocosCreator的JSB接口快速接入Java SDK"
 pubDate: 2019-11-04T08:29:11.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-javascript-typescript-call-java-interface"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

@@ -4,10 +4,12 @@ description: "你也不用知道。"
 pubDate: 2019-10-20T05:46:00.000Z
 author: "阿斌"
 tags: ["杂七杂八"]
+tagSlugs: ["za-qi-za-ba"]
 draft: false
 type: post
 slug: "cats-love-cardboard-box-so-much"
 image: "/images/2019/10/cat-in-a-box02-2.jpg"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/images/2019/10/cat-in-a-box01-1.jpg" alt="cat-in-a-box01-1"></p>

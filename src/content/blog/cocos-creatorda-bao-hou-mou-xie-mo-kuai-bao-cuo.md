@@ -4,9 +4,11 @@ description: "今天遇到一个奇葩问题：在CocosCreator里测试运行正
 pubDate: 2018-08-23T13:45:28.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creatorda-bao-hou-mou-xie-mo-kuai-bao-cuo"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>今天遇到一个奇葩问题：在CocosCreator里测试运行正常的代码，打包以后，启动时居然报错了。<br>

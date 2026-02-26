@@ -4,9 +4,11 @@ description: "本篇主要总结了近期视频合成的工作步骤"
 pubDate: 2019-11-24T13:01:19.000Z
 author: "remote_pluto"
 tags: ["开发笔记"]
+tagSlugs: ["dev"]
 draft: false
 type: post
 slug: "ffmpeg-generate-video"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">一、需求</h2><p>近期有一个小需求，需要将一些图片和音频合成一段视频，期间踩了写坑，特记录一下，以备后面参考</p><h2 id="--1">二、整合的步骤</h2><h3 id="1-mp3-">1.将一张图片和一段mp3合成视频</h3><!--kg-card-begin: code--><pre><code>ffmpeg  -loop 1 -i ./1.jpg -i ./1.mp3 -absf aac_adtstoasc -s 1920*1080 -r 8 -c:v libx264 -x264-params keyint=1:scenecut=0 -c:a aac -b:a 64k -pix_fmt yuvj420p -t 20.00 ./out.mp4

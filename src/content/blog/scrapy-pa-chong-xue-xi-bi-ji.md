@@ -4,9 +4,11 @@ description: "爬虫新手的入门笔记"
 pubDate: 2020-04-20T15:51:09.000Z
 author: "阿斌"
 tags: ["开发笔记", "python", "scrapy", "爬虫"]
+tagSlugs: ["dev", "python", "scrapy", "pa-chong"]
 draft: false
 type: post
 slug: "scrapy-pa-chong-xue-xi-bi-ji"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><blockquote>

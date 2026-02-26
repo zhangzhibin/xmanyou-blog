@@ -4,9 +4,11 @@ description: "自己动手打造一键打包工具"
 pubDate: 2021-02-28T16:39:13.000Z
 author: "阿斌"
 tags: ["Unity", "facebook instant game", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["unity", "facebook-instant-game", "h5", "dev"]
 draft: false
 type: post
 slug: "unity-webgl-convert-to-facebook-instant-game"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Unity官方H5小游戏方案Project Tiny迟迟不发，而且即使发布了，老游戏也没法直接迁移。</p>

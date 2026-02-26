@@ -4,9 +4,11 @@ description: "尝试用低端显卡1650s挖矿，居然被鄙视了！"
 pubDate: 2021-03-19T15:55:15.000Z
 author: "阿斌"
 tags: ["数字货币"]
+tagSlugs: ["shu-zi-huo-bi"]
 draft: false
 type: post
 slug: "eth-bth-mining-with-1650s-gminer-out-of-memory"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>2021年，数字货币太火了，我也忍不住掏出我的1650S来尝试挖一下以太坊ETH。</p>

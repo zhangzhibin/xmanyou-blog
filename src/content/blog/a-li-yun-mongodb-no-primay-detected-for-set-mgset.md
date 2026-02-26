@@ -4,9 +4,11 @@ description: "记一次手滑引发的惨案"
 pubDate: 2021-02-07T02:00:40.000Z
 author: "阿斌"
 tags: ["MongoDB", "阿里云", "开发笔记"]
+tagSlugs: ["mongodb", "aliyun", "dev"]
 draft: false
 type: post
 slug: "a-li-yun-mongodb-no-primay-detected-for-set-mgset"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

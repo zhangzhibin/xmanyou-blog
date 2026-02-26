@@ -4,9 +4,11 @@ description: "三步拯救被群晖网盘修改了的应用图标"
 pubDate: 2020-03-31T13:20:37.000Z
 author: "阿斌"
 tags: ["杂七杂八", "mac", "群晖"]
+tagSlugs: ["za-qi-za-ba", "mac", "qun-hui"]
 draft: false
 type: post
 slug: "mac-restore-application-icon"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

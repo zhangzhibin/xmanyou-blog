@@ -4,9 +4,11 @@ description: "下载一个普通应用，却说什么beta版本，这是怎么�
 pubDate: 2021-09-16T14:59:00.000Z
 author: "阿斌"
 tags: ["App Store", "TestFlight", "开发笔记", "杂七杂八", "ios"]
+tagSlugs: ["app-store", "testflight", "dev", "za-qi-za-ba", "ios"]
 draft: false
 type: post
 slug: "why-you-cannot-download-beta-app-from-testlight"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>最近经常有人问：</p>

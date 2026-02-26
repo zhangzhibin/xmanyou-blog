@@ -4,9 +4,11 @@ description: "这个在html中看似很简单的动态加载js的功能，在Vue
 pubDate: 2021-11-05T10:12:24.000Z
 author: "阿斌"
 tags: ["Nuxt.js", "Vue", "JavaScript", "开发笔记"]
+tagSlugs: ["nuxt-js", "vue", "javascript", "dev"]
 draft: false
 type: post
 slug: "vue-nuxtjs-dynamically-load-js-script"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

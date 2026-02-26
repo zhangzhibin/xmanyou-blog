@@ -4,9 +4,11 @@ description: "这个可能不是谷歌的锅，而是你的广告屏蔽插件的
 pubDate: 2021-08-19T04:42:22.000Z
 author: "阿斌"
 tags: ["开发笔记"]
+tagSlugs: ["dev"]
 draft: false
 type: post
 slug: "google-adsense-error-err_blocked_by_client"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

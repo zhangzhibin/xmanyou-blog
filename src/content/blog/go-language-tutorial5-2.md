@@ -4,9 +4,11 @@ description: "本章主要介绍GO语言的函数特性及用法"
 pubDate: 2019-11-03T13:19:24.000Z
 author: "remote_pluto"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "go-language-tutorial5-2"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">第五章 函数</h2><ul><li>本章主要讨论了GO语言的函数特性</li></ul><h3 id="5-7-">5.7 可变参数</h3><ul><li>在声明可变参数函数时，需要在参数列表的最后一个参数类型之前加上省略符号“...”，这表示该函数会接收任意数量的该类型参数</li></ul><!--kg-card-begin: code--><pre><code>func sum(vals...int) int {

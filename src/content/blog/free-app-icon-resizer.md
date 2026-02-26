@@ -4,9 +4,11 @@ description: "一键生成各种尺寸，省事省心"
 pubDate: 2019-11-04T09:04:48.000Z
 author: "阿斌"
 tags: ["酷APP"]
+tagSlugs: ["cool-apps"]
 draft: false
 type: post
 slug: "free-app-icon-resizer"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>网址 <a href="https://appicon.co">https://appicon.co</a></p>

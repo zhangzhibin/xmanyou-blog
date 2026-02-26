@@ -4,9 +4,11 @@ description: "如题"
 pubDate: 2020-12-18T13:27:05.000Z
 author: "阿斌"
 tags: ["windows"]
+tagSlugs: ["windows"]
 draft: false
 type: post
 slug: "windows10-add-startup-app"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">简明步骤</h1>

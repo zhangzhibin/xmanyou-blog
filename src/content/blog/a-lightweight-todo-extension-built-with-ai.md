@@ -4,9 +4,11 @@ description: "用AI为自己开发一个任务清单插件，AI 含量: 99.9%"
 pubDate: 2026-02-09T09:26:47.000Z
 author: "阿斌"
 tags: ["AI"]
+tagSlugs: ["ai"]
 draft: false
 type: post
 slug: "a-lightweight-todo-extension-built-with-ai"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/images/2026/02/10dos-1.png" alt="10dos-1"></p>

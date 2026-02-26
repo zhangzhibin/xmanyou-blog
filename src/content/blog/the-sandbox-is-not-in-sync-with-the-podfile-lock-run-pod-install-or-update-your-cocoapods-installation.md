@@ -4,9 +4,11 @@ description: "用CocoaPods接入Firebase、Admob等SDK时，遇到的奇怪错�
 pubDate: 2019-11-05T15:27:00.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发", "xcode", "CocoaPods"]
+tagSlugs: ["dev", "cocos-creator", "h5", "xcode", "cocoapods"]
 draft: false
 type: post
 slug: "the-sandbox-is-not-in-sync-with-the-podfile-lock-run-pod-install-or-update-your-cocoapods-installation"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

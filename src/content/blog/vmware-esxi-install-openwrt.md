@@ -4,9 +4,11 @@ description: "在24小时开机的EXSi服务器上安装一个OpenWrt作为旁�
 pubDate: 2021-03-20T09:46:42.000Z
 author: "阿斌"
 tags: ["OpenWrt", "vmware", "杂七杂八"]
+tagSlugs: ["openwrt", "vmware", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "vmware-esxi-install-openwrt"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>生命在于折腾~</p>

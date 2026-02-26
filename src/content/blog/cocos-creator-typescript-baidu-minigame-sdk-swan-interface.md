@@ -4,9 +4,11 @@ description: "如题"
 pubDate: 2019-09-25T09:23:51.000Z
 author: "阿斌"
 tags: ["开发笔记", "baidu", "h5 小游戏开发"]
+tagSlugs: ["dev", "baidu", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-typescript-baidu-minigame-sdk-swan-interface"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">背景</h2>

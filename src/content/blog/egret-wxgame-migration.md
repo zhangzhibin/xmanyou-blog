@@ -4,9 +4,11 @@ description: "用白鹭引擎5.0.4开发的H5项目迁移到微信小游戏的�
 pubDate: 2018-04-27T14:56:50.000Z
 author: "阿斌"
 tags: ["开发笔记", "egret", "h5 小游戏开发", "微信小游戏"]
+tagSlugs: ["dev", "egret", "h5", "wxgame"]
 draft: false
 type: post
 slug: "egret-wxgame-migration"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>我们有个H5项目之前是用白鹭5.0.4开发的，最近花了一些时间进行了迁移工作。以下是整理的一些笔记。</p>

@@ -4,9 +4,11 @@ description: "使用bearer token需要添加 Header Authorization: Bearer <token
 pubDate: 2021-06-03T02:37:09.000Z
 author: "阿斌"
 tags: ["开发笔记", "strapi", "http"]
+tagSlugs: ["dev", "strapi", "http"]
 draft: false
 type: post
 slug: "bearer-token-usage-sample"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Bearer Token拿到以后，需要在http请求中，添加header:</p>

@@ -4,9 +4,11 @@ description: "让AI从0开始开发一个完整的项目是什么体验？"
 pubDate: 2025-03-18T02:46:56.000Z
 author: "阿斌"
 tags: ["AI", "Cursor", "Cloudflare", "Worker"]
+tagSlugs: ["ai", "cursor", "cloudflare", "worker"]
 draft: false
 type: post
 slug: "develop-an-full-project-with-tempcsv-com"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">起因</h2>

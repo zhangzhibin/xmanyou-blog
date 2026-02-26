@@ -4,9 +4,11 @@ description: "速查，搬运自官方。"
 pubDate: 2020-08-18T08:06:32.000Z
 author: "阿斌"
 tags: ["开发笔记", "android"]
+tagSlugs: ["dev", "android"]
 draft: false
 type: post
 slug: "android-build-api-level-ndk-table"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">官方文档</h1>

@@ -4,9 +4,11 @@ description: "修改sshd_config来指定新的ssh端口"
 pubDate: 2021-03-08T06:46:48.000Z
 author: "阿斌"
 tags: ["Ubuntu", "开发笔记"]
+tagSlugs: ["ubuntu", "dev"]
 draft: false
 type: post
 slug: "ubuntu-change-ssh-port"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>ssh默认的连接端口是22</p>

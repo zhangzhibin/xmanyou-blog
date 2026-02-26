@@ -4,9 +4,11 @@ description: "cc.rect中的xy参数是指哪个位置？"
 pubDate: 2019-08-29T14:46:45.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-cc-rect-x-y-parameter-means-origin"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Cocos的文档有时候写的有点太简单了，比如cc.rect</p>

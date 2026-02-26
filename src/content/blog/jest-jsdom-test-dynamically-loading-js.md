@@ -4,9 +4,11 @@ description: "由于学艺不精，这里使用了一个临时方法来测试动
 pubDate: 2022-04-07T07:09:52.000Z
 author: "阿斌"
 tags: ["jest", "jsdom", "h5 小游戏开发", "JavaScript", "开发笔记"]
+tagSlugs: ["jest", "jsdom", "h5", "javascript", "dev"]
 draft: false
 type: post
 slug: "jest-jsdom-test-dynamically-loading-js"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

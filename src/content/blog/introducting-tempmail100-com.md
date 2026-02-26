@@ -4,9 +4,11 @@ description: "如果你不想被垃圾邮件骚扰，也不想为了一个验证
 pubDate: 2025-03-27T12:52:29.000Z
 author: "阿斌"
 tags: ["杂七杂八"]
+tagSlugs: ["za-qi-za-ba"]
 draft: false
 type: post
 slug: "introducting-tempmail100-com"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="https://tempmail100.com/assets/image/tempmail100.com.png" alt="tempmail100.com"></p>

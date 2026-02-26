@@ -4,9 +4,11 @@ description: "参考\nhttp://bbs.egret.com/thread-45982-1-1.html\n\n解决方法
 pubDate: 2018-04-10T15:21:41.000Z
 author: "阿斌"
 tags: ["开发笔记", "egret", "微信小游戏"]
+tagSlugs: ["dev", "egret", "wxgame"]
 draft: false
 type: post
 slug: "egretfa-bu-xiao-you-xi-bao-cuo-p2-is-not-defined"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">参考</h3>

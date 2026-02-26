@@ -50,10 +50,17 @@ function main() {
   const userMap = new Map((users || []).map((u) => [u.id, u]));
 
   const postTagsMap = new Map();
+  const postTagSlugsMap = new Map();
   for (const pt of posts_tags || []) {
-    const list = postTagsMap.get(pt.post_id) || [];
-    list.push(tagMap.get(pt.tag_id)?.name);
-    postTagsMap.set(pt.post_id, list);
+    const tag = tagMap.get(pt.tag_id);
+    if (tag) {
+      const list = postTagsMap.get(pt.post_id) || [];
+      list.push(tag.name);
+      postTagsMap.set(pt.post_id, list);
+      const slugs = postTagSlugsMap.get(pt.post_id) || [];
+      slugs.push(tag.slug);
+      postTagSlugsMap.set(pt.post_id, slugs);
+    }
   }
 
   const postAuthorsMap = new Map();
@@ -72,8 +79,11 @@ function main() {
     const isPage = post.page === 1;
 
     const tags = (postTagsMap.get(post.id) || []).filter(Boolean);
+    const tagSlugs = postTagSlugsMap.get(post.id) || [];
     const authors = postAuthorsMap.get(post.id) || [];
     const author = authors[0] || userMap.get(post.author_id)?.name || 'Unknown';
+    const primaryAuthorId = post.author_id || (posts_authors || []).find((p) => p.post_id === post.id)?.author_id;
+    const authorUser = primaryAuthorId ? userMap.get(primaryAuthorId) : null;
 
     let image = post.feature_image || null;
     if (image && image.startsWith('/content/images/')) {
@@ -84,17 +94,21 @@ function main() {
     const draft = status !== 'published';
 
     const desc = post.custom_excerpt || post.plaintext?.slice(0, 160) || '';
+    const authorSlugResolved = authorUser?.slug ?? null;
+
     const frontmatter = {
       title: post.title,
       description: desc,
       pubDate,
       author,
       tags,
+      tagSlugs,
       draft,
       type: isPage ? 'page' : 'post',
       slug: post.slug,
     };
     if (image) frontmatter.image = image;
+    if (authorSlugResolved) frontmatter.authorSlug = authorSlugResolved;
 
     const lines = [
       '---',
@@ -103,11 +117,13 @@ function main() {
       `pubDate: ${frontmatter.pubDate}`,
       `author: ${escapeYaml(frontmatter.author)}`,
       `tags: [${frontmatter.tags.map((t) => escapeYaml(t)).join(', ')}]`,
+      `tagSlugs: [${frontmatter.tagSlugs.map((s) => escapeYaml(s)).join(', ')}]`,
       `draft: ${frontmatter.draft}`,
       `type: ${frontmatter.type}`,
       `slug: ${escapeYaml(frontmatter.slug)}`,
     ];
     if (image) lines.push(`image: ${escapeYaml(image)}`);
+    if (authorSlugResolved) lines.push(`authorSlug: ${escapeYaml(authorSlugResolved)}`);
     lines.push('---', '');
 
     let body = post.html || '';

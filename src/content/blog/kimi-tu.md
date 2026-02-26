@@ -4,9 +4,11 @@ description: "只需要3步，你信吗？"
 pubDate: 2024-04-14T03:02:43.000Z
 author: "影子工作室"
 tags: ["AI", "Kimi"]
+tagSlugs: ["ai", "kimi"]
 draft: false
 type: post
 slug: "kimi-tu"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><p>原文发表在u3du.com:<br>

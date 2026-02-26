@@ -4,9 +4,11 @@ description: "用着好好的兑换码怎么突然就不能输入了呢？"
 pubDate: 2021-10-21T06:04:53.000Z
 author: "阿斌"
 tags: ["TestFlight", "ios"]
+tagSlugs: ["testflight", "ios"]
 draft: false
 type: post
 slug: "testflight-xiao-feng-che-app"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/images/2021/10/TestFlight-icon.png" alt="TestFlight-icon"></p>

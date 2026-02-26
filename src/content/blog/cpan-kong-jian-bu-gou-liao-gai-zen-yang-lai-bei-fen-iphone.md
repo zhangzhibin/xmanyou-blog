@@ -4,9 +4,11 @@ description: "如果C盘的空间不足，在使用iTunes对iPhone进行本地�
 pubDate: 2017-11-13T12:37:31.000Z
 author: "阿斌"
 tags: ["IT", "杂七杂八"]
+tagSlugs: ["it", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "cpan-kong-jian-bu-gou-liao-gai-zen-yang-lai-bei-fen-iphone"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>随着iPhone的手机硬盘越来越大，备份所需的空间也越来越大。</p>

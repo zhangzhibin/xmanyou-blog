@@ -4,9 +4,11 @@ description: "从Laya 2.x 项目中搬运到Laya 1.x的一个类，怎么就出�
 pubDate: 2020-06-30T02:13:44.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "laya"]
+tagSlugs: ["dev", "h5", "laya"]
 draft: false
 type: post
 slug: "laya-1x-error-exports-is-not-defined"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

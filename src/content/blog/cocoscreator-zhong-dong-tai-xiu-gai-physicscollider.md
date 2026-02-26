@@ -4,9 +4,11 @@ description: "最近有个游戏，想要在游戏中动态改变碰撞盒的尺
 pubDate: 2018-11-12T14:44:29.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator"]
+tagSlugs: ["dev", "h5", "cocos-creator"]
 draft: false
 type: post
 slug: "cocoscreator-zhong-dong-tai-xiu-gai-physicscollider"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近有个游戏，想要在游戏中动态改变碰撞盒的尺寸。研究了好久才发现，原来有个地方遗漏了，做个笔记。</p>

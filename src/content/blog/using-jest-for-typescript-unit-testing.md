@@ -4,9 +4,11 @@ description: "如何使用jest对typescript项目进行单元测试呢？"
 pubDate: 2022-04-05T12:28:01.000Z
 author: "阿斌"
 tags: ["jest", "typescript", "开发笔记", "h5 小游戏开发"]
+tagSlugs: ["jest", "typescript", "dev", "h5"]
 draft: false
 type: post
 slug: "using-jest-for-typescript-unit-testing"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/images/2022/04/jest.png" alt="jest"></p>

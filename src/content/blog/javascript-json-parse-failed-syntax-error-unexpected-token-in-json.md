@@ -4,9 +4,11 @@ description: "一个嵌套json串引发的事故"
 pubDate: 2021-06-08T02:03:02.000Z
 author: "阿斌"
 tags: ["开发笔记", "JavaScript"]
+tagSlugs: ["dev", "javascript"]
 draft: false
 type: post
 slug: "javascript-json-parse-failed-syntax-error-unexpected-token-in-json"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

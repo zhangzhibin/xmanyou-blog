@@ -4,9 +4,11 @@ description: "本篇主要总结了下工作中用到的多进程相关的知识
 pubDate: 2019-12-15T07:12:44.000Z
 author: "remote_pluto"
 tags: ["开发笔记"]
+tagSlugs: ["dev"]
 draft: false
 type: post
 slug: "linux-multi-process"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">需要介绍的几个函数</h2><ul><li>fork() 允许一个进程创建一个子进程，子进程获得父进程的栈，数据段，堆和执行文本段</li><li>exit(status) 终止一个进程，将进程占据的所有资源释放</li><li>wait(&amp;status) 如果子进程尚未调用exit()终止，那么wait()会挂起父进程直到子进程终止，子进程的终止状态通过wait函数的status参数返回</li></ul><h2 id="fork">fork</h2><ul><li>fork函数对其调用后将存在两个进程，并且每个进程都会从fork的返回处继续执行。在不同的进程中fork的返回值不同，父进程中返回创建的子进程ID,子进程中返回0</li><li>fork调用后系统会调度哪个进程，是无法确定的</li></ul><!--kg-card-begin: code--><pre><code>public function createProcess($count)

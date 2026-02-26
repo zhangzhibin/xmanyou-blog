@@ -4,9 +4,11 @@ description: "一些简单实用的建议"
 pubDate: 2021-09-15T07:35:38.000Z
 author: "阿斌"
 tags: ["Nginx", "反向代理", "开发笔记", "DevOps"]
+tagSlugs: ["nginx", "fan-xiang-dai-li", "dev", "devops"]
 draft: false
 type: post
 slug: "nginx-proxy-guide"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><ul>

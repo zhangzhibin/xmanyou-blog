@@ -4,9 +4,11 @@ description: "给非Android开发人员的一个快速接入指南"
 pubDate: 2021-04-02T09:27:20.000Z
 author: "阿斌"
 tags: ["android", "开发笔记", "IronSource"]
+tagSlugs: ["android", "dev", "ironsource"]
 draft: false
 type: post
 slug: "ironsource-android-banneryan-gao-jie-ru-zhi-nan"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>最近IronSource开始支持Banner广告了，总结一下Android游戏接入IronSource Banner广告的一些要点：</p>

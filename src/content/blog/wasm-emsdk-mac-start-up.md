@@ -4,10 +4,12 @@ description: "用WASM开发H5游戏可行么？先看看wasm是什么吧。"
 pubDate: 2019-12-17T15:57:51.000Z
 author: "阿斌"
 tags: ["开发笔记", "wasm"]
+tagSlugs: ["dev", "wasm"]
 draft: false
 type: post
 slug: "wasm-emsdk-mac-start-up"
 image: "/images/2019/12/wasm_hello_wasm-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>JavaScript 又迎来了新的对手：WASM。<br>

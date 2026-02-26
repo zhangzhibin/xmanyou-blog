@@ -4,9 +4,11 @@ description: "本章中主要讨论四种类型-数组、slice、map和结构体
 pubDate: 2019-10-13T07:45:41.000Z
 author: "remote_pluto"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "go-language-tutorial4"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">第四章 复合数据类型</h2><ul><li>本章中主要讨论四种类型-数组、slice、map和结构体</li></ul><h3 id="4-1-">4.1 数组</h3><ul><li>数组是一个由固定长度的特定类型元素组成的序列，一个数组可以由零个或多个元素组成。因为数组的长度是固定的，因此在Go语言中很少直接使用数组</li><li>如果在数组的长度位置出现的是“...”省略号，则表示数组的长度是根据初始<br>化值的个数来计算</li></ul><!--kg-card-begin: code--><pre><code>q := [...]int{1, 2, 3}

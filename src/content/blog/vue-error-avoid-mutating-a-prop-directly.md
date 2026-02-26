@@ -4,9 +4,11 @@ description: "Vue新手容易犯的一个错误"
 pubDate: 2020-05-08T05:26:49.000Z
 author: "阿斌"
 tags: ["开发笔记", "Vue"]
+tagSlugs: ["dev", "vue"]
 draft: false
 type: post
 slug: "vue-error-avoid-mutating-a-prop-directly"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">错误</h1>

@@ -4,9 +4,11 @@ description: "祖传项目加入新SDK出现了奇怪的问题"
 pubDate: 2021-04-02T06:22:18.000Z
 author: "阿斌"
 tags: ["android", "开发笔记"]
+tagSlugs: ["android", "dev"]
 draft: false
 type: post
 slug: "android-pangle-sdk-unexpected-element-queries-found-in-manifest"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

@@ -4,10 +4,12 @@ description: "一次no zuo no die的故(shi)事(gu)"
 pubDate: 2017-11-18T08:51:39.000Z
 author: "阿斌"
 tags: ["开发笔记", "gitlab", "杂七杂八", "阿里云"]
+tagSlugs: ["dev", "gitlab", "za-qi-za-ba", "aliyun"]
 draft: false
 type: post
 slug: "1gnei-cun-xu-ni-zhu-ji-an-zhuang-gitlab"
 image: "/images/2017/11/41639009-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近影子工作室搞了个阿里云的ECS，对，性价比最高的那个，1CPU + 1G内存，用nginx+ghost跑个工作室官网还是没问题的。</p>

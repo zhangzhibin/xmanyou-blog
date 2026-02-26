@@ -4,9 +4,11 @@ description: "PHP Swoole 协程使用注意事项"
 pubDate: 2019-09-08T14:33:53.000Z
 author: "remote_pluto"
 tags: ["swool", "coroutine", "connector pool", "开发笔记"]
+tagSlugs: ["swool", "coroutine", "connector-pool", "dev"]
 draft: false
 type: post
 slug: "swoole-coroutine"
+authorSlug: "remote_pluto"
 ---
 
 <!--kg-card-begin: markdown--><p>近期公司的项目需要，用Swoole搭建TCP服务器，过程中使用了Coroutine\Redis，以及Coroutine\Mysql,在第一个版本中为了节省TCP及Redis的连接数，协程的理解的不够深入，多个协程使用了同一个Redis及Mysql客户端，导致不同的协程之间发生了数据错乱。<br>

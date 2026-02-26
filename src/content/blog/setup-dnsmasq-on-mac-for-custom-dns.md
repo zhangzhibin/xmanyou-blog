@@ -4,9 +4,11 @@ description: "有时候需要在内网环境里进行域名相关的测试，而
 pubDate: 2021-09-14T04:00:17.000Z
 author: "阿斌"
 tags: ["开发笔记", "网络相关", "mac", "dnsmasq"]
+tagSlugs: ["dev", "wang-luo-xiang-guan", "mac", "dnsmasq"]
 draft: false
 type: post
 slug: "setup-dnsmasq-on-mac-for-custom-dns"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

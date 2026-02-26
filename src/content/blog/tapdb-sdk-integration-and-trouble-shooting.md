@@ -4,9 +4,11 @@ description: "TapDB的接入方法和疑难解答"
 pubDate: 2021-07-16T02:56:46.000Z
 author: "阿斌"
 tags: ["开发笔记", "android", "TapDB"]
+tagSlugs: ["dev", "android", "tapdb"]
 draft: false
 type: post
 slug: "tapdb-sdk-integration-and-trouble-shooting"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>TapDB是心动/TapTap旗下的一个数据统计后台，可以用来统计游戏的数据。</p>

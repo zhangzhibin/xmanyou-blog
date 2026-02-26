@@ -4,9 +4,11 @@ description: "macOS 10.15 catalina 初版有较大的问题，不推荐升级。
 pubDate: 2019-10-09T16:02:44.000Z
 author: "阿斌"
 tags: ["mac", "catalina"]
+tagSlugs: ["mac", "catalina"]
 draft: false
 type: post
 slug: "macos-10-15-catalinade-ji-ge-wen-ti"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/images/2019/10/macOS10.15_catalina.jpeg" alt="macOS10.15_catalina"></p>

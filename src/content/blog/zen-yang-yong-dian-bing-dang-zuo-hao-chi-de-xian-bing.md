@@ -4,9 +4,11 @@ description: "新买了电饼铛？\n忘记准备韭菜？\n想吃好吃的馅�
 pubDate: 2019-09-29T05:12:53.000Z
 author: "阿斌"
 tags: ["杂七杂八", "吃货"]
+tagSlugs: ["za-qi-za-ba", "chi-huo"]
 draft: false
 type: post
 slug: "zen-yang-yong-dian-bing-dang-zuo-hao-chi-de-xian-bing"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>新买了电饼铛？<br>

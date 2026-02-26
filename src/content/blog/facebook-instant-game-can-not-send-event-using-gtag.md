@@ -4,9 +4,11 @@ description: "gtag('config', 'ID', { cookie_flags: 'max-age=7200;secure;samesite
 pubDate: 2021-06-21T08:48:07.000Z
 author: "阿斌"
 tags: ["facebook instant game", "h5 小游戏开发", "google"]
+tagSlugs: ["facebook-instant-game", "h5", "google"]
 draft: false
 type: post
 slug: "facebook-instant-game-can-not-send-event-using-gtag"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

@@ -4,9 +4,11 @@ description: "用Cocos做开发，不会自定义引擎可不行，找不到自�
 pubDate: 2020-10-13T02:44:40.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-3d-1-2-0-engine-settings"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

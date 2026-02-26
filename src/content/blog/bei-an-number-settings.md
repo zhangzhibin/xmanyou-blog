@@ -4,9 +4,11 @@ description: "备案"
 pubDate: 2021-01-20T14:06:15.000Z
 author: "阿斌"
 tags: ["杂七杂八", "阿里云"]
+tagSlugs: ["za-qi-za-ba", "aliyun"]
 draft: false
 type: post
 slug: "bei-an-number-settings"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题描述</h1>

@@ -4,9 +4,11 @@ description: "一个超时等待的js/ts实现"
 pubDate: 2021-09-24T01:30:58.000Z
 author: "阿斌"
 tags: ["JavaScript", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["javascript", "h5", "dev"]
 draft: false
 type: post
 slug: "javascript-wait-until-condition-meet-or-timeout"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

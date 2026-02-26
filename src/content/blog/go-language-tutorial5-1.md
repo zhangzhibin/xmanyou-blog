@@ -4,9 +4,11 @@ description: "本章主要介绍了Go语言函数相关的知识点"
 pubDate: 2019-10-20T09:40:22.000Z
 author: "remote_pluto"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "go-language-tutorial5-1"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">第五章 函数</h2><ul><li>本章主要讨论了GO语言的函数特性</li></ul><h3 id="5-1-">5.1 函数声明</h3><ul><li>函数声明包括函数名、形式参数列表、返回值列表（ 可省略） 以及函数体</li></ul><!--kg-card-begin: code--><pre><code>func name(parameter-list) (result-list) {

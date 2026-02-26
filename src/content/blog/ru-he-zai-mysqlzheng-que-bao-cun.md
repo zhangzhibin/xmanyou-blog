@@ -4,9 +4,11 @@ description: "在各种社交账号中的昵称中添加表情的人越来越多
 pubDate: 2018-04-08T12:33:55.000Z
 author: "阿斌"
 tags: ["开发笔记", "mysql", "go", "emoji"]
+tagSlugs: ["dev", "mysql", "go", "emoji"]
 draft: false
 type: post
 slug: "ru-he-zai-mysqlzheng-que-bao-cun"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>在各种社交账号中的昵称中添加表情的人越来越多了。最近我们就遇到过一些奇怪的问题：</p>

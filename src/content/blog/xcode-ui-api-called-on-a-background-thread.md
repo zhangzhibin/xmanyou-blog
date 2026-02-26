@@ -4,9 +4,11 @@ description: "有些操作必须在UI线程或者主线程进行，要怎么做�
 pubDate: 2019-11-22T06:31:58.000Z
 author: "阿斌"
 tags: ["开发笔记", "xcode", "object c", "ios"]
+tagSlugs: ["dev", "xcode", "object-c", "ios"]
 draft: false
 type: post
 slug: "xcode-ui-api-called-on-a-background-thread"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

@@ -4,9 +4,11 @@ description: "如何开启权限呢？"
 pubDate: 2021-02-16T05:14:11.000Z
 author: "阿斌"
 tags: ["鸿蒙", "开发笔记"]
+tagSlugs: ["hong-meng", "dev"]
 draft: false
 type: post
 slug: "hpm-cannot-run-securityerror-unauthorizedaccess"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

@@ -4,9 +4,11 @@ description: "一个机翻引发的事故"
 pubDate: 2021-02-08T10:07:56.000Z
 author: "阿斌"
 tags: ["android", "google play", "开发笔记"]
+tagSlugs: ["android", "google-play", "dev"]
 draft: false
 type: post
 slug: "google-play-permission-requires-privacy-policy"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

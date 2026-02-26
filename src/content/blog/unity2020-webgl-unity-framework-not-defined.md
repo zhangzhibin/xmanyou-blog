@@ -4,9 +4,11 @@ description: "直接默认选项打包都能出错，你说奇怪不奇怪?"
 pubDate: 2021-02-26T15:56:11.000Z
 author: "阿斌"
 tags: ["Unity", "h5 小游戏开发"]
+tagSlugs: ["unity", "h5"]
 draft: false
 type: post
 slug: "unity2020-webgl-unity-framework-not-defined"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

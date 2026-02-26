@@ -4,9 +4,11 @@ description: "用SDKBoxPlay插件可以快速接入GameCenter，可是，看起�
 pubDate: 2019-07-11T16:06:41.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator", "sdkbox"]
+tagSlugs: ["dev", "h5", "cocos-creator", "sdkbox"]
 draft: false
 type: post
 slug: "sdkboxplay-gamecenter-requesting-leaderboard-for-unregistered-name"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>

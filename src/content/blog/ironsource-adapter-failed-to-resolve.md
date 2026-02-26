@@ -4,9 +4,11 @@ description: "按照文档一步步操作也依然失败的原因"
 pubDate: 2020-10-15T03:53:59.000Z
 author: "阿斌"
 tags: ["android", "开发笔记"]
+tagSlugs: ["android", "dev"]
 draft: false
 type: post
 slug: "ironsource-adapter-failed-to-resolve"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

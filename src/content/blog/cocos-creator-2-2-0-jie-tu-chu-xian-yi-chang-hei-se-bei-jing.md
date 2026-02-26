@@ -4,9 +4,11 @@ description: "又一个升级后产生的问题，以后别说“完全兼容”
 pubDate: 2019-11-28T06:23:50.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-2-2-0-jie-tu-chu-xian-yi-chang-hei-se-bei-jing"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="2020116">2020.1.16 更新</h2>

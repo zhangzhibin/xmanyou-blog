@@ -4,9 +4,11 @@ description: "本章主要介绍了GO的面向对像方法定义"
 pubDate: 2019-11-10T04:53:49.000Z
 author: "remote_pluto"
 tags: ["读书笔记"]
+tagSlugs: ["books"]
 draft: false
 type: post
 slug: "go-language-tutorial6-1"
+authorSlug: "remote_pluto"
 ---
 
 <h2 id="-">第六章 方法</h2><h3 id="6-">6. 方法声明</h3><ul><li>在函数声明时，在其名字之前放上一个变量，即是一个方法。这个附加的参数会将该函数附加到这种类型上，即相当于为这种类型定义了一个成员函数。例如:</li></ul><!--kg-card-begin: code--><pre><code>package geometry

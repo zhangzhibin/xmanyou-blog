@@ -4,9 +4,11 @@ description: "有时候需要修改浏览器的系统语言来测试与语言相
 pubDate: 2022-03-11T14:51:33.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "Chrome"]
+tagSlugs: ["dev", "h5", "chrome"]
 draft: false
 type: post
 slug: "chrome-change-language-without-change-ui-language"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

@@ -4,9 +4,11 @@ description: "脑洞大开，一切皆有可能。"
 pubDate: 2020-07-28T04:59:07.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator"]
+tagSlugs: ["dev", "h5", "cocos-creator"]
 draft: false
 type: post
 slug: "cocos-creator-open-file-box"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

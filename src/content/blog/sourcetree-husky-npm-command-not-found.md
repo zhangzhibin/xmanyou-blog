@@ -4,9 +4,11 @@ description: "在命令行里跑着好好的husky怎么在SourceTree里就不行
 pubDate: 2021-11-01T10:29:24.000Z
 author: "阿斌"
 tags: ["husky", "sourcetree", "开发笔记"]
+tagSlugs: ["husky", "sourcetree", "dev"]
 draft: false
 type: post
 slug: "sourcetree-husky-npm-command-not-found"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

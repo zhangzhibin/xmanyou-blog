@@ -9,6 +9,7 @@
     "migrate": "node scripts/ghost-to-astro.mjs"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
     "astro": "^5.0.0"
   }
 }

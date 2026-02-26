@@ -4,9 +4,11 @@ description: "Facebook Instant Game上架App Store被拒绝，理由4.2。"
 pubDate: 2019-03-19T01:13:35.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "App Store"]
+tagSlugs: ["dev", "h5", "app-store"]
 draft: false
 type: post
 slug: "appstore-shen-he-bei-ju-4-2"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近在Facebook上架了一个Instant Game小游戏 Stacky Stack：<br>

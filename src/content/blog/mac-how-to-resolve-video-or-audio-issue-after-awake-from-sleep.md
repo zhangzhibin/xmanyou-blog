@@ -4,9 +4,11 @@ description: "不要慌，这种事，你不是第一个~"
 pubDate: 2021-09-18T03:06:02.000Z
 author: "阿斌"
 tags: ["mac", "杂七杂八"]
+tagSlugs: ["mac", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "mac-how-to-resolve-video-or-audio-issue-after-awake-from-sleep"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

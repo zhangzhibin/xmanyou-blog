@@ -4,9 +4,11 @@ description: "2021年了，Unity的小游戏项目进展怎么样了呢？"
 pubDate: 2021-01-11T14:05:48.000Z
 author: "阿斌"
 tags: ["Unity", "开发笔记"]
+tagSlugs: ["unity", "dev"]
 draft: false
 type: post
 slug: "2020nian-unityfa-bu-liao-yi-kuan-facebookxiao-you-xi"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>最近例行关注Unity 小游戏项目(Project Tiny)进展时，有个大发现！<br>

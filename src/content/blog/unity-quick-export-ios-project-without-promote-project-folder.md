@@ -4,9 +4,11 @@ description: "有没有办法快速输出一个工程，而不用每次都重复
 pubDate: 2019-07-19T08:16:00.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity"]
+tagSlugs: ["dev", "unity"]
 draft: false
 type: post
 slug: "unity-quick-export-ios-project-without-promote-project-folder"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>

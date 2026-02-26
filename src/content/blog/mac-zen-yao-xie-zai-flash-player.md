@@ -4,9 +4,11 @@ description: "你会卸载Flash Player吗？"
 pubDate: 2019-06-11T02:02:12.000Z
 author: "阿斌"
 tags: ["mac", "flash"]
+tagSlugs: ["mac", "flash"]
 draft: false
 type: post
 slug: "mac-zen-yao-xie-zai-flash-player"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>自从乔布斯公开反对Flash，曾经如日中天的Flash渐渐淡出了互联网。但是，在一些技术更新比较慢的网站，比如CNTV的在线体育直播，还是使用Flash进行播放。</p>

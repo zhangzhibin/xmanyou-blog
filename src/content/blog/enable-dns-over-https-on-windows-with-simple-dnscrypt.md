@@ -4,9 +4,11 @@ description: "不想自己修改注册表？好吧，试试用这个开源软件
 pubDate: 2021-11-26T16:32:38.000Z
 author: "阿斌"
 tags: ["DoH", "杂七杂八"]
+tagSlugs: ["doh", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "enable-dns-over-https-on-windows-with-simple-dnscrypt"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>上一篇介绍了什么是DoH(DNS Over Https)，以及如何开启windows 10自带的DoH功能。</p>

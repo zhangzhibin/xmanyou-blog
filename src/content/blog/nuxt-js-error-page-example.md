@@ -4,9 +4,11 @@ description: "利用Nuxt.js的Layout组件快速实现一个错误页"
 pubDate: 2021-10-26T03:38:45.000Z
 author: "阿斌"
 tags: ["Nuxt.js", "开发笔记"]
+tagSlugs: ["nuxt-js", "dev"]
 draft: false
 type: post
 slug: "nuxt-js-error-page-example"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Nuxt.js提供了一个很有趣的方式来实现错误页：<strong>使用layout组件来替代page组件创建错误页</strong>。</p>

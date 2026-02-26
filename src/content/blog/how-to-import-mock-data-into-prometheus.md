@@ -4,9 +4,11 @@ description: "浓眉大眼的Prometheus居然不支持写入测试数据，你�
 pubDate: 2022-06-18T15:39:15.000Z
 author: "阿斌"
 tags: ["Prometheus", "influxdb", "开发笔记"]
+tagSlugs: ["prometheus", "influxdb", "dev"]
 draft: false
 type: post
 slug: "how-to-import-mock-data-into-prometheus"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>大家好，想必大家都听过Prometheus，也就是普罗米修斯。今天的主角就是它!</p>

@@ -4,10 +4,12 @@ description: "这是一个可以云养猫逗猫撸猫吸猫藏猫猫躲猫猫的
 pubDate: 2019-12-17T01:55:22.000Z
 author: "影子工作室"
 tags: ["我们和我们的游戏", "cocos creator"]
+tagSlugs: ["games", "cocos-creator"]
 draft: false
 type: post
 slug: "kitty-petting-game-lu-mao-ri-ji"
 image: "/images/2019/12/Banner.png"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="welcometokittypettinggame">Welcome to Kitty Petting game~</h1>

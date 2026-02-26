@@ -4,9 +4,11 @@ description: "在gitlab上新建仓库以后，在客户端进行一些的常用
 pubDate: 2021-11-17T03:28:00.000Z
 author: "阿斌"
 tags: ["gitlab", "开发笔记"]
+tagSlugs: ["gitlab", "dev"]
 draft: false
 type: post
 slug: "gitlab-common-operation-for-new-repo"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>在gitlab上新建仓库以后，需要在客户端进行一些的常用操作有：</p>

@@ -4,9 +4,11 @@ description: "2019-07-09 12:02:01 转换成Date对象，在不同的平台上表
 pubDate: 2019-07-09T01:30:29.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-yyyy-mm-dd-hh-ss-invalid-date-in-ios-android"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>

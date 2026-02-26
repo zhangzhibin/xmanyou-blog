@@ -4,9 +4,11 @@ description: "如何正确删除误提交commit的超大文件到git"
 pubDate: 2022-11-27T10:36:38.000Z
 author: "阿斌"
 tags: ["git", "开发笔记"]
+tagSlugs: ["git", "dev"]
 draft: false
 type: post
 slug: "how-to-revert-commit-with-large-file"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

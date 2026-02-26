@@ -4,9 +4,11 @@ description: "如题"
 pubDate: 2019-10-10T14:45:53.000Z
 author: "阿斌"
 tags: ["开发笔记", "AdMob"]
+tagSlugs: ["dev", "admob"]
 draft: false
 type: post
 slug: "admob-error-code"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">错误描述</h2>

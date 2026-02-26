@@ -4,9 +4,11 @@ description: "使用kubeadm + containerd + flannel + ubuntu + exsi 部署一个k
 pubDate: 2021-05-07T10:46:05.000Z
 author: "阿斌"
 tags: ["Kubernetes", "开发笔记"]
+tagSlugs: ["kubernetes", "dev"]
 draft: false
 type: post
 slug: "kubernetes-how-to-create-a-k8s-cluster-with-kubeadm-on-ubuntu"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="1k8s">1. 准备k8s环境</h1>

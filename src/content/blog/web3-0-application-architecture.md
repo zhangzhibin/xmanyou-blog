@@ -4,9 +4,11 @@ description: "构建于区块链之上的Web3.0与Web2.0的应用架构有什么
 pubDate: 2022-01-06T16:42:16.000Z
 author: "阿斌"
 tags: ["区块链", "以太坊", "Web3.0"]
+tagSlugs: ["qu-kuai-lian", "yi-tai-fang", "web3-0"]
 draft: false
 type: post
 slug: "web3-0-application-architecture"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>本文大量内容摘自Preethi Kasireddy的《The Architecture of a Web 3.0 application》一文，并添加了我的解读。</p>

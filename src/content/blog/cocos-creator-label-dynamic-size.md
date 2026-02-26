@@ -4,9 +4,11 @@ description: "如何让背景的尺寸跟着文本标签的尺寸自动变化"
 pubDate: 2019-07-09T01:58:28.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-label-dynamic-size"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>

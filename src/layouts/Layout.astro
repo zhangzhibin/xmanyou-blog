@@ -2,9 +2,14 @@
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  canonicalSlug?: string;
 }
 
-const { title, description = '' } = Astro.props;
+const { title, description = '', image, canonicalSlug } = Astro.props;
+const site = import.meta.env.SITE || 'https://xmanyou.com';
+const canonicalUrl = canonicalSlug ? `${site}/${canonicalSlug}/` : undefined;
+const ogImage = image ? (image.startsWith('http') ? image : `${site.replace(/\/$/, '')}${image.startsWith('/') ? image : '/' + image}`) : undefined;
 ---
 
 <!DOCTYPE html>
@@ -14,6 +19,12 @@ const { title, description = '' } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <title>{title}</title>
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
   </head>
   <body>
     <header>

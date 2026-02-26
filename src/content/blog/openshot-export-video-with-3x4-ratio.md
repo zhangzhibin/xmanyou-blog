@@ -4,9 +4,11 @@ description: "用这个方法可以导出任意分辨率的视频。"
 pubDate: 2021-04-16T16:21:23.000Z
 author: "阿斌"
 tags: ["openshot", "杂七杂八"]
+tagSlugs: ["openshot", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "openshot-export-video-with-3x4-ratio"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

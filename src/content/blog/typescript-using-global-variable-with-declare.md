@@ -4,9 +4,11 @@ description: "利用declare关键字可以声明全局变量，而不引入依�
 pubDate: 2021-11-04T03:25:00.000Z
 author: "阿斌"
 tags: ["typescript", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["typescript", "h5", "dev"]
 draft: false
 type: post
 slug: "typescript-using-global-variable-with-declare"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

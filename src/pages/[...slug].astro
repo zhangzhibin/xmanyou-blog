@@ -3,8 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const pages = await getCollection('blog', ({ data }) => !data.draft && data.type === 'page');
-  return pages.map((entry) => {
+  const entries = await getCollection('blog', ({ data }) => !data.draft);
+  return entries.map((entry) => {
     const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
     return { params: { slug }, props: { entry } };
   });
@@ -12,13 +12,37 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+const isPage = entry.data.type === 'page';
+const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
 ---
 
-<Layout title={entry.data.title} description={entry.data.description}>
-  <article class="page">
+<Layout title={entry.data.title} description={entry.data.description} image={entry.data.image} canonicalSlug={slug}>
+  <article class={isPage ? 'page' : 'post'}>
     <header>
       <h1>{entry.data.title}</h1>
+      {!isPage && (
+        <p>
+          {entry.data.authorSlug ? (
+            <a href={`/author/${entry.data.authorSlug}/`}>{entry.data.author}</a>
+          ) : (
+            <span>{entry.data.author}</span>
+          )}
+          <time datetime={entry.data.pubDate.toISOString()}>
+            {entry.data.pubDate.toLocaleDateString('zh-CN')}
+          </time>
+        </p>
+      )}
+      {!isPage && entry.data.tagSlugs?.length > 0 && (
+        <ul>
+          {entry.data.tagSlugs.map((tagSlug, i) => (
+            <li><a href={`/tag/${tagSlug}/`}>{entry.data.tags[i] ?? tagSlug}</a></li>
+          ))}
+        </ul>
+      )}
     </header>
+    {entry.data.image && (
+      <img src={entry.data.image} alt="" />
+    )}
     <div class="content">
       <Content />
     </div>

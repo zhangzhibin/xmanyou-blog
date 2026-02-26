@@ -4,9 +4,11 @@ description: "同步以后，文件居然找不到了，奇怪。"
 pubDate: 2021-01-31T16:02:24.000Z
 author: "阿斌"
 tags: ["群晖", "杂七杂八"]
+tagSlugs: ["qun-hui", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "synology-cloud-sync-baidu-pan-file-location"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

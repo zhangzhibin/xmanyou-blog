@@ -4,9 +4,11 @@ description: "使用apisix和minio灵活管理静态文件路由。"
 pubDate: 2021-12-12T12:47:08.000Z
 author: "阿斌"
 tags: ["Apisix", "minio", "开发笔记"]
+tagSlugs: ["apisix", "minio", "dev"]
 draft: false
 type: post
 slug: "apisix-setup-router-for-minio-bucket-for-static-files"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

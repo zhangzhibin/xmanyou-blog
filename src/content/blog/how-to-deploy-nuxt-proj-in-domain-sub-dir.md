@@ -4,9 +4,11 @@ description: "如何把一个Nuxt.js项目部署到子目录呢：domain.com/nux
 pubDate: 2021-11-23T07:58:44.000Z
 author: "阿斌"
 tags: ["Nuxt.js", "开发笔记"]
+tagSlugs: ["nuxt-js", "dev"]
 draft: false
 type: post
 slug: "how-to-deploy-nuxt-proj-in-domain-sub-dir"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

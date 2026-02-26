@@ -4,9 +4,11 @@ description: "白鹭Egret引擎，最坏的一点是，它是开源项目，最�
 pubDate: 2018-04-13T13:34:04.000Z
 author: "阿斌"
 tags: ["开发笔记", "egret"]
+tagSlugs: ["dev", "egret"]
 draft: false
 type: post
 slug: "ru-he-xiu-gai-bai-lu-yin-qing-de-res"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>白鹭Egret引擎，最坏的一点是，它是开源项目，最好的一点是，它开源项目。</p>

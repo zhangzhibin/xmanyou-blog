@@ -4,10 +4,12 @@ description: "Unity的H5方案Project Tiny的赛车游戏初体验。"
 pubDate: 2019-12-25T05:25:51.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity", "Project Tiny", "h5 小游戏开发"]
+tagSlugs: ["dev", "unity", "project-tiny", "h5"]
 draft: false
 type: post
 slug: "unity-project-tiny-start-up"
 image: "/images/2019/12/Unity_Project_Tiny_Racing_play-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">前情</h2>

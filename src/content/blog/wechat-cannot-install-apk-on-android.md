@@ -4,9 +4,11 @@ description: "安卓手机微信会将收到的.apk文件重命名为.apk.1文�
 pubDate: 2019-07-22T08:24:01.000Z
 author: "阿斌"
 tags: ["杂七杂八", "android", "酷APP"]
+tagSlugs: ["za-qi-za-ba", "android", "cool-apps"]
 draft: false
 type: post
 slug: "wechat-cannot-install-apk-on-android"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>

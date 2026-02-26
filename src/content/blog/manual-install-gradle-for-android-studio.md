@@ -4,9 +4,11 @@ description: "自动安装Gradle不可用时的一个替代方案"
 pubDate: 2020-11-29T16:02:10.000Z
 author: "阿斌"
 tags: ["android", "开发笔记", "鸿蒙"]
+tagSlugs: ["android", "dev", "hong-meng"]
 draft: false
 type: post
 slug: "manual-install-gradle-for-android-studio"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

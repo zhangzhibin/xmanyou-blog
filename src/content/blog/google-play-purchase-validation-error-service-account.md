@@ -4,9 +4,11 @@ description: "在调试Google Play订单校验功能时，遇到这么个奇怪�
 pubDate: 2020-03-11T12:59:45.000Z
 author: "阿斌"
 tags: ["开发笔记", "android", "google play"]
+tagSlugs: ["dev", "android", "google-play"]
 draft: false
 type: post
 slug: "google-play-purchase-validation-error-service-account"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

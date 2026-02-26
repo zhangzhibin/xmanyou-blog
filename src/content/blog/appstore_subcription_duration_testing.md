@@ -4,9 +4,11 @@ description: "关于订阅类商品的一些笔记"
 pubDate: 2019-09-02T05:01:00.000Z
 author: "阿斌"
 tags: ["开发笔记", "App Store"]
+tagSlugs: ["dev", "app-store"]
 draft: false
 type: post
 slug: "appstore_subcription_duration_testing"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">订阅周期</h2>

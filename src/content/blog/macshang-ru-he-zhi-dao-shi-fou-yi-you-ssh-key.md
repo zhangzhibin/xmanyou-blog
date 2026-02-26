@@ -4,9 +4,11 @@ description: "打开命令行，执行以下命令查找当前用户目录下的
 pubDate: 2018-03-21T08:38:19.000Z
 author: "阿斌"
 tags: ["开发笔记", "mac"]
+tagSlugs: ["dev", "mac"]
 draft: false
 type: post
 slug: "macshang-ru-he-zhi-dao-shi-fou-yi-you-ssh-key"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>打开命令行，执行以下命令查找当前用户目录下的密钥</p>

@@ -4,9 +4,11 @@ description: "laya居然不支持typescript的await/async语法？"
 pubDate: 2020-06-18T02:11:18.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "laya", "typescript"]
+tagSlugs: ["dev", "h5", "laya", "typescript"]
 draft: false
 type: post
 slug: "laya-compile-error-semantic-error-ts2354-this-syntax-requires-an-imported-helper-but-module-tslib-cannot-be-found"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题描述</h2>

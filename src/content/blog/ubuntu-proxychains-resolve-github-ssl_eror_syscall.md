@@ -4,9 +4,11 @@ description: "从国内服务器安装一些外网应用，有时候会遇到网
 pubDate: 2021-03-18T05:12:33.000Z
 author: "阿斌"
 tags: ["Ubuntu", "开发笔记"]
+tagSlugs: ["ubuntu", "dev"]
 draft: false
 type: post
 slug: "ubuntu-proxychains-resolve-github-ssl_eror_syscall"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

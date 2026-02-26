@@ -4,9 +4,11 @@ description: "怎样正确使用Visual Studio把Cocos Creator项目发布到Wind
 pubDate: 2019-08-13T08:20:02.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "windows", "visual studio"]
+tagSlugs: ["dev", "cocos-creator", "windows", "visual-studio"]
 draft: false
 type: post
 slug: "cocos-creator-visusal-studio-2019-build-windows"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

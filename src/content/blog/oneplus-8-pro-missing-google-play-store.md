@@ -4,9 +4,11 @@ description: "号称最接近原生安卓系统的手机，怎么能少了Google
 pubDate: 2021-06-04T10:32:41.000Z
 author: "阿斌"
 tags: ["杂七杂八", "android"]
+tagSlugs: ["za-qi-za-ba", "android"]
 draft: false
 type: post
 slug: "oneplus-8-pro-missing-google-play-store"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

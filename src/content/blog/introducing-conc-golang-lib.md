@@ -4,9 +4,11 @@ description: "在 Go 语言的并发编程领域，Sourcegraph 公司开发的 c
 pubDate: 2024-04-16T12:10:13.000Z
 author: "影子工作室"
 tags: ["go", "conc"]
+tagSlugs: ["go", "conc"]
 draft: false
 type: post
 slug: "introducing-conc-golang-lib"
+authorSlug: "team"
 ---
 
 <p>在 Go 语言的并发编程领域，Sourcegraph 公司开发的 conc 并发库为我们带来了新的视角。这个库的目标是提供更好的结构化并发支持，它不仅提供了并发控制的基本工具，还致力于简化低代码平台的开发。让我们通过一些代码示例来深入了解这个库的核心特性，并进一步探讨其优势和应用场景。</p><h2 id="1-waitgroup-panic-">1. WaitGroup 与 Panic 处理</h2><p><code>conc.WaitGroup</code> 扩展了 <code>sync.WaitGroup</code> 的功能，使得开发者能够更容易地管理并发任务，并且它还增加了对 panic 的处理能力。这意味着，即使在并发任务中发生 panic，也能够被捕获并适当地处理，而不会导致整个程序崩溃。以下是一个使用 <code>conc.WaitGroup</code> 的示例：</p><!--kg-card-begin: code--><pre><code class="language-go">package main

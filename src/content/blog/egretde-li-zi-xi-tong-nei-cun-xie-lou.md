@@ -4,9 +4,11 @@ description: "最近在用Egret开发h5游戏，发现加入粒子系统以后�
 pubDate: 2017-11-06T02:14:37.000Z
 author: "阿斌"
 tags: ["开发笔记", "egret"]
+tagSlugs: ["dev", "egret"]
 draft: false
 type: post
 slug: "egretde-li-zi-xi-tong-nei-cun-xie-lou"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近在用Egret开发h5游戏，发现有内存泄漏。通过Google的开发者工具检查，发现是粒子系统没有被移除，导致产生了大量的内存泄漏。</p>

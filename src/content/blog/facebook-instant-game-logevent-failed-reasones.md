@@ -4,9 +4,11 @@ description: "常在河边走，哪能不湿鞋，即使是个普通的api也有
 pubDate: 2020-08-04T05:43:37.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "facebook instant game"]
+tagSlugs: ["dev", "h5", "facebook-instant-game"]
 draft: false
 type: post
 slug: "facebook-instant-game-logevent-failed-reasones"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Facebook Instant Game（也就是国内俗称的&quot;小游戏&quot;），提供了自带的统计接口，可以统计自定义事件，然后在Facebook的统计后台查看。</p>

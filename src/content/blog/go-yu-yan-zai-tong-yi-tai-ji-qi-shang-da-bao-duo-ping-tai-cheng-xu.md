@@ -4,9 +4,11 @@ description: "go语言的 go build 命令是支持在同一台机器上，打包
 pubDate: 2018-03-22T08:28:32.000Z
 author: "阿斌"
 tags: ["开发笔记", "go"]
+tagSlugs: ["dev", "go"]
 draft: false
 type: post
 slug: "go-yu-yan-zai-tong-yi-tai-ji-qi-shang-da-bao-duo-ping-tai-cheng-xu"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>go语言的 go build 命令是支持在同一台机器上，打包别的平台的程序的。</p>

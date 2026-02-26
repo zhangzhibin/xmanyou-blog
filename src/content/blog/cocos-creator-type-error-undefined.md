@@ -4,9 +4,11 @@ description: "代码循环引用可能产生奇怪的错误"
 pubDate: 2018-12-18T07:43:48.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator"]
+tagSlugs: ["dev", "h5", "cocos-creator"]
 draft: false
 type: post
 slug: "cocos-creator-type-error-undefined"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/12/Snipaste_2018-12-18_15-36-15.png" alt="Snipaste_2018-12-18_15-36-15"></p>

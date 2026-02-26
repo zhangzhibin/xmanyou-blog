@@ -4,9 +4,11 @@ description: "旧工程升级CocosCreator以后打包时出现了奇怪的错误
 pubDate: 2019-11-07T06:18:52.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "xcode", "ios"]
+tagSlugs: ["dev", "cocos-creator", "xcode", "ios"]
 draft: false
 type: post
 slug: "cocos-creator-ios-undefined-symbol-objc_class_avplayerviewcontroller"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

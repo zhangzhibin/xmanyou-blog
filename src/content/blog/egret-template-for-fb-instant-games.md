@@ -4,9 +4,11 @@ description: "白鹭引擎+Facebook 小游戏"
 pubDate: 2021-06-29T10:26:32.000Z
 author: "阿斌"
 tags: ["facebook instant game", "egret", "h5 小游戏开发", "开发笔记"]
+tagSlugs: ["facebook-instant-game", "egret", "h5", "dev"]
 draft: false
 type: post
 slug: "egret-template-for-fb-instant-games"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

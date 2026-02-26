@@ -4,9 +4,11 @@ description: "修改Android Studio的虚拟机内存可能可以解决这问题�
 pubDate: 2019-10-09T15:40:38.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "android"]
+tagSlugs: ["dev", "cocos-creator", "android"]
 draft: false
 type: post
 slug: "cocos-creator-android-studioda-bao-bao-cuo-packagedebug-failed"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">原因</h2>

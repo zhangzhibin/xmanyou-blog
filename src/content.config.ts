@@ -8,6 +8,8 @@ const blog = defineCollection({
     pubDate: z.coerce.date(),
     author: z.string().default('Unknown'),
     tags: z.array(z.string()).default([]),
+    tagSlugs: z.array(z.string()).default([]),
+    authorSlug: z.string().optional(),
     draft: z.boolean().default(false),
     type: z.enum(['post', 'page']).default('post'),
     slug: z.string().optional(),

@@ -4,9 +4,11 @@ description: "怎样正确使用sdkbox命令行"
 pubDate: 2019-08-13T16:16:31.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "sdkbox", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "sdkbox", "h5"]
 draft: false
 type: post
 slug: "sdkbox-fatal-unsupported-cocos2d-x-major-version-unknown"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

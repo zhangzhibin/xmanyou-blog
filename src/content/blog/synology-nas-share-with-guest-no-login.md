@@ -4,9 +4,11 @@ description: "开启群晖NAS匿名访问，两个步骤一个都不能少。"
 pubDate: 2021-01-26T01:20:06.000Z
 author: "阿斌"
 tags: ["NAS", "群晖", "杂七杂八"]
+tagSlugs: ["nas", "qun-hui", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "synology-nas-share-with-guest-no-login"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

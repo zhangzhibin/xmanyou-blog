@@ -4,9 +4,11 @@ description: "利用vue-tag以及Nuxt.js的自定义插件plugin来接入新版�
 pubDate: 2021-09-30T03:32:45.000Z
 author: "阿斌"
 tags: ["Nuxt.js", "google", "开发笔记"]
+tagSlugs: ["nuxt-js", "google", "dev"]
 draft: false
 type: post
 slug: "nuxt-integrate-with-ga4-by-vue-tag"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

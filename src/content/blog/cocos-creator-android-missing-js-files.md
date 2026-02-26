@@ -4,9 +4,11 @@ description: "一个新鲜出炉的Cocos Creator工程，一个完全按照文�
 pubDate: 2019-07-20T07:17:25.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-android-missing-js-files"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>

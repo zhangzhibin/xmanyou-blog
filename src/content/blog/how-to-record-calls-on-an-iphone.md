@@ -4,9 +4,11 @@ description: "iPhone很香，但是也有很多限制，比如不能通话录音
 pubDate: 2021-10-11T15:03:24.000Z
 author: "阿斌"
 tags: ["ios", "杂七杂八"]
+tagSlugs: ["ios", "za-qi-za-ba"]
 draft: false
 type: post
 slug: "how-to-record-calls-on-an-iphone"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>未经允许偷录电话，即便不触犯法律，多少也是有点不道德的。</p>

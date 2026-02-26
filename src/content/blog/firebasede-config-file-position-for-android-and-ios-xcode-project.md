@@ -4,9 +4,11 @@ description: "Android需要放在App根目录下，而Xcode需要添加文件的
 pubDate: 2019-11-05T02:27:56.000Z
 author: "阿斌"
 tags: ["开发笔记", "firebase"]
+tagSlugs: ["dev", "firebase"]
 draft: false
 type: post
 slug: "firebasede-config-file-position-for-android-and-ios-xcode-project"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

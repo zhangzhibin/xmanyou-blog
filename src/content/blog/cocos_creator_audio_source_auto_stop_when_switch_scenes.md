@@ -4,9 +4,11 @@ description: "为什么背景音乐在场景切换时会自动停止播放？要
 pubDate: 2019-07-03T07:49:27.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos_creator_audio_source_auto_stop_when_switch_scenes"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>

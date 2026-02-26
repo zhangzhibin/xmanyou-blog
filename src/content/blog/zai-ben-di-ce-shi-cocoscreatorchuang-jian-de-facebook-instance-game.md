@@ -4,9 +4,11 @@ description: "如何在本地测试facebook instant game"
 pubDate: 2018-12-17T12:59:57.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "cocos creator", "facebook instant game"]
+tagSlugs: ["dev", "h5", "cocos-creator", "facebook-instant-game"]
 draft: false
 type: post
 slug: "zai-ben-di-ce-shi-cocoscreatorchuang-jian-de-facebook-instance-game"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>测试过程中，最不愿意看到的页面就是这个了：<br>

@@ -4,10 +4,12 @@ description: "如果要用p2.js来实现Unity里的 trigger，该怎么配置呢
 pubDate: 2017-12-01T01:38:22.000Z
 author: "阿斌"
 tags: ["开发笔记", "h5 小游戏开发", "p2.js"]
+tagSlugs: ["dev", "h5", "p2-js"]
 draft: false
 type: post
 slug: "p2-jsde-peng-zhuang-jian-ce-shi-yan"
 image: "/images/2017/12/19944868-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="p2">影响p2的碰撞检测的因素</h3>

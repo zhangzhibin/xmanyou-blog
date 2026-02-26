@@ -4,9 +4,11 @@ description: "开发ios应用至少都会遇到一次这样的错误"
 pubDate: 2021-08-27T06:31:22.000Z
 author: "阿斌"
 tags: ["ios", "开发笔记"]
+tagSlugs: ["ios", "dev"]
 draft: false
 type: post
 slug: "no-signing-certificate-ios-distribution-found"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>

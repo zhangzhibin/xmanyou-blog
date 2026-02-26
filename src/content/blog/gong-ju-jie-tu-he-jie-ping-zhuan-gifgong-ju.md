@@ -4,9 +4,11 @@ description: "推荐几个小而美、免费且没有广告的截图、截屏工
 pubDate: 2018-12-17T01:36:30.000Z
 author: "阿斌"
 tags: ["酷APP"]
+tagSlugs: ["cool-apps"]
 draft: false
 type: post
 slug: "gong-ju-jie-tu-he-jie-ping-zhuan-gifgong-ju"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>现在小而美、免费没有广告、而且不会给你强装木马或者流氓软件或者改你首页的工具越来少了。</p>

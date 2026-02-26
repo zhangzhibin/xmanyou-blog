@@ -4,9 +4,11 @@ description: "shift + command + ."
 pubDate: 2020-02-24T08:50:59.000Z
 author: "阿斌"
 tags: ["杂七杂八", "mac"]
+tagSlugs: ["za-qi-za-ba", "mac"]
 draft: false
 type: post
 slug: "macos-show-hidden-file-in-finder"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">解决方法</h2>

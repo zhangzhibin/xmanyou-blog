@@ -4,9 +4,11 @@ description: "Husky官方文档的示例都是使用npm来添加husky，但是�
 pubDate: 2021-11-17T04:02:42.000Z
 author: "阿斌"
 tags: ["husky", "开发笔记"]
+tagSlugs: ["husky", "dev"]
 draft: false
 type: post
 slug: "add-husky-to-new-node-project-using-yarn"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Husky官方文档的示例都是使用npm来添加husky，但是，如果使用yarn，要如何添加husky模块呢？</p>

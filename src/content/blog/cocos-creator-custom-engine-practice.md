@@ -4,9 +4,11 @@ description: "一次简单折腾的记录"
 pubDate: 2020-01-22T04:39:26.000Z
 author: "阿斌"
 tags: ["开发笔记", "cocos creator", "h5 小游戏开发"]
+tagSlugs: ["dev", "cocos-creator", "h5"]
 draft: false
 type: post
 slug: "cocos-creator-custom-engine-practice"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h2 id="">写在前边</h2>

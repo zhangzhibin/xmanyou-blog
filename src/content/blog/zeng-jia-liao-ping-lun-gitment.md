@@ -4,9 +4,11 @@ description: "使用gitment做为ghost的评论系统"
 pubDate: 2018-04-11T15:39:19.000Z
 author: "影子工作室"
 tags: ["ghost", "gitment"]
+tagSlugs: ["ghost-tag", "gitment"]
 draft: false
 type: post
 slug: "zeng-jia-liao-ping-lun-gitment"
+authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/04/Snip20180411_38.png" alt="Snip20180411_38"><br>

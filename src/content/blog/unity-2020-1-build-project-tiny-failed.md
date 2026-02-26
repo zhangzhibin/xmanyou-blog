@@ -4,10 +4,12 @@ description: "Unity中国特供版居然有特供的bug?"
 pubDate: 2020-08-09T15:11:17.000Z
 author: "阿斌"
 tags: ["开发笔记", "Unity", "h5 小游戏开发"]
+tagSlugs: ["dev", "unity", "h5"]
 draft: false
 type: post
 slug: "unity-2020-1-build-project-tiny-failed"
 image: "/images/2020/08/Unity_Project_Tiny_error_05-1.png"
+authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>Unity什么时候能打微信小游戏包？或者说H5游戏包？<br>
