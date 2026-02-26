@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('blog', ({ data }) => !data.draft && data.type === 'page');
+  return pages.map((entry) => {
+    const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
+    return { params: { slug }, props: { entry } };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout title={entry.data.title} description={entry.data.description}>
+  <article class="page">
+    <header>
+      <h1>{entry.data.title}</h1>
+    </header>
+    <div class="content">
+      <Content />
+    </div>
+  </article>
+</Layout>

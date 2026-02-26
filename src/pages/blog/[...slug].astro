@@ -1,0 +1,42 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.type === 'post');
+  return posts.map((entry) => {
+    const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
+    return { params: { slug }, props: { entry } };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout title={entry.data.title} description={entry.data.description}>
+  <article>
+    <header>
+      <h1>{entry.data.title}</h1>
+      <p>
+        <span>{entry.data.author}</span>
+        <time datetime={entry.data.pubDate.toISOString()}>
+          {entry.data.pubDate.toLocaleDateString('zh-CN')}
+        </time>
+      </p>
+      {entry.data.tags.length > 0 && (
+        <ul>
+          {entry.data.tags.map((tag) => (
+            <li>{tag}</li>
+          ))}
+        </ul>
+      )}
+    </header>
+    {entry.data.image && (
+      <img src={entry.data.image} alt="" />
+    )}
+    <div class="content">
+      <Content />
+    </div>
+  </article>
+</Layout>

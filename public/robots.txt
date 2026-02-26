@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: http://xmanyou.com/sitemap.xml
+Disallow: /ghost/
+Disallow: /p/
