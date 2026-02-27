@@ -11,7 +11,7 @@ slug: "setup-static-website-with-minio-and-nginx"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="1dockercomposeyml">1. docker-compose.yml</h1>
+<!--kg-card-begin: markdown--><h2 id="1dockercomposeyml">1. docker-compose.yml</h2>
 <p>编写docker-compose配置文件，添加minio和nginx服务。</p>
 <pre><code>version: '3.9'
 
@@ -37,7 +37,7 @@ services:
     volumes:
       - ./data:/data
 </code></pre>
-<h1 id="2nginx">2. nginx设置反向代理</h1>
+<h2 id="2nginx">2. nginx设置反向代理</h2>
 <p>为nginx.conf添加反向代理</p>
 <pre><code>    server {
         listen 80;
@@ -81,7 +81,7 @@ http {
 
     #gzip  on;
 
-    # include /etc/nginx/conf.d/*.conf;
+    ## include /etc/nginx/conf.d/*.conf;
 
     server {
         listen 80;
@@ -96,7 +96,7 @@ http {
 }
 
 </code></pre>
-<h1 id="3minio">3. minio设置公开访问</h1>
+<h2 id="3minio">3. minio设置公开访问</h2>
 <p><img src="/content/images/2021/08/minio-change-public-access-policy.png" alt="minio-change-public-access-policy"></p>
 <p>完成。</p>
 <!--kg-card-end: markdown-->

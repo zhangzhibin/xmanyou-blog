@@ -11,12 +11,12 @@ slug: "facebook-instant-game-top-you-xi-lie-biao-2019-4-2"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">数据来源：</h3>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h2 id="">数据来源：</h2>
 <p>Facebook Instant Game 页面人工抓取</p>
 <blockquote>
 <p><a href="https://www.facebook.com/instantgames/2333613016921232">https://www.facebook.com/instantgames/2333613016921232</a></p>
 </blockquote>
-<h3 id="">最受欢迎的小游戏品类</h3>
+<h2 id="">最受欢迎的小游戏品类</h2>
 <ol>
 <li>
 <p>Trivia &amp; Word 问答与填字<br>
@@ -55,7 +55,7 @@ LUDO是一个类似飞行棋的游戏，在某些国家也是很传统的线下�
 策略和模拟类游戏的居然排名这么靠后，有点意外。其中，《鲲来了》之前的数据曾经是9M。也许跟统计周期有关。</p>
 </li>
 </ol>
-<h3 id="">不受欢迎的游戏品类</h3>
+<h2 id="">不受欢迎的游戏品类</h2>
 <p>以下品类，截止发文日期，还未产生出1M以上月活的游戏。<br>
 <img src="/content/images/2019/04/Snipaste_2019-04-02_11-29-04.png" alt="Snipaste_2019-04-02_11-29-04"></p>
 <ol>
@@ -66,7 +66,7 @@ LUDO是一个类似飞行棋的游戏，在某些国家也是很传统的线下�
 <li>Role Playing 角色扮演</li>
 <li>Slots 老虎机</li>
 </ol>
-<h3 id="">其他</h3>
+<h2 id="">其他</h2>
 <p>以上数据跟统计的时间有关，下周将再统计一次进行对比。</p>
 <p>笔记链接<br>
 <a href="http://10aac3e9.wiz03.com/share/s/0gGIfF0Au4G_2iJ1lO2wtemB3RZESW2hNA0w2INE1i2buZpq">http://10aac3e9.wiz03.com/share/s/0gGIfF0Au4G_2iJ1lO2wtemB3RZESW2hNA0w2INE1i2buZpq</a></p>

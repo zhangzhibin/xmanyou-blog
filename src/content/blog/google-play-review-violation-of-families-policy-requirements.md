@@ -11,14 +11,14 @@ slug: "google-play-review-violation-of-families-policy-requirements"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>最近在向Google Play提交APK审核时，连续被拒，原因都是：</p>
 <pre><code>Issue: Violation of Families Policy Requirements
 </code></pre>
 <p>详细的邮件是这样子：<br>
 <img src="/content/images/2020/10/GooglePlay-Review-Issue-Violation-of-Families-Policy-Requirements.png" alt="GooglePlay-Review-Issue-Violation-of-Families-Policy-Requirements"></p>
 <p><strong>注意：</strong> 不做任何修改，直接重复提交版本的话，会被秒拒。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>原因是，今年App Store和Google Play平台推出了更严格的隐私政策，很多SDK没有跟进，容易出现不合规的情况。</p>
 <p>Families Policy是Google Play推出的一个家庭政策，</p>
 <blockquote>

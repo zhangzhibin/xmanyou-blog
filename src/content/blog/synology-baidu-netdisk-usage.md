@@ -11,7 +11,7 @@ slug: "synology-baidu-netdisk-usage"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>用群晖自带的CloudSync来同步百度网盘有很多局限性，比如</p>
 <ul>
 <li>1). 只能同步特定文件夹</li>
@@ -31,8 +31,8 @@ authorSlug: "dev"
 <p>不过，不着急的话，也不是大问题。</p>
 <p>但是，如果你跟我一样，兴冲冲地直接下载，耐心地等待了一晚上以后，会发现：</p>
 <p>咦？我下载的视频哪里去了？？</p>
-<h1 id="">解决方法</h1>
-<h2 id="">首先，下载的文件去哪里了？</h2>
+<h2 id="">解决方法</h2>
+<h3 id="">首先，下载的文件去哪里了？</h3>
 <p>百度网盘客户端套件安装完毕后，默认的下载地址是docker容器中的home/baidu目录，而不是群晖的home目录。</p>
 <p><img src="/content/images/2021/07/synology-baidu-netdisk-usage-04.png" alt="synology-baidu-netdisk-usage-04"></p>
 <p>如果没有特别指定的卷(volume)，那么这个home目录是没法直接从群晖的文件管理器中找到的。</p>
@@ -42,7 +42,7 @@ authorSlug: "dev"
 <p><img src="/content/images/2021/07/synology-baidu-netdisk-usage-06.png" alt="synology-baidu-netdisk-usage-06"></p>
 <p>指定这个目录为默认下载目录，然后下载的文件，就会显示在群晖的BDdownload目录里了。<br>
 <img src="/content/images/2021/07/synology-baidu-netdisk-usage-05.png" alt="synology-baidu-netdisk-usage-05"></p>
-<h2 id="">其次，已经下载的文件怎么找回来？</h2>
+<h3 id="">其次，已经下载的文件怎么找回来？</h3>
 <p>简单说一下原理：</p>
 <ul>
 <li>1). 用ssh连接到群晖</li>

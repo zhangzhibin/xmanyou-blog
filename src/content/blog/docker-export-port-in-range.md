@@ -11,7 +11,7 @@ slug: "docker-export-port-in-range"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">用法</h1>
+<!--kg-card-begin: markdown--><h2 id="">用法</h2>
 <p>docker-compose.yml的参数是：</p>
 <pre><code>ports:
   - &quot;3000&quot;
@@ -25,7 +25,7 @@ authorSlug: "dev"
   - &quot;6060:6060/udp&quot;
   - &quot;12400-12500:1240&quot;
 </code></pre>
-<h1 id="">参考</h1>
+<h2 id="">参考</h2>
 <ul>
 <li><a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#ports">https://docs.docker.com/compose/compose-file/compose-file-v3/#ports</a></li>
 </ul>

@@ -12,7 +12,7 @@ authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>在阿里云的Ubuntu云服务器上安装docker/docker-compose的详细步骤如下：</p>
-<h1 id="docker">安装docker</h1>
+<h2 id="docker">安装docker</h2>
 <ol>
 <li>更新apt源</li>
 </ol>
@@ -118,7 +118,7 @@ systemctl cat docker | grep '\-\-registry\-mirror'
  ]
 }
 </code></pre>
-<h1 id="dockercompose">安装docker-compose</h1>
+<h2 id="dockercompose">安装docker-compose</h2>
 <ol>
 <li>下载最新版本</li>
 </ol>
@@ -160,7 +160,7 @@ curl -L https://raw.githubusercontent.com/docker/compose/1.28.2/contrib/completi
 <blockquote>
 <p><a href="https://xmanyou.com/docker-logging-file-limitation/">https://xmanyou.com/docker-logging-file-limitation/</a></p>
 </blockquote>
-<h1 id="">参考文献</h1>
+<h2 id="">参考文献</h2>
 <ul>
 <li>
 <p><a href="https://docs.docker.com/engine/install/ubuntu/">https://docs.docker.com/engine/install/ubuntu/</a></p>

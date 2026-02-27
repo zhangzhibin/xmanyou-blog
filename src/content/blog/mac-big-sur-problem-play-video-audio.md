@@ -11,14 +11,14 @@ slug: "mac-big-sur-problem-play-video-audio"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题描述</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题描述</h2>
 <p>苹果系统升级到Big Sur以后，出现了奇怪的问题：</p>
 <ol>
 <li>微信聊天里的视频无法播放，总是快进</li>
 <li>B站视频无法正常观看</li>
 <li>QQ音乐的无法播放音乐</li>
 </ol>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>网上搜了一下，发现苹果系统升级以后，经常出现这样的问题，解决方法是：强制重启。</p>
 <p>具体操作：</p>
 <ol>

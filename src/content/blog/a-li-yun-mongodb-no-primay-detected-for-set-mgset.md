@@ -11,7 +11,7 @@ slug: "a-li-yun-mongodb-no-primay-detected-for-set-mgset"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>为了减少运维开支，简化运维工作，最近在使用阿里云的MongoDB云服务器。</p>
 <p>相比于亚马逊AWS，在阿里云上部署MongoDB非常简单，因为阿里云提供了开箱即用的MongoDB服务。</p>
 <p>在购买阿里云MongoDB服务时，只需要关注以下几个指标：</p>
@@ -47,7 +47,7 @@ connect@src/mongo/shell/mongo.js:240:13
 @(connect):1:6
 exception: connect failed
 </code></pre>
-<h1 id="">解决过程</h1>
+<h2 id="">解决过程</h2>
 <ol>
 <li>确认用户名，没有问题</li>
 <li>确认用户权限，没有问题</li>
@@ -65,7 +65,7 @@ exception: connect failed
 <p>最后，无意中发现阿里云控制台上显示购买的MongoDB是4.2版本！<br>
 而研发团队用的是3.x版本MongoDB！</p>
 <p>会不会是服务端和客户端版本不一致导致的呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>重新购买了4.2版本MongoDB，再次连接，一切正常！</p>
 <p>所以，原因就是：</p>
 <p><strong>手滑买错了服务器版本</strong></p>

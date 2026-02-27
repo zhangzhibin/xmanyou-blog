@@ -11,10 +11,10 @@ slug: "vmware-esxi-enable-ssh-connection"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>VMWare ESXi 安装完后，默认是不能用ssh访问的。但是，有时候我们会需要通过ssh连接，并调用vmware的工具进行一些格式转换工作。</p>
 <p>这时候就需要开启ssh连接了。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <ul>
 <li>1). 通过浏览器打开ESXi虚拟机服务器的管理界面，登录</li>
 <li>2). 主机-&gt;管理-&gt;服务，启动TSM-SSH</li>

@@ -11,7 +11,7 @@ slug: "android-studio-build-file-with-better-name"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>Android Studio中，打包项目时，不论是debug还是release，不管是apk还是未来的aab，文件名一般都是很没有辨识度的，例如</p>
 <ul>
 <li>app-debug.apk</li>
@@ -19,10 +19,10 @@ authorSlug: "dev"
 <li>app.aab</li>
 </ul>
 <p>有什么办法让文件名更有规律一点呢？比如带上版本号之类的。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>一般使用gradle工具进行打包，通过修改build.gradle可以修改输出包的名字。<br>
 有两种做法：</p>
-<h2 id="1outputfilename">方法1. 设置outputFileName</h2>
+<h3 id="1outputfilename">方法1. 设置outputFileName</h3>
 <p><strong>示例</strong></p>
 <pre><code>applicationVariants.all {
         outputs.forEach { output -&gt;
@@ -39,7 +39,7 @@ authorSlug: "dev"
 <p><strong>需要注意的是</strong><br>
 这个设置只对apk有效，对于app bundle，也就是谷歌马上要强制推行的aab文件是无效的。</p>
 <p>需要使用下一个方案。</p>
-<h2 id="2archivesbasename">方法2. 设置archivesBaseName</h2>
+<h3 id="2archivesbasename">方法2. 设置archivesBaseName</h3>
 <p>archivesBaseName的话，只是最终输出文件的基本名，不含文件后缀，所以，可以对任何输出结果都有效。</p>
 <p><strong>示例</strong></p>
 <pre><code>android {
@@ -63,10 +63,10 @@ archivesBaseName = &quot;${defaultConfig.applicationId}-${defaultConfig.versionN
 println 'outputFileName: after = ' + archivesBaseName
 </code></pre>
 <p>完美。</p>
-<h1 id="">参考</h1>
+<h2 id="">参考</h2>
 <ul>
 <li><a href="https://medium.com/@giorgos.neokleous93/name-your-apk-aab-files-3cf3d123a48c">https://medium.com/@giorgos.neokleous93/name-your-apk-aab-files-3cf3d123a48c</a></li>
 <li><a href="https://stackoverflow.com/questions/52508720/how-to-change-the-generated-filename-for-app-bundles-with-gradle">https://stackoverflow.com/questions/52508720/how-to-change-the-generated-filename-for-app-bundles-with-gradle</a></li>
 </ul>
-<h1 id="">示例</h1>
+<h2 id="">示例</h2>
 <script src="https://gist.github.com/zhangzhibin/26cbcc017c6ac599074617937f5a3834.js"></script><!--kg-card-end: markdown-->

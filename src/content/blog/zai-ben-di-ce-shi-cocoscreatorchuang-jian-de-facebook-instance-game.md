@@ -13,11 +13,11 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>测试过程中，最不愿意看到的页面就是这个了：<br>
 <img src="/content/images/2018/12/Snip20181217_8.png" alt="Snip20181217_8"></p>
-<h4 id="1">1.构建</h4>
+<h2 id="1">1.构建</h2>
 <p>用CocosCreator构建Facebook Instant Game<br>
 build的时候，<strong>发布平台</strong> 选择Facebook Instant Game</p>
 <p><img src="/content/images/2018/12/Snip20181217_3.png" alt="Snip20181217_3"></p>
-<h4 id="2">2.官方测试指南</h4>
+<h2 id="2">2.官方测试指南</h2>
 <blockquote>
 <p><a href="https://docs.cocos.com/creator/manual/zh/publish/publish-fb-instant-games.html">https://docs.cocos.com/creator/manual/zh/publish/publish-fb-instant-games.html</a></p>
 </blockquote>
@@ -35,7 +35,7 @@ build的时候，<strong>发布平台</strong> 选择Facebook Instant Game</p>
 <pre><code>http-server &lt;facebook instant game 目录&gt; -c-1 -a 127.0.0.1 --ssl
 </code></pre>
 <p><img src="/content/images/2018/12/Snip20181217_6.png" alt="Snip20181217_6"></p>
-<h4 id="3">3.在浏览器中打开客户端</h4>
+<h2 id="3">3.在浏览器中打开客户端</h2>
 <p>注意，facebook instant game 加入了facebook的sdk 和 fb的启动方法，所以，直接在浏览器里打开</p>
 <pre><code>https://127.0.0.1:8080  &lt;=== 不可用
 </code></pre>
@@ -46,7 +46,7 @@ build的时候，<strong>发布平台</strong> 选择Facebook Instant Game</p>
 <p>需要特别注意的是，<strong>跳转的游戏地址(game_url)的host必须是localhost</strong>，用127.0.0.1都不行。</p>
 <p>看到这个图，就表示成功了：<br>
 <img src="/content/images/2018/12/Snip20181217_7.png" alt="Snip20181217_7"></p>
-<h4 id="4">4. 忽略以下提示</h4>
+<h2 id="4">4. 忽略以下提示</h2>
 <p>如果在浏览器调试工具里看见以下提示，可以忽略。</p>
 <p><img src="/content/images/2018/12/Snipaste_2018-12-18_09-29-05.png" alt="Snipaste_2018-12-18_09-29-05"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

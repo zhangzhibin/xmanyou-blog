@@ -11,11 +11,11 @@ slug: "laya-air-1-x-build-android-project-guide"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="1">1. 官方文档</h1>
+<!--kg-card-begin: markdown--><h2 id="1">1. 官方文档</h2>
 <blockquote>
 <p><a href="https://ldc.layabox.com/doc/?nav=zh-as-7-1-0">https://ldc.layabox.com/doc/?nav=zh-as-7-1-0</a></p>
 </blockquote>
-<h1 id="2layanative">2. LayaNative命令行工具</h1>
+<h2 id="2layanative">2. LayaNative命令行工具</h2>
 <blockquote>
 <p><a href="https://ldc.layabox.com/doc/?nav=zh-ts-7-3-0">https://ldc.layabox.com/doc/?nav=zh-ts-7-3-0</a></p>
 </blockquote>
@@ -48,8 +48,8 @@ authorSlug: "dev"
        列出所有可用SDK版本。
        具体帮助信息用 layanative listversions --help 查看。
 </code></pre>
-<h1 id="3androidstudio">3. 导出Android Studio工程</h1>
-<h1 id="31layaairide">3.1. 从Laya Air IDE导出</h1>
+<h2 id="3androidstudio">3. 导出Android Studio工程</h2>
+<h2 id="31layaairide">3.1. 从Laya Air IDE导出</h2>
 <blockquote>
 <p><a href="https://ldc.layabox.com/doc/?nav=zh-ts-7-3-1">https://ldc.layabox.com/doc/?nav=zh-ts-7-3-1</a></p>
 </blockquote>
@@ -70,20 +70,20 @@ authorSlug: "dev"
 </li>
 </ul>
 <p><img src="/content/images/2020/10/laya-air-export-android-studio-project-build-native-app-localgame.png" alt="laya-air-export-android-studio-project-build-native-app-localgame"></p>
-<h1 id="32">3.2. 使用命令行工具导出</h1>
+<h2 id="32">3.2. 使用命令行工具导出</h2>
 <p>使用layanative createapp，也可以导出native项目，具体可以查看帮助</p>
 <pre><code>layanative createapp --help
 </code></pre>
 <blockquote>
 <p>文档：<a href="https://ldc.layabox.com/doc/?nav=zh-ts-7-3-0">https://ldc.layabox.com/doc/?nav=zh-ts-7-3-0</a></p>
 </blockquote>
-<h1 id="33js">3.3. 更新js代码及资源</h1>
+<h2 id="33js">3.3. 更新js代码及资源</h2>
 <p>当Laya项目的js代码或者资源有更新时，<strong>不需要再次导出项目</strong><br>
 只需在Android Studio项目目录下执行：</p>
 <pre><code>layanative refreshres -p android_studio
 </code></pre>
-<h1 id="4">4. 代码要点</h1>
-<h1 id="41">4.1. 横竖屏设置</h1>
+<h2 id="4">4. 代码要点</h2>
+<h2 id="41">4.1. 横竖屏设置</h2>
 <p>需要保持两个地方一致</p>
 <ul>
 <li>1). index.html</li>
@@ -96,9 +96,9 @@ authorSlug: "dev"
 </ul>
 <pre><code>android:screenOrientation=&quot;portrait&quot;
 </code></pre>
-<h1 id="42">4.2. 声音</h1>
+<h2 id="42">4.2. 声音</h2>
 <p>只支持ogg或者wave格式，建议用ogg，尺寸小一些。</p>
-<h1 id="43webgl">4.3. 开启WebGL</h1>
+<h2 id="43webgl">4.3. 开启WebGL</h2>
 <p>如果你要运行3D功能，必须要开启WebGL，不然会报错：</p>
 <pre><code>Laya3D init error, must support webGL    
 </code></pre>
@@ -107,8 +107,8 @@ authorSlug: "dev"
 <pre><code>window.ConchRenderType = 6;
 </code></pre>
 <p><img src="/content/images/2020/10/laya-air-export-android-studio-project-enable-webgl-3d.png" alt="laya-air-export-android-studio-project-enable-webgl-3d"></p>
-<h1 id="5java">5. 与Java交互</h1>
-<h2 id="51jsjava">5.1. JS 调用 Java</h2>
+<h2 id="5java">5. 与Java交互</h2>
+<h3 id="51jsjava">5.1. JS 调用 Java</h3>
 <blockquote>
 <p>详细文档：<a href="https://ldc.layabox.com/doc/?nav=zh-ts-7-2-2">https://ldc.layabox.com/doc/?nav=zh-ts-7-2-2</a></p>
 </blockquote>
@@ -180,12 +180,12 @@ PlatformObject.callWithBack
 </code></pre>
 <p>举个例子<br>
 <img src="/content/images/2020/10/laya-air-export-android-studio-project-callWithBack-CallBackToJS.png" alt="laya-air-export-android-studio-project-callWithBack-CallBackToJS"></p>
-<h2 id="52javajs">5.2. Java调用JS</h2>
+<h3 id="52javajs">5.2. Java调用JS</h3>
 <p>使用ConchJNI.RunJS可以直接执行一段js代码</p>
 <pre><code>ConchJNI.RunJS(&quot;alert('hello world')&quot;);
 </code></pre>
-<h1 id="6">6. 打包前的其他工作</h1>
-<h2 id="61x86jnilibs">6.1. 打包前移除x86 jniLibs库</h2>
+<h2 id="6">6. 打包前的其他工作</h2>
+<h3 id="61x86jnilibs">6.1. 打包前移除x86 jniLibs库</h3>
 <ul>
 <li>路径：studio中路径 app/jniLibs/x86<br>
 <img src="/content/images/2020/10/laya-air-export-android-studio-project-remove-x86-jnilib.png" alt="laya-air-export-android-studio-project-remove-x86-jnilib"></li>
@@ -194,7 +194,7 @@ PlatformObject.callWithBack
 <img src="/content/images/2020/10/laya-air-export-android-studio-project-x86-lib-fs-path.png" alt="laya-air-export-android-studio-project-x86-lib-fs-path"><br>
 <strong>注意:</strong> 不删除的话，提交到Google Play时报错：<br>
 <img src="/content/images/2020/10/laya-air-export-android-studio-project-gp-error.png" alt="laya-air-export-android-studio-project-gp-error"></p>
-<h2 id="62">6.2. 修改启动画面</h2>
+<h3 id="62">6.2. 修改启动画面</h3>
 <blockquote>
 <p>文档：<a href="https://ldc.layabox.com/doc/?nav=zh-as-7-1-5">https://ldc.layabox.com/doc/?nav=zh-as-7-1-5</a></p>
 </blockquote>
@@ -206,7 +206,7 @@ PlatformObject.callWithBack
 <img src="/content/images/2020/10/laya-air-export-android-studio-project-splash02.png.png" alt="laya-air-export-android-studio-project-splash02.png"><br>
 可以替换成自己的启动图，并适当修改显示尺寸和背景颜色。</li>
 </ul>
-<h2 id="63">6.3. 修改加载提示</h2>
+<h3 id="63">6.3. 修改加载提示</h3>
 <ul>
 <li>1). 加载提示文字<br>
 默认的加载提示是很中二的中文提示，修改app/assets/scripts/config.js中以下代码，来替换成自己的文字。<br>
@@ -220,7 +220,7 @@ PlatformObject.callWithBack
 <blockquote>
 <p><a href="https://ldc.layabox.com/doc/?nav=zh-as-7-1-5">https://ldc.layabox.com/doc/?nav=zh-as-7-1-5</a></p>
 </blockquote>
-<h2 id="64apk">6.4. 移除自动更新APK</h2>
+<h3 id="64apk">6.4. 移除自动更新APK</h3>
 <p>修改 app/java/MainActivity onCreate方法</p>
 <pre><code>        /*
          * 如果不想使用更新流程，可以屏蔽checkApkUpdate函数，直接打开initEngine函数
@@ -230,13 +230,13 @@ PlatformObject.callWithBack
 </code></pre>
 <p>示例</p>
 <p><img src="/content/images/2020/10/laya-air-export-android-studio-project-init-engine.png" alt="laya-air-export-android-studio-project-init-engine"></p>
-<h2 id="65">6.5. 其他工作</h2>
+<h3 id="65">6.5. 其他工作</h3>
 <ul>
 <li>1). 替换icon</li>
 <li>2). 修改包名</li>
 <li>3). 修改游戏名</li>
 </ul>
-<h1 id="7">7. 打包</h1>
+<h2 id="7">7. 打包</h2>
 <p>完成！</p>
-<h1 id="8">8. 其他问题请关注公众号在后台提问</h1>
-<!--kg-card-end: markdown--><h1></h1>
+<h2 id="8">8. 其他问题请关注公众号在后台提问</h2>
+<!--kg-card-end: markdown--><h2></h2>

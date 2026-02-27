@@ -11,13 +11,13 @@ slug: "mac-git-xcrun-error-invalid-active-developer-path"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题</h2>
 <p>某天，升级完MacOS到Big Sur 11.2.2，然后突然发现git不好用了！</p>
 <pre><code>git
 
 xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
 </code></pre>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>大概是xcode的一些工具也需要升级。</p>
 <p>所以，方法是重新安装xcode的命令行工具：</p>
 <pre><code>xcode-select --install

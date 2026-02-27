@@ -16,8 +16,8 @@ authorSlug: "dev"
 <p>总个过程比预想的顺畅多了，没有遇到太多坑，推荐游戏开发者去体验一下鸿蒙的开发过程。</p>
 <p>先放一张测试截图：</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-01.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-01"></p>
-<h1 id="cocoscreator">利用真机调试+Cocos Creator开发鸿蒙游戏详细步骤</h1>
-<h2 id="1">1. 账号准备</h2>
+<h2 id="cocoscreator">利用真机调试+Cocos Creator开发鸿蒙游戏详细步骤</h2>
+<h3 id="1">1. 账号准备</h3>
 <ul>
 <li>1). 华为开发者账号<br>
 <a href="https://developer.harmonyos.com/">https://developer.harmonyos.com/</a></li>
@@ -26,24 +26,24 @@ authorSlug: "dev"
 <li>3). Cocos账号（登录Cocos Creator用）<br>
 <a href="https://www.cocos.com/creator">https://www.cocos.com/creator</a></li>
 </ul>
-<h2 id="2cocoscreator32">2. 下载Cocos Creator 3.2</h2>
+<h3 id="2cocoscreator32">2. 下载Cocos Creator 3.2</h3>
 <blockquote>
 <p><a href="https://www.cocos.com/creator">https://www.cocos.com/creator</a></p>
 </blockquote>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-02.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-02"></p>
-<h2 id="3deveco22">3. 下载鸿蒙开发工具DevEco 2.2</h2>
+<h3 id="3deveco22">3. 下载鸿蒙开发工具DevEco 2.2</h3>
 <p><a href="https://developer.harmonyos.com/cn/develop/deveco-studio">https://developer.harmonyos.com/cn/develop/deveco-studio</a></p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-03.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-03"></p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-04.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-04"></p>
-<h2 id="4devecosdkndk">4. 启动DevEco并下载鸿蒙SDK和NDK（必须）</h2>
+<h3 id="4devecosdkndk">4. 启动DevEco并下载鸿蒙SDK和NDK（必须）</h3>
 <p>要用Cocos Creator打包鸿蒙项目，需要安装鸿蒙Java SDK和Native SDK （也叫NDK）</p>
 <p>启动后，打开设置界面，选择HarmonyOS SDK，或者通过SDK Manager，下载Harmony OS SDK。</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-05.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-05"></p>
-<h2 id="5cocoscreator">5. 用Cocos Creator创建一个游戏</h2>
+<h3 id="5cocoscreator">5. 用Cocos Creator创建一个游戏</h3>
 <p>Cocos Creator 3.2提供了一个相对完整的游戏示例项目(Example Taxi Game)，虽然有一些bug，但是不影响测试。<br>
 直接使用这个示例项目来创建游戏。</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-06.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-06"></p>
-<h2 id="6cocoscreatorsdk">6. 在Cocos Creator中配置鸿蒙SDK并打包鸿蒙项目</h2>
+<h3 id="6cocoscreatorsdk">6. 在Cocos Creator中配置鸿蒙SDK并打包鸿蒙项目</h3>
 <p>回到Cocos Creator，打开Project-&gt;Build菜单</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-07.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-07"></p>
 <p>修改几个地方：</p>
@@ -67,7 +67,7 @@ authorSlug: "dev"
 首次打包会慢一些，因为需要编译Cocos引擎的代码。</li>
 </ul>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-12.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-12"></p>
-<h2 id="7">7. 在华为商店创建一个项目，并添加鸿蒙应用</h2>
+<h3 id="7">7. 在华为商店创建一个项目，并添加鸿蒙应用</h3>
 <blockquote>
 <p><a href="https://developer.huawei.com/consumer/cn/service/josp/agc/index.html#/myProject">https://developer.huawei.com/consumer/cn/service/josp/agc/index.html#/myProject</a></p>
 </blockquote>
@@ -79,14 +79,14 @@ authorSlug: "dev"
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-16.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-16"></p>
 <p>注意，应用包名需要与Cocos项目中的Game Package Name一致。</p>
 <p>如果不一致，也可以稍后在鸿蒙项目中修改bundle name（见下一步）。</p>
-<h2 id="8deveco22">8. 用DevEco 2.2打开鸿蒙游戏项目</h2>
+<h3 id="8deveco22">8. 用DevEco 2.2打开鸿蒙游戏项目</h3>
 <p>Creator打包好的鸿蒙项目，目录跟其他平台的不一样，默认是 &lt;cocos 项目&gt;/native/engine/ohos<br>
 用DevEco的Open Project菜单打开这个目录。</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-17.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-17"></p>
 <p>检查ohos/entry/src/main/config.json中 app-&gt;bundleName是否与应用商店的应用包名一致。<br>
 如果不一致，修改成一致。</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-18.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-18"></p>
-<h2 id="9">9. 连接远程真机设备</h2>
+<h3 id="9">9. 连接远程真机设备</h3>
 <p>打开DevEco-&gt;Tools-&gt;Device Manager<br>
 根据提示登录华为开发者账号，并授权。</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-19.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-19"></p>
@@ -99,14 +99,14 @@ Mate 40 Pro+ ！！！</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-22.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-22"></p>
 <p>对比一下p40模拟器</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-23.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-23"></p>
-<h2 id="10deveco">10. 利用DevEco自动生成打包证书</h2>
+<h3 id="10deveco">10. 利用DevEco自动生成打包证书</h3>
 <p>点这个按钮，打开Project Structure界面</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-24.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-24"></p>
 <p>勾选自动生成证书(Automatically generate signing）</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-25.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-25"></p>
 <p>如果商店后台设置正确，过一会以后，就会自动生成证书。</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-26.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-26"></p>
-<h3 id="">注意事项</h3>
+<h4 id="">注意事项</h4>
 <ul>
 <li>
 <p>1). 每次连接新的远程真机，都需要重新生成证书。<br>
@@ -119,7 +119,7 @@ Mate 40 Pro+ ！！！</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-27.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-27"></p>
 <p>则回到项目中，将项目中所有build.gradle中的signingConfigs字段都删掉，这些是Cocos Creator生成的项目中填写的Cocos的证书。</p>
 <p>然后重新生成证书，就可以了。</p>
-<h2 id="11">11. 打包并运行</h2>
+<h3 id="11">11. 打包并运行</h3>
 <p>点击右上角的Run entry，打包并运行</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-30.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-30"></p>
 <p>过一会……<br>
@@ -130,7 +130,7 @@ Mate 40 Pro+ ！！！</p>
 然后……<br>
 哒哒，老司机们，来开车吧~</p>
 <p><img src="/content/images/2021/06/build-and-run-harmony-game-with-cocos-creator-on-remote-device-31.png" alt="build-and-run-harmony-game-with-cocos-creator-on-remote-device-31"></p>
-<h1 id="">几个问题</h1>
+<h2 id="">几个问题</h2>
 <p>调试过程发现一些问题，但是都与鸿蒙无关：</p>
 <ul>
 <li>1). Cocos Creator提供的游戏示例，有非常多bug，这个真不是鸿蒙的问题。</li>
@@ -138,7 +138,7 @@ Mate 40 Pro+ ！！！</p>
 <li>3). 远程真机调试的画面稍微有点渣。</li>
 <li>4). 断开真机重连的话，需要更新证书，因为可能连的不是上一个。</li>
 </ul>
-<h1 id="">参考文档</h1>
+<h2 id="">参考文档</h2>
 <ul>
 <li>1).《使用真机进行调试》<a href="https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404">https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404</a></li>
 <li>2). 《发布 Huawei HarmonyOS 应用》<a href="https://docs.cocos.com/creator/3.2/manual/zh/editor/publish/publish-huawei-ohos.html">https://docs.cocos.com/creator/3.2/manual/zh/editor/publish/publish-huawei-ohos.html</a></li>

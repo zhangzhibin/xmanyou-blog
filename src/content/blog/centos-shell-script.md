@@ -11,12 +11,12 @@ slug: "centos-shell-script"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="sshid">复制ssh id</h1>
+<!--kg-card-begin: markdown--><h2 id="sshid">复制ssh id</h2>
 <pre><code>
 ssh-copy-id &lt;username&gt;@&lt;server ip&gt;
 
 </code></pre>
-<h1 id="">创建用户</h1>
+<h2 id="">创建用户</h2>
 <ul>
 <li>添加用户</li>
 </ul>
@@ -31,7 +31,7 @@ adduser &lt;username&gt;
 passwd &lt;username&gt;
 
 </code></pre>
-<h1 id="">用户组管理</h1>
+<h2 id="">用户组管理</h2>
 <ul>
 <li>查看组</li>
 </ul>
@@ -55,7 +55,7 @@ usermod –aG wheel &lt;username&gt;
 gpasswd -d &lt;username&gt; &lt;groupname&gt;
 
 </code></pre>
-<h1 id="sudo">添加sudo权限</h1>
+<h2 id="sudo">添加sudo权限</h2>
 <ul>
 <li>启用sudo用户组</li>
 </ul>
@@ -66,7 +66,7 @@ visudo
 </code></pre>
 <p>修改wheel组</p>
 <pre><code>
-## Allows people in group wheel to run all commands
+### Allows people in group wheel to run all commands
 
 %wheel  ALL=(ALL)       ALL
 

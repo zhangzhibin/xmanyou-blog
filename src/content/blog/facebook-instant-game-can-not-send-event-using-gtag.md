@@ -11,11 +11,11 @@ slug: "facebook-instant-game-can-not-send-event-using-gtag"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>Facebook将于2021年6月30日正式关闭Facebook分析服务，为了更好地进行数据分析，Facebook小游戏需要接入一个第三方分析服务。</p>
 <p>在测试谷歌分析服务的时候发现，Facebook小游戏似乎无法发送数据。</p>
 <p>这是怎么回事呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>研究发现，这是Facebook的一个限制</p>
 <blockquote>
 <p><a href="https://github.com/firebase/firebase-js-sdk/issues/4046">https://github.com/firebase/firebase-js-sdk/issues/4046</a></p>

@@ -11,10 +11,10 @@ slug: "how-to-deploy-nuxt-proj-in-domain-sub-dir"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>通常Nuxt.js项目会被部署到根目录下，但是，有时候，也会需要部署到子目录，然后通过<code>&lt;域名&gt;/子目录/</code>来访问。</p>
 <p>这需要怎么设置呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>这时候，需要使用Nuxt.js提供的<code>router.base</code>参数:</p>
 <blockquote>
 <p><a href="https://nuxtjs.org/docs/configuration-glossary/configuration-router/#base">https://nuxtjs.org/docs/configuration-glossary/configuration-router/#base</a></p>

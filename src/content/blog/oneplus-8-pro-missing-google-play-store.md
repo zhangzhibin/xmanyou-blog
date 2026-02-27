@@ -11,12 +11,12 @@ slug: "oneplus-8-pro-missing-google-play-store"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>618刚入手一加8，发现有Google Play服务，但是却没有谷歌商店，这是怎么回事？</p>
 <p>作为一个出海公司，经常需要从Google Play商店下载App进行测试，没有Google Play商店可不行。</p>
 <p>而且，由于某些原因，国内的一加商店里也不再提供Goole Play商店的apk下载了。</p>
 <p>怎么办？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>自己从网上下载一个Google Play Store的安装包，手动安装，即可。</p>
 <p>例如：</p>
 <blockquote>

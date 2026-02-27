@@ -11,7 +11,7 @@ slug: "nuxt-js-bind-image-src-dynamically"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>在Nuxt.js项目中，有时候需要为image绑定指定src。</p>
 <p>举个例子</p>
 <pre><code>image_src = &quot;~/assets/img/image.png&quot;
@@ -40,7 +40,7 @@ authorSlug: "dev"
 <p>错误：</p>
 <pre><code> ERROR  [Vue warn]: Error in render: &quot;Error: Cannot find module '~/assets/img/image.png'&quot;
 </code></pre>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>对比官方文档中的示例:</p>
 <blockquote>
 <p><a href="https://nuxtjs.org/docs/directory-structure/assets/">https://nuxtjs.org/docs/directory-structure/assets/</a></p>
@@ -58,6 +58,6 @@ authorSlug: "dev"
    /&gt;
 </code></pre>
 <p>问题就解决了。</p>
-<h2 id="">原理解释</h2>
+<h3 id="">原理解释</h3>
 <p>看起来这是因为nuxt.js中，路径<code>~</code>是个特殊路径，需要在编译阶段进行解析，无法在客户端进行。</p>
 <!--kg-card-end: markdown-->

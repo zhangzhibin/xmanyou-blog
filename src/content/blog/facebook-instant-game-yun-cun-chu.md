@@ -16,9 +16,9 @@ authorSlug: "dev"
 <p>参考<br>
 <a href="https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.2">https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.2</a></p>
 </blockquote>
-<h4 id="">数据格式</h4>
+<h2 id="">数据格式</h2>
 <p>键值对</p>
-<h4 id="">访问接口</h4>
+<h2 id="">访问接口</h2>
 <ol>
 <li>读数据<br>
 FBInstant.player.getDataAsync(keys:string[])</li>

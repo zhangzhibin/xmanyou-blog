@@ -20,9 +20,9 @@ authorSlug: "dev"
 <li>2). 使用rewrite来重写新路径</li>
 </ul>
 <pre><code>   rewrite ^ $request_uri;
-   # 自动补充index.html
+   ## 自动补充index.html
    rewrite ^/$ /index.html;
-   # 补齐真正的路径
+   ## 补齐真正的路径
    rewrite ^/(.*)$ /newpath/$1 break;
 </code></pre>
 <ul>

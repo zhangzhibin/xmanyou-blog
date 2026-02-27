@@ -11,18 +11,18 @@ slug: "laya-pageview"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>Laya 1.x中没有PageView组件，就是一次滑动一整页的组件。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>替代方案是用List组件来实现一个。</p>
-<h2 id="">方案要点</h2>
+<h3 id="">方案要点</h3>
 <ol>
 <li>在触摸事件中处理翻页</li>
 <li>利用List组件的成员scrollBar得到当前滑动的位置，然后计算出需要自动翻到第几页</li>
 <li>利用List组件tweenTo方法来做翻页动画</li>
 <li>翻页后发送翻页事件</li>
 </ol>
-<h2 id="">代码</h2>
+<h3 id="">代码</h3>
 <pre><code>export class PageView extends Laya.List{
     constructor(){
         super();

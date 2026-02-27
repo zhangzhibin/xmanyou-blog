@@ -11,12 +11,12 @@ slug: "nexus-docker-start-failed-with-permission-denied"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>按照Nexus官方文档创建Nexus docker容器作为私有docker镜像，结果在启动以后一直在不停重启。</p>
 <p>用<code>docker logs</code>命令查看时发现错误：</p>
 <pre><code>cannot create directory '../sonatype-work/nexus3/log': Permission denied
 </code></pre>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>这是因为Nexus docker镜像使用的用户id是200，需要有映射到容器中/nexus-data目录的本地的权限。</p>
 <p><img src="/content/images/2021/12/setup-nexus-with-docker-got-permission-error.png" alt="setup-nexus-with-docker-got-permission-error"></p>
 <p>最简单的方式就是将这个目录的所有权修改为200。</p>
@@ -25,7 +25,7 @@ authorSlug: "dev"
 <p>例如本地目录是 /data/nexus-data，则</p>
 <pre><code>sudo chown -R 200 /data/nexus-data
 </code></pre>
-<h2 id="">参考文献</h2>
+<h3 id="">参考文献</h3>
 <p>其实官方文档 <a href="https://hub.docker.com/r/sonatype/nexus3/">https://hub.docker.com/r/sonatype/nexus3/</a> 很详细介绍了持久化数据的两种做法：</p>
 <ul>
 <li>1). 使用docker创建volume</li>

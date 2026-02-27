@@ -11,15 +11,15 @@ slug: "javascript-wait-until-condition-meet-or-timeout"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>简单说，在进行B操作前，需要等待A操作结束，或者某个条件满足，比如ready标志位变成true，这时候需要一个异步等待的方法。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>需要两个步骤：</p>
 <ul>
 <li>1). 定时轮询，检查条件是否满足</li>
 <li>2). 超时判定，在条件一直无法满足时，可以抛出超时异常</li>
 </ul>
-<h2 id="">代码示例</h2>
+<h3 id="">代码示例</h3>
 <blockquote></blockquote>
 <pre><code>function waitUntil(condition:()=&gt;boolean, timeout?:number, interval?:number) {
     if (timeout === void 0) { timeout = 0; } // 如果不设置超时参数，表示永不超时，一直等待
@@ -58,7 +58,7 @@ authorSlug: "dev"
 }
 export { waitUntil };
 </code></pre>
-<h3 id="">使用方法</h3>
+<h4 id="">使用方法</h4>
 <ul>
 <li>1). 对于必须满足条件才能进行的操作，不用提供超时参数</li>
 </ul>
@@ -75,7 +75,7 @@ export { waitUntil };
       return sdk.isReady();
     }, 1000);
 </code></pre>
-<h3 id="gist">gist</h3>
+<h4 id="gist">gist</h4>
 <blockquote>
 <p><a href="https://gist.github.com/zhangzhibin/dfd192da8c2db6964ee901a642bacaa1">https://gist.github.com/zhangzhibin/dfd192da8c2db6964ee901a642bacaa1</a></p>
 </blockquote>

@@ -11,7 +11,7 @@ slug: "typescript-using-global-variable-with-declare"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>用TypeScript编写js模块module时，经常遇到一种场景：需要使用在外部声明的全局变量。</p>
 <p>这个全局变量可能是：</p>
 <ul>
@@ -21,7 +21,7 @@ authorSlug: "dev"
 </ul>
 <p>如果这个全局变量是在同一个工程里其他文件中声明的，我们可以直接通过import引入，但是这就增加了强依赖关系。</p>
 <p>有时候我们不想增加这个依赖关系，或者，甚至无法提前得知这个全局变量是在哪里由谁声明的，是要怎么做呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>使用<em>declare</em>关键字</p>
 <pre><code>declare var &lt;全局变量&gt;:&lt;类型&gt;;
 </code></pre>

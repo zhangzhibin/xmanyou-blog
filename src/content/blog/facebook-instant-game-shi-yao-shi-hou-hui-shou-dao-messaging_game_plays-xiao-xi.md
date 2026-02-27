@@ -14,7 +14,7 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>Facebook Instant Game与微信小游戏最大的不同点之一，是Facebook推荐使用Bot来提升用户的留存。</p>
 <p>Facebook的各种应用都可以使用Bot来进行自动化，通过监听不同的消息（Event），做相应的处理。</p>
 <p>其中，<strong>messaging_game_plays</strong> 消息是Instant Game独有的。这个消息什么时候发出呢？</p>
-<h4 id="">消息时机</h4>
+<h2 id="">消息时机</h2>
 <blockquote>
 <p>参考<br>
 <a href="https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/">https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/</a></p>
@@ -62,7 +62,7 @@ Once your bot is correctly configured, your server application will start receiv
 <p><a href="https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.2">https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.2</a></p>
 </blockquote>
 <p><img src="/content/images/2018/12/Snip20181213_19.png" alt="Snip20181213_19"></p>
-<h4 id="">消息格式</h4>
+<h2 id="">消息格式</h2>
 <blockquote>
 <p>参考<br>
 <a href="https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/">https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/</a></p>
@@ -80,9 +80,9 @@ GROUP - 群组内游戏</li>
 <li>payload<br>
 可以通过FBInstant.setSessionData来传递的数据</li>
 </ol>
-<h4 id="">其他</h4>
+<h2 id="">其他</h2>
 <p>THREAD和GROUP环境下的游戏，还在摸索中，待续。</p>
-<h4 id="">补充</h4>
+<h2 id="">补充</h2>
 <p>找到了官方对于Context类型的描述：</p>
 <pre><code>The type of the current game context.
 POST - A facebook post.  (应该是对应到facebook 的文章吧)

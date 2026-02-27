@@ -11,7 +11,7 @@ slug: "laya-game-ios-mute-music-still-play"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>近期经常有小游戏在提审时，被Facebook打回来。</p>
 <p>理由是：iOS上静音后，游戏仍然在播放声音。</p>
 <p><img src="/content/images/2021/03/iPhone-mute-button.png" alt="iPhone-mute-button"></p>
@@ -23,7 +23,7 @@ authorSlug: "dev"
 <p>通常我们是直接用Laya.SoundManager.PlayMusic来播放的</p>
 <pre><code>Laya.SoundManager.playMusic(&quot;sounds/bgm.mp3&quot;);
 </code></pre>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>原来，Laya.SoundManager支持两种播放接口，而默认使用的是Audio标签这种方案：</p>
 <pre><code>&lt;audio&gt;&lt;/audio&gt;
 </code></pre>

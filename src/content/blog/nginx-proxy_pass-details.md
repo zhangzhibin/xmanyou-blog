@@ -11,10 +11,10 @@ slug: "nginx-proxy_pass-details"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="proxy_pass">关于proxy_pass模块</h1>
+<!--kg-card-begin: markdown--><h2 id="proxy_pass">关于proxy_pass模块</h2>
 <p><a href="http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass">http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass</a></p>
 <p>proxy_pass模块通常用来做反向代理，既将客户端发送的请求转发到目标服务器。</p>
-<h1 id="">语法</h1>
+<h2 id="">语法</h2>
 <pre><code>Syntax:    proxy_pass URL;
 Default:    —
 Context:    location, if in location, limit_except
@@ -29,15 +29,15 @@ Context:    location, if in location, limit_except
 </blockquote>
 <pre><code>proxy_pass http://unix:/tmp/backend.socket:/uri/;
 </code></pre>
-<h2 id="">关于域名</h2>
+<h3 id="">关于域名</h3>
 <blockquote>
 <p>If a domain name resolves to several addresses, all of them will be used in a round-robin fashion. In addition, an address can be specified as a server group.<br>
 Parameter value can contain variables. In this case, if an address is specified as a domain name, the name is searched among the described server groups, and, if not found, is determined using a resolver.</p>
 </blockquote>
 <p>proxy_pass中的域名会被解析，如果解析为一组服务器，则会轮流访问。</p>
-<h2 id="uri">关于请求URI如何传递给服务器</h2>
+<h3 id="uri">关于请求URI如何传递给服务器</h3>
 <p>A request URI is passed to the server as follows:</p>
-<h3 id="1proxy_passuri">1). 如果proxy_pass指令中包含URI</h3>
+<h4 id="1proxy_passuri">1). 如果proxy_pass指令中包含URI</h4>
 <blockquote>
 <p>If the proxy_pass directive is specified with a URI, then when a request is passed to the server, the part of a normalized request URI matching the location is replaced by a URI specified in the directive:</p>
 </blockquote>
@@ -51,7 +51,7 @@ Parameter value can contain variables. In this case, if an address is specified 
 <li>ii). 将标准化后的URI中与location相同的部分移除</li>
 <li>iii). 剩下的URI片段，拼接到proxy_pass指令中的URI</li>
 </ul>
-<h3 id="2proxy_passuri">2). 如果proxy_pass指令中不包含URI</h3>
+<h4 id="2proxy_passuri">2). 如果proxy_pass指令中不包含URI</h4>
 <blockquote>
 <p>If proxy_pass is specified without a URI, the request URI is passed to the server in the same form as sent by a client when the original request is processed, or the full normalized request URI is passed when processing the changed URI:</p>
 </blockquote>
@@ -72,12 +72,12 @@ Parameter value can contain variables. In this case, if an address is specified 
 <blockquote>
 <p>Before version 1.1.12, if proxy_pass is specified without a URI, the original request URI might be passed instead of the changed URI in some cases.</p>
 </blockquote>
-<h3 id="3">3). 一些特例</h3>
+<h4 id="3">3). 一些特例</h4>
 <p>在一些特殊情况下，无法判断要如何替换请求URI</p>
 <blockquote>
 <p>In some cases, the part of a request URI to be replaced cannot be determined:</p>
 </blockquote>
-<h4 id="31locationlocation">3.1). location中使用了正则表达式，且同时在命名location中</h4>
+<h5 id="31locationlocation">3.1). location中使用了正则表达式，且同时在命名location中</h5>
 <p>那么，这时候，proxy_pass不应该设置URI。</p>
 <blockquote>
 <p>When location is specified using a regular expression, and also inside named locations.<br>
@@ -85,7 +85,7 @@ In these cases, proxy_pass should be specified without a URI.</p>
 </blockquote>
 <p><strong>问题</strong><br>
 如果设置了怎么办？</p>
-<h4 id="32urirewrite">3.2). 如果URI被rewrite指令修改了</h4>
+<h5 id="32urirewrite">3.2). 如果URI被rewrite指令修改了</h5>
 <p>那么，在proxy_pass中指定的URI被忽略，改变后的请求URI整个传给服务器。</p>
 <blockquote>
 <p>When the URI is changed inside a proxied location using the rewrite directive, and this same configuration will be used to process a request (break):</p>
@@ -100,7 +100,7 @@ In these cases, proxy_pass should be specified without a URI.</p>
 </blockquote>
 <p><strong>注意</strong><br>
 也就是说，使用了rewrite以后，再设置任何URI是没有意义的，除非是设置变量（参考下一节）。</p>
-<h4 id="33proxy_pass">3.3). 如果proxy_pass中使用了变量</h4>
+<h5 id="33proxy_pass">3.3). 如果proxy_pass中使用了变量</h5>
 <p>那么，原始请求的URI被忽略，proxy_pass中的URI被传给服务器。</p>
 <blockquote>
 <p>When variables are used in proxy_pass:</p>
@@ -114,7 +114,7 @@ In these cases, proxy_pass should be specified without a URI.</p>
 </blockquote>
 <p><strong>注意</strong><br>
 也就是说，如果proxy_pass中使用了变量，则原始请求URI就不再直接传给服务器，通常是对原始请求URI进行修改，并保存到proxy_pass的变量里。</p>
-<h2 id="">原始请求与标准化请求</h2>
+<h3 id="">原始请求与标准化请求</h3>
 <ul>
 <li><strong>原始请求</strong>，为客户端发送的请求，未经过任何处理</li>
 <li><strong>标准化请求</strong>，按照一定规则进行解码和替换得到的标准URI</li>

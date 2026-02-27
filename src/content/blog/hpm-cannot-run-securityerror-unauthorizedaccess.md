@@ -11,7 +11,7 @@ slug: "hpm-cannot-run-securityerror-unauthorizedaccess"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>按照官方文档，成功安装了hpm。</p>
 <p>执行以下命令来检查hpm是否安装成功</p>
 <pre><code>hpm -V
@@ -26,7 +26,7 @@ o.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。
     + FullyQualifiedErrorId : UnauthorizedAccess
 </code></pre>
 <p><img src="/content/images/2021/02/hpm-cannot-run-SecurityError-UnauthorizedAccess-01.png" alt="hpm-cannot-run-SecurityError-UnauthorizedAccess-01"></p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <ul>
 <li>1). 以管理员权限运行powershell</li>
 <li>2). 执行命令 set-executionpolicy remotesigned</li>

@@ -11,6 +11,6 @@ slug: "vmware-esxi-dao-ru-jing-xiang-bao-cuo"
 authorSlug: "team"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
-<h1 id="">解决方法</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
+<h2 id="">解决方法</h2>
 <!--kg-card-end: markdown-->

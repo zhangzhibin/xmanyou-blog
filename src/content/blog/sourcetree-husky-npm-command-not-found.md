@@ -11,7 +11,7 @@ slug: "sourcetree-husky-npm-command-not-found"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>使用husky作为git钩子，在precommit回调中添加以下命令：</p>
 <pre><code>#!/bin/sh
 . &quot;$(dirname &quot;$0&quot;)/_/husky.sh&quot;
@@ -23,7 +23,7 @@ npm run lint
 <pre><code>.husky/pre-commit: Line 4 npm: command not found
 </code></pre>
 <p><img src="/content/images/2021/11/sourcetree-husky-npm-command-not-found-01.png" alt="sourcetree-husky-npm-command-not-found-01"></p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>错误描述告诉我们，这是因为SourceTree找不到husky钩子中需要使用的命令。</p>
 <p><strong>解决方法</strong><br>
 找到所需命令所在路径，然后添加到<code>~/.huskyrc</code>文件中。</p>
@@ -37,7 +37,7 @@ npm run lint
 <p>也可以用以下命令自动创建文件并添加路径：</p>
 <pre><code>echo 'export PATH=&quot;/usr/local/bin/:$PATH&quot;' &gt;&gt; ~/.huskyrc
 </code></pre>
-<h1 id="">参考文献</h1>
+<h2 id="">参考文献</h2>
 <ul>
 <li><a href="https://github.com/typicode/husky/issues/904">https://github.com/typicode/husky/issues/904</a></li>
 </ul>

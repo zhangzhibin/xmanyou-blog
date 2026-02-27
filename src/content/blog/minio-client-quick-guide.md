@@ -11,16 +11,16 @@ slug: "minio-client-quick-guide"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="0minio">0. 关于Minio</h1>
+<!--kg-card-begin: markdown--><h2 id="0minio">0. 关于Minio</h2>
 <blockquote>
 <p><a href="https://min.io/">https://min.io/</a></p>
 </blockquote>
 <p>Minio客户端工具(mc)是一个用来管理Minio的命令行工具。</p>
-<h1 id="1mc">1.安装mc</h1>
+<h2 id="1mc">1.安装mc</h2>
 <p>mac版本</p>
 <pre><code>brew install minio/stable/mc
 </code></pre>
-<h1 id="2">2. 命令与参数</h1>
+<h2 id="2">2. 命令与参数</h2>
 <pre><code>mc --help
 
 NAME:
@@ -83,33 +83,33 @@ VERSION:
 <pre><code># 运行以下命令，然后重启shell
 mc --autocompletion
 </code></pre>
-<h1 id="3">3. 使用</h1>
-<h2 id="31alias">3.1. 设置服务器别名alias</h2>
+<h2 id="3">3. 使用</h2>
+<h3 id="31alias">3.1. 设置服务器别名alias</h3>
 <blockquote>
 <p><a href="https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-alias.html">https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-alias.html</a></p>
 </blockquote>
 <pre><code>mc alias set ALIAS HOSTNAME ACCESSKEY SECRETKEY
 </code></pre>
-<h3 id="">移除服务器</h3>
+<h4 id="">移除服务器</h4>
 <pre><code>mc alias remove ALIAS
 </code></pre>
-<h3 id="">查看所有服务器</h3>
+<h4 id="">查看所有服务器</h4>
 <pre><code>mc alias list
 </code></pre>
-<h2 id="32bucket">3.2. 创建桶bucket</h2>
+<h3 id="32bucket">3.2. 创建桶bucket</h3>
 <blockquote>
 <p><a href="https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-mb.html">https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-mb.html</a></p>
 </blockquote>
 <pre><code>mc mb --with-lock ALIAS/BUCKET
 </code></pre>
-<h2 id="33">3.3. 上传</h2>
+<h3 id="33">3.3. 上传</h3>
 <blockquote>
 <p><a href="https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-cp.html">https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-cp.html</a></p>
 </blockquote>
-<h3 id="">上传文件</h3>
+<h4 id="">上传文件</h4>
 <pre><code>mc cp SOURCE ALIAS/PATH
 </code></pre>
-<h3 id="">上传文件夹</h3>
+<h4 id="">上传文件夹</h4>
 <pre><code>mc cp --recursive SOURCE ALIAS/PATH
 </code></pre>
 <p>示例</p>
@@ -118,12 +118,12 @@ mc cp --recursive ./test-folder/ local/apps/
 or
 mc cp --recursive ./test-folder/ local/apps/
 </code></pre>
-<h2 id="34">3.4. 同步文件夹</h2>
+<h3 id="34">3.4. 同步文件夹</h3>
 <blockquote>
 <p><a href="https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-mirror.html">https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc/mc-mirror.html</a></p>
 </blockquote>
 <p>The mc mirror command synchronizes content to an S3-compatible host, similar to the rsync utility.</p>
-<h3 id="">同步文件系统</h3>
+<h4 id="">同步文件系统</h4>
 <pre><code>mc mirror FILEPATH ALIAS/PATH
 </code></pre>
 <p>示例</p>
@@ -131,28 +131,28 @@ mc cp --recursive ./test-folder/ local/apps/
 或者 同步到另一个文件夹
 mc mirror ./test-folder local/apps/test-folder2
 </code></pre>
-<h3 id="">同步对象存储</h3>
+<h4 id="">同步对象存储</h4>
 <pre><code>mc mirror --watch SRCALIAS/SRCPATH TGTALIAS/TGTPATH
 </code></pre>
-<h3 id="watch">关于--watch选项</h3>
+<h4 id="watch">关于--watch选项</h4>
 <p>添加 --watch 选项，可以持续监听文件的变化，保持同步。</p>
 <p><strong>但是</strong> 不适合文件非常多的文件夹，否则可能报错：</p>
-<h2 id="35">3.5. 删除文件或者文件夹</h2>
+<h3 id="35">3.5. 删除文件或者文件夹</h3>
 <pre><code>mc rm
 </code></pre>
-<h3 id="">删除文件</h3>
+<h4 id="">删除文件</h4>
 <pre><code>mc rm ALIAS/PATH
 </code></pre>
 <p>示例</p>
 <pre><code>mc rm -r --force  local/apps/test-folder2/index.html
 </code></pre>
-<h3 id="">删除文件夹</h3>
+<h4 id="">删除文件夹</h4>
 <pre><code>mc rm -r --force ALIAS/PATH
 
 mc rm -r --force  local/apps/test-folder2
 </code></pre>
-<h2 id="36mcmv">3.6. 移动 mc mv</h2>
-<h2 id="37policy">3.7. 设置访问权限 policy</h2>
+<h3 id="36mcmv">3.6. 移动 mc mv</h3>
+<h3 id="37policy">3.7. 设置访问权限 policy</h3>
 <blockquote>
 <p><a href="https://docs.min.io/docs/minio-client-complete-guide.html#policy">https://docs.min.io/docs/minio-client-complete-guide.html#policy</a></p>
 </blockquote>

@@ -11,7 +11,7 @@ slug: "ironsource-adapter-failed-to-resolve"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>Android 平台接入IronSource广告聚合时，按照文档一步步接入，但是在编译的时候却报错：</p>
 <pre><code>CONFIGURE SUCCESSFUL in 0s
 ERROR: Failed to resolve: com.ironsource.adapters:admobadapter:4.3.14
@@ -25,7 +25,7 @@ Affected Modules: app
 <p><img src="/content/images/2020/10/IronSource-adapter-failed.png" alt="IronSource-adapter-failed"></p>
 <p>奇怪的是，相同网络条件下，IronSource的另一个依赖库com.ironsource.sdk:mediationsdk却没有报错。</p>
 <p>无论怎么设置Http Proxy代理服务器，都无法解决改问题。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>最后发现，需要在app的gradle添加对应的repositories，如下</p>
 <pre><code>repositories {
     jcenter()

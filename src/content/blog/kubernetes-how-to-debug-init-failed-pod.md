@@ -14,22 +14,22 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><p>任何应用的开发过程，都不总会一帆风顺，那么，怎么调试，就是一个很重要的问题。</p>
 <p>对于k8s集群，即使是按照文档一步步去部署一个很成熟的服务时，依然可能会出现各种各样的错误。</p>
 <p>例如，最近在按照文档部署elk时，就出现过各种各样的问题。本文以此为例，示范如何进行调试，查找错误原因。</p>
-<h2 id="1pod">1. 查看pod列表</h2>
+<h3 id="1pod">1. 查看pod列表</h3>
 <pre><code>kubectl get pods -n &lt;namespace&gt;
 </code></pre>
-<h3 id="">示例</h3>
+<h4 id="">示例</h4>
 <pre><code>kubectl get pod -n k8s-logging
 
 NAME                      READY   STATUS                  RESTARTS   AGE
 es-logging-es-default-0   0/1     Init:CrashLoopBackOff   7          14m
 </code></pre>
-<h2 id="2pod">2. 查看pod的详细信息</h2>
+<h3 id="2pod">2. 查看pod的详细信息</h3>
 <p>可以用以下命令查看失败状态的pod的详细信息：</p>
 <pre><code>kubectl describe pod &lt;pod name&gt; -n &lt;namespace&gt;
 </code></pre>
 <p>该命令会输出pod的Events列表，可以看到该pod运行过程中的相关事件。</p>
 <p>有时候，这个Events列表中就已经包含了详细的错误原因。</p>
-<h3 id="">示例</h3>
+<h4 id="">示例</h4>
 <pre><code>kubectl describe pod es-logging-es-default-0 -n k8s-logging
 
 Name:         es-logging-es-default-0
@@ -228,28 +228,28 @@ Events:
 <pre><code>Warning  BackOff           3m57s (x92 over 23m)  kubelet            Back-off restarting failed container
 </code></pre>
 <p>很不幸，Events事件列表中，只包含的比较简单的信息：容器启动失败。</p>
-<h2 id="3pod">3. 查看pod日志</h2>
+<h3 id="3pod">3. 查看pod日志</h3>
 <p>当事件列表中找不到详细错误时，需要查看pod的详细日志来定位：</p>
 <pre><code>kubectl logs &lt;pod name&gt; -n &lt;namespace&gt;
 </code></pre>
-<h3 id="">示例</h3>
+<h4 id="">示例</h4>
 <pre><code>kubectl logs -n k8s-logging es-logging-es-default-0
 
 Error from server (BadRequest): container &quot;elasticsearch&quot; in pod &quot;es-logging-es-default-0&quot; is waiting to start: PodInitializing
 </code></pre>
 <p>表示该pod的默认container是elasticsearch，而它还没有初始化成功，所以没有运行日志。</p>
 <p>说明出错的不是默认的container。</p>
-<h2 id="4container">4. 查看对应container的日志</h2>
+<h3 id="4container">4. 查看对应container的日志</h3>
 <p>这时候需要查看特定contaienr的日志：</p>
 <pre><code>kubectl logs &lt;pod name&gt; -n &lt;namespace&gt; -c &lt;container&gt;
 </code></pre>
-<h3 id="">示例</h3>
+<h4 id="">示例</h4>
 <p>从刚刚pod的详情里，找到Init Containers的列表。</p>
 <p>示例中，Init Containers只有一个elastic-internal-init-filesystem，这个信息与Events列表中也是一致的。</p>
 <p><img src="/content/images/2021/05/k8s-debug-01-describe-pod.png" alt="k8s-debug-01-describe-pod"></p>
 <pre><code>kubectl logs -c elastic-internal-init-filesystem -n k8s-logging es-logging-es-default-0
 
-# 以下是输出日志
+## 以下是输出日志
 Starting init script
 Linking /mnt/elastic-internal/xpack-file-realm/users to /usr/share/elasticsearch/config/users
 Linking /mnt/elastic-internal/xpack-file-realm/roles.yml to /usr/share/elasticsearch/config/roles.yml
@@ -321,7 +321,7 @@ failed to change ownership of '/usr/share/elasticsearch/data' from 1024:users to
 </code></pre>
 <p><img src="/content/images/2021/05/k8s-debug-02-pod-container-log.png" alt="k8s-debug-02-pod-container-log"></p>
 <p>根据对应的错误，查找原因即可。</p>
-<h1 id="">更多调试方法</h1>
+<h2 id="">更多调试方法</h2>
 <blockquote>
 <p><a href="https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-running-pod/">https://kubernetes.io/zh/docs/tasks/debug-application-cluster/debug-running-pod/</a></p>
 </blockquote>

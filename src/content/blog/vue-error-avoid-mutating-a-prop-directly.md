@@ -11,16 +11,16 @@ slug: "vue-error-avoid-mutating-a-prop-directly"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">错误</h1>
+<!--kg-card-begin: markdown--><h2 id="">错误</h2>
 <p><img src="/content/images/2020/05/Vue-Avoid-mutating-a-prop-directly-01.png" alt="Vue-Avoid-mutating-a-prop-directly-01"></p>
 <pre><code>  Avoid mutating a prop directly since the value will be overwritten whenever the parent component re-renders. Instead, use a data or computed property based on the prop’s value. Prop being mutated: xxx
 </code></pre>
-<h1 id="">原因</h1>
+<h2 id="">原因</h2>
 <p>在Component的定义中为Prop属性变量赋值了。</p>
 <pre><code>@Prop({ required: true })
 actionUrl:string = ''
 </code></pre>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>去掉为Prop属性变量赋值的代码。</p>
 <pre><code>@Prop({ required: true })
 actionUrl:string

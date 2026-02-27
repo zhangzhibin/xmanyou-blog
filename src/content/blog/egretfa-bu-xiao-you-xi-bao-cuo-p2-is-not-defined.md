@@ -11,9 +11,9 @@ slug: "egretfa-bu-xiao-you-xi-bao-cuo-p2-is-not-defined"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">参考</h3>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h2 id="">参考</h2>
 <p><a href="http://bbs.egret.com/thread-45982-1-1.html">http://bbs.egret.com/thread-45982-1-1.html</a></p>
-<h3 id="">解决方法</h3>
+<h2 id="">解决方法</h2>
 <p>修改小游戏工程中 js/physics.js文件，在第24行左右位置</p>
 <pre><code>       module.exports = a();
 </code></pre>

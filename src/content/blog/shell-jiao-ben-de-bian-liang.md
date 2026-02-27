@@ -20,14 +20,14 @@ $@	传递给脚本或函数的所有参数。被双引号(&quot; &quot;)包含�
 $?	上个命令的退出状态，或函数的返回值。
 $$	当前Shell进程ID。对于 Shell 脚本，就是这些脚本所在的进程ID。
 </code></pre>
-<h2 id=""><code>&quot;$@&quot;</code>与<code>&quot;$*&quot;</code>的区别</h2>
+<h3 id=""><code>&quot;$@&quot;</code>与<code>&quot;$*&quot;</code>的区别</h3>
 <p>$* 和 $@ 都表示传递给函数或脚本的所有参数，不被双引号(&quot; &quot;)包含时，都以&quot;$1&quot; &quot;$2&quot; … &quot;$n&quot; 的形式输出所有参数。</p>
 <p>但是当它们被双引号(&quot; &quot;)包含时，</p>
 <ul>
 <li>&quot;$*&quot; 会将所有的参数作为一个整体，以&quot;$1 $2 … $n&quot;的形式输出所有参数；</li>
 <li>&quot;$@&quot; 会将各个参数分开，以&quot;$1&quot; &quot;$2&quot; … &quot;$n&quot; 的形式输出所有参数。</li>
 </ul>
-<h1 id="">参考</h1>
+<h2 id="">参考</h2>
 <ul>
 <li><a href="http://c.biancheng.net/cpp/view/2739.html">http://c.biancheng.net/cpp/view/2739.html</a></li>
 <li><a href="http://cn.linux.vbird.org/linux_basic/0340bashshell-scripts.php">http://cn.linux.vbird.org/linux_basic/0340bashshell-scripts.php</a></li>

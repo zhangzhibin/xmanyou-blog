@@ -11,7 +11,7 @@ slug: "windows10-add-startup-app"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">简明步骤</h1>
+<!--kg-card-begin: markdown--><h2 id="">简明步骤</h2>
 <ol>
 <li>
 <p>用windows + R键，打开运行菜单</p>
@@ -26,7 +26,7 @@ authorSlug: "dev"
 </li>
 </ol>
 <p>完成</p>
-<h1 id="">参考</h1>
+<h2 id="">参考</h2>
 <blockquote>
 <p><a href="https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd">https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd</a></p>
 </blockquote>

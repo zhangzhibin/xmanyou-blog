@@ -11,7 +11,7 @@ slug: "laya-how-to-publish-to-facebook-instant-game"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="1">1. 官方文档</h1>
+<!--kg-card-begin: markdown--><h2 id="1">1. 官方文档</h2>
 <ul>
 <li>Facebook小游戏官方入门教程</li>
 </ul>
@@ -24,7 +24,7 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.3/">https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.3/</a></p>
 </blockquote>
-<h1 id="2facebooksdk">2. 添加Facebook小游戏SDK引用</h1>
+<h2 id="2facebooksdk">2. 添加Facebook小游戏SDK引用</h2>
 <p>在调用任何Facebook小游戏接口前，需要先添加SDK引用。</p>
 <ul>
 <li>SDK地址：<a href="https://connect.facebook.net/en_US/fbinstant.6.3.js">https://connect.facebook.net/en_US/fbinstant.6.3.js</a>  （6.3版本）</li>
@@ -35,7 +35,7 @@ authorSlug: "dev"
 <pre><code>&lt;script src=&quot;https://connect.facebook.net/en_US/fbinstant.6.3.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;index.js&quot;&gt;&lt;/script&gt;
 </code></pre>
-<h1 id="3facebook">3. 初始化并启动Facebook小游戏</h1>
+<h2 id="3facebook">3. 初始化并启动Facebook小游戏</h2>
 <p>按照Facebook小游戏的开发规范，在进行任何渲染以及Facebook小游戏绝大部分的其他接口之前，<br>
 1). 必须先调用</p>
 <ul>
@@ -77,14 +77,14 @@ authorSlug: "dev"
     console.error(&quot;Fail to init fb, Error: &quot;, e);
 }
 </code></pre>
-<h1 id="4facebook">4. 在游戏逻辑中调用Facebook小游戏其他接口</h1>
+<h2 id="4facebook">4. 在游戏逻辑中调用Facebook小游戏其他接口</h2>
 <ul>
 <li>添加fbinstant.d.ts到&lt;项目&gt;/libs<br>
 这个文件可以从网上（比如github）找到。</li>
 <li>通过FBInstant调用Facebook小游戏的接口<br>
 开发文档：<a href="https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.3/">https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.3/</a></li>
 </ul>
-<h1 id="5facebook">5. 打包发布facebook项目</h1>
+<h2 id="5facebook">5. 打包发布facebook项目</h2>
 <ul>
 <li>第一步，添加捆绑包配置文件fbapp-config.json到 &lt;项目&gt;/bin/fbapp-config.json</li>
 </ul>
@@ -130,5 +130,5 @@ orientation 屏幕方向，可选值是：
 </li>
 <li>压缩zip并上传到Facebook小游戏控制台</li>
 </ul>
-<h1 id="">完成</h1>
+<h2 id="">完成</h2>
 <!--kg-card-end: markdown-->

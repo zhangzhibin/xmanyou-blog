@@ -11,7 +11,7 @@ slug: "transmission-web-control-error-404-not-found"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>尝试为群晖bt下载工具transmission安装一个高级界面，按照官方文档，安装非常方便，只需要执行一个脚本即可。<br>
 官方还很贴心地提供了国内镜像gitee的下载安装脚本。</p>
 <blockquote>
@@ -24,7 +24,7 @@ authorSlug: "dev"
 <p>但是，但是，安装完毕后，打开transmission的管理页面<code>http://&lt;nas-ip&gt;/9091</code>，哎哎哎，怎么就404了？</p>
 <p><img src="/content/images/2021/11/transmission-web-control-404-web-index-not-found-01.png" alt="transmission-web-control-404-web-index-not-found-01"></p>
 <p>这是怎么回事？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>检查了一下安装日志</p>
 <p><img src="/content/images/2021/11/transmission-web-control-404-web-index-not-found-02.png" alt="transmission-web-control-404-web-index-not-found-02"></p>
 <p>发现一条错误信息：</p>
@@ -43,7 +43,7 @@ cp: cannot stat '/tmp/tr-web-control/transmission-web-control/src/.': No such fi
 </code></pre>
 <p>手动修改，然后重新运行，然后，就不再报错了，transmission的新web页面也打开了：<br>
 <img src="/content/images/2021/11/transmission-web-control-404-web-index-not-found-03.png" alt="transmission-web-control-404-web-index-not-found-03"></p>
-<h2 id="">完整脚本</h2>
+<h3 id="">完整脚本</h3>
 <p>修改后的完整脚本(gitee版) 已经传到github和gitee</p>
 <ul>
 <li>github</li>
@@ -57,7 +57,7 @@ cp: cannot stat '/tmp/tr-web-control/transmission-web-control/src/.': No such fi
 <blockquote>
 <p><a href="https://gitee.com/devonzhang/transmission-web-control-install-script-fixed">https://gitee.com/devonzhang/transmission-web-control-install-script-fixed</a></p>
 </blockquote>
-<h2 id="transmissionwebcontrol">群晖用户如何设置计划任务来安装transmission-web-control呢？</h2>
+<h3 id="transmissionwebcontrol">群晖用户如何设置计划任务来安装transmission-web-control呢？</h3>
 <p>只要更新一下计划任务的自定义脚本即可：</p>
 <pre><code>curl -s https://gitee.com/devonzhang/transmission-web-control-install-script-fixed/raw/master/install-tr-control-gitee.sh | bash -s auto
 </code></pre>

@@ -23,7 +23,7 @@ authorSlug: "dev"
 <p><a href="https://apple.stackexchange.com/questions/262355/xxx-cant-be-opened-you-should-move-it-to-trash-for-flash-projector-applicat">https://apple.stackexchange.com/questions/262355/xxx-cant-be-opened-you-should-move-it-to-trash-for-flash-projector-applicat</a></p>
 </blockquote>
 <p><img src="/content/images/2019/03/Snip20190318_1.png" alt="Snip20190318_1"></p>
-<h3 id="">解决方法</h3>
+<h2 id="">解决方法</h2>
 <ol>
 <li>对特定App解禁（推荐）</li>
 </ol>

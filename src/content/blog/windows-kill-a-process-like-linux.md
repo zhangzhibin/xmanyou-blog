@@ -11,12 +11,12 @@ slug: "windows-kill-a-process-like-linux"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>有时候想要从命令行直接结束一个程序进程，类似linux的kill命令。</p>
 <p>那么，windows是否支持这种操作呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>使用<strong>taskkill</strong>可以实现这个目的。</p>
-<h2 id="taskkill">taskkill的使用方法：</h2>
+<h3 id="taskkill">taskkill的使用方法：</h3>
 <pre><code>taskkill /?
 
 TASKKILL [/S system [/U username [/P [password]]]]
@@ -82,7 +82,7 @@ TASKKILL [/S system [/U username [/P [password]]]]
     TASKKILL /S system /U username /P password /FI &quot;IMAGENAME eq note*&quot;
 </code></pre>
 <p>其中 <strong>/f</strong> 参数用于强制终止一个进程。</p>
-<h2 id="">示例</h2>
+<h3 id="">示例</h3>
 <ul>
 <li>通过名字终止小飞机进程</li>
 </ul>
@@ -93,7 +93,7 @@ TASKKILL [/S system [/U username [/P [password]]]]
 </ul>
 <pre><code>TASKKILL /F /PID 1230
 </code></pre>
-<h1 id="">参考</h1>
+<h2 id="">参考</h2>
 <ul>
 <li><a href="https://www.windows-commandline.com/taskkill-kill-process/">https://www.windows-commandline.com/taskkill-kill-process/</a></li>
 <li><a href="https://stackoverflow.com/questions/33822/any-way-to-write-a-windows-bat-file-to-kill-processes">https://stackoverflow.com/questions/33822/any-way-to-write-a-windows-bat-file-to-kill-processes</a></li>

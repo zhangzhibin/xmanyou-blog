@@ -11,11 +11,11 @@ slug: "cocos-creatorbi-ji-shi-yong-await-asyncbao-cuo"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">错误</h3>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h2 id="">错误</h2>
 <p>load script [./SimpleCommand] failed : ReferenceError: regeneratorRuntime is not defined</p>
-<h3 id="">版本</h3>
+<h2 id="">版本</h2>
 <p>2.0.0</p>
-<h3 id="">原因</h3>
+<h2 id="">原因</h2>
 <p>在js类cc.Class中使用了await/async语法</p>
 <pre><code>    async execute(notification){
         return new Promise((resolve, reject)=&gt;{
@@ -23,6 +23,6 @@ authorSlug: "dev"
         });
     }
 </code></pre>
-<h3 id="">解决方法</h3>
+<h2 id="">解决方法</h2>
 <p>换ts？</p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

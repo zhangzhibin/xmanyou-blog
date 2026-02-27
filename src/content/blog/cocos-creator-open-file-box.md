@@ -11,18 +11,18 @@ slug: "cocos-creator-open-file-box"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>文件选择对话框，在App开发中是很常用的一个组件，但是，在游戏开发中并不常见，所以Cocos Creator也没有提供这个组件。</p>
 <p><img src="/content/images/2020/07/CocosCreator_Open_File_Dialog_01.png" alt="CocosCreator_Open_File_Dialog_01"></p>
 <p>但是，有没有办法在Cocos Creator的项目中使用这个组件呢？</p>
 <p><img src="/content/images/2020/07/CocosCreator_Open_File_Dialog_02.png" alt="CocosCreator_Open_File_Dialog_02"></p>
 <p>答案当然是：<strong>有!</strong></p>
-<h1 id="">解决方法</h1>
-<h2 id="1">方法1，直接调用操作系统的文件对话框组件。</h2>
+<h2 id="">解决方法</h2>
+<h3 id="1">方法1，直接调用操作系统的文件对话框组件。</h3>
 <p>不管是windows还是mac os，甚至android和ios，文件选择对话框，都是系统自带的组件。</p>
 <p>所以，如果我们把这个组件的调用代码封装好，提供js接口，那么，就可以直接在Cocos Creator中使用了。</p>
 <p>但是，这个方法就比较麻烦，需要针对不同的系统进行封装，费时费力。</p>
-<h2 id="2html">方法2，使用HTML的文件对话框组件。</h2>
+<h3 id="2html">方法2，使用HTML的文件对话框组件。</h3>
 <p>在Web编程时，我们可以使用<strong>file</strong> 类型的input组件，来作为文件选择对话框的入口。</p>
 <pre><code>&lt;input type=&quot;file&quot;&gt;
 </code></pre>
@@ -33,9 +33,9 @@ authorSlug: "dev"
 <p><img src="/content/images/2020/07/CocosCreator_Open_File_Dialog_03.png" alt="CocosCreator_Open_File_Dialog_03"></p>
 <p>Cocos Creator项目使用的是JavaScript语言，如果能直接调用HTML的接口，那么就可以省去了很多封装的工作。</p>
 <p>有几个选择</p>
-<h3 id="1">选项 1). 静态添加</h3>
+<h4 id="1">选项 1). 静态添加</h4>
 <p>在index.html里添加file input组件，然后在Creator项目的JavaScript代码中调用。</p>
-<h3 id="2">选项 2). 动态添加</h3>
+<h4 id="2">选项 2). 动态添加</h4>
 <p>直接在Creator项目的JavaScript代码中创建file input组件，并使用。<br>
 选项2) 看起来更简洁一点，不需要修改index.html，而且这意味着不需要打包也可以进行测试。</p>
 <p>步骤:</p>
@@ -122,14 +122,14 @@ if(inputBox){
     inputBox.click();
 }
 </code></pre>
-<h3 id="">注意事项</h3>
+<h4 id="">注意事项</h4>
 <p>使用HTML的组件，会有一些限制，比如</p>
 <ul>
 <li>1). 只能在浏览器中使用。对于原生App，由于Creator打包的原生应用，运行底层不是浏览器组件，第二种方法应该是不可行的（未验证）。</li>
 <li>2). 必须绑定到玩家的点击操作，不能在没有任何操作时，直接用代码弹窗。</li>
 </ul>
 <p>完成</p>
-<h3 id="2">方法2的完整代码</h3>
+<h4 id="2">方法2的完整代码</h4>
 <blockquote>
 <p><a href="https://gist.github.com/zhangzhibin/a21ec65b434f45efec2103f03b29ba57.js">https://gist.github.com/zhangzhibin/a21ec65b434f45efec2103f03b29ba57.js</a></p>
 </blockquote>

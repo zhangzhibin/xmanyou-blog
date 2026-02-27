@@ -11,12 +11,12 @@ slug: "apisix-setup-router-for-minio-bucket-for-static-files"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>时不时的，我们需要向一些第三方服务来证明自己的身份，或者域名的所有权。其中一种比较常见的做法就是提供txt域名解析，或者提供该域名下某些特殊文件的访问。</p>
 <p>例如，一些广告平台，谷歌Admob、谷歌AdSense、Facebook等，需要使用者在相应的域名下提供ads.txt或者app-ads.txt等静态文件来验证你的身份，防止有人冒充你向广告主出售流量。</p>
 <p><img src="/content/images/2021/12/ads-txt-guide.png" alt="ads-txt-guide"></p>
 <p>一些ssl证书服务也需要你证明你对该域名的所有权。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>常用的解决方法是，如果你已经在该域名下建立了web网站，那么，可以根据所使用的web应用，创建对应的文件解析。<br>
 例如，常见的wordpress就有不少ads.txt和app-ads.txt的管理插件。</p>
 <p>如果是Nuxt应用，可以将这些文件放在项目的static目录下。</p>

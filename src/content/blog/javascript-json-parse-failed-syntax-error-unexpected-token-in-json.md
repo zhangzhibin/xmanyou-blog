@@ -11,7 +11,7 @@ slug: "javascript-json-parse-failed-syntax-error-unexpected-token-in-json"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>有个JavaScript对象obj，其中一个属性值为另一个对象child的JSON stringify后得到的JSON字符串。</p>
 <p>大概是这样子</p>
 <pre><code>	var child = {
@@ -33,7 +33,7 @@ authorSlug: "dev"
 <pre><code>parse failed:  SyntaxError: Unexpected token n in JSON at position 54
 </code></pre>
 <p>这是为什么呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>为了解决这个问题，写了一个简单的js测试用例，如下。</p>
 <pre><code>try{
 	var child = {
@@ -158,7 +158,7 @@ parse failed:  SyntaxError: Unexpected token n in JSON at position 54
 	`;
 </code></pre>
 <p>这是一个合法的嵌套了JSON串的JSON串。</p>
-<h2 id="">如何处理这种情况</h2>
+<h3 id="">如何处理这种情况</h3>
 <p>有几个方案：</p>
 <ul>
 <li>

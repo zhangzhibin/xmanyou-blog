@@ -11,10 +11,10 @@ slug: "javascript-dynamically-load-script-and-set-parameters"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>在html文件里，加载javascript脚本，可以通过添加<code>&lt;script src=&quot;js脚本&quot;&gt;&lt;/script&gt;</code>的方法来加载。</p>
 <p>但是，有时候想要根据需要动态加载不同的脚本，或者设置不同的参数，需要怎么做呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>可以利用DOM document的接口来实现。具体步骤：</p>
 <ul>
 <li>1). 创建script元素<br>
@@ -35,7 +35,7 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement">https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement</a></p>
 </blockquote>
-<h2 id="typescript">完整示例(TypeScript)</h2>
+<h3 id="typescript">完整示例(TypeScript)</h3>
 <pre><code class="language-TypeScript">async function loadJsAsync(src:string, async:boolean=false, options?:any) {
   return new Promise&lt;void&gt;((resolve, reject) =&gt; {
     const script = document.createElement('script');
@@ -69,10 +69,10 @@ authorSlug: "dev"
   });
 }
 </code></pre>
-<h3 id="">使用示例</h3>
+<h4 id="">使用示例</h4>
 <pre><code>    loadJsAsync(url, true, attributes);
 </code></pre>
-<h3 id="gist">gist地址</h3>
+<h4 id="gist">gist地址</h4>
 <blockquote>
 <p><a href="https://gist.github.com/zhangzhibin/9bfc7debf08a5300c0101e1c1f19a904">https://gist.github.com/zhangzhibin/9bfc7debf08a5300c0101e1c1f19a904</a></p>
 </blockquote>

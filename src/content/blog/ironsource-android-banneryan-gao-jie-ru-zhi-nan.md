@@ -12,10 +12,10 @@ authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p>最近IronSource开始支持Banner广告了，总结一下Android游戏接入IronSource Banner广告的一些要点：</p>
-<h1 id="">官方文档</h1>
+<h2 id="">官方文档</h2>
 <p><a href="https://developers.ironsrc.com/ironsource-mobile/android/banner-integration-android">https://developers.ironsrc.com/ironsource-mobile/android/banner-integration-android</a></p>
-<h1 id="">详细接入步骤</h1>
-<h2 id="1banner">1. 初始化Banner广告</h2>
+<h2 id="">详细接入步骤</h2>
+<h3 id="1banner">1. 初始化Banner广告</h3>
 <ul>
 <li>1). 创建banner的容器 FrameLayout</li>
 <li>2). 创建banner view （设置尺寸）</li>
@@ -108,14 +108,14 @@ authorSlug: "dev"
     }
 
 </code></pre>
-<h2 id="2banner">2. 加载Banner</h2>
+<h3 id="2banner">2. 加载Banner</h3>
 <pre><code>IronSource.loadBanner(_banner);
 </code></pre>
-<h2 id="3banner">3. 销毁Banner</h2>
+<h3 id="3banner">3. 销毁Banner</h3>
 <pre><code>IronSource.destroyBanner(_banner);
 </code></pre>
 <p>如果销毁了的话，应该是要重新创建banner view的。</p>
-<h2 id="4banner">4. 显示Banner</h2>
+<h3 id="4banner">4. 显示Banner</h3>
 <pre><code>    public static void showBanner(){
         if(_banner == null){
             Log.w(TAG, &quot;showBanner: Banner Not Inited&quot;);
@@ -125,7 +125,7 @@ authorSlug: "dev"
         _banner.setVisibility(View.VISIBLE);
     }
 </code></pre>
-<h2 id="5banner">5. 隐藏Banner</h2>
+<h3 id="5banner">5. 隐藏Banner</h3>
 <pre><code>    public static void hideBanner(){
         if(_banner == null){
             Log.w(TAG, &quot;hideBanner: Banner Not Inited&quot;);

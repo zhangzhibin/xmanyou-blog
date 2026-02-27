@@ -11,13 +11,13 @@ slug: "android-build-api-level-ndk-table"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">官方文档</h1>
+<!--kg-card-begin: markdown--><h2 id="">官方文档</h2>
 <p><a href="https://source.android.com/setup/start/build-numbers">https://source.android.com/setup/start/build-numbers</a></p>
-<h1 id="">对照表</h1>
+<h2 id="">对照表</h2>
 <p><img src="/content/images/2020/08/Android_version_build_ndk_table_01.png" alt="Android_version_build_ndk_table_01"></p>
 <p><img src="/content/images/2020/08/Android_version_build_ndk_table_02.png" alt="Android_version_build_ndk_table_02"></p>
-<h1 id="">版本号格式</h1>
-<h2 id="android800oreo">Android 8.0.0(Oreo以后）</h2>
+<h2 id="">版本号格式</h2>
+<h3 id="android800oreo">Android 8.0.0(Oreo以后）</h3>
 <p>在 Android 8.0.0 (Oreo) 及更高版本中，每个 build 均采用 build ID 格式 PVBB.YYMMDD.bbb[.Cn] 进行标识，其中：</p>
 <ul>
 <li>P 表示平台版本代号的第一个字母，例如 O 表示 Oreo。</li>
@@ -27,7 +27,7 @@ authorSlug: "dev"
 <li>bbb 表示具有相同日期代码的不同版本，从 001 开始。</li>
 <li>Cn 是可选的字母数字，表示在现有 PVBB.YYMMDD.bbb build 之上构建的修补程序，从 A1 开始。</li>
 </ul>
-<h2 id="android">早期Android</h2>
+<h3 id="android">早期Android</h3>
 <p>早期 Android 版本采用另一种较短的 build ID 代码（例如 FRF85B），其中：</p>
 <ul>
 <li>第一个字母代表版本系列的代号，例如 F 表示 Froyo。</li>

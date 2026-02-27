@@ -12,7 +12,7 @@ authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><p><img src="/content/images/2020/04/python.png" alt="python"></p>
-<h1 id="0">0. 什么是虚拟环境</h1>
+<h2 id="0">0. 什么是虚拟环境</h2>
 <p>依赖库冲突，或者说运行环境冲突，是开发人员经常遇到的很头疼的问题。虚拟环境，就是为了解决Python运行环境中的这个问题提供的一个方案。</p>
 <blockquote>
 <p>virtual environment, a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages.</p>
@@ -25,14 +25,14 @@ authorSlug: "dev"
 <p>不同虚拟环境之间互不影响。</p>
 <p>通过设立不同的虚拟环境，解决了把依赖库安装在系统全局环境下产生的依赖库冲突的问题。</p>
 <p>参考：<a href="https://docs.python.org/3/tutorial/venv.html#tut-venv">https://docs.python.org/3/tutorial/venv.html#tut-venv</a></p>
-<h1 id="1">1. 创建虚拟环境</h1>
+<h2 id="1">1. 创建虚拟环境</h2>
 <pre><code>python3 -m venv tutorial-env
 </code></pre>
-<h1 id="2">2. 激活虚拟环境</h1>
+<h2 id="2">2. 激活虚拟环境</h2>
 <pre><code>source tutorial-env/bin/activate
 </code></pre>
 <p>激活以后就可以以该虚拟环境的配置来使用python了，包括独立的python运行包，独立的依赖库。</p>
-<h1 id="3pip">3. 使用pip管理虚拟环境</h1>
+<h2 id="3pip">3. 使用pip管理虚拟环境</h2>
 <blockquote>
 <p>参考：<a href="https://docs.python.org/3/installing/index.html#installing-index">https://docs.python.org/3/installing/index.html#installing-index</a></p>
 </blockquote>

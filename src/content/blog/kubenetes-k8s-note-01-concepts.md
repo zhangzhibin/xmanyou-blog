@@ -11,7 +11,7 @@ slug: "kubenetes-k8s-note-01-concepts"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="1kubernetes">1. 什么是kubernetes？</h1>
+<!--kg-card-begin: markdown--><h2 id="1kubernetes">1. 什么是kubernetes？</h2>
 <p>Kubernetes，缩写为k8s，官方的自我介绍是：</p>
 <ul>
 <li><a href="https://kubernetes.io/zh/">https://kubernetes.io/zh/</a><br>
@@ -25,7 +25,7 @@ Production-Grade Container Scheduling and Management<br>
 Production-Grade，是云原生基金会（CNCF）项目成熟度标准中的最高标准。<br>
 <a href="https://www.cncf.io/projects/">https://www.cncf.io/projects/</a></p>
 </blockquote>
-<h2 id="k8s">k8s的竞品有哪些？</h2>
+<h3 id="k8s">k8s的竞品有哪些？</h3>
 <p>通过google的自动搜索提示，可以看到最经常拿来与k8s对比的项目/概念：</p>
 <p><img src="/content/images/2021/04/k8s_vs_docker_and_xxx.png" alt="k8s_vs_docker_and_xxx"></p>
 <p><img src="/content/images/2021/04/k8s_vs_xxx.png" alt="k8s_vs_xxx"></p>
@@ -36,54 +36,54 @@ Production-Grade，是云原生基金会（CNCF）项目成熟度标准中的最
 <li>自动化</li>
 <li>集群</li>
 </ul>
-<h1 id="2k8s">2. k8s的组件/概念/模块/对象</h1>
-<h2 id="21">2.1. 工具</h2>
+<h2 id="2k8s">2. k8s的组件/概念/模块/对象</h2>
+<h3 id="21">2.1. 工具</h3>
 <ul>
 <li>kubectl</li>
 <li>kubeadmin</li>
 <li>minikube</li>
 </ul>
-<h2 id="22">2.2. 集群相关</h2>
-<h3 id="1mastercontrolplane">1). 主控节点 master/control plane</h3>
+<h3 id="22">2.2. 集群相关</h3>
+<h4 id="1mastercontrolplane">1). 主控节点 master/control plane</h4>
 <ul>
 <li>Api Server</li>
 <li>Controller Manager</li>
 <li>Scheduler</li>
 <li>etcd</li>
 </ul>
-<h3 id="2workernode">2). 工作节点 worker/node</h3>
+<h4 id="2workernode">2). 工作节点 worker/node</h4>
 <ul>
 <li>container runtime</li>
 <li>kubelet</li>
 <li>kube-proxy</li>
 </ul>
-<h3 id="3">3). 插件</h3>
+<h4 id="3">3). 插件</h4>
 <ul>
 <li>DNS</li>
 <li>Web UI（控制面板）</li>
 <li>容器监控</li>
 <li>集群日志</li>
 </ul>
-<h2 id="23">2.3. 部署相关</h2>
-<h3 id="1pod">1). Pod</h3>
-<h3 id="2deployment">2). Deployment</h3>
-<h3 id="3replicateset">3). ReplicateSet</h3>
-<h2 id="24">2.4. 访问相关</h2>
-<h3 id="1service">1). Service</h3>
-<h3 id="2ingress">2). Ingress</h3>
-<h2 id="25">2.5. 配置相关</h2>
-<h3 id="1configmap">1). ConfigMap</h3>
-<h3 id="2secret">2). Secret</h3>
-<h2 id="26">2.6. 资源</h2>
-<h3 id="1">1). 数据存储</h3>
+<h3 id="23">2.3. 部署相关</h3>
+<h4 id="1pod">1). Pod</h4>
+<h4 id="2deployment">2). Deployment</h4>
+<h4 id="3replicateset">3). ReplicateSet</h4>
+<h3 id="24">2.4. 访问相关</h3>
+<h4 id="1service">1). Service</h4>
+<h4 id="2ingress">2). Ingress</h4>
+<h3 id="25">2.5. 配置相关</h3>
+<h4 id="1configmap">1). ConfigMap</h4>
+<h4 id="2secret">2). Secret</h4>
+<h3 id="26">2.6. 资源</h3>
+<h4 id="1">1). 数据存储</h4>
 <ul>
 <li>Volume</li>
 <li>PersistentVolume</li>
 <li>PersistentVolumeClaim</li>
 <li>StorageClass</li>
 </ul>
-<h2 id="27">2.7. 管理</h2>
-<h3 id="1namespace">1). NameSpace</h3>
-<h2 id="28">2.8. 其他</h2>
-<h3 id="1statefulset">1). StatefulSet</h3>
+<h3 id="27">2.7. 管理</h3>
+<h4 id="1namespace">1). NameSpace</h4>
+<h3 id="28">2.8. 其他</h3>
+<h4 id="1statefulset">1). StatefulSet</h4>
 <!--kg-card-end: markdown-->

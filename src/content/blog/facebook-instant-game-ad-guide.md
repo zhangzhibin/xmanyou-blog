@@ -15,7 +15,7 @@ authorSlug: "dev"
 <ul>
 <li>2021.1.28</li>
 </ul>
-<h1 id="1">1. 文档</h1>
+<h2 id="1">1. 文档</h2>
 <ul>
 <li>
 <p>Facebook 小游戏 SDK<br>
@@ -30,14 +30,14 @@ authorSlug: "dev"
 <a href="https://developers.facebook.com/docs/games/instant-games/guides/ads-monetization">https://developers.facebook.com/docs/games/instant-games/guides/ads-monetization</a></p>
 </li>
 </ul>
-<h1 id="2">2. 重要提示</h1>
-<h2 id="1">重要提示1</h2>
+<h2 id="2">2. 重要提示</h2>
+<h3 id="1">重要提示1</h3>
 <p>Facebook官方开发文档中的代码<strong>有坑</strong>，仅作为功能参考和测试，不要直接用在实际项目中。</p>
-<h2 id="2">重要提示2</h2>
+<h3 id="2">重要提示2</h3>
 <p>Facebook官方开发文档中的代码<strong>有坑</strong>，仅作为功能参考和测试，不要直接用在实际项目中。</p>
-<h2 id="3">重要提示3</h2>
+<h3 id="3">重要提示3</h3>
 <p>Facebook官方开发文档中的代码<strong>有坑</strong>，仅作为功能参考和测试，不要直接用在实际项目中。</p>
-<h1 id="3facebookadinstance">3. Facebook 广告实例(AdInstance)</h1>
+<h2 id="3facebookadinstance">3. Facebook 广告实例(AdInstance)</h2>
 <p>Facebook 广告分为</p>
 <ul>
 <li>插屏广告 InterstitialAd</li>
@@ -53,7 +53,7 @@ authorSlug: "dev"
 <li>加载 loadAsync</li>
 <li>播放 showAsync</li>
 </ul>
-<h2 id="31facebook">3.1. Facebook 广告的业务流程</h2>
+<h3 id="31facebook">3.1. Facebook 广告的业务流程</h3>
 <p><img src="/content/images/2021/01/fbig-adinstance-process.png" alt="fbig-adinstance-process"></p>
 <p>Facebook广告的典型业务流程分为以下几个步骤</p>
 <ul>
@@ -63,7 +63,7 @@ authorSlug: "dev"
 <li>4). 播放广告</li>
 <li>5). 结束</li>
 </ul>
-<h2 id="32adinstance">3.2. 广告实例AdInstance 的生命状态</h2>
+<h3 id="32adinstance">3.2. 广告实例AdInstance 的生命状态</h3>
 <p><img src="/content/images/2021/01/fbig-adinstance-life-status.png" alt="fbig-adinstance-life-status"></p>
 <p>一个广告实例的生命状态可以分为：</p>
 <ul>
@@ -79,19 +79,19 @@ authorSlug: "dev"
 <li>2). 注意处理**“有效播放中”**，在播放过程中的广告，不要进行其他操作。</li>
 <li>3). 已经播放过的广告实例，无论结果如何，都应舍弃，重新获取新的实例。</li>
 </ul>
-<h1 id="4">4. 常见错误</h1>
-<h2 id="40vpn">4.0. 网络与VPN问题</h2>
+<h2 id="4">4. 常见错误</h2>
+<h3 id="40vpn">4.0. 网络与VPN问题</h3>
 <p>如果VPN 太慢，容易出现各种奇怪的问题，例如相同的游戏，有的人可以播放广告，有的人不能播放。<br>
 所以，出现这类问题请先尝试使用一个稳定的VPN。<br>
 特别是免费VPN，由于使用的人太多，容易出问题。</p>
-<h2 id="41">4.1. 广告类型错误</h2>
+<h3 id="41">4.1. 广告类型错误</h3>
 <p>Facebook 广告分为插屏广告(InterstitialAd) 和 激励视频广告(RewardedVideo)，每种广告都有一组相应的API，如果广告ID与广告接口不匹配，会提示相应错误。</p>
 <p>接口参考</p>
 <ul>
 <li>FBInstant.getInterstitialAdAsync</li>
 <li>FBInstant.getRewardedVideoAsync</li>
 </ul>
-<h2 id="42client_unsupported_operation">4.2. 获取广告实例时，错误 CLIENT_UNSUPPORTED_OPERATION</h2>
+<h3 id="42client_unsupported_operation">4.2. 获取广告实例时，错误 CLIENT_UNSUPPORTED_OPERATION</h3>
 <ul>
 <li>解释<br>
 客户端不支持这个操作</li>
@@ -101,7 +101,7 @@ authorSlug: "dev"
 1). 提前检查是否支持该操作(FBInstant.getSupportedAPIs())。<br>
 2). 忽略该错误。</li>
 </ul>
-<h2 id="43ads_too_many_instances">4.3. 获取广告实例时，错误 ADS_TOO_MANY_INSTANCES</h2>
+<h3 id="43ads_too_many_instances">4.3. 获取广告实例时，错误 ADS_TOO_MANY_INSTANCES</h3>
 <ul>
 <li>解释<br>
 太多的广告实例。</li>
@@ -112,7 +112,7 @@ authorSlug: "dev"
 2). 如果加载成功，未进行播放的话，不要直接丢弃。<br>
 3). 注意处理“有效未加载”的状态，广告预加载的过程会比较慢，容易出现这种状态，这时候不要立即重新获取新实例。</li>
 </ul>
-<h2 id="44ads_no_fillinstantgamedoesnotpassminimumperformancestandards">4.4. 加载插屏广告时，错误 ADS_NO_FILL，详情  Instant Game does not pass Minimum Performance Standards</h2>
+<h3 id="44ads_no_fillinstantgamedoesnotpassminimumperformancestandards">4.4. 加载插屏广告时，错误 ADS_NO_FILL，详情  Instant Game does not pass Minimum Performance Standards</h3>
 <pre><code>
 &quot;code&quot;:&quot;ADS_NO_FILL&quot;,
 
@@ -145,7 +145,7 @@ authorSlug: "dev"
 </ul>
 <p>在小游戏后台可以查看当前的MAP值：<strong>Instant Games -&gt; Launch Status -&gt; Monthly Active Players</strong><br>
 <img src="/content/images/2021/01/fbig-adinstance-map.png" alt="fbig-adinstance-map"></p>
-<h2 id="45ads_no_fillnofill">4.5. 加载广告时，错误 ADS_NO_FILL，详情 No fill</h2>
+<h3 id="45ads_no_fillnofill">4.5. 加载广告时，错误 ADS_NO_FILL，详情 No fill</h3>
 <p><img src="/content/images/2021/01/fbig-adinstance-not-fill.png" alt="fbig-adinstance-not-fill"></p>
 <ul>
 <li>
@@ -167,7 +167,7 @@ authorSlug: "dev"
 4). 特别的，对于未上线游戏，如果其他设备能正常使用广告功能，可以暂时忽略该错误，等上线后再观察。</p>
 </li>
 </ul>
-<h2 id="46ads_frequent_load">4.6. 加载广告时，错误 ADS_FREQUENT_LOAD</h2>
+<h3 id="46ads_frequent_load">4.6. 加载广告时，错误 ADS_FREQUENT_LOAD</h3>
 <ul>
 <li>解释<br>
 广告加载太频繁</li>
@@ -177,7 +177,7 @@ authorSlug: "dev"
 不要过于频繁加载广告。</li>
 </ul>
 <p><strong>注意</strong> 是否正确处理了广告实例**“有效加载中”**的状态。（参考3.2. 广告实例状态）</p>
-<h2 id="47invalidadinstance">4.7. 播放广告时，错误 Invalid Ad Instance</h2>
+<h3 id="47invalidadinstance">4.7. 播放广告时，错误 Invalid Ad Instance</h3>
 <ul>
 <li>解释<br>
 错误的广告实例</li>
@@ -188,8 +188,8 @@ authorSlug: "dev"
 <li>参考代码<br>
 <img src="/content/images/2021/01/fbig-adinstance-show.png" alt="fbig-adinstance-show"></li>
 </ul>
-<h1 id="5">5. 其他事项</h1>
-<h2 id="51">5.1. 一些开发与调试建议</h2>
+<h2 id="5">5. 其他事项</h2>
+<h3 id="51">5.1. 一些开发与调试建议</h3>
 <ul>
 <li>
 <p>1). 尽量使用TypeScript,<br>
@@ -207,11 +207,11 @@ authorSlug: "dev"
 </ul>
 </li>
 </ul>
-<h2 id="52">5.2. 激励视频广告需要二次确认</h2>
+<h3 id="52">5.2. 激励视频广告需要二次确认</h3>
 <p>Facebook广告要求为激励视频广告添加二次确认，请在播放广告之前，设置对话框确认。</p>
 <p><img src="/content/images/2021/01/fbig-adinstance-confirm.png" alt="fbig-adinstance-confirm"></p>
-<h2 id="53vpn">5.3. 使用稳定的VPN网络</h2>
-<h1 id="">最后</h1>
+<h3 id="53vpn">5.3. 使用稳定的VPN网络</h3>
+<h2 id="">最后</h2>
 <p>祝大家都赚钱~</p>
 <p>有小游戏要发行到海外，赚美元，欢迎关注公众号，联系我。</p>
 <!--kg-card-end: markdown-->

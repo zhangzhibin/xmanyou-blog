@@ -11,7 +11,7 @@ slug: "android-pangle-sdk-unexpected-element-queries-found-in-manifest"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>最近一个老的安卓项目需要接入穿山甲广告SDK，按照文档，引入了SDK库以后，居然就报错了：</p>
 <pre><code>Execution failed for task ':app:processDebugResources'.
 &gt; Android resource linking failed
@@ -22,7 +22,7 @@ authorSlug: "dev"
 <p>但是，却怎么也没有找到！</p>
 <p><img src="/content/images/2021/04/android_studio_unexpected_queries_found_in_manifest_02.png" alt="android_studio_unexpected_queries_found_in_manifest_02"></p>
 <p>这是怎么回事呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>于是上google搜索。</p>
 <blockquote>
 <p><a href="https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error">https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error</a></p>

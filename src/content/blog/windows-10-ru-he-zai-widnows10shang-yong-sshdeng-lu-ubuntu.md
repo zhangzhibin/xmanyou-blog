@@ -11,14 +11,14 @@ slug: "windows-10-ru-he-zai-widnows10shang-yong-sshdeng-lu-ubuntu"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h3 id="">使用用户密码登录</h3>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><h2 id="">使用用户密码登录</h2>
 <ol>
 <li>打开Powershell</li>
 <li>用ssh &lt;远程主机用户名&gt;@&lt;远程主机ip或者域名&gt;<pre><code>ssh &lt;remote_username&gt;@&lt;remoteserver.ip&gt;
 </code></pre>
 <img src="/content/images/2019/03/Snipaste_2019-03-29_09-42-44.png" alt="Snipaste_2019-03-29_09-42-44"></li>
 </ol>
-<h3 id="">不使用用户密码</h3>
+<h2 id="">不使用用户密码</h2>
 <ol>
 <li>先创建ssh key<br>
 如果你已经装了git的客户端，可以参考

@@ -20,10 +20,10 @@ authorSlug: "dev"
 <p><img src="/content/images/2019/08/tensorflow.js_dqn_play_snake_game.png" alt="tensorflow.js_dqn_play_snake_game"></p>
 <p>我用Cocos Creator重写了一下：<br>
 <img src="/content/images/2019/08/cocos_creator_with_tensorflow.js_dqn_play_snake_game.png" alt="cocos_creator_with_tensorflow.js_dqn_play_snake_game"></p>
-<h3 id="">试玩</h3>
+<h2 id="">试玩</h2>
 <p>用手机扫以下二维码试玩<br>
 <img src="/content/images/2019/08/try_cocos_creator_with_tensorflow.js_dqn_play_snake_game.png" alt="try_cocos_creator_with_tensorflow.js_dqn_play_snake_game"></p>
-<h3 id="">参考</h3>
+<h2 id="">参考</h2>
 <ul>
 <li>更多TensorFlow.js的例子可以在GitHub上找到：</li>
 </ul>
@@ -37,7 +37,7 @@ authorSlug: "dev"
 <p><a href="https://www.tensorflow.org/js">https://www.tensorflow.org/js</a><br>
 <a href="https://github.com/tensorflow/tfjs">https://github.com/tensorflow/tfjs</a></p>
 </blockquote>
-<h3 id="">其他</h3>
+<h2 id="">其他</h2>
 <p>欢迎关注我的公众号：耿直的IT男阿斌<br>
 坚持每周一更，欢迎监督。</p>
 <p><img src="/content/images/2019/08/qrcode_for_unitymvp.jpg" alt="qrcode_for_unitymvp"></p>

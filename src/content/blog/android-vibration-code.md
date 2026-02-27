@@ -11,14 +11,14 @@ slug: "android-vibration-code"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">代码解析</h1>
+<!--kg-card-begin: markdown--><h2 id="">代码解析</h2>
 <ul>
 <li>第一步，先保存一个Context, Application或者Activity都可以</li>
 <li>第二步，通过getSystemService方法获取Vibrator对象</li>
 <li>第三步，对不同的系统版本调用不同的API</li>
 </ul>
 <p><strong>注意</strong> 手机上需要打开震动开关，否则会觉得没有效果。</p>
-<h1 id="">代码参考</h1>
+<h2 id="">代码参考</h2>
 <pre><code>public static void vibrate(int miniseconds){
     if(_app == null){
         return;

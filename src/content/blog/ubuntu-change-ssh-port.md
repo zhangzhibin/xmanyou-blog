@@ -50,7 +50,7 @@ tcp        0      0 0.0.0.0:6666           0.0.0.0:*               LISTEN      1
 </ul>
 <pre><code>ssh &lt;server-ip&gt; -p &lt;新端口&gt;
 </code></pre>
-<h1 id="">其他副作用</h1>
+<h2 id="">其他副作用</h2>
 <p>客户端连接时，如果发现以下错误：</p>
 <pre><code>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @

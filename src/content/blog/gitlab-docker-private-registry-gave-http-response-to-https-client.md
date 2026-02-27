@@ -11,7 +11,7 @@ slug: "gitlab-docker-private-registry-gave-http-response-to-https-client"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>在内网通过gitlab搭建了一个docker镜像库，但是在使用docker登录时，却报了这么个错误：</p>
 <pre><code>docker login 192.168.1.12:49264
 Username: zhangzhibin
@@ -26,7 +26,7 @@ Error response from daemon: Get https://192.168.1.12:49264/v2/: http: server gav
 <li>私有镜像库没有配置https的时候，默认返回的是http信息</li>
 </ul>
 <p>二者不一致。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <ol>
 <li>为镜像库配置https，并使用配置了https的地址去连接docker镜像库</li>
 <li>客户端允许http连接<br>

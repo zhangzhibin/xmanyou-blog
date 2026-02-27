@@ -11,21 +11,21 @@ slug: "node-app-docker-image-cannot-find-module"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>一个在Mac环境下运行正常的Node.js应用，打包成docker镜像，运行时报错：</p>
 <pre><code>Error: Cannot find module './pokerMgr'
 </code></pre>
 <p><img src="/content/images/2021/12/node-app-docker-image-cannot-find-module.png" alt="node-app-docker-image-cannot-find-module"></p>
 <p>这是为什么呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>仔细对比后发现，导出pokerMgr模块的文件名为：<code>pokermgr.js</code></p>
 <p>修改require代码为</p>
 <pre><code>var pokerMgr          = require('./pokermgr');
 </code></pre>
 <p>解决。</p>
-<h2 id="">总结</h2>
+<h3 id="">总结</h3>
 <p>如果是外部模块，需要检查是否正确安装。如果是本地模块，需要检查路径(含文件名)是否正确。</p>
-<h2 id="dockerfile">Dockerfile参考</h2>
+<h3 id="dockerfile">Dockerfile参考</h3>
 
 ```dockerfile
 FROM node:16

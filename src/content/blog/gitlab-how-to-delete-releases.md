@@ -11,10 +11,10 @@ slug: "gitlab-how-to-delete-releases"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>在测试gitlab 工作流时，产生了很多测试发布，占用了很多空间。</p>
 <p>那么，有什么办法删掉呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>步骤：</p>
 <ol>
 <li>
@@ -27,6 +27,6 @@ authorSlug: "dev"
 </ol>
 <p><img src="/content/images/2021/04/gitlab-remove-release-02-delete-label.png" alt="gitlab-remove-release-02-delete-label"></p>
 <p><img src="/content/images/2021/04/gitlab-remove-release-03-confirm-delete-label.png" alt="gitlab-remove-release-03-confirm-delete-label"></p>
-<h1 id="">其他</h1>
+<h2 id="">其他</h2>
 <p>这个方法同时也删掉了tag，如果想要保留tag，则需要用更复杂的方法了。</p>
 <!--kg-card-end: markdown-->

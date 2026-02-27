@@ -11,7 +11,7 @@ slug: "ubuntu-proxychains-resolve-github-ssl_eror_syscall"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>最近要在ubuntu上测试OpenFaaS的faasd，但是怎么都装不上，各种网络错误。</p>
 <p>要么连接github失败，要么网络异常中断。</p>
 <p>即使是在添加了http_proxy环境变量，依然是各种错误：</p>
@@ -24,7 +24,7 @@ Binary checksum didn't match. Exiting
 curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
 </code></pre>
 <p><img src="/content/images/2021/03/ubuntu-ssl-error-syscall-github-by-proxychains.png" alt="ubuntu-ssl-error-syscall-github-by-proxychains"></p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>我猜测是下载过程中，有些操作并没有走http_proxy这个设置，于是尝试搜索全局设置proxy。</p>
 <p>最后在v2ex上发现有人提到了proxychains这个工具，终于解决了这个问题。</p>
 <blockquote>

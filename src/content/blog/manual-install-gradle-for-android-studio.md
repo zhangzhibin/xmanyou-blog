@@ -11,9 +11,9 @@ slug: "manual-install-gradle-for-android-studio"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>有时候通过Android Studio安装gradle会非常慢，有没有办法可以自己下载并手动安装呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>具体步骤</p>
 <ol>
 <li>退出Android Studio进程</li>
@@ -32,7 +32,7 @@ authorSlug: "dev"
 
 </code></pre>
 <p>完成。</p>
-<h1 id="">其他</h1>
+<h2 id="">其他</h2>
 <p>该方法也适用于鸿蒙的开发工具(DevEco Studio)</p>
 <p>可能也适用于其他基于IntelliJ的IDE（仅猜测，未证实）</p>
 <!--kg-card-end: markdown-->

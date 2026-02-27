@@ -11,10 +11,10 @@ slug: "android-how-to-detect-apk-source-installer"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>最近游戏中接入了统计工具，但是发现安装量远比谷歌商店后台统计的要多。更重要的是，这些安装中，有相当一部分是旧版本的。于是，怀疑是不是有被抓包的情况。</p>
 <p>这就需要统计应用的安装来源。</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>通过packageManager可以获取相关信息：</p>
 <ul>
 <li>PackageManager.getInstallerPackageName(String)</li>
@@ -35,7 +35,7 @@ authorSlug: "dev"
         return installer;
     }
 </code></pre>
-<h2 id="">测试</h2>
+<h3 id="">测试</h3>
 <ul>
 <li>1). 如果是从Android Studio中直接安装，则installer为 null</li>
 <li>2). 如果将apk复制到手机上，然后再安装，则installer为 com.android.packageinstaller</li>

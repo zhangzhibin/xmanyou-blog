@@ -15,16 +15,16 @@ authorSlug: "dev"
 <pre><code>官网 https://www.openshot.org
 </code></pre>
 <p><img src="/content/images/2019/03/7a060e09-6595-417d-96cb-7562fdd4a873.jpg" alt="7a060e09-6595-417d-96cb-7562fdd4a873"></p>
-<h3 id="">问题</h3>
+<h2 id="">问题</h2>
 <p>OpenShot默认是不支持输出竖屏分辨率的视频的。<br>
 比如常用的1080P格式的视频分辨率是1920x1080。<br>
 如果游戏是竖屏的，想要输出1080x1920怎么办呢？</p>
-<h3 id="">答案</h3>
+<h2 id="">答案</h2>
 <p>答案是用Cusotm profile，自定义设置。</p>
 <p>参考</p>
 <pre><code>https://www.openshot.org/static/files/user-guide/profiles.html#custom-profile
 </code></pre>
-<h3 id="">方法</h3>
+<h2 id="">方法</h2>
 <ol>
 <li>找一个模板，比如 “HDV 1080 25p 1080x1920”。在Windows上的位置是：</li>
 </ol>

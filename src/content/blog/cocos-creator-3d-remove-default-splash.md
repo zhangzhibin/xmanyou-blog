@@ -11,20 +11,20 @@ slug: "cocos-creator-3d-remove-default-splash"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>Cocos Creator 3d打包输出后，会自动添加Cocos的插屏，并且强制显示3秒。<br>
 <img src="/content/images/2020/10/CocosCreator3d-default-splash.png" alt="CocosCreator3d-default-splash"></p>
 <p>这大大延长了游戏的启动速度，影响用户体验。</p>
 <p>有什么办法移除Cocos的闪屏呢？</p>
-<h1 id="">解决方法</h1>
-<h2 id="1">1. 官方方法</h2>
+<h2 id="">解决方法</h2>
+<h3 id="1">1. 官方方法</h3>
 <p>Cocos的文档中提到了如何移除插屏的方法</p>
 <blockquote>
 <p>文档：<a href="https://docs.cocos.com/creator3d/manual/zh/editor/publish/build-options.html?h=%E6%8F%92%E5%B1%8F">https://docs.cocos.com/creator3d/manual/zh/editor/publish/build-options.html?h=插屏</a></p>
 </blockquote>
 <p>只需要填写一个调查问卷即可使用移除插屏的功能：<br>
 <img src="/content/images/2020/10/CocosCreator3d-remove-splash-01.png" alt="CocosCreator3d-remove-splash-01"></p>
-<h2 id="2">2. 修改引擎代码</h2>
+<h3 id="2">2. 修改引擎代码</h3>
 <p>也可以选择修改插屏相关代码：</p>
 <p>文件路径: engine/cocos/core/splash-screen.ts</p>
 <pre><code>        console.info(&quot;......&quot;);

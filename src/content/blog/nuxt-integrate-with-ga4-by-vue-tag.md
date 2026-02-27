@@ -11,7 +11,7 @@ slug: "nuxt-integrate-with-ga4-by-vue-tag"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>Nuxt.js是基于Vue.js开发的web服务器，提供了多种的渲染方式，包括SSR服务端渲染，静态渲染，支持多页面和单页面应用。</p>
 <p>另外，Nuxt.js官方和社区也提供了大量的组件来扩展Nuxt.js的功能：</p>
 <blockquote>
@@ -27,13 +27,13 @@ authorSlug: "dev"
 <p><a href="https://github.com/nuxt-community/google-gtag-module">https://github.com/nuxt-community/google-gtag-module</a></p>
 </blockquote>
 <p>有什么办法集成谷歌分析GA4呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>解决方法就是利用vue-tag以及Nuxt.js的自定义插件plugin来实现。</p>
 <blockquote>
 <p><a href="https://nuxtjs.org/docs/directory-structure/plugins#vue-plugins">https://nuxtjs.org/docs/directory-structure/plugins#vue-plugins</a></p>
 </blockquote>
-<h2 id="nuxtjsga4plugin">为nuxt.js添加ga4 plugin的详细步骤</h2>
-<h3 id="1vuetag">1). 引入vue-tag</h3>
+<h3 id="nuxtjsga4plugin">为nuxt.js添加ga4 plugin的详细步骤</h3>
+<h4 id="1vuetag">1). 引入vue-tag</h4>
 <p><strong>注意</strong><br>
 新版本的vue-tag需要vue3支持，而nuxt还是vue2，所以需要使用以下这个库：</p>
 <blockquote>
@@ -46,7 +46,7 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://github.com/MatteoGabriele/vue-gtag-next">https://github.com/MatteoGabriele/vue-gtag-next</a></p>
 </blockquote>
-<h3 id="2gtag">2).编写gtag插件</h3>
+<h4 id="2gtag">2).编写gtag插件</h4>
 <pre><code>import Vue from 'vue'
 import VueGtag from 'vue-gtag'
 
@@ -54,7 +54,7 @@ Vue.use(VueGtag, {
   config: { id: 'G-XXXXXXXXXX' }  // 这里修改为你的gtag id，应该是G开头的。
 });
 </code></pre>
-<h3 id="3">3). 测试</h3>
+<h4 id="3">3). 测试</h4>
 <p>开启谷歌分析插件，打开网页，在开发者工具的console里看到以下内容就表示成功了：<br>
 <img src="/content/images/2021/09/nuxt-plus-gtag.png" alt="nuxt-plus-gtag"></p>
 <!--kg-card-end: markdown-->

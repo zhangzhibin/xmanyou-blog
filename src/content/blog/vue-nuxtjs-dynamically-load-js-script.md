@@ -11,7 +11,7 @@ slug: "vue-nuxtjs-dynamically-load-js-script"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>如果把项目中的一些功能打包成js文件，以sdk的方式提供给前端页面使用，这样，在sdk更新时不需要重新打包部署项目，大大降低了耦合度，提高了灵活性。</p>
 <p>在直接使用html编写web项目时，通过在html文件中添加<code>&lt;script&gt;</code>标签来引入js文件，可以非常简单实现这个功能。</p>
 <p>但是，在Nuxt.js项目中，要如何实现呢？</p>
@@ -27,7 +27,7 @@ authorSlug: "dev"
 <p>参考：《Vue加载器细则》 <a href="https://vue-loader-v14.vuejs.org/zh-cn/start/spec.html">https://vue-loader-v14.vuejs.org/zh-cn/start/spec.html</a></p>
 </blockquote>
 <p>那么有什么办法呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>这个问题的解决方法很多，例如：</p>
 <ul>
 <li>1). 使用vue应用的模板文件<code>app.html</code>，如果你的sdk需要在所有的页面里使用，可以用这种方式。这种方法是个全局方案，灵活度很差。</li>
@@ -49,12 +49,12 @@ authorSlug: "dev"
 </blockquote>
 <p><img src="/content/images/2021/11/nuxtjs-lifecycle.png" alt="nuxtjs-lifecycle"></p>
 <p>可以看到，<strong>mounted</strong>方法是最早最适合添加动态js代码的地方。</p>
-<h2 id="">注意事项</h2>
+<h3 id="">注意事项</h3>
 <ul>
 <li>1). created方法时，document还没有被创建，所以无法用来动态加载代码。</li>
 <li>2). 与普通html页面不同，由于vue的特性，mounted中动态加载js脚本，即使没有设置async异步加载，也不会在下一行代码之前加载完成，所以，<strong>需要添加onload方法来判定js脚本是否加载完毕</strong>，之后才能进行相关操作。</li>
 </ul>
-<h2 id="">参考代码</h2>
+<h3 id="">参考代码</h3>
 <p>所以，vue页面的参考代码如下：</p>
 <pre><code>&lt;template&gt;
 
@@ -109,7 +109,7 @@ authorSlug: "dev"
 
 &lt;/script&gt;
 </code></pre>
-<h1 id="">参考</h1>
+<h2 id="">参考</h2>
 <ul>
 <li><a href="https://vue-loader-v14.vuejs.org/zh-cn/start/spec.html">https://vue-loader-v14.vuejs.org/zh-cn/start/spec.html</a></li>
 <li><a href="https://cn.vuejs.org/v2/guide/instance.html">https://cn.vuejs.org/v2/guide/instance.html</a></li>

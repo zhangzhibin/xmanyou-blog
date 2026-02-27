@@ -11,21 +11,21 @@ slug: "kubernetes-how-to-create-a-k8s-cluster-with-kubeadm-on-ubuntu"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="1k8s">1. 准备k8s环境</h1>
-<h2 id="11">1.1. 主机配置</h2>
+<!--kg-card-begin: markdown--><h2 id="1k8s">1. 准备k8s环境</h2>
+<h3 id="11">1.1. 主机配置</h3>
 <ul>
 <li>全新主机: 2cpu + 2g RAM</li>
 <li>系统: linux系统，例如ubuntu 20</li>
 <li>节点之间可以通过网络访问</li>
 </ul>
 <p>本例使用ESXi创建了3个主机，1个用作主节点，其他2个作为工作节点。</p>
-<h2 id="12dockerdocker">1.2. 安装docker和docker运行环境</h2>
-<h3 id="1containerddocker">1). 安装 containerd + docker</h3>
+<h3 id="12dockerdocker">1.2. 安装docker和docker运行环境</h3>
+<h4 id="1containerddocker">1). 安装 containerd + docker</h4>
 <p>参考：</p>
 <blockquote>
 <p><a href="https://xmanyou.com/a-li-yun-ubuntu-ecs-install-dockerhe-docker-compose-manually/">https://xmanyou.com/a-li-yun-ubuntu-ecs-install-dockerhe-docker-compose-manually/</a></p>
 </blockquote>
-<h3 id="2cgroup">2). 配置cgroup驱动</h3>
+<h4 id="2cgroup">2). 配置cgroup驱动</h4>
 <p>参考：</p>
 <blockquote>
 <p><a href="https://kubernetes.io/zh/docs/setup/production-environment/container-runtimes/">https://kubernetes.io/zh/docs/setup/production-environment/container-runtimes/</a></p>
@@ -88,7 +88,7 @@ sudo systemctl enable docker
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
-<h1 id="2kubeadmkubectlkubelet">2. 安装kubeadm/kubectl/kubelet</h1>
+<h2 id="2kubeadmkubectlkubelet">2. 安装kubeadm/kubectl/kubelet</h2>
 <p>参考</p>
 <blockquote>
 <p><a href="https://kubernetes.io/zh/docs/setup/production-environment/tools/kubeadm/install-kubeadm/">https://kubernetes.io/zh/docs/setup/production-environment/tools/kubeadm/install-kubeadm/</a></p>
@@ -124,7 +124,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 <p><strong>注意</strong><br>
 安装完后，kubelet 现在每隔几秒就会重启，因为它陷入了一个等待 kubeadm 指令的死循环。<br>
 可以不用管。</p>
-<h1 id="3pod">3. 选择一个pod网络组件</h1>
+<h2 id="3pod">3. 选择一个pod网络组件</h2>
 <p>参考：</p>
 <blockquote>
 <p><a href="https://kubernetes.io/zh/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network">https://kubernetes.io/zh/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network</a></p>
@@ -147,12 +147,12 @@ sudo apt-get install -y kubelet kubeadm kubectl
 <p><strong>特别注意</strong><br>
 如果用Flannel，在下一步进行初始化时，需要指定--pod-network-cidr参数。</p>
 <p><img src="/content/images/2021/05/k8s-install-guide-flannel.png" alt="k8s-install-guide-flannel"></p>
-<h1 id="4k8s">4. 初始化k8s集群，并添加首个控制平面</h1>
-<h2 id="41swap">4.1. 关闭swap功能</h2>
+<h2 id="4k8s">4. 初始化k8s集群，并添加首个控制平面</h2>
+<h3 id="41swap">4.1. 关闭swap功能</h3>
 <p>初始化前需要先关闭swap功能</p>
 <pre><code>sudo swapoff -a
 </code></pre>
-<h2 id="42kubeadminit">4.2. kubeadm init</h2>
+<h3 id="42kubeadminit">4.2. kubeadm init</h3>
 <p>在第一个master节点主机上执行初始化命令，进行集群初始化，并添加第一个master节点，也就是Control Plane控制平面。</p>
 <pre><code>sudo kubeadm init
 </code></pre>
@@ -209,7 +209,7 @@ and service account keys on each node and then running the following as root:</l
 kubeadm join k8s-master:6443 --token b37k0g.ojwzjqa6jfse4474 \
     --discovery-token-ca-cert-hash sha256:8d1b76a8ddb05b0865d90564d693e575bebecc46651af519c3a824d4a272e36f
 </code></pre>
-<h2 id="43kubectl">4.3. 设置kubectl</h2>
+<h3 id="43kubectl">4.3. 设置kubectl</h3>
 <p>根据提示，有2种方式，</p>
 <ul>
 <li>1). 对于非root用户</li>
@@ -234,7 +234,7 @@ NAME            STATUS      ROLES                  AGE   VERSION
 k8s-master-01   NotReady    control-plane,master   ---   v1.21.0
 </code></pre>
 <p>STATUS状态应该是NotReady，因为需要继续配置Pod网络组件。</p>
-<h2 id="44pod">4.4. 配置Pod网络组件</h2>
+<h3 id="44pod">4.4. 配置Pod网络组件</h3>
 <pre><code>Run &quot;kubectl apply -f [podnetwork].yaml&quot; with one of the options listed at:
   https://kubernetes.io/docs/concepts/cluster-administration/addons/
 </code></pre>
@@ -248,8 +248,8 @@ k8s-master-01   NotReady    control-plane,master   ---   v1.21.0
 NAME            STATUS   ROLES                  AGE   VERSION
 k8s-master-01   Ready    control-plane,master   ---   v1.21.0
 </code></pre>
-<h1 id="5worker">5. 加入worker工作节点</h1>
-<h2 id="51">5.1. 环境准备</h2>
+<h2 id="5worker">5. 加入worker工作节点</h2>
+<h3 id="51">5.1. 环境准备</h3>
 <ul>
 <li>0). 全新主机</li>
 <li>1). 安装docker环境，(参考：1.2. 安装docker和docker运行环境)</li>
@@ -257,7 +257,7 @@ k8s-master-01   Ready    control-plane,master   ---   v1.21.0
 <li>3). 关闭swap (参考：4.1. 关闭swap功能)</li>
 <li>4). 保证能访问到control-plane节点，特别是初始化时指定了control-plane-endpoint的情况</li>
 </ul>
-<h2 id="52k8s">5.2. 加入k8s集群</h2>
+<h3 id="52k8s">5.2. 加入k8s集群</h3>
 <p>使用kubeadm join可以添加节点(包括worker和control-plane节点)到集群中。</p>
 <p>命令格式：</p>
 <pre><code>kubeadm join &lt;control-plane address&gt;:&lt;port(默认6443)&gt; \
@@ -275,7 +275,7 @@ k8s-master-01   Ready    control-plane,master   ---   v1.21.0
 <p>并在日志的最后，提示到控制平面节点来检查状态</p>
 <pre><code>Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 </code></pre>
-<h2 id="53">5.3. 检查节点状态</h2>
+<h3 id="53">5.3. 检查节点状态</h3>
 <p>在控制平面节点上运行：</p>
 <pre><code>kubectl get nodes
 NAME            STATUS   ROLES                  AGE   VERSION
@@ -284,17 +284,17 @@ k8s-node-01     Ready    &lt;none&gt;                 15h   v1.21.0
 k8s-node-02     Ready    &lt;none&gt;                 15h   v1.21.0
 </code></pre>
 <p>如果状态都为Ready，表示一切顺利。</p>
-<h1 id="6">6.如果安装失败了...</h1>
+<h2 id="6">6.如果安装失败了...</h2>
 <p>不要慌，可以尝试重置，并重新安装：</p>
 <pre><code>sudo kubeadm reset
 </code></pre>
 <p>如果是第一个control-plane控制平面节点就失败了，需要重置所有的节点。如果只是worker节点失败，只重置这个就行了。</p>
-<h1 id="6sonobuoy">6. 使用sonobuoy检查状态</h1>
+<h2 id="6sonobuoy">6. 使用sonobuoy检查状态</h2>
 <p>参考:</p>
 <blockquote>
 <p><a href="https://github.com/vmware-tanzu/sonobuoy">https://github.com/vmware-tanzu/sonobuoy</a></p>
 </blockquote>
-<h1 id="7">7. 测试</h1>
+<h2 id="7">7. 测试</h2>
 <p>可以快速部署一个微服务应用来测试一下k8s的使用：</p>
 <blockquote>
 <p><a href="https://github.com/microservices-demo/microservices-demo">https://github.com/microservices-demo/microservices-demo</a></p>
@@ -337,7 +337,7 @@ user-db        ClusterIP   10.110.108.10    &lt;none&gt;        27017/TCP      1
 <p>http://&lt;control-plane地址&gt;:30001</p>
 </blockquote>
 <p><img src="/content/images/2021/05/k8s-install-guide-view-sock-shop.png" alt="k8s-install-guide-view-sock-shop"></p>
-<h1 id="8">8. 其他</h1>
+<h2 id="8">8. 其他</h2>
 <p>现在，一个单控制平面+多工作节点的k8s集群，就基本完成了。但是，还有更多任务要继续探索：</p>
 <ul>
 <li>1). 增加更多控制平面节点，来实现高可用</li>
@@ -349,7 +349,7 @@ user-db        ClusterIP   10.110.108.10    &lt;none&gt;        27017/TCP      1
 <li>7). 如何部署自己的服务</li>
 <li>8). ...</li>
 </ul>
-<h1 id="9">9. 参考</h1>
+<h2 id="9">9. 参考</h2>
 <p>本教程主要参考：</p>
 <ul>
 <li>1). kubernetes官方教程，非常详细，还有中文:《使用 kubeadm 创建集群》</li>
@@ -369,6 +369,6 @@ user-db        ClusterIP   10.110.108.10    &lt;none&gt;        27017/TCP      1
 <blockquote>
 <p><a href="https://www.gremlin.com/community/tutorials/how-to-create-a-kubernetes-cluster-on-ubuntu-16-04-with-kubeadm-and-weave-net/">https://www.gremlin.com/community/tutorials/how-to-create-a-kubernetes-cluster-on-ubuntu-16-04-with-kubeadm-and-weave-net/</a></p>
 </blockquote>
-<h1 id="10">10. 感谢</h1>
+<h2 id="10">10. 感谢</h2>
 <p>感谢团队的小伙伴陪我一起开荒k8s，帮我解决了很多问题，节省了大量时间和精力，最重要的，让我知道我不是在孤军奋战。</p>
 <!--kg-card-end: markdown-->

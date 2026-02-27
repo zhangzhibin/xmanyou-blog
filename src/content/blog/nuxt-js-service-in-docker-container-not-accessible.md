@@ -11,12 +11,12 @@ slug: "nuxt-js-service-in-docker-container-not-accessible"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
+<!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>nuxt.js项目打包后，制作成docker镜像，映射默认端口3000到3000，启动以后，访问</p>
 <pre><code>http://localhost:3000
 </code></pre>
 <p>结果无法访问，这是为什么呢？</p>
-<h1 id="">解决方法</h1>
+<h2 id="">解决方法</h2>
 <p>原来，根据nuxt文档，nuxt服务默认是运行在localhost:3000上，直接在本机运行，是可以正常访问的。</p>
 <blockquote>
 <p><a href="https://nuxtjs.org/docs/2.x/features/configuration#edit-host-and-port">https://nuxtjs.org/docs/2.x/features/configuration#edit-host-and-port</a><br>
@@ -24,33 +24,33 @@ By default, the Nuxt.js development server host is localhost  which is only acce
 </blockquote>
 <p>但是，制作成docker镜像以后，就只能在容器内部访问了。</p>
 <p>修改方法有两种</p>
-<h2 id="1nuxtconfigjsserverhost">方法1.修改nuxt.config.js的server.host</h2>
+<h3 id="1nuxtconfigjsserverhost">方法1.修改nuxt.config.js的server.host</h3>
 <p>在nuxt.config.js文件中，增加以下:</p>
 <pre><code>  server: {
     host: '0' // default: localhost
   }
 </code></pre>
 <p>重新制作nuxt镜像，或者映射修改后的nuxt.config文件到容器，重新运行即可。</p>
-<h2 id="2dockerfilehost">方法2.在Dockerfile中设置HOST环境变量</h2>
+<h3 id="2dockerfilehost">方法2.在Dockerfile中设置HOST环境变量</h3>
 <p>添加以下命令</p>
 <pre><code>ENV HOST 0.0.0.0
 </code></pre>
 <p>或者在运行容器时，添加环境变量</p>
 <pre><code>--env HOST=0
 </code></pre>
-<h2 id="">其他</h2>
+<h3 id="">其他</h3>
 <p>注意，如果不设置host，nuxt也仅限本机访问，在同一个网络里的其他机器也是无法访问的，这与docker容器的情况是一样的。</p>
 <p>开发环境想要其他机器可以访问，在不改配置的情况下，可以使用以下命令：</p>
 <pre><code>HOST=0 PORT=3000 yarn dev
 </code></pre>
-<h1 id="">参考</h1>
+<h2 id="">参考</h2>
 <ul>
 <li><a href="https://nuxtjs.org/docs/2.x/features/configuration#edit-host-and-port">https://nuxtjs.org/docs/2.x/features/configuration#edit-host-and-port</a></li>
 <li><a href="https://www.nuxtjs.cn/faq/host-port">https://www.nuxtjs.cn/faq/host-port</a></li>
 <li><a href="https://segmentfault.com/a/1190000010396645">https://segmentfault.com/a/1190000010396645</a></li>
 <li><a href="https://github.com/wsdo/docker-nuxt/blob/master/Dockerfile">https://github.com/wsdo/docker-nuxt/blob/master/Dockerfile</a></li>
 </ul>
-<h1 id="nuxtjsdockerfile">贡献一个nuxt.js的Dockerfile</h1>
+<h2 id="nuxtjsdockerfile">贡献一个nuxt.js的Dockerfile</h2>
 <p><strong>注意</strong></p>
 <ul>
 <li>设置srcDir</li>
@@ -62,7 +62,7 @@ By default, the Nuxt.js development server host is localhost  which is only acce
 </ul>
 <pre><code>yarn build
 </code></pre>
-<h2 id="dockerfile">完整Dockerfile</h2>
+<h3 id="dockerfile">完整Dockerfile</h3>
 ```dockerfile
 FROM node:14-alpine
 
@@ -85,7 +85,7 @@ ADD .nuxt ./.nuxt
 ENTRYPOINT ["npx", "nuxt-start"]
 EXPOSE 3000
 ```
-<h2 id="nuxtconfigjs">完整nuxt.config.js</h2>
+<h3 id="nuxtconfigjs">完整nuxt.config.js</h3>
 <pre><code>export default {
   srcDir: 'src/',
 
