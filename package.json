@@ -6,7 +6,8 @@
     "dev": "lsof -ti :4321 | xargs kill -9 2>/dev/null; lsof -ti :4322 | xargs kill -9 2>/dev/null; astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "migrate": "node scripts/ghost-to-astro.mjs"
+    "migrate": "node scripts/ghost-to-astro.mjs",
+    "deploy": "node scripts/deploy.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
