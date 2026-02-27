@@ -21,7 +21,7 @@ authorSlug: "dev"
 <p>TestFlight是苹果公司为<strong>应用开发者</strong>提供的一个<strong>测试</strong>平台。</p>
 <p>TestFlight App应用，也是一个应用，与苹果商店App(App Store App)类似，它可以用来下载应用，但是只能是测试版应用。</p>
 <p>所以，可以简单理解为，App Store是正式版商店，而TestFlight是测试版商店。</p>
-<p><img src="/images/2021/09/TestFlight-vs-App-Store.png" alt="TestFlight-vs-App-Store"></p>
+<p><img src="/content/images/2021/09/TestFlight-vs-App-Store.png" alt="TestFlight-vs-App-Store"></p>
 <h1 id="2testflight">2. 为什么要有TestFlight？</h1>
 <p>TestFlight，就像名字所提示的，是用来给开发人员“试飞”的，是个beta版本应用的测试平台。</p>
 <h2 id="21testflight">2.1. 在TestFlight之前</h2>

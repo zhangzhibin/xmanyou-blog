@@ -21,16 +21,16 @@ authorSlug: "dev"
 <p>今年（2019年），小米推出了小米手环4，其中NFC版本据说可以当公交卡用。</p>
 <p>我就很心动，想着弄一个平时中午走路的时候可以计步看心率，偶尔坐公交还不用掏手机或者公交卡，应该挺方便的。</p>
 <p>于是就整了一个。</p>
-<p><img src="/images/2019/09/mi_band_4_nfc_01.jpeg" alt="mi_band_4_nfc_01"></p>
+<p><img src="/content/images/2019/09/mi_band_4_nfc_01.jpeg" alt="mi_band_4_nfc_01"></p>
 <p>通知提醒、测心率、睡眠监测、计步什么，自然就不用说了。</p>
 <p>我最好奇的是，到底能不能刷厦门公交。<br>
 网上搜了一下，据说是可以，但是，能否像e卡通一样打折呢？网上没有任何说法。</p>
 <p>于是，我就当了一下小白鼠。</p>
 <h3 id="">开卡</h3>
 <p>打开小米运动APP发现，小米手环4是不直接支持厦门e卡通的。</p>
-<p><img src="/images/2019/09/mi_band_4_nfc_03.jpeg" alt="mi_band_4_nfc_03"></p>
+<p><img src="/content/images/2019/09/mi_band_4_nfc_03.jpeg" alt="mi_band_4_nfc_03"></p>
 <p>我又不死心，发现“<strong>京津冀互联互通卡</strong>”里有<strong>厦门</strong>的选项：</p>
-<p><img src="/images/2019/09/mi_band_4_nfc_04.png" alt="mi_band_4_nfc_04"></p>
+<p><img src="/content/images/2019/09/mi_band_4_nfc_04.png" alt="mi_band_4_nfc_04"></p>
 <blockquote>
 <p>小米官网可以查询城市列表<br>
 <a href="https://www.mi.com/shouhuan4nfc/city/">https://www.mi.com/shouhuan4nfc/city/</a></p>
@@ -48,6 +48,6 @@ authorSlug: "dev"
 <p>这是刷上了？还是像过安检一样，只是被呼出来，然后需要再刷一次？</p>
 <p>于是，我就又刷了一下，这次，我不仅听到了，还看到了，确实刷上了，而且</p>
 <p><strong>余额少了整整2块钱！！！</strong></p>
-<p><img src="/images/2019/09/mi_band_4_nfc_02.jpeg" alt="mi_band_4_nfc_02"></p>
+<p><img src="/content/images/2019/09/mi_band_4_nfc_02.jpeg" alt="mi_band_4_nfc_02"></p>
 <p>额的神咧~~~~</p>
 <!--kg-card-end: markdown-->

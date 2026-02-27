@@ -11,5 +11,5 @@ slug: "ying-zi-lai-liao-liao-jie-yi-xia"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/08/1280x720-1-.png" alt="1280x720-1-"></p>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/content/images/2018/08/1280x720-1-.png" alt="1280x720-1-"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

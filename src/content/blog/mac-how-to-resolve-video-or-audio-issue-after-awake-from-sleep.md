@@ -13,7 +13,7 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
 <p>自从Mac电脑升级了某个版本以后，比如BigSur，就有一个很奇葩的问题：</p>
-<p><img src="/images/2021/09/macOS-BigSur.png" alt="macOS-BigSur"></p>
+<p><img src="/content/images/2021/09/macOS-BigSur.png" alt="macOS-BigSur"></p>
 <p>如果电脑在播放音乐的时候休眠了，下次唤醒以后，有很大的概率，出现以下灵异事件：</p>
 <ul>
 <li>视频无法正常播放，会以极快的速度播放，瞬间播放完毕，包括任何应用中的视频，腾讯视频，微信视频，甚至用苹果自家的QuickTime播放本地视频也不行</li>

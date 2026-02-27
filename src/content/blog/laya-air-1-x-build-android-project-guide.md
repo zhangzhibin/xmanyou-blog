@@ -55,10 +55,10 @@ authorSlug: "dev"
 </blockquote>
 <ul>
 <li>1). 从Laya Air IDE打开“app 构建”对话框<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-from-ide.png" alt="laya-air-export-android-studio-project-from-ide"></li>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-from-ide.png" alt="laya-air-export-android-studio-project-from-ide"></li>
 <li>2). 下载要用的Native版本模板，建议用能选的最新版本。<br>
 截图为演示<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-download-layanative-template.png" alt="laya-air-export-android-studio-project-download-layanative-template"></li>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-download-layanative-template.png" alt="laya-air-export-android-studio-project-download-layanative-template"></li>
 <li>3). 配置好项目内容
 <ul>
 <li>项目类型：建议选Android studio</li>
@@ -69,7 +69,7 @@ authorSlug: "dev"
 </ul>
 </li>
 </ul>
-<p><img src="/images/2020/10/laya-air-export-android-studio-project-build-native-app-localgame.png" alt="laya-air-export-android-studio-project-build-native-app-localgame"></p>
+<p><img src="/content/images/2020/10/laya-air-export-android-studio-project-build-native-app-localgame.png" alt="laya-air-export-android-studio-project-build-native-app-localgame"></p>
 <h1 id="32">3.2. 使用命令行工具导出</h1>
 <p>使用layanative createapp，也可以导出native项目，具体可以查看帮助</p>
 <pre><code>layanative createapp --help
@@ -90,7 +90,7 @@ authorSlug: "dev"
 </ul>
 <pre><code>&lt;meta name=&quot;laya&quot; screenorientation=&quot;portrait&quot; /&gt;
 </code></pre>
-<p><img src="/images/2020/10/laya-air-export-android-studio-project-screen-orientation.png" alt="laya-air-export-android-studio-project-screen-orientation"></p>
+<p><img src="/content/images/2020/10/laya-air-export-android-studio-project-screen-orientation.png" alt="laya-air-export-android-studio-project-screen-orientation"></p>
 <ul>
 <li>2). menifest</li>
 </ul>
@@ -102,11 +102,11 @@ authorSlug: "dev"
 <p>如果你要运行3D功能，必须要开启WebGL，不然会报错：</p>
 <pre><code>Laya3D init error, must support webGL    
 </code></pre>
-<p><img src="/images/2020/10/laya-air-export-android-studio-project-webgl-not-support-1.png" alt="laya-air-export-android-studio-project-webgl-not-support-1"></p>
+<p><img src="/content/images/2020/10/laya-air-export-android-studio-project-webgl-not-support-1.png" alt="laya-air-export-android-studio-project-webgl-not-support-1"></p>
 <p>修改 app/assets/scripts/config.js文件，添加</p>
 <pre><code>window.ConchRenderType = 6;
 </code></pre>
-<p><img src="/images/2020/10/laya-air-export-android-studio-project-enable-webgl-3d.png" alt="laya-air-export-android-studio-project-enable-webgl-3d"></p>
+<p><img src="/content/images/2020/10/laya-air-export-android-studio-project-enable-webgl-3d.png" alt="laya-air-export-android-studio-project-enable-webgl-3d"></p>
 <h1 id="5java">5. 与Java交互</h1>
 <h2 id="51jsjava">5.1. JS 调用 Java</h2>
 <blockquote>
@@ -179,7 +179,7 @@ PlatformObject.callWithBack
 <pre><code>ExportJavaFunction.CallBackToJS
 </code></pre>
 <p>举个例子<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-callWithBack-CallBackToJS.png" alt="laya-air-export-android-studio-project-callWithBack-CallBackToJS"></p>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-callWithBack-CallBackToJS.png" alt="laya-air-export-android-studio-project-callWithBack-CallBackToJS"></p>
 <h2 id="52javajs">5.2. Java调用JS</h2>
 <p>使用ConchJNI.RunJS可以直接执行一段js代码</p>
 <pre><code>ConchJNI.RunJS(&quot;alert('hello world')&quot;);
@@ -188,32 +188,32 @@ PlatformObject.callWithBack
 <h2 id="61x86jnilibs">6.1. 打包前移除x86 jniLibs库</h2>
 <ul>
 <li>路径：studio中路径 app/jniLibs/x86<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-remove-x86-jnilib.png" alt="laya-air-export-android-studio-project-remove-x86-jnilib"></li>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-remove-x86-jnilib.png" alt="laya-air-export-android-studio-project-remove-x86-jnilib"></li>
 </ul>
 <p>注意：实际在文件系统中的路径是 app/libs/x86<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-x86-lib-fs-path.png" alt="laya-air-export-android-studio-project-x86-lib-fs-path"><br>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-x86-lib-fs-path.png" alt="laya-air-export-android-studio-project-x86-lib-fs-path"><br>
 <strong>注意:</strong> 不删除的话，提交到Google Play时报错：<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-gp-error.png" alt="laya-air-export-android-studio-project-gp-error"></p>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-gp-error.png" alt="laya-air-export-android-studio-project-gp-error"></p>
 <h2 id="62">6.2. 修改启动画面</h2>
 <blockquote>
 <p>文档：<a href="https://ldc.layabox.com/doc/?nav=zh-as-7-1-5">https://ldc.layabox.com/doc/?nav=zh-as-7-1-5</a></p>
 </blockquote>
 <ul>
 <li>默认的启动画面是Laya的Logo<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-splash.png" alt="laya-air-export-android-studio-project-splash"></li>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-splash.png" alt="laya-air-export-android-studio-project-splash"></li>
 <li>对话框的配置：app/res/layout/splash_dialog.xml</li>
 <li>默认的splash素材：app/res/drawable/layabox.png<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-splash02.png.png" alt="laya-air-export-android-studio-project-splash02.png"><br>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-splash02.png.png" alt="laya-air-export-android-studio-project-splash02.png"><br>
 可以替换成自己的启动图，并适当修改显示尺寸和背景颜色。</li>
 </ul>
 <h2 id="63">6.3. 修改加载提示</h2>
 <ul>
 <li>1). 加载提示文字<br>
 默认的加载提示是很中二的中文提示，修改app/assets/scripts/config.js中以下代码，来替换成自己的文字。<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-loading.png" alt="laya-air-export-android-studio-project-loading"></li>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-loading.png" alt="laya-air-export-android-studio-project-loading"></li>
 <li>2). 加载显示方式<br>
 如果不想显示加载的百分比，或者显示方式，可以进一步修改 app/java/SplashDialog类<br>
-<img src="/images/2020/10/laya-air-export-android-studio-project-loading02.png" alt="laya-air-export-android-studio-project-loading02"></li>
+<img src="/content/images/2020/10/laya-air-export-android-studio-project-loading02.png" alt="laya-air-export-android-studio-project-loading02"></li>
 <li>3). 其他<br>
 如果想进一步修改，比如添加加载进度条，可以参考文档</li>
 </ul>
@@ -229,7 +229,7 @@ PlatformObject.callWithBack
         //initEngine();
 </code></pre>
 <p>示例</p>
-<p><img src="/images/2020/10/laya-air-export-android-studio-project-init-engine.png" alt="laya-air-export-android-studio-project-init-engine"></p>
+<p><img src="/content/images/2020/10/laya-air-export-android-studio-project-init-engine.png" alt="laya-air-export-android-studio-project-init-engine"></p>
 <h2 id="65">6.5. 其他工作</h2>
 <ul>
 <li>1). 替换icon</li>

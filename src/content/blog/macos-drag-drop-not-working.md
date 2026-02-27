@@ -19,5 +19,5 @@ authorSlug: "dev"
 <li>Command+Option+Escape</li>
 <li>从列表中选中Finder（访达），选中“重新开启”。</li>
 </ol>
-<p><img src="/images/2019/10/macOS_restart_Finder.png" alt="macOS_restart_Finder"></p>
+<p><img src="/content/images/2019/10/macOS_restart_Finder.png" alt="macOS_restart_Finder"></p>
 <!--kg-card-end: markdown-->

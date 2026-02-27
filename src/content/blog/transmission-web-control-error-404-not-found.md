@@ -22,11 +22,11 @@ authorSlug: "dev"
 </ul>
 </blockquote>
 <p>但是，但是，安装完毕后，打开transmission的管理页面<code>http://&lt;nas-ip&gt;/9091</code>，哎哎哎，怎么就404了？</p>
-<p><img src="/images/2021/11/transmission-web-control-404-web-index-not-found-01.png" alt="transmission-web-control-404-web-index-not-found-01"></p>
+<p><img src="/content/images/2021/11/transmission-web-control-404-web-index-not-found-01.png" alt="transmission-web-control-404-web-index-not-found-01"></p>
 <p>这是怎么回事？</p>
 <h1 id="">解决方法</h1>
 <p>检查了一下安装日志</p>
-<p><img src="/images/2021/11/transmission-web-control-404-web-index-not-found-02.png" alt="transmission-web-control-404-web-index-not-found-02"></p>
+<p><img src="/content/images/2021/11/transmission-web-control-404-web-index-not-found-02.png" alt="transmission-web-control-404-web-index-not-found-02"></p>
 <p>发现一条错误信息：</p>
 <pre><code>正在复制安装包...
 cp: cannot stat '/tmp/tr-web-control/transmission-web-control/src/.': No such file or directory
@@ -42,7 +42,7 @@ cp: cannot stat '/tmp/tr-web-control/transmission-web-control/src/.': No such fi
 <pre><code>cp -r &quot;$TMP_FOLDER/transmission-web-control-v$VERSION/src/.&quot; &quot;$WEB_FOLDER/&quot;
 </code></pre>
 <p>手动修改，然后重新运行，然后，就不再报错了，transmission的新web页面也打开了：<br>
-<img src="/images/2021/11/transmission-web-control-404-web-index-not-found-03.png" alt="transmission-web-control-404-web-index-not-found-03"></p>
+<img src="/content/images/2021/11/transmission-web-control-404-web-index-not-found-03.png" alt="transmission-web-control-404-web-index-not-found-03"></p>
 <h2 id="">完整脚本</h2>
 <p>修改后的完整脚本(gitee版) 已经传到github和gitee</p>
 <ul>
@@ -61,5 +61,5 @@ cp: cannot stat '/tmp/tr-web-control/transmission-web-control/src/.': No such fi
 <p>只要更新一下计划任务的自定义脚本即可：</p>
 <pre><code>curl -s https://gitee.com/devonzhang/transmission-web-control-install-script-fixed/raw/master/install-tr-control-gitee.sh | bash -s auto
 </code></pre>
-<p><img src="/images/2021/11/transmission-web-control-404-web-index-not-found-04.png" alt="transmission-web-control-404-web-index-not-found-04"></p>
+<p><img src="/content/images/2021/11/transmission-web-control-404-web-index-not-found-04.png" alt="transmission-web-control-404-web-index-not-found-04"></p>
 <!--kg-card-end: markdown-->

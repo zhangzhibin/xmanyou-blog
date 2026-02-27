@@ -25,5 +25,5 @@ authorSlug: "dev"
 <p>最多自动订阅6次</p>
 <h2 id="">参考</h2>
 <p><a href="https://help.apple.com/app-store-connect/#/dev7e89e149d">https://help.apple.com/app-store-connect/#/dev7e89e149d</a></p>
-<p><img src="/images/2019/09/AppStore_subcription_duration.png" alt="AppStore_subcription_duration"></p>
+<p><img src="/content/images/2019/09/AppStore_subcription_duration.png" alt="AppStore_subcription_duration"></p>
 <!--kg-card-end: markdown-->

@@ -16,7 +16,7 @@ authorSlug: "dev"
         cc.sys.openURL(url);
 </code></pre>
 <p>错误如下：<br>
-<img src="/images/2019/03/Snip20190322_16.png" alt="Snip20190322_16"></p>
+<img src="/content/images/2019/03/Snip20190322_16.png" alt="Snip20190322_16"></p>
 <p>如果想要跳转到别的小游戏（交叉推广），需要使用API switchGameAsync</p>
 <pre><code>switchGameAsync( )
 Request that the client switch to a different Instant Game. The API will reject if the switch fails - else, the client will load the new game.

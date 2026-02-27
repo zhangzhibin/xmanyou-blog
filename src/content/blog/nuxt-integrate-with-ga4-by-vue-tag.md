@@ -56,5 +56,5 @@ Vue.use(VueGtag, {
 </code></pre>
 <h3 id="3">3). 测试</h3>
 <p>开启谷歌分析插件，打开网页，在开发者工具的console里看到以下内容就表示成功了：<br>
-<img src="/images/2021/09/nuxt-plus-gtag.png" alt="nuxt-plus-gtag"></p>
+<img src="/content/images/2021/09/nuxt-plus-gtag.png" alt="nuxt-plus-gtag"></p>
 <!--kg-card-end: markdown-->

@@ -23,22 +23,22 @@ authorSlug: "dev"
 <p>或者</p>
 <pre><code>No signing certificate &quot;iOS Development&quot; found
 </code></pre>
-<p><img src="/images/2021/08/no-signing-certificate-iOS-distribution-found-01.png" alt="no-signing-certificate-iOS-distribution-found-01"></p>
+<p><img src="/content/images/2021/08/no-signing-certificate-iOS-distribution-found-01.png" alt="no-signing-certificate-iOS-distribution-found-01"></p>
 <h1 id="">解决方法</h1>
 <p>这种情况，就需要检查两套文件是否都齐全。</p>
 <h2 id="">检查开发者证书</h2>
 <p>打开钥匙链 keychain，检查相关的开发证书是否安装，并且左边有个展开按钮，表示已经安装了私钥。</p>
 <p>如果看到证书没有展开按钮，则表示私钥没有安装，在XCode中点击“Manage Certificates”按钮，会提示 “Missing Private Key”</p>
-<p><img src="/images/2021/08/no-signing-certificate-iOS-distribution-found-missing-private-key.png" alt="no-signing-certificate-iOS-distribution-found-missing-private-key"></p>
+<p><img src="/content/images/2021/08/no-signing-certificate-iOS-distribution-found-missing-private-key.png" alt="no-signing-certificate-iOS-distribution-found-missing-private-key"></p>
 <p>需要从申请证书的原始电脑上重新导出私钥.p12文件。</p>
-<p><img src="/images/2021/08/app-developer-certification.png" alt="app-developer-certification"><br>
+<p><img src="/content/images/2021/08/app-developer-certification.png" alt="app-developer-certification"><br>
 (<em>图片来自https://www.jianshu.com/p/b486ebe6e36a</em>)</p>
 <h2 id="">检查描述文件</h2>
 <p>检查描述文件是否正确，主要是用以生成该描述文件的证书是否有效。</p>
 <h2 id="xcode">重启XCode</h2>
 <p>重新安装证书后，需要完全重启XCode，因为XCode不会自动更新证书情况。</p>
 <p>一切正常的话，应该是这样子：<br>
-<img src="/images/2021/08/no-signing-certificate-iOS-distribution-found-03.png" alt="no-signing-certificate-iOS-distribution-found-03"></p>
+<img src="/content/images/2021/08/no-signing-certificate-iOS-distribution-found-03.png" alt="no-signing-certificate-iOS-distribution-found-03"></p>
 <h2 id="">参考</h2>
 <ul>
 <li><a href="https://www.jianshu.com/p/55706a64d5b2">https://www.jianshu.com/p/55706a64d5b2</a></li>

@@ -19,10 +19,10 @@ authorSlug: "dev"
 <p>经过测试，得到以下结论。</p>
 <h3 id="1android">1.Android工程</h3>
 <p>对于Android工程，配置文件要放在工程的App文件夹的根目录下，如图：</p>
-<p><img src="/images/2019/11/Firebase_config_file_position_for_android_project.png" alt="Firebase_config_file_position_for_android_project"></p>
+<p><img src="/content/images/2019/11/Firebase_config_file_position_for_android_project.png" alt="Firebase_config_file_position_for_android_project"></p>
 <h3 id="2xcode">2.XCode工程</h3>
 <p>对于XCode工程，只需要将这个文件添加到工程里即可，不需要在意位置，如图：</p>
-<p><img src="/images/2019/11/Firebase_config_file_position_for_ios_xcode_project2.png" alt="Firebase_config_file_position_for_ios_xcode_project"></p>
+<p><img src="/content/images/2019/11/Firebase_config_file_position_for_ios_xcode_project2.png" alt="Firebase_config_file_position_for_ios_xcode_project"></p>
 <h3 id="3">3. 注意事项</h3>
 <p>注意不要修改这两个文件的名字，不然会找不到。</p>
 <!--kg-card-end: markdown-->

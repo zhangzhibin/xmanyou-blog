@@ -23,7 +23,7 @@ sha256sum: 'standard input': no properly formatted SHA256 checksum lines found
 Binary checksum didn't match. Exiting
 curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
 </code></pre>
-<p><img src="/images/2021/03/ubuntu-ssl-error-syscall-github-by-proxychains.png" alt="ubuntu-ssl-error-syscall-github-by-proxychains"></p>
+<p><img src="/content/images/2021/03/ubuntu-ssl-error-syscall-github-by-proxychains.png" alt="ubuntu-ssl-error-syscall-github-by-proxychains"></p>
 <h1 id="">解决方法</h1>
 <p>我猜测是下载过程中，有些操作并没有走http_proxy这个设置，于是尝试搜索全局设置proxy。</p>
 <p>最后在v2ex上发现有人提到了proxychains这个工具，终于解决了这个问题。</p>
@@ -58,6 +58,6 @@ socks5 127.0.0.1 7890
 <pre><code>sudo proxychains &lt;install.sh&gt;
 </code></pre>
 <p>如果配置正确，能在日志里看到proxychains的连接信息：</p>
-<p><img src="/images/2021/03/ubuntu-ssl-error-syscall-github-by-proxychains-02.png" alt="ubuntu-ssl-error-syscall-github-by-proxychains-02"></p>
+<p><img src="/content/images/2021/03/ubuntu-ssl-error-syscall-github-by-proxychains-02.png" alt="ubuntu-ssl-error-syscall-github-by-proxychains-02"></p>
 <p>完成</p>
 <!--kg-card-end: markdown-->

@@ -18,7 +18,7 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://docs.docker.com/config/containers/logging/configure/">https://docs.docker.com/config/containers/logging/configure/</a></p>
 </blockquote>
-<p><img src="/images/2021/03/docker-file-limitation-01.png" alt="docker-file-limitation-01"></p>
+<p><img src="/content/images/2021/03/docker-file-limitation-01.png" alt="docker-file-limitation-01"></p>
 <h1 id="">解决方法</h1>
 <p>有两种</p>
 <h2 id="1">1. 修改全局日志选项</h2>
@@ -78,5 +78,5 @@ docker重启后，所有新容器都会使用新的日志选项，但是已经�
 <blockquote>
 <p><a href="https://docs.docker.com/config/containers/logging/configure/">https://docs.docker.com/config/containers/logging/configure/</a></p>
 </blockquote>
-<p><img src="/images/2021/03/docker-file-limitation-02.png" alt="docker-file-limitation-02"></p>
+<p><img src="/content/images/2021/03/docker-file-limitation-02.png" alt="docker-file-limitation-02"></p>
 <!--kg-card-end: markdown-->

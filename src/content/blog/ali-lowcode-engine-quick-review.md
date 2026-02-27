@@ -15,18 +15,18 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://lowcode-engine.cn/">https://lowcode-engine.cn/</a></p>
 </blockquote>
-<p><img src="/images/2022/04/ali-lowcode-engine-review-01.png" alt="ali-lowcode-engine-review-01"></p>
+<p><img src="/content/images/2022/04/ali-lowcode-engine-review-01.png" alt="ali-lowcode-engine-review-01"></p>
 <p>低代码开发已经不是新鲜事了，但是，阿里开源的这个项目，为什么叫低代码引擎，而不是低代码平台？<br>
 先看看官方的介绍：</p>
 <blockquote>
 <p>低代码引擎是一款为低代码平台开发者提供的，具备强大定制扩展能力的低代码设计器研发框架。<br>
 低代码引擎的核心是设计器，通过扩展、周边生态等可以产出各式各样的设计器。它不是一套可以适合所有人的低代码平台，而是帮助低代码平台的开发者，快速生产低代码平台的工具。</p>
 </blockquote>
-<p><img src="/images/2022/04/ali-lowcode-engine-review-02.png" alt="ali-lowcode-engine-review-02"></p>
+<p><img src="/content/images/2022/04/ali-lowcode-engine-review-02.png" alt="ali-lowcode-engine-review-02"></p>
 <p>看了官方介绍以后，就更是一头雾水了。</p>
 <p>我希望通过低代码开发的方式，来解决随着业务发展越来越多的中后台开发需求。那么，这个低代码引擎，是否能满足要求呢？</p>
 <p>在经历了几天磕磕绊绊的摸爬滚打开发体验之后，我勉勉强强搭建了这么一个页面：</p>
-<p><img src="/images/2022/04/ali-lowcode-engine-review-03.png" alt="ali-lowcode-engine-review-03"></p>
+<p><img src="/content/images/2022/04/ali-lowcode-engine-review-03.png" alt="ali-lowcode-engine-review-03"></p>
 <p>总结一下阿里低代码引擎：<br>
 首先，本文使用低代码引擎代表通用低代码引擎，而用阿里低代码引擎特指阿里开源的低代码引擎项目。</p>
 <h2 id="1">1. 低代码引擎，不是低代码平台</h2>
@@ -36,7 +36,7 @@ authorSlug: "dev"
 但是由于该引擎提供了不同功能模块的通用协议，所以，基于这些协议，<strong>应该</strong>也可以实现其他类型的低代码开发能力，例如后端的API低代码开发能力、移动应用的低代码开发能力等等。</p>
 <h2 id="2">2. 阿里低代码开发引擎</h2>
 <p>通过阿里低代码引擎的demo项目，可以快速搭建起一个私有的前端应用低代码开发平台。这个平台虽然功能有限，但是也算是麻雀虽小五脏俱全了。</p>
-<p><img src="/images/2022/04/ali-lowcode-engine-review-04.png" alt="ali-lowcode-engine-review-04"></p>
+<p><img src="/content/images/2022/04/ali-lowcode-engine-review-04.png" alt="ali-lowcode-engine-review-04"></p>
 <p>它提供(演示)了低代码平台的核心功能：</p>
 <h3 id="">可视化编辑器</h3>
 <p>这是低代码平台的核心功能，没有可视化编辑器，就谈不上低代码开发，具体包括：</p>

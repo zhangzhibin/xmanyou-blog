@@ -15,20 +15,20 @@ authorSlug: "dev"
 <p>最近入手了一台群晖NAS，用来做数据中心和文件共享，但是，当我想创建一个无需登录的匿名共享文件夹时，却发现被拒绝了：</p>
 <pre><code>对服务器 &quot;xxxxxxxx&quot; 上您账户的访问已经被拒绝。
 </code></pre>
-<p><img src="/images/2021/01/Synology-nas-share-01.png" alt="Synology-nas-share-01"></p>
-<p><img src="/images/2021/01/Synology-nas-share-02.png" alt="Synology-nas-share-02"></p>
+<p><img src="/content/images/2021/01/Synology-nas-share-01.png" alt="Synology-nas-share-01"></p>
+<p><img src="/content/images/2021/01/Synology-nas-share-02.png" alt="Synology-nas-share-02"></p>
 <p>这就奇怪了啊，我明明在共享文件夹中配置了guest权限呀：<br>
-<img src="/images/2021/01/Synology-nas-share-08.png" alt="Synology-nas-share-08"></p>
+<img src="/content/images/2021/01/Synology-nas-share-08.png" alt="Synology-nas-share-08"></p>
 <h1 id="">解决方法</h1>
 <p>经过一阵折腾，终于到到了原因，原来是因为群晖默认将guest用户停用了。</p>
-<p><img src="/images/2021/01/Synology-nas-share-03.png" alt="Synology-nas-share-03"></p>
+<p><img src="/content/images/2021/01/Synology-nas-share-03.png" alt="Synology-nas-share-03"></p>
 <p>所以，解决方法就是：<strong>启用guest用户</strong><br>
 在<strong>控制面板</strong>-&gt;<strong>用户账号</strong>-&gt;<strong>guest</strong>-&gt;<strong>编辑</strong>-&gt;取消<strong>停用此账户</strong><br>
-<img src="/images/2021/01/Synology-nas-share-04.png" alt="Synology-nas-share-04"></p>
+<img src="/content/images/2021/01/Synology-nas-share-04.png" alt="Synology-nas-share-04"></p>
 <p>返回到账户列表，可以看到状态已经从“<strong>停用</strong>”变成了“<strong>正常</strong>”<br>
-<img src="/images/2021/01/Synology-nas-share-09.png" alt="Synology-nas-share-09"></p>
+<img src="/content/images/2021/01/Synology-nas-share-09.png" alt="Synology-nas-share-09"></p>
 <p>然后就可以用无密码的访客访问了。<br>
-<img src="/images/2021/01/Synology-nas-share-06.png" alt="Synology-nas-share-06"></p>
+<img src="/content/images/2021/01/Synology-nas-share-06.png" alt="Synology-nas-share-06"></p>
 <h1 id="">配置总结</h1>
 <ol>
 <li>在<strong>控制面板</strong>-&gt;<strong>用户账号</strong>中，启用guest账户</li>

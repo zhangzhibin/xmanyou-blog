@@ -8,19 +8,19 @@ tagSlugs: ["dev", "gitlab", "za-qi-za-ba", "aliyun"]
 draft: false
 type: post
 slug: "1gnei-cun-xu-ni-zhu-ji-an-zhuang-gitlab"
-image: "/images/2017/11/41639009-1.png"
+image: "/content/images/2017/11/41639009-1.png"
 authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近影子工作室搞了个阿里云的ECS，对，性价比最高的那个，1CPU + 1G内存，用nginx+ghost跑个工作室官网还是没问题的。</p>
 <p>折腾完官网以后，我又开始考虑能不能再多利用一下这个资源，比如，在上边搭一个gitlab？这样就可以省下github的每个月7美元的订阅费了。<br>
-<img src="/images/2017/11/38882190.png" alt="38882190"></p>
+<img src="/content/images/2017/11/38882190.png" alt="38882190"></p>
 <blockquote>
 <p>吐个槽，这个github的市场莫非也是程序员在做，包年预付居然一点折扣都没有。</p>
 </blockquote>
 <p>闲话少说，说干就干，上gitlab网站看看安装流程，然而，网站上赫然写着：</p>
 <p>推荐4G以上内存</p>
-<p><img src="/images/2017/11/39028496.png" alt="39028496"></p>
+<p><img src="/content/images/2017/11/39028496.png" alt="39028496"></p>
 <p>啥？<br>
 我这台<em>超</em>高<em>性</em>价<em>比</em>机器就这么被鄙视了？</p>
 <p>话说，我们就这么点人，要管理的项目也非常少，内存小一些大概也没有关系吧……</p>
@@ -53,9 +53,9 @@ authorSlug: "dev"
 </blockquote>
 <p>矮油，装完了！</p>
 <p>我仿佛听到了数钱的声音，好像赚了几个亿，刷刷刷，刷刷刷，多美妙~</p>
-<p><img src="/images/2017/11/41977064.png" alt="41977064"></p>
+<p><img src="/content/images/2017/11/41977064.png" alt="41977064"></p>
 <p>哎哎，好像有什么地方不对……<br>
-<img src="/images/2017/11/42086844.png" alt="42086844"></p>
+<img src="/content/images/2017/11/42086844.png" alt="42086844"></p>
 <p>机器怎么反应这么慢……</p>
 <p>输入的指令半天才显示出来……</p>
 <p>啊……掉……线……了……</p>
@@ -64,7 +64,7 @@ authorSlug: "dev"
 <p>登……录……失……败……</p>
 <p>什么情况？！！我心底有一股不祥的预感，连忙打开网站。</p>
 <p>妈蛋，网站打不开了！<br>
-<img src="/images/2017/11/42116184.png" alt="42116184"></p>
+<img src="/content/images/2017/11/42116184.png" alt="42116184"></p>
 <p>淡定！</p>
 <p>祭出必杀技：重启。</p>
 <p>重……启……中……</p>
@@ -80,7 +80,7 @@ authorSlug: "dev"
 <p>依然……慢……慢……慢……</p>
 <p>网站依然……打……不……开……</p>
 <p>我这个暴脾气啊￥%￥#一下就上来了！<br>
-<img src="/images/2017/11/42151684.png" alt="42151684"></p>
+<img src="/content/images/2017/11/42151684.png" alt="42151684"></p>
 <p>淡定，一定要淡定！</p>
 <p>ping一下，没问题啊。</p>
 <p>可能，也许，大概，gitlab真的不能装在1G内存的机器上？</p>
@@ -97,31 +97,31 @@ authorSlug: "dev"
 <p>sudo gitlab-ctl stop</p>
 </blockquote>
 <p>整个世界一下快起来了<br>
-<img src="/images/2017/11/41058757.png" alt="41058757"></p>
+<img src="/content/images/2017/11/41058757.png" alt="41058757"></p>
 <p>既然不能用，还是赶紧把这个惹麻烦的家伙赶出门吧。<br>
 搜搜怎么卸载，倒是不麻烦：</p>
-<p><img src="/images/2017/11/40513744.png" alt="40513744"></p>
+<p><img src="/content/images/2017/11/40513744.png" alt="40513744"></p>
 <p>由于我还没有开始使用gitlab，所以，只需要第1步就好了，顶多再执行第4步删除安装包。</p>
 <blockquote>
 <p>sudo gitlab-ctl uninstall<br>
 sudo dpkg -P gitlab-ce</p>
 </blockquote>
 <p>一切都顺利的不像话！<br>
-<img src="/images/2017/11/41132729.png" alt="41132729"></p>
+<img src="/content/images/2017/11/41132729.png" alt="41132729"></p>
 <p>今天的事故到此结束<br>
 谢谢大家的光看</p>
-<p><img src="/images/2017/11/55680986.png" alt="55680986"><br>
+<p><img src="/content/images/2017/11/55680986.png" alt="55680986"><br>
 没有彩蛋</p>
 <p>没有彩蛋</p>
 <p>没有彩蛋</p>
 <p>真的没有彩蛋</p>
 <p>哎~，网站为什么还是没反应！！<br>
-<img src="/images/2017/11/41195698.png" alt="41195698"></p>
+<img src="/content/images/2017/11/41195698.png" alt="41195698"></p>
 <p>为什么！</p>
 <p>为什么！！</p>
 <p>为什么！！！</p>
 <p>瞬间化身为十万个为什么</p>
-<p><img src="/images/2017/11/41293463.png" alt="41293463"></p>
+<p><img src="/content/images/2017/11/41293463.png" alt="41293463"></p>
 <p>淡定……淡定……</p>
 <p>尝试重启nginx：</p>
 <blockquote>
@@ -129,7 +129,7 @@ sudo dpkg -P gitlab-ce</p>
 <p>Job for nginx.service failed because the control process exited with error code. See &quot;systemctl status nginx.service&quot; and &quot;journalctl -xe&quot; for details.</p>
 </blockquote>
 <p>失败！！<br>
-<img src="/images/2017/11/42305440.png" alt="42305440"></p>
+<img src="/content/images/2017/11/42305440.png" alt="42305440"></p>
 <p>我依稀记得，gitlab好像是自带nginx的，不会是跟我原本安装的那个冲突了吧？<br>
 查看一下nginx的进程：</p>
 <blockquote>
@@ -147,20 +147,20 @@ gitlab-+  1639  1619  0 23:27 ?        00:00:00 nginx: cache manager process</p>
 kill 1589</p>
 </blockquote>
 <p>这下整个世界真的清净了。</p>
-<p><img src="/images/2017/11/41639009.png" alt="41639009"></p>
+<p><img src="/content/images/2017/11/41639009.png" alt="41639009"></p>
 <p>再次启动nginx</p>
 <blockquote>
 <p>sudo systemctl restart nginx</p>
 </blockquote>
 <p>网站回来了！</p>
-<p><img src="/images/2017/11/38671577.png" alt="38671577"></p>
+<p><img src="/content/images/2017/11/38671577.png" alt="38671577"></p>
 <p>关机！<br>
 睡觉！！<br>
 债见！！！<br>
 一气呵成！！！！</p>
-<p><img src="/images/2017/11/41863866.png" alt="41863866"></p>
+<p><img src="/content/images/2017/11/41863866.png" alt="41863866"></p>
 <hr>
 <p>我是阿斌，欢迎关注我的公众号【阿斌的日常】，一起开心做游戏。<br>
 如果你有什么想法，也可以给我留言哦。<br>
-<img src="/images/2017/11/qc_unitymvp.jpg" alt="qc_unitymvp"></p>
+<img src="/content/images/2017/11/qc_unitymvp.jpg" alt="qc_unitymvp"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

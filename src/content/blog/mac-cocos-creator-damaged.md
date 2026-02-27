@@ -15,14 +15,14 @@ authorSlug: "dev"
 <pre><code>CocosCreator已损坏，打不开。您应该把它移到废纸篓。
 </code></pre>
 <p>如图：<br>
-<img src="/images/2019/03/Snip20190318_2.png" alt="Snip20190318_2"></p>
+<img src="/content/images/2019/03/Snip20190318_2.png" alt="Snip20190318_2"></p>
 <p>开始还以为是文件坏了，但是重新下载了几次都不行。<br>
 甚至重装旧版本，也是一样的错误。</p>
 <p>于是谷歌了一下，原来是Mac防火墙的锅:</p>
 <blockquote>
 <p><a href="https://apple.stackexchange.com/questions/262355/xxx-cant-be-opened-you-should-move-it-to-trash-for-flash-projector-applicat">https://apple.stackexchange.com/questions/262355/xxx-cant-be-opened-you-should-move-it-to-trash-for-flash-projector-applicat</a></p>
 </blockquote>
-<p><img src="/images/2019/03/Snip20190318_1.png" alt="Snip20190318_1"></p>
+<p><img src="/content/images/2019/03/Snip20190318_1.png" alt="Snip20190318_1"></p>
 <h3 id="">解决方法</h3>
 <ol>
 <li>对特定App解禁（推荐）</li>

@@ -8,7 +8,7 @@ tagSlugs: ["dev", "wasm"]
 draft: false
 type: post
 slug: "wasm-emsdk-mac-start-up"
-image: "/images/2019/12/wasm_hello_wasm-1.png"
+image: "/content/images/2019/12/wasm_hello_wasm-1.png"
 authorSlug: "dev"
 ---
 
@@ -59,7 +59,7 @@ EOF
 <li>hello.js</li>
 <li>hello.wasm</li>
 </ul>
-<p><img src="/images/2019/12/wasm_compile_result.png" alt="wasm_compile_result"></p>
+<p><img src="/content/images/2019/12/wasm_compile_result.png" alt="wasm_compile_result"></p>
 <ol start="3">
 <li>运行</li>
 </ol>
@@ -68,22 +68,22 @@ EOF
 <p>官方说法<br>
 Finally, to actually run the program, we cannot simply open the HTML file in a web browser because cross-origin requests are not supported for the file protocol scheme. We have to actually serve the output files over HTTP.</p>
 </blockquote>
-<p><img src="/images/2019/12/wasm_html_downloading.png" alt="wasm_html_downloading"></p>
-<p><img src="/images/2019/12/wasm_html_downloading.png_error.png" alt="wasm_html_downloading.png_error"></p>
+<p><img src="/content/images/2019/12/wasm_html_downloading.png" alt="wasm_html_downloading"></p>
+<p><img src="/content/images/2019/12/wasm_html_downloading.png_error.png" alt="wasm_html_downloading.png_error"></p>
 <p>正确的姿势是启动一个web server。<br>
 如果你没有自己的webserver，emsdk已经集成了这个服务，方便测试。</p>
 <p>命令</p>
 <pre><code>$ emrun --no_browser --port 8080 .
 </code></pre>
 <p>看到这个输出，就表示一切正常了。</p>
-<p><img src="/images/2019/12/wasm_emrun_web_service.png" alt="wasm_emrun_web_service"></p>
+<p><img src="/content/images/2019/12/wasm_emrun_web_service.png" alt="wasm_emrun_web_service"></p>
 <p>然后用浏览器打开：<br>
-<img src="/images/2019/12/wasm_html_view_correct.png" alt="wasm_html_view_correct"></p>
+<img src="/content/images/2019/12/wasm_html_view_correct.png" alt="wasm_html_view_correct"></p>
 <h2 id="4">4. 如果你想看看编译结果的话...</h2>
 <h3 id="hellohtml">hello.html</h3>
-<p><img src="/images/2019/12/wasm_hello_html.png" alt="wasm_hello_html"></p>
+<p><img src="/content/images/2019/12/wasm_hello_html.png" alt="wasm_hello_html"></p>
 <h3 id="hellojs">hello.js</h3>
-<p><img src="/images/2019/12/wasm_hello_js.png" alt="wasm_hello_js"></p>
+<p><img src="/content/images/2019/12/wasm_hello_js.png" alt="wasm_hello_js"></p>
 <h3 id="hellowasm">hello.wasm</h3>
-<p><img src="/images/2019/12/wasm_hello_wasm.png" alt="wasm_hello_wasm"></p>
+<p><img src="/content/images/2019/12/wasm_hello_wasm.png" alt="wasm_hello_wasm"></p>
 <!--kg-card-end: markdown-->

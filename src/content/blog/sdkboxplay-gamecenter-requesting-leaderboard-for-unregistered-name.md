@@ -15,7 +15,7 @@ authorSlug: "dev"
 <p>使用SDKBox接入苹果的GameCenter，启动后，显示登录GameCenter成功。但是，在提交分数到排行榜，或者显示排行榜的时候，却报了错误：</p>
 <pre><code>sdkboxplay :Requesting leaderboard for unregistered name: HIGH_SCORE
 </code></pre>
-<p><img src="/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_01.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></p>
+<p><img src="/content/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_01.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></p>
 <p>检查一下代码和几个相关的定义：</p>
 <ol>
 <li>Cocos Creator代码：</li>
@@ -52,7 +52,7 @@ authorSlug: "dev"
 </code></pre>
 <ol start="3">
 <li>App Store Connect的排行榜定义<br>
-<img src="/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_04.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></li>
+<img src="/content/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_04.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></li>
 </ol>
 <p>似乎并没有什么错误。。。</p>
 <h2 id="">原因</h2>
@@ -60,13 +60,13 @@ authorSlug: "dev"
 <p>于是乎，我改了一下参数……</p>
 <p>然后，就解决了……</p>
 <p>sdkbox的群里有个叫“吉米”同学提示说，用Name是为了跨平台。很有说服力！<br>
-<img src="/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_06-1.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></p>
+<img src="/content/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_06-1.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></p>
 <p><strong>这样就可以用同一个name来对应不同平台（ios和google play）的排行榜id。</strong></p>
 <h2 id="">解决</h2>
 <p>使用sdkbox_config.json中排行榜的name而不是id作为参数。</p>
 <p>参考接口文档：<br>
 <a href="http://docs.sdkbox.com/en/plugins/sdkboxplay/v3-js/#methods">http://docs.sdkbox.com/en/plugins/sdkboxplay/v3-js/#methods</a></p>
-<p><img src="/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_05.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></p>
+<p><img src="/content/images/2019/07/sdkbox_gamecenter_requesting_leaderboard_for_unregistered_name_05.png" alt="sdkboxplay gamecenter requesting leaderboard for unregistered name"></p>
 <h2 id="">参考</h2>
 <ol>
 <li>SDKBoxPlay <a href="http://docs.sdkbox.com/en/plugins/sdkboxplay/v3-js/">http://docs.sdkbox.com/en/plugins/sdkboxplay/v3-js/</a></li>

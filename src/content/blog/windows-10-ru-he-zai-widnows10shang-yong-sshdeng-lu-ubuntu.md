@@ -16,7 +16,7 @@ authorSlug: "dev"
 <li>打开Powershell</li>
 <li>用ssh &lt;远程主机用户名&gt;@&lt;远程主机ip或者域名&gt;<pre><code>ssh &lt;remote_username&gt;@&lt;remoteserver.ip&gt;
 </code></pre>
-<img src="/images/2019/03/Snipaste_2019-03-29_09-42-44.png" alt="Snipaste_2019-03-29_09-42-44"></li>
+<img src="/content/images/2019/03/Snipaste_2019-03-29_09-42-44.png" alt="Snipaste_2019-03-29_09-42-44"></li>
 </ol>
 <h3 id="">不使用用户密码</h3>
 <ol>

@@ -25,5 +25,5 @@ authorSlug: "dev"
 <li>按住电源键 10秒，直到系统自动关机</li>
 <li>等待5秒后，按下电源键，重新开机</li>
 </ol>
-<p><img src="/images/2021/01/Mac_restart_system.jpg" alt="Mac_restart_system"></p>
+<p><img src="/content/images/2021/01/Mac_restart_system.jpg" alt="Mac_restart_system"></p>
 <!--kg-card-end: markdown-->

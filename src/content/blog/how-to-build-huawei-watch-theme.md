@@ -14,7 +14,7 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><h2 id="1themestudio">1. 下载华为表盘设计工具 Theme Studio</h2>
 <p>地址：<a href="https://developer.huawei.com/consumer/cn/doc/Tools-Library/theme_download-0000001050424897">https://developer.huawei.com/consumer/cn/doc/Tools-Library/theme_download-0000001050424897</a></p>
 <p>根据所使用的操作系统，下载所需的工具。</p>
-<p><img src="/images/2021/07/build-huawei-watch-theme-01.png" alt="build-huawei-watch-theme-01"></p>
+<p><img src="/content/images/2021/07/build-huawei-watch-theme-01.png" alt="build-huawei-watch-theme-01"></p>
 <h2 id="2">2. 创建表盘项目</h2>
 <p>新建表盘项目，选择</p>
 <ul>
@@ -29,9 +29,9 @@ authorSlug: "dev"
 <li>开发者，例如影子工作室</li>
 <li>设计师，例如水瓶座阿斌</li>
 </ul>
-<p><img src="/images/2021/07/build-huawei-watch-theme-02.png" alt="build-huawei-watch-theme-02"></p>
+<p><img src="/content/images/2021/07/build-huawei-watch-theme-02.png" alt="build-huawei-watch-theme-02"></p>
 <p>都填好以后，选择确认，进入表盘设计界面。</p>
-<p><img src="/images/2021/07/build-huawei-watch-theme-03.png" alt="build-huawei-watch-theme-03"></p>
+<p><img src="/content/images/2021/07/build-huawei-watch-theme-03.png" alt="build-huawei-watch-theme-03"></p>
 <h2 id="3">3. 设计表盘</h2>
 <p>表盘的大部分项目都可以定制，例如</p>
 <ul>
@@ -40,22 +40,22 @@ authorSlug: "dev"
 <li>日期，可以选择文字，或者图片</li>
 <li>其他数据，例如卡路里，步数等</li>
 </ul>
-<p><img src="/images/2021/07/build-huawei-watch-theme-04.png" alt="build-huawei-watch-theme-04"></p>
+<p><img src="/content/images/2021/07/build-huawei-watch-theme-04.png" alt="build-huawei-watch-theme-04"></p>
 <h2 id="4">4. 测试</h2>
 <p>添加完表盘控件后，可以在预览窗口里查看。</p>
 <p>点击“播放”▶️按钮，可以测试时间和日期的变化效果。</p>
-<p><img src="/images/2021/07/build-huawei-watch-theme-06.png" alt="build-huawei-watch-theme-06"></p>
+<p><img src="/content/images/2021/07/build-huawei-watch-theme-06.png" alt="build-huawei-watch-theme-06"></p>
 <p>甚至还可以查看与不同表带搭配的效果</p>
-<p><img src="/images/2021/07/build-huawei-watch-theme-07.png" alt="build-huawei-watch-theme-07"></p>
+<p><img src="/content/images/2021/07/build-huawei-watch-theme-07.png" alt="build-huawei-watch-theme-07"></p>
 <h2 id="5">5. 导出</h2>
 <ul>
 <li>
 <p>第一步，设置效果图<br>
-<img src="/images/2021/07/build-huawei-watch-theme-08.png" alt="build-huawei-watch-theme-08"></p>
+<img src="/content/images/2021/07/build-huawei-watch-theme-08.png" alt="build-huawei-watch-theme-08"></p>
 </li>
 <li>
 <p>第二步，导出表盘包<br>
-<img src="/images/2021/07/build-huawei-watch-theme-09.png" alt="build-huawei-watch-theme-09"></p>
+<img src="/content/images/2021/07/build-huawei-watch-theme-09.png" alt="build-huawei-watch-theme-09"></p>
 </li>
 </ul>
 <p>完成~</p>

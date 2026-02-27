@@ -19,7 +19,7 @@ authorSlug: "dev"
 <p>仔细看的话，会发现，这个组件只暴露了一些非常简单也很有限的接口，文档也写的过于简单。</p>
 <p>如果要对龙骨动画进行精细化控制，则需要调用DragonBones库的接口，而这个库的接口是没有文档的。</p>
 <p>DragonBones库的代码，在Cocos Creator的引擎代码中可以找到，然后可以从dragonBonse.d.ts文件里查看相应的接口。<br>
-<img src="/images/2020/02/CocosCreator_DragonBones_01.png" alt="CocosCreator_DragonBones_01"></p>
+<img src="/content/images/2020/02/CocosCreator_DragonBones_01.png" alt="CocosCreator_DragonBones_01"></p>
 <p>这里整理一下相关的操作。</p>
 <h2 id="">操作列表</h2>
 <h3 id="1">1. 播放动画</h3>
@@ -30,7 +30,7 @@ authorSlug: "dev"
 <p>所以，一般来说，我们实际的需求是切换动画，而不是切换骨架。</p>
 <h4 id="">接口</h4>
 <p>这个功能可以通过修改dragonBones.ArmatureDisplay组件的属性来实现：<br>
-<img src="/images/2020/02/CocosCreator_DragonBones_02.png" alt="CocosCreator_DragonBones_02"></p>
+<img src="/content/images/2020/02/CocosCreator_DragonBones_02.png" alt="CocosCreator_DragonBones_02"></p>
 <ul>
 <li>
 <p>指定骨架<br>

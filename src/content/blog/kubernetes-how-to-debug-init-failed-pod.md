@@ -246,7 +246,7 @@ Error from server (BadRequest): container &quot;elasticsearch&quot; in pod &quot
 <h3 id="">示例</h3>
 <p>从刚刚pod的详情里，找到Init Containers的列表。</p>
 <p>示例中，Init Containers只有一个elastic-internal-init-filesystem，这个信息与Events列表中也是一致的。</p>
-<p><img src="/images/2021/05/k8s-debug-01-describe-pod.png" alt="k8s-debug-01-describe-pod"></p>
+<p><img src="/content/images/2021/05/k8s-debug-01-describe-pod.png" alt="k8s-debug-01-describe-pod"></p>
 <pre><code>kubectl logs -c elastic-internal-init-filesystem -n k8s-logging es-logging-es-default-0
 
 # 以下是输出日志
@@ -319,7 +319,7 @@ failed to change ownership of '/usr/share/elasticsearch/data' from 1024:users to
 <p>在日志的最后，可以看到出错原因：</p>
 <pre><code>failed to change ownership of '/usr/share/elasticsearch/data' from 1024:users to elasticsearch:elasticsearch
 </code></pre>
-<p><img src="/images/2021/05/k8s-debug-02-pod-container-log.png" alt="k8s-debug-02-pod-container-log"></p>
+<p><img src="/content/images/2021/05/k8s-debug-02-pod-container-log.png" alt="k8s-debug-02-pod-container-log"></p>
 <p>根据对应的错误，查找原因即可。</p>
 <h1 id="">更多调试方法</h1>
 <blockquote>

@@ -37,7 +37,7 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://emojipedia.org/grinning-face/">https://emojipedia.org/grinning-face/</a></p>
 </blockquote>
-<p><img src="/images/2018/04/Snip20180408_1.png" alt="Snip20180408_1"></p>
+<p><img src="/content/images/2018/04/Snip20180408_1.png" alt="Snip20180408_1"></p>
 <p>值得一提的是，<br>
 最初的emoji是由日本人Kurita在1999年发明的。<br>
 2010年起，emoji被收录到Unicode 6.0标准。<br>
@@ -51,15 +51,15 @@ authorSlug: "dev"
 为什么我的MySQL里没法存emoji表情呢？</p>
 <p>我先用go单独写了一个测试例子，没发现问题。</p>
 <p>再搜索一下 MySQL emoji，第一个提示就是 <strong>mysql emoji incorrect string value</strong><br>
-<img src="/images/2018/04/Snip20180408_3.png" alt="Snip20180408_3"></p>
+<img src="/content/images/2018/04/Snip20180408_3.png" alt="Snip20180408_3"></p>
 <p>而搜索结果中stackoverflow第一条就是我遇到的类似问题</p>
 <blockquote>
 <p><a href="https://stackoverflow.com/questions/35125933/mysql-utf8mb4-errors-when-saving-emojis">https://stackoverflow.com/questions/35125933/mysql-utf8mb4-errors-when-saving-emojis</a></p>
 </blockquote>
-<p><img src="/images/2018/04/Snip20180408_4.png" alt="Snip20180408_4"></p>
+<p><img src="/content/images/2018/04/Snip20180408_4.png" alt="Snip20180408_4"></p>
 <p>utf8mb4，进入我的眼帘。这是什么鬼？我之前有幸遇到过一系列的文本编码问题，知道关于Unicode有utf8,utf16,utf32等不同编码，但是这还是第一次遇到utf8mb4编码。</p>
 <p>于是乎，我又搜了一下，原来utf8mb4是MySQL自己给自己挖的坑找的一个填补（我脑补的）。</p>
-<p><img src="/images/2018/04/Snip20180408_5.png" alt="Snip20180408_5"></p>
+<p><img src="/content/images/2018/04/Snip20180408_5.png" alt="Snip20180408_5"></p>
 <p>不同于一般的utf8，使用1-4个字节来表示一个unicode字符，MySQL的utf8只使用最多3个字节。于是乎，unicode中4字节和一些特殊字符就没法保存在MySQL里了。</p>
 <p>所以，解决方法就是将MySQL数据库的编码改成utf8mb4。<br>
 注意，对于已经存在的表，只改变数据库的默认编码是不够的，还需要将这个表的默认编码也改成utf8mb4。<br>

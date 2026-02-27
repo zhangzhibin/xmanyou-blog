@@ -12,7 +12,7 @@ authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><h1 id="">错误</h1>
-<p><img src="/images/2020/05/Vue-Avoid-mutating-a-prop-directly-01.png" alt="Vue-Avoid-mutating-a-prop-directly-01"></p>
+<p><img src="/content/images/2020/05/Vue-Avoid-mutating-a-prop-directly-01.png" alt="Vue-Avoid-mutating-a-prop-directly-01"></p>
 <pre><code>  Avoid mutating a prop directly since the value will be overwritten whenever the parent component re-renders. Instead, use a data or computed property based on the prop’s value. Prop being mutated: xxx
 </code></pre>
 <h1 id="">原因</h1>

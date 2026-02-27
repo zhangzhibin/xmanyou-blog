@@ -18,11 +18,11 @@ authorSlug: "dev"
 </li>
 <li>
 <p>输入shell:startup，打开“启动”目录<br>
-<img src="/images/2020/12/Windows-run-shell-startup.png" alt="Windows-run-shell-startup"></p>
+<img src="/content/images/2020/12/Windows-run-shell-startup.png" alt="Windows-run-shell-startup"></p>
 </li>
 <li>
 <p>将要自动启动的应用的快捷方式复制到“启动”目录中<br>
-<img src="/images/2020/12/Windows-startup-folder.png" alt="Windows-startup-folder"></p>
+<img src="/content/images/2020/12/Windows-startup-folder.png" alt="Windows-startup-folder"></p>
 </li>
 </ol>
 <p>完成</p>

@@ -24,9 +24,9 @@ authorSlug: "dev"
 </ul>
 <h4 id="11">1.1.引擎核心代码及内部扩展库</h4>
 <p>在命令行输入：egret info，可以得到当前使用的引擎版本和代码位置：<br>
-<img src="/images/2018/04/Snip20180413_2.png" alt="Snip20180413_2"></p>
+<img src="/content/images/2018/04/Snip20180413_2.png" alt="Snip20180413_2"></p>
 <p>这个目录里其实包含了两部分引擎代码：<br>
-<img src="/images/2018/04/Snip20180413_6.png" alt="Snip20180413_6"></p>
+<img src="/content/images/2018/04/Snip20180413_6.png" alt="Snip20180413_6"></p>
 <p>其中<br>
 1 为核心代码<br>
 2 为内部扩展库，比如eui, res等</p>
@@ -34,7 +34,7 @@ authorSlug: "dev"
 <p>而引擎外部扩展库，比如粒子系统，物理系统等，则在另外一个工程: egret-game-library。</p>
 <blockquote>
 <p><a href="https://github.com/egret-labs/egret-game-library">https://github.com/egret-labs/egret-game-library</a><br>
-<img src="/images/2018/04/Snip20180413_7.png" alt="Snip20180413_7"></p>
+<img src="/content/images/2018/04/Snip20180413_7.png" alt="Snip20180413_7"></p>
 </blockquote>
 <h3 id="2">2. 然后，有代码以后就可以自己修改了。</h3>
 <p>怎么修改，具体要看每个项目遇到的不同情况来处理。</p>
@@ -77,7 +77,7 @@ authorSlug: "dev"
 <p><a href="https://github.com/egret-labs/egret-core/tree/master/src/extension/resource">https://github.com/egret-labs/egret-core/tree/master/src/extension/resource</a></p>
 </blockquote>
 <p>你会发现，既没有*.d.ts，也没有tsconfig.json，更没有package.json<br>
-<img src="/images/2018/04/Snip20180413_8.png" alt="Snip20180413_8"></p>
+<img src="/content/images/2018/04/Snip20180413_8.png" alt="Snip20180413_8"></p>
 <p>好吧，那我们一个个来处理。</p>
 <p><strong>1). tsconfig.json</strong></p>
 <p>首先，还好别的地方有tsconfig.json可以参考，比如eui，或者assetsmanager，拿过来改巴改巴：</p>
@@ -120,17 +120,17 @@ authorSlug: "dev"
 <pre><code>egret build
 </code></pre>
 <p>你会看到很多错误，不过没关系。<br>
-<img src="/images/2018/04/Snip20180413_11.png" alt="Snip20180413_11"></p>
+<img src="/content/images/2018/04/Snip20180413_11.png" alt="Snip20180413_11"></p>
 <p>眨眼之间，我们需要的js文件已经编译好了：<br>
 <egret>/build/res2</p>
 <p>2). 现在，到项目目录下，修改 egretProperties.json，把res改为res2<br>
-<img src="/images/2018/04/Snip20180413_9.png" alt="Snip20180413_9"></p>
+<img src="/content/images/2018/04/Snip20180413_9.png" alt="Snip20180413_9"></p>
 <p>3). 编译游戏工程<br>
 执行</p>
 <pre><code>egret -e build
 </code></pre>
 <p>即可引入新的res库并编译<br>
-<img src="/images/2018/04/Snip20180413_10.png" alt="Snip20180413_10"></p>
+<img src="/content/images/2018/04/Snip20180413_10.png" alt="Snip20180413_10"></p>
 <h4 id="3">3. 编译引擎外部扩展库</h4>
 <p>参考官方的第三方库文档：<a href="http://edn.egret.com/cn/article/index/id/172">http://edn.egret.com/cn/article/index/id/172</a><br>
 github上引擎的外部扩展库都是完整的，直接参考官方文档照做就好了。</p>

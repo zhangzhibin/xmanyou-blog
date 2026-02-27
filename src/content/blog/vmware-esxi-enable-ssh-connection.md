@@ -19,7 +19,7 @@ authorSlug: "dev"
 <li>1). 通过浏览器打开ESXi虚拟机服务器的管理界面，登录</li>
 <li>2). 主机-&gt;管理-&gt;服务，启动TSM-SSH</li>
 </ul>
-<p><img src="/images/2021/03/vmware-esxi-enable-ssh-connection.png" alt="vmware-esxi-enable-ssh-connection"></p>
+<p><img src="/content/images/2021/03/vmware-esxi-enable-ssh-connection.png" alt="vmware-esxi-enable-ssh-connection"></p>
 <ul>
 <li>3). 连接测试</li>
 </ul>

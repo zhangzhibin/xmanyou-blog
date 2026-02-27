@@ -34,7 +34,7 @@ authorSlug: "dev"
 </ol>
 <h2 id="">参考资料</h2>
 <p>来自Google的描述<br>
-<img src="/images/2019/10/Admob_Events_and_Error_Code.png" alt="Admob_Events_and_Error_Code"></p>
+<img src="/content/images/2019/10/Admob_Events_and_Error_Code.png" alt="Admob_Events_and_Error_Code"></p>
 <h2 id="">参考链接</h2>
 <ol>
 <li><a href="https://support.google.com/admob/thread/3494603?hl=en">https://support.google.com/admob/thread/3494603?hl=en</a></li>

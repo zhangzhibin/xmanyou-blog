@@ -12,7 +12,7 @@ authorSlug: "team"
 ---
 
 <!--kg-card-begin: markdown--><p>Docusaurus是一个基于React的快速建站工具，与基于Vue的快速建站工具VuePress有很多相似之处。该项目由Facebook团队开发，并开源。</p>
-<p><img src="/images/2023/09/docusaurus.png" alt="docusaurus"></p>
+<p><img src="/content/images/2023/09/docusaurus.png" alt="docusaurus"></p>
 <p>与VuePress一样，Docusaurus支持通过Markdown格式编写网页，并可以基于文件系统的目录结构生产对应的路由，而且也支持通过插件的方式来扩展功能。</p>
 <h2 id="">问题背景</h2>
 <p>Docusaurus官方提供了一些常见的插件，包括谷歌统计ga4，或者google tag manager，但是却没有提供AdSense变现SDK的插件。</p>

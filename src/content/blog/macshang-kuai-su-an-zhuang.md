@@ -19,7 +19,7 @@ authorSlug: "dev"
 <p>brew cask install sequel-pro</p>
 </blockquote>
 <p>反正我很快就下载完了，而通过官网才刚下了10%。</p>
-<p><img src="/images/2018/03/1521642193606.jpg" alt="1521642193606"></p>
+<p><img src="/content/images/2018/03/1521642193606.jpg" alt="1521642193606"></p>
 <p>对了，如果你还没有装caskroom，可以先安装:</p>
 <blockquote>
 <p>brew tap caskroom/cask</p>

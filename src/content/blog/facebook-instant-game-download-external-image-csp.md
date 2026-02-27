@@ -15,14 +15,14 @@ authorSlug: "dev"
 <p>Facebook Instant Game中，大部分的资源是直接打到游戏包里的，但是，在某些情况下，我们想要加载远程图片来更新游戏内容，比如更新关卡，或者远程更新交叉推广的游戏图标等。</p>
 <h3 id="">示例</h3>
 <p>像这个游戏中，交叉推广的游戏就从服务器远程加载的。</p>
-<p><img src="/images/2020/04/facebook_instant_game_csp_image_04.png" alt="facebook_instant_game_csp_image_04"></p>
+<p><img src="/content/images/2020/04/facebook_instant_game_csp_image_04.png" alt="facebook_instant_game_csp_image_04"></p>
 <p>游戏测试地址：<a href="https://fb.gg/play/twistglidecolor">https://fb.gg/play/twistglidecolor</a></p>
 <h3 id="">问题</h3>
 <p>如果直接使用Cocos Creator的cc.loader.load来加载远程服务器上的图片，则会出现2种错误：</p>
 <ol>
 <li>跨域资源访问的问题 (CORS = Cross-Origin Resource Sharing)</li>
 </ol>
-<p><img src="/images/2020/04/facebook_instant_game_csp_image_05.png" alt="facebook_instant_game_csp_image_05"></p>
+<p><img src="/content/images/2020/04/facebook_instant_game_csp_image_05.png" alt="facebook_instant_game_csp_image_05"></p>
 <blockquote>
 <p>关于 CORS: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS</a></p>
 </blockquote>
@@ -30,7 +30,7 @@ authorSlug: "dev"
 <li>内容安全策略 (CSP = Content Security Policy)</li>
 </ol>
 <p>如果在服务器端开放了跨域访问，还可能遇到这个问题，因为facebook只允许从特定域名下加载图片。</p>
-<p><img src="/images/2020/04/facebook_instant_game_csp_image_01.png" alt="facebook_instant_game_csp_image_01"></p>
+<p><img src="/content/images/2020/04/facebook_instant_game_csp_image_01.png" alt="facebook_instant_game_csp_image_01"></p>
 <blockquote>
 <p>关于CSP: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy</a></p>
 </blockquote>
@@ -39,11 +39,11 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://stackoverflow.com/questions/49122173/instant-games-content-security-policy?rq=1">https://stackoverflow.com/questions/49122173/instant-games-content-security-policy?rq=1</a></p>
 </blockquote>
-<p><img src="/images/2020/04/facebook_instant_game_csp_image_02.png" alt="facebook_instant_game_csp_image_02"></p>
+<p><img src="/content/images/2020/04/facebook_instant_game_csp_image_02.png" alt="facebook_instant_game_csp_image_02"></p>
 <blockquote>
 <p><a href="https://stackoverflow.com/questions/52592577/facebook-instant-games-loading-remote-images-during-the-game-doesnt-work">https://stackoverflow.com/questions/52592577/facebook-instant-games-loading-remote-images-during-the-game-doesnt-work</a></p>
 </blockquote>
-<p><img src="/images/2020/04/facebook_instant_game_csp_image_03.png" alt="facebook_instant_game_csp_image_03"></p>
+<p><img src="/content/images/2020/04/facebook_instant_game_csp_image_03.png" alt="facebook_instant_game_csp_image_03"></p>
 <p>那么，方法也就明确了。</p>
 <h3 id="">第一步，服务端开放跨域访问</h3>
 <p>以Nginx举例，可以在配置文件中添加以下设置：</p>
@@ -173,10 +173,10 @@ async loadIcon(iconUrl:string, gameId:string){
 <blockquote>
 <p><a href="https://developers.facebook.com/docs/games/instant-games/faq/">https://developers.facebook.com/docs/games/instant-games/faq/</a></p>
 </blockquote>
-<p><img src="/images/2020/04/facebook_instant_game_csp_image_06.png" alt="facebook_instant_game_csp_image_06"></p>
+<p><img src="/content/images/2020/04/facebook_instant_game_csp_image_06.png" alt="facebook_instant_game_csp_image_06"></p>
 <p>2). 从stackoverflow上的回复来看，facebook允许blob协议来传输图片。</p>
 <blockquote>
 <p><a href="https://stackoverflow.com/questions/49122173/instant-games-content-security-policy?rq=1">https://stackoverflow.com/questions/49122173/instant-games-content-security-policy?rq=1</a></p>
 </blockquote>
-<p><img src="/images/2020/04/facebook_instant_game_csp_image_02.png" alt="facebook_instant_game_csp_image_02"></p>
+<p><img src="/content/images/2020/04/facebook_instant_game_csp_image_02.png" alt="facebook_instant_game_csp_image_02"></p>
 <!--kg-card-end: markdown--><p></p><p></p>

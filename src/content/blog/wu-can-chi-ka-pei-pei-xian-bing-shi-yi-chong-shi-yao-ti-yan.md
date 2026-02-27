@@ -17,5 +17,5 @@ authorSlug: "dev"
 <strong>中西合璧，好吃不贵。</strong></p>
 <p>又有一个名人曾经说过，<br>
 <strong>咖啡配馅饼，越吃越上瘾。</strong></p>
-<p><img src="/images/2019/09/------06.jpeg" alt="咖啡配馅饼"></p>
+<p><img src="/content/images/2019/09/------06.jpeg" alt="咖啡配馅饼"></p>
 <!--kg-card-end: markdown-->

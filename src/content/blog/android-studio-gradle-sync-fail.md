@@ -14,22 +14,22 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>最近遇到一个奇怪的问题，不确定是怎么出现的，但是记录一下解决的过程。</p>
 <p>Android Studio 版本：3.4.1</p>
-<p><img src="/images/2020/02/AndroidStudio_version.png" alt="AndroidStudio_version"></p>
+<p><img src="/content/images/2020/02/AndroidStudio_version.png" alt="AndroidStudio_version"></p>
 <p>正常情况下，要想能够使用Android Studio来更新Android的各种插件，我们需要在Android Studio里配置proxy：</p>
-<p><img src="/images/2020/02/AndroidStudio_http_proxy.png" alt="AndroidStudio_http_proxy"></p>
+<p><img src="/content/images/2020/02/AndroidStudio_http_proxy.png" alt="AndroidStudio_http_proxy"></p>
 <p>这个配置很久以来一直都工作很正常，昨天突然就报错了<br>
-<img src="/images/2020/02/AndroidStudio_sync_fail.png" alt="AndroidStudio_sync_fail"></p>
+<img src="/content/images/2020/02/AndroidStudio_sync_fail.png" alt="AndroidStudio_sync_fail"></p>
 <p>奇怪了，明明给gradle配置了proxy，为什么会失败了呢？</p>
-<p><img src="/images/2020/02/AndroidStudio_gradle_global_proxy.png" alt="AndroidStudio_gradle_global_proxy"></p>
+<p><img src="/content/images/2020/02/AndroidStudio_gradle_global_proxy.png" alt="AndroidStudio_gradle_global_proxy"></p>
 <h2 id="">解决方法</h2>
 <ol>
 <li>禁用gradle代理<br>
-<img src="/images/2020/02/AndroidStudio_gradle_global_proxy_disable.png" alt="AndroidStudio_gradle_global_proxy_disable"></li>
+<img src="/content/images/2020/02/AndroidStudio_gradle_global_proxy_disable.png" alt="AndroidStudio_gradle_global_proxy_disable"></li>
 </ol>
 <p>然后sync时，不要把Android Studio的proxy设置同步到gradle里，弹窗选择Cancel<br>
-<img src="/images/2020/02/AndroidStudio_auto_proxy.png" alt="AndroidStudio_auto_proxy"></p>
+<img src="/content/images/2020/02/AndroidStudio_auto_proxy.png" alt="AndroidStudio_auto_proxy"></p>
 <p>然后，就sync就成功了……<br>
-<img src="/images/2020/02/AndroidStudio_sync_success.png" alt="AndroidStudio_sync_success"></p>
+<img src="/content/images/2020/02/AndroidStudio_sync_success.png" alt="AndroidStudio_sync_success"></p>
 <p>禁用了代理，反而成功了？？？<br>
 对。<br>
 为什么？<br>
@@ -48,7 +48,7 @@ authorSlug: "dev"
 </code></pre>
 <h2 id="">其他</h2>
 <p>我又测试了一下，关闭Androi Studio自己代理，打开Sdk Manager，好像也一切正常……</p>
-<p><img src="/images/2020/02/AndroidStudio_no_proxy.png" alt="AndroidStudio_no_proxy"></p>
-<p><img src="/images/2020/02/AndroidStudio_sdk_site.png" alt="AndroidStudio_sdk_site"></p>
+<p><img src="/content/images/2020/02/AndroidStudio_no_proxy.png" alt="AndroidStudio_no_proxy"></p>
+<p><img src="/content/images/2020/02/AndroidStudio_sdk_site.png" alt="AndroidStudio_sdk_site"></p>
 <p>先记录下来，后边又新发现再更新。</p>
 <!--kg-card-end: markdown-->

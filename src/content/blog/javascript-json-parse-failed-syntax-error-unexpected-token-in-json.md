@@ -126,7 +126,7 @@ parse failed:  SyntaxError: Unexpected token n in JSON at position 54
 <p>发现，从服务端读取的obj数据是objJson2，该数据中，child的json串中增加了一些转义字符（由斜杆\开头）。<br>
 这是正常的，JSON字符串需要对特殊字符进行转义才能保存。</p>
 <p>而报错的位置，正是第一个转移字符：<br>
-<img src="/images/2021/06/json-parse-failed-syntax-error-unexpected-token-01.png" alt="json-parse-failed-syntax-error-unexpected-token-01"></p>
+<img src="/content/images/2021/06/json-parse-failed-syntax-error-unexpected-token-01.png" alt="json-parse-failed-syntax-error-unexpected-token-01"></p>
 <p>仔细分析一下，JavaScript的JSON.parse在解析时，可能先对字符串中的转义字符进行转义，其中</p>
 <pre><code>\&quot; =&gt; &quot;
 </code></pre>

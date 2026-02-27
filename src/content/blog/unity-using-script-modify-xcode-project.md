@@ -71,7 +71,7 @@ if(productName != newProductName){
 <blockquote>
 <p>注意：如果只修改PRODUCT_NAME，会发现我们设置的BundleId也被修改了，因为Unity的XCode工程中，Info.plist中BundleId是与PRODUCT_NAME相关的。</p>
 </blockquote>
-<p><img src="/images/2019/07/Unity_Edit_XCode_Project_Using_Script.png" alt="Unity_Edit_XCode_Project_Using_Script"></p>
+<p><img src="/content/images/2019/07/Unity_Edit_XCode_Project_Using_Script.png" alt="Unity_Edit_XCode_Project_Using_Script"></p>
 <p>步骤与修改工程文件类似<br>
 1). 打开文件</p>
 <pre><code>string plistPath = Path.Combine( pathToBuildProject, &quot;Info.plist&quot; );

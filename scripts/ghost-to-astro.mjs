@@ -85,10 +85,7 @@ function main() {
     const primaryAuthorId = post.author_id || (posts_authors || []).find((p) => p.post_id === post.id)?.author_id;
     const authorUser = primaryAuthorId ? userMap.get(primaryAuthorId) : null;
 
-    let image = post.feature_image || null;
-    if (image && image.startsWith('/content/images/')) {
-      image = image.replace('/content/images', '/images');
-    }
+    const image = post.feature_image || null;
 
     const pubDate = post.published_at || post.created_at;
     const draft = status !== 'published';
@@ -126,8 +123,7 @@ function main() {
     if (authorSlugResolved) lines.push(`authorSlug: ${escapeYaml(authorSlugResolved)}`);
     lines.push('---', '');
 
-    let body = post.html || '';
-    body = body.replace(/\/content\/images\//g, '/images/');
+    const body = post.html || '';
     lines.push(body);
 
     const filename = `${post.slug || slugify(post.title) || post.id}.md`;
@@ -139,7 +135,7 @@ function main() {
 
   console.log(`\nDone. Migrated ${count} posts to ${OUTPUT_DIR}`);
   console.log('\nNext steps:');
-  console.log('  1. Copy Ghost content/images to public/images (if you have the old site files)');
+  console.log('  1. Copy Ghost content/images to public/content/images (if you have the old site files)');
   console.log('  2. Run: npm create astro@latest and add content collection');
   console.log('  3. Update src/content.config.ts schema to match (type, slug optional)');
 }

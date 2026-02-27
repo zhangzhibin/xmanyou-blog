@@ -17,7 +17,7 @@ authorSlug: "dev"
 <pre><code>Cookie write failed.
 Storage not available. Aborting hit.
 </code></pre>
-<p><img src="/images/2022/03/ga-gtag-event-failed-storage-not-available-aborting-hit.png" alt="ga-gtag-event-failed-storage-not-available-aborting-hit"></p>
+<p><img src="/content/images/2022/03/ga-gtag-event-failed-storage-not-available-aborting-hit.png" alt="ga-gtag-event-failed-storage-not-available-aborting-hit"></p>
 <h2 id="">解决方法</h2>
 <p>这是由于Chrome的cookie设置决定的，具体原因可以查看ga文档：</p>
 <blockquote>

@@ -35,32 +35,32 @@ DoH通过加密DNS请求，保证了域名的正常解析。</li>
 <p>详细步骤：</p>
 <h2 id="1simplednscrypt">1. 下载Simple DNSCrypt</h2>
 <p>下载地址：<a href="https://simplednscrypt.org/">https://simplednscrypt.org/</a></p>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-13.jpg" alt="enable-doh-dns-over-https-on-windows-13"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-13.jpg" alt="enable-doh-dns-over-https-on-windows-13"></p>
 <h2 id="2simplednscrypt">2. 安装Simple DNSCrypt</h2>
 <p>如果你是从官网下载的，那么一路Next就可以了。</p>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-14.png" alt="enable-doh-dns-over-https-on-windows-14"></p>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-15.png" alt="enable-doh-dns-over-https-on-windows-15"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-14.png" alt="enable-doh-dns-over-https-on-windows-14"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-15.png" alt="enable-doh-dns-over-https-on-windows-15"></p>
 <p>看到这个界面就表示安装完成了。<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-16.png" alt="enable-doh-dns-over-https-on-windows-16"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-16.png" alt="enable-doh-dns-over-https-on-windows-16"></p>
 <h2 id="3simplednscrypt">3. 启动 Simple DNSCrypt</h2>
 <p>安装完毕后，点Finish会自动启动Simple DNSCrypt，或者自己从桌面或者开始菜单里启动 Simple DNSCrypt。</p>
 <p>如果缺少必要的软件，会自动安装，并检查版本。</p>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-17.jpg" alt="enable-doh-dns-over-https-on-windows-17"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-17.jpg" alt="enable-doh-dns-over-https-on-windows-17"></p>
 <p>然后就进入应用的主界面。</p>
 <h2 id="4simplednscrypt">4. 配置Simple DNSCrypt</h2>
 <h3 id="">切换语言</h3>
 <p>如果不熟悉英文，可以点界面的右上角English按钮，从列表中选择Chinese Simp.改为简体中文。<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-18.png" alt="enable-doh-dns-over-https-on-windows-18"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-18.png" alt="enable-doh-dns-over-https-on-windows-18"></p>
 <h3 id="dnscrypt">开启DNSCrypt服务</h3>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-19.png" alt="enable-doh-dns-over-https-on-windows-19"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-19.png" alt="enable-doh-dns-over-https-on-windows-19"></p>
 <h3 id="doh">开启DoH功能</h3>
 <p>勾选要开启DoH功能的网卡</p>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-20.png" alt="enable-doh-dns-over-https-on-windows-20"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-20.png" alt="enable-doh-dns-over-https-on-windows-20"></p>
 <p>如果不知道是哪个，就全部选上。</p>
 <p>然后，稍等一会，Simple DNSCrypt会自动查询可用的DNS服务器，等列表刷新完毕，就配置完成了。</p>
 <h2 id="5">5. 关闭自动更新</h2>
 <p>软件在启动的时候会自动检查版本，如果你不希望自动更新，可以从设置中关掉。<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-21.png" alt="enable-doh-dns-over-https-on-windows-21"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-21.png" alt="enable-doh-dns-over-https-on-windows-21"></p>
 <p>以上。</p>
 <p>是不是很方便呢？</p>
 <h1 id="">参考</h1>

@@ -38,7 +38,7 @@ authorSlug: "dev"
 </code></pre>
 <h2 id="3">3). 默认首页</h2>
 <p>通过浏览器访问: <code>http://localhost:3088</code>，可以查看默认首页。</p>
-<p><img src="/images/2021/11/json-server-as-mock-server-default-home-page.png" alt="json-server-as-mock-server-default-home-page"></p>
+<p><img src="/content/images/2021/11/json-server-as-mock-server-default-home-page.png" alt="json-server-as-mock-server-default-home-page"></p>
 <h2 id="4">4). 测试接口</h2>
 <p>json-server根据db.json自动生成以下接口：</p>
 <pre><code>  http://localhost:3088/posts

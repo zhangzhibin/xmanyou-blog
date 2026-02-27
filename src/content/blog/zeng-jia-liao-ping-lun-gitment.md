@@ -11,7 +11,7 @@ slug: "zeng-jia-liao-ping-lun-gitment"
 authorSlug: "team"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/04/Snip20180411_38.png" alt="Snip20180411_38"><br>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/content/images/2018/04/Snip20180411_38.png" alt="Snip20180411_38"><br>
 虽然可能大概也没有什么人会评论，但是，没有这个入口，一直让我觉得缺了点什么。就像《大腕》里说的：<strong>只许你说不看，不许你说收不着</strong>。</p>
 <p>ghost一直没有官方的评论系统，只好上网找现成的，本来想用duoshuo的，结果居然被和谐了……<br>
 然后，居然搜到一个gitment，利用github的issue系统来做评论，真是绝妙的主意。<br>
@@ -56,13 +56,13 @@ gitment.render('gitment')
 <ol start="4">
 <li>上传更新theme</li>
 <li>刷新博客文章页面，就能看到文章底部增加了一个等待初始化评论框，这时候还不能评论<br>
-<img src="/images/2018/04/Snip20180411_39.png" alt="Snip20180411_39"></li>
+<img src="/content/images/2018/04/Snip20180411_39.png" alt="Snip20180411_39"></li>
 <li>初始化评论功能<br>
 点击Initialize Comments按钮，没出现什么错误的话，就可以评论了。</li>
 </ol>
 <p><strong>注意</strong><br>
 如果遇到Validation Failed<br>
-<img src="/images/2018/04/Snip20180411_37.png" alt="Snip20180411_37"></p>
+<img src="/content/images/2018/04/Snip20180411_37.png" alt="Snip20180411_37"></p>
 <p>这是因为默认评论是使用地址作为评论的id，一般会超过50个字符。所以，我改了一下，使用日期来做id：</p>
 <pre><code>var gitment = new Gitment({
   id: '{{date format=&quot;YYYYMMDDHHmmss&quot;}}', &lt;===== 改成用日期做为id

@@ -81,9 +81,9 @@ services:
 </ul>
 <p>管理员信息自行配置。</p>
 <p>点击底部安装按钮。</p>
-<p><img src="/images/2019/09/piwigo_setup.png" alt="piwigo_setup"></p>
+<p><img src="/content/images/2019/09/piwigo_setup.png" alt="piwigo_setup"></p>
 <p>一切顺利的话，很快就配置完成了。</p>
-<p><img src="/images/2019/09/piwigo_setup_ready.png" alt="piwigo_setup_ready"></p>
+<p><img src="/content/images/2019/09/piwigo_setup_ready.png" alt="piwigo_setup_ready"></p>
 <h2 id="piwigo">访问和管理Piwigo</h2>
 <p>打开页面：<a href="http://localhost:8899">http://localhost:8899</a></p>
 <p>用管理员账号登录，即可进行管理。</p>

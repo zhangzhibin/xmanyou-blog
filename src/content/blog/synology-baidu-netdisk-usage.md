@@ -23,9 +23,9 @@ authorSlug: "dev"
 <a href="https://github.com/john-shine/synology-baiduNetdisk-package/releases">https://github.com/john-shine/synology-baiduNetdisk-package/releases</a></p>
 </blockquote>
 <p>这个方法的原理是利用docker运行一个百度网盘客户端容器，然后用vnc来控制。</p>
-<p><img src="/images/2021/07/synology-baidu-netdisk-usage-01.jpeg" alt="synology-baidu-netdisk-usage-01"></p>
-<p><img src="/images/2021/07/synology-baidu-netdisk-usage-02.jpeg" alt="synology-baidu-netdisk-usage-02"></p>
-<p><img src="/images/2021/07/synology-baidu-netdisk-usage-03.jpeg" alt="synology-baidu-netdisk-usage-03"></p>
+<p><img src="/content/images/2021/07/synology-baidu-netdisk-usage-01.jpeg" alt="synology-baidu-netdisk-usage-01"></p>
+<p><img src="/content/images/2021/07/synology-baidu-netdisk-usage-02.jpeg" alt="synology-baidu-netdisk-usage-02"></p>
+<p><img src="/content/images/2021/07/synology-baidu-netdisk-usage-03.jpeg" alt="synology-baidu-netdisk-usage-03"></p>
 <p>可以看到，使用这个套件，基本上跟在电脑上使用百度网盘客户端是一样一样的，包括网速……</p>
 <p>如果你跟我一样没有开通会员，就只好忍受龟速下载。</p>
 <p>不过，不着急的话，也不是大问题。</p>
@@ -34,14 +34,14 @@ authorSlug: "dev"
 <h1 id="">解决方法</h1>
 <h2 id="">首先，下载的文件去哪里了？</h2>
 <p>百度网盘客户端套件安装完毕后，默认的下载地址是docker容器中的home/baidu目录，而不是群晖的home目录。</p>
-<p><img src="/images/2021/07/synology-baidu-netdisk-usage-04.png" alt="synology-baidu-netdisk-usage-04"></p>
+<p><img src="/content/images/2021/07/synology-baidu-netdisk-usage-04.png" alt="synology-baidu-netdisk-usage-04"></p>
 <p>如果没有特别指定的卷(volume)，那么这个home目录是没法直接从群晖的文件管理器中找到的。</p>
 <p>所以，在首次下载文件前，需要先指定一个群晖的挂载目录(volume)，该套件默认已经帮忙挂载了一个群晖目录BDdownload，套件中的地址是</p>
 <pre><code>/home/baidu/baidunetdiskdownload/
 </code></pre>
-<p><img src="/images/2021/07/synology-baidu-netdisk-usage-06.png" alt="synology-baidu-netdisk-usage-06"></p>
+<p><img src="/content/images/2021/07/synology-baidu-netdisk-usage-06.png" alt="synology-baidu-netdisk-usage-06"></p>
 <p>指定这个目录为默认下载目录，然后下载的文件，就会显示在群晖的BDdownload目录里了。<br>
-<img src="/images/2021/07/synology-baidu-netdisk-usage-05.png" alt="synology-baidu-netdisk-usage-05"></p>
+<img src="/content/images/2021/07/synology-baidu-netdisk-usage-05.png" alt="synology-baidu-netdisk-usage-05"></p>
 <h2 id="">其次，已经下载的文件怎么找回来？</h2>
 <p>简单说一下原理：</p>
 <ul>

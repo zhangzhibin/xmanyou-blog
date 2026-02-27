@@ -47,7 +47,7 @@ authorSlug: "dev"
 <li><a href="https://nuxtjs.org/docs/concepts/nuxt-lifecycle/">https://nuxtjs.org/docs/concepts/nuxt-lifecycle/</a></li>
 </ul>
 </blockquote>
-<p><img src="/images/2021/11/nuxtjs-lifecycle.png" alt="nuxtjs-lifecycle"></p>
+<p><img src="/content/images/2021/11/nuxtjs-lifecycle.png" alt="nuxtjs-lifecycle"></p>
 <p>可以看到，<strong>mounted</strong>方法是最早最适合添加动态js代码的地方。</p>
 <h2 id="">注意事项</h2>
 <ul>

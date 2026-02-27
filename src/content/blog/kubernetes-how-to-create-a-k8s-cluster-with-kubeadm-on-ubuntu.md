@@ -128,7 +128,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 <blockquote>
 <p><a href="https://kubernetes.io/zh/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network">https://kubernetes.io/zh/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#pod-network</a></p>
 </blockquote>
-<p><img src="/images/2021/05/k8s-install-guide-pod-network-addon.png" alt="k8s-install-guide-pod-network-addon"></p>
+<p><img src="/content/images/2021/05/k8s-install-guide-pod-network-addon.png" alt="k8s-install-guide-pod-network-addon"></p>
 <p>可选用的网络组件很多</p>
 <blockquote>
 <p><a href="https://kubernetes.io/zh/docs/concepts/cluster-administration/networking/#how-to-implement-the-kubernetes-networking-model">https://kubernetes.io/zh/docs/concepts/cluster-administration/networking/#how-to-implement-the-kubernetes-networking-model</a></p>
@@ -145,7 +145,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 </code></pre>
 <p><strong>特别注意</strong><br>
 如果用Flannel，在下一步进行初始化时，需要指定--pod-network-cidr参数。</p>
-<p><img src="/images/2021/05/k8s-install-guide-flannel.png" alt="k8s-install-guide-flannel"></p>
+<p><img src="/content/images/2021/05/k8s-install-guide-flannel.png" alt="k8s-install-guide-flannel"></p>
 <h1 id="4k8s">4. 初始化k8s集群，并添加首个控制平面</h1>
 <h2 id="41swap">4.1. 关闭swap功能</h2>
 <p>初始化前需要先关闭swap功能</p>
@@ -335,7 +335,7 @@ user-db        ClusterIP   10.110.108.10    &lt;none&gt;        27017/TCP      1
 <blockquote>
 <p>http://&lt;control-plane地址&gt;:30001</p>
 </blockquote>
-<p><img src="/images/2021/05/k8s-install-guide-view-sock-shop.png" alt="k8s-install-guide-view-sock-shop"></p>
+<p><img src="/content/images/2021/05/k8s-install-guide-view-sock-shop.png" alt="k8s-install-guide-view-sock-shop"></p>
 <h1 id="8">8. 其他</h1>
 <p>现在，一个单控制平面+多工作节点的k8s集群，就基本完成了。但是，还有更多任务要继续探索：</p>
 <ul>

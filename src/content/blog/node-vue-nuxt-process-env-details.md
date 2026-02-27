@@ -34,7 +34,7 @@ process.env的值可以被在Node.js进程中被修改，但是，并不会真�
 <p>将输出：</p>
 <pre><code>foo=
 </code></pre>
-<p><img src="/images/2021/11/node-nuxt-vue-rocess-env-details-01.png" alt="node-nuxt-vue-process-env-details-01"></p>
+<p><img src="/content/images/2021/11/node-nuxt-vue-rocess-env-details-01.png" alt="node-nuxt-vue-process-env-details-01"></p>
 <p>这是因为，实际上，process.envs是环境变量的值拷贝，而不直接操作环境变量。</p>
 <ul>
 <li>process.env中的值都是字符串<br>
@@ -178,7 +178,7 @@ export default {
 </code></pre>
 <p><strong>官方提示</strong><br>
 如果在服务端之外的环境中使用$config，则可能会暴露私有配置。也就说，不要在客户端代码中使用私有参数。</p>
-<p><img src="/images/2021/11/node-nuxt-vue-rocess-env-details-02.png" alt="node-nuxt-vue-process-env-details-02"></p>
+<p><img src="/content/images/2021/11/node-nuxt-vue-rocess-env-details-02.png" alt="node-nuxt-vue-process-env-details-02"></p>
 <p>那么，问题来了：<br>
 这是因为这些参数会被静态嵌入到客户端代码里，还是注入到客户端的$config，从而被暴露？</p>
 <h2 id="33modules">3.3. 模块Modules的参数配置</h2>
@@ -217,6 +217,6 @@ export default {
 <p>在博文《Node环境变量 process.env 的那些事儿》的评论中，有一个有趣的回复：</p>
 <blockquote>
 <p><a href="https://segmentfault.com/a/1190000011683741">https://segmentfault.com/a/1190000011683741</a><br>
-<img src="/images/2021/11/node-nuxt-vue-rocess-env-details-03.png" alt="node-nuxt-vue-process-env-details-03"></p>
+<img src="/content/images/2021/11/node-nuxt-vue-rocess-env-details-03.png" alt="node-nuxt-vue-process-env-details-03"></p>
 </blockquote>
 <!--kg-card-end: markdown-->

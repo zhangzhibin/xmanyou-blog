@@ -27,5 +27,5 @@ authorSlug: "dev"
        window.p2 = a();
      }
 </code></pre>
-<p><img src="/images/2018/04/Snip20180410_7.png" alt="Snip20180410_7"></p>
+<p><img src="/content/images/2018/04/Snip20180410_7.png" alt="Snip20180410_7"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

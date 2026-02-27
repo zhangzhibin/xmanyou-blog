@@ -30,7 +30,7 @@ Rider是JetBrain公司出的.Net的IDE。经测试发现，Rider可以与Unity20
 <p>是否继续使用VS的方案呢？<br>
 当然是有，不然我也不会写这篇文章了。<br>
 方法就是，在Unity Preference -&gt; External Tools -&gt; External Script Editor，选择Open by file extension<br>
-<img src="/images/2019/05/Snip20190527_38.png" alt="Snip20190527_38"></p>
+<img src="/content/images/2019/05/Snip20190527_38.png" alt="Snip20190527_38"></p>
 </li>
 </ol>
 <p>然后，你需要在操作系统中设置.cs文件的默认打开方式，我用的是VS Code。<br>
@@ -38,6 +38,6 @@ Rider是JetBrain公司出的.Net的IDE。经测试发现，Rider可以与Unity20
 <p>稍微不完美一点的地方是，每次打开一个文件时，都会在Unity的Console中报一个错误：</p>
 <pre><code>Exception thrown while invoking [OnOpenAssetAttribute] method 'Unity.CodeEditor.CodeEditor:OnOpenAsset (int,int,int)' : Win32Exception: Cannot find the specified file
 </code></pre>
-<p><img src="/images/2019/05/Snip20190527_39.png" alt="Snip20190527_39"></p>
+<p><img src="/content/images/2019/05/Snip20190527_39.png" alt="Snip20190527_39"></p>
 <p>不过，这个错误并不影响使用，直接Clear清除即可。</p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

@@ -54,7 +54,7 @@ authorSlug: "dev"
 <li>播放 showAsync</li>
 </ul>
 <h2 id="31facebook">3.1. Facebook 广告的业务流程</h2>
-<p><img src="/images/2021/01/fbig-adinstance-process.png" alt="fbig-adinstance-process"></p>
+<p><img src="/content/images/2021/01/fbig-adinstance-process.png" alt="fbig-adinstance-process"></p>
 <p>Facebook广告的典型业务流程分为以下几个步骤</p>
 <ul>
 <li>1). 初始</li>
@@ -64,7 +64,7 @@ authorSlug: "dev"
 <li>5). 结束</li>
 </ul>
 <h2 id="32adinstance">3.2. 广告实例AdInstance 的生命状态</h2>
-<p><img src="/images/2021/01/fbig-adinstance-life-status.png" alt="fbig-adinstance-life-status"></p>
+<p><img src="/content/images/2021/01/fbig-adinstance-life-status.png" alt="fbig-adinstance-life-status"></p>
 <p>一个广告实例的生命状态可以分为：</p>
 <ul>
 <li>1). 无效（初始为null或者undefined）</li>
@@ -144,9 +144,9 @@ authorSlug: "dev"
 <li>3). 游戏时长超过30分钟。</li>
 </ul>
 <p>在小游戏后台可以查看当前的MAP值：<strong>Instant Games -&gt; Launch Status -&gt; Monthly Active Players</strong><br>
-<img src="/images/2021/01/fbig-adinstance-map.png" alt="fbig-adinstance-map"></p>
+<img src="/content/images/2021/01/fbig-adinstance-map.png" alt="fbig-adinstance-map"></p>
 <h2 id="45ads_no_fillnofill">4.5. 加载广告时，错误 ADS_NO_FILL，详情 No fill</h2>
-<p><img src="/images/2021/01/fbig-adinstance-not-fill.png" alt="fbig-adinstance-not-fill"></p>
+<p><img src="/content/images/2021/01/fbig-adinstance-not-fill.png" alt="fbig-adinstance-not-fill"></p>
 <ul>
 <li>
 <p>解释<br>
@@ -186,7 +186,7 @@ authorSlug: "dev"
 <li>解决方法<br>
 应该舍弃已经播放过的广告实例，（设置为null或者undefined），然后重新获取新实例。</li>
 <li>参考代码<br>
-<img src="/images/2021/01/fbig-adinstance-show.png" alt="fbig-adinstance-show"></li>
+<img src="/content/images/2021/01/fbig-adinstance-show.png" alt="fbig-adinstance-show"></li>
 </ul>
 <h1 id="5">5. 其他事项</h1>
 <h2 id="51">5.1. 一些开发与调试建议</h2>
@@ -209,7 +209,7 @@ authorSlug: "dev"
 </ul>
 <h2 id="52">5.2. 激励视频广告需要二次确认</h2>
 <p>Facebook广告要求为激励视频广告添加二次确认，请在播放广告之前，设置对话框确认。</p>
-<p><img src="/images/2021/01/fbig-adinstance-confirm.png" alt="fbig-adinstance-confirm"></p>
+<p><img src="/content/images/2021/01/fbig-adinstance-confirm.png" alt="fbig-adinstance-confirm"></p>
 <h2 id="53vpn">5.3. 使用稳定的VPN网络</h2>
 <h1 id="">最后</h1>
 <p>祝大家都赚钱~</p>

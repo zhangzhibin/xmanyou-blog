@@ -11,7 +11,7 @@ slug: "using-jest-for-typescript-unit-testing"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><p><img src="/images/2022/04/jest.png" alt="jest"></p>
+<!--kg-card-begin: markdown--><p><img src="/content/images/2022/04/jest.png" alt="jest"></p>
 <h1 id="jest">关于jest</h1>
 <p>jest是Facebook开源的一个js测试框架。<br>
 对于纯js项目，特别是node.js项目，几乎是开箱即用，非常简单。</p>
@@ -98,5 +98,5 @@ moduleFileExtensions: [&quot;ts&quot;, &quot;tsx&quot;, &quot;js&quot;, &quot;js
 </code></pre>
 <h3 id="43testts">4.3. 编写*.test.ts测试模块</h3>
 <p>设置完毕，就可以使用ts来编写测试用例，测试ts代码了。</p>
-<p><img src="/images/2022/04/jest-typescript-unit-testing.png" alt="jest-typescript-unit-testing"></p>
+<p><img src="/content/images/2022/04/jest-typescript-unit-testing.png" alt="jest-typescript-unit-testing"></p>
 <!--kg-card-end: markdown-->

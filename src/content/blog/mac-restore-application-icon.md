@@ -15,7 +15,7 @@ authorSlug: "dev"
 <p>最近，我想使用群晖的备份功能(Drive)来备份一些常用的应用程序。</p>
 <p>由于我不想直接备份整个Applications文件夹，所以，我精心挑选了一些需要备用的应用。</p>
 <p>然后，出乎意料地发现，我的应用图标都被群晖修改成了它的网盘图标。就像这样子：</p>
-<p><img src="/images/2020/03/Mac_Finder_Restore_Application_Icon_01.png" alt="Mac_Finder_Restore_Application_Icon_01"></p>
+<p><img src="/content/images/2020/03/Mac_Finder_Restore_Application_Icon_01.png" alt="Mac_Finder_Restore_Application_Icon_01"></p>
 <p>这下找应用就麻烦了，只能凭文件名来找了。</p>
 <p>有什么办法恢复呢？</p>
 <h2 id="">解决方法</h2>
@@ -38,7 +38,7 @@ authorSlug: "dev"
 </ol>
 </li>
 </ul>
-<p><img src="/images/2020/03/Mac_Finder_Restore_Application_Icon_02.png" alt="Mac_Finder_Restore_Application_Icon_02"></p>
+<p><img src="/content/images/2020/03/Mac_Finder_Restore_Application_Icon_02.png" alt="Mac_Finder_Restore_Application_Icon_02"></p>
 <ul>
 <li>
 <ol start="3">
@@ -46,8 +46,8 @@ authorSlug: "dev"
 </ol>
 </li>
 </ul>
-<p><img src="/images/2020/03/Mac_Finder_Restore_Application_Icon_03.png" alt="Mac_Finder_Restore_Application_Icon_03"></p>
-<p><img src="/images/2020/03/Mac_Finder_Restore_Application_Icon_04.png" alt="Mac_Finder_Restore_Application_Icon_04"></p>
+<p><img src="/content/images/2020/03/Mac_Finder_Restore_Application_Icon_03.png" alt="Mac_Finder_Restore_Application_Icon_03"></p>
+<p><img src="/content/images/2020/03/Mac_Finder_Restore_Application_Icon_04.png" alt="Mac_Finder_Restore_Application_Icon_04"></p>
 <h2 id="">其他</h2>
 <p>这个方法应该也适用于被其他网盘修改的文件夹或者应用图标。</p>
 <!--kg-card-end: markdown-->

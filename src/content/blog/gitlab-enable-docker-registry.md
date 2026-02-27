@@ -13,7 +13,7 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><p>gitlab是自带docker registry模块的，但是默认是关闭的。</p>
 <p>没开启之前，在项目的web管理界面上，看到是这样子。<br>
-<img src="/images/2021/03/gitlab-enable-docker-registry-01.png" alt="gitlab-enable-docker-registry-01"></p>
+<img src="/content/images/2021/03/gitlab-enable-docker-registry-01.png" alt="gitlab-enable-docker-registry-01"></p>
 <p>开启方法</p>
 <ul>
 <li>1). 修改gitlab.rb</li>
@@ -29,5 +29,5 @@ authorSlug: "dev"
 </code></pre>
 <p>修改后，重启gitlab。</p>
 <p>成功开启的话，可以在项目的管理界面上找到：<strong>容器镜像库</strong></p>
-<p><img src="/images/2021/03/gitlab-enable-docker-registry-02.png" alt="gitlab-enable-docker-registry-02"></p>
+<p><img src="/content/images/2021/03/gitlab-enable-docker-registry-02.png" alt="gitlab-enable-docker-registry-02"></p>
 <!--kg-card-end: markdown-->

@@ -8,7 +8,7 @@ tagSlugs: ["games", "cocos-creator"]
 draft: false
 type: post
 slug: "balance-letter-stacky"
-image: "/images/2019/07/Banner1024x500.png"
+image: "/content/images/2019/07/Banner1024x500.png"
 authorSlug: "team"
 ---
 
@@ -28,4 +28,4 @@ authorSlug: "team"
 <li>iOS版本可以从<a href="https://apps.apple.com/cn/app/letter-stacky/id1456556036">App Store</a>下载</li>
 </ul>
 <p><a href="https://apps.apple.com/cn/app/letter-stacky/id1456556036">https://apps.apple.com/cn/app/letter-stacky/id1456556036</a></p>
-<!--kg-card-end: markdown--><!--kg-card-begin: image--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/images/2019/07/screen4-1.png" class="kg-image"><figcaption>字母叠叠乐 Letter Stacky</figcaption></figure><!--kg-card-end: image-->
+<!--kg-card-end: markdown--><!--kg-card-begin: image--><figure class="kg-card kg-image-card kg-card-hascaption"><img src="/content/images/2019/07/screen4-1.png" class="kg-image"><figcaption>字母叠叠乐 Letter Stacky</figcaption></figure><!--kg-card-end: image-->

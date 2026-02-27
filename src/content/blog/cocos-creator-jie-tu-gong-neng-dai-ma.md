@@ -167,5 +167,5 @@ export default class ScreenShotNode extends cc.Component {
 
 
 </code></pre>
-<p><img src="/images/2018/12/Snipaste_2018-12-18_09-07-19.png" alt="Snipaste_2018-12-18_09-07-19"></p>
+<p><img src="/content/images/2018/12/Snipaste_2018-12-18_09-07-19.png" alt="Snipaste_2018-12-18_09-07-19"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

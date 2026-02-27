@@ -30,6 +30,6 @@ authorSlug: "team"
 </ul>
 </li>
 </ol>
-<p><img src="/images/2024/05/apisix-how-to-redirect-from-root-domain-to-www-subdomain.jpg" alt="apisix-how-to-redirect-from-root-domain-to-www-subdomain"></p>
+<p><img src="/content/images/2024/05/apisix-how-to-redirect-from-root-domain-to-www-subdomain.jpg" alt="apisix-how-to-redirect-from-root-domain-to-www-subdomain"></p>
 <p>完毕。</p>
 <!--kg-card-end: markdown-->

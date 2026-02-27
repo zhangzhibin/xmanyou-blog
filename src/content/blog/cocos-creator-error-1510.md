@@ -11,7 +11,7 @@ slug: "cocos-creator-error-1510"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/12/Snipaste_2018-12-18_10-33-45.png" alt="Snipaste_2018-12-18_10-33-45"></p>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/content/images/2018/12/Snipaste_2018-12-18_10-33-45.png" alt="Snipaste_2018-12-18_10-33-45"></p>
 <p>遇到这个错误，不要慌，检查一下自定义组件类是否定义了属性 _id，像这样子：</p>
 <pre><code>   @property(cc.Label)
     txtPrice:cc.Label = null;

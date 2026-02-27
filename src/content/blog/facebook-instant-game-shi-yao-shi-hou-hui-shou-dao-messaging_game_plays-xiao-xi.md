@@ -19,7 +19,7 @@ authorSlug: "dev"
 <p>参考<br>
 <a href="https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/">https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/</a></p>
 </blockquote>
-<p><img src="/images/2018/12/Snip20181213_18.png" alt="Snip20181213_18"></p>
+<p><img src="/content/images/2018/12/Snip20181213_18.png" alt="Snip20181213_18"></p>
 <p><strong>官方解释</strong></p>
 <blockquote>
 <p>This callback occurs after a person played a round of Instant Games.</p>
@@ -57,17 +57,17 @@ Once your bot is correctly configured, your server application will start receiv
  }
 </code></pre>
 <p>其中，payload是我在游戏中通过 FBInstant.setSessionData 设置的。</p>
-<p><img src="/images/2018/12/Snip20181213_20.png" alt="Snip20181213_20"></p>
+<p><img src="/content/images/2018/12/Snip20181213_20.png" alt="Snip20181213_20"></p>
 <blockquote>
 <p><a href="https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.2">https://developers.facebook.com/docs/games/instant-games/sdk/fbinstant6.2</a></p>
 </blockquote>
-<p><img src="/images/2018/12/Snip20181213_19.png" alt="Snip20181213_19"></p>
+<p><img src="/content/images/2018/12/Snip20181213_19.png" alt="Snip20181213_19"></p>
 <h4 id="">消息格式</h4>
 <blockquote>
 <p>参考<br>
 <a href="https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/">https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/messaging_game_plays/</a></p>
 </blockquote>
-<p><img src="/images/2018/12/Snip20181213_21.png" alt="Snip20181213_21"></p>
+<p><img src="/content/images/2018/12/Snip20181213_21.png" alt="Snip20181213_21"></p>
 <p>其中值得注意的几个值</p>
 <ol>
 <li>context_type<br>

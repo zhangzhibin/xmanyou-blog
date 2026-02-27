@@ -38,7 +38,7 @@ authorSlug: "dev"
 <p>每次调用Facebook的统计接口时，游戏都会向Facebook发送一个请求。所以，我们可以利用浏览器自带的开发者工具来查看请求的情况。<br>
 打开开发工具的network页，可以看到很多activities请求，这些就是我们向Facebook发送的请求了。</p>
 <p><strong>注意</strong> activities还包含了其他的请求，并不全都是统计事件，比如，还有广告请求。</p>
-<p><img src="/images/2020/08/Facebook_Instant_Game_Activities_01.png" alt="Facebook_Instant_Game_Activities_01"></p>
+<p><img src="/content/images/2020/08/Facebook_Instant_Game_Activities_01.png" alt="Facebook_Instant_Game_Activities_01"></p>
 <h2 id="22">2.2. 事件失败原因</h2>
 <p>如上图所示，失败的请求，会在列表中显示为红色，并提示原因。上图中，就提示了错误原因是不符合字符串的规则（用正则表达式表示）。</p>
 <p>常见的失败原因：</p>

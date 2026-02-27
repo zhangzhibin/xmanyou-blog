@@ -24,11 +24,11 @@ authorSlug: "dev"
 <a href="https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-java-component-webview-0000001092715158">https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ui-java-component-webview-0000001092715158</a></p>
 </blockquote>
 <p>实际效果：<br>
-<img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-01.png" alt="run-unity-game-on-harmony-device-by-webview-01"></p>
+<img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-01.png" alt="run-unity-game-on-harmony-device-by-webview-01"></p>
 <h1 id="webviewunity">使用Webview在鸿蒙设备上运行Unity游戏需要几个步骤？</h1>
 <h2 id="1">1. 创建鸿蒙全屏工程</h2>
 <p>在DevEco中创建一个新工程，模板选择Full Screen Ability。</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-02.png" alt="run-unity-game-on-harmony-device-by-webview-02"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-02.png" alt="run-unity-game-on-harmony-device-by-webview-02"></p>
 <h2 id="2webview">2. 添加Webview</h2>
 <p>这个工程的布局很简单，就是一个全屏的image组件，把image组件替换成webview即可。</p>
 <h3 id="21layoutimagewebview">2.1. 将模板layout中的image组件替换成webview</h3>
@@ -40,7 +40,7 @@ authorSlug: "dev"
 </code></pre>
 <p><strong>注意</strong><br>
 该模板提供了2个layout，land_main是横屏，port_main是竖屏，根据需要或者直接都替换掉。</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-03.png" alt="run-unity-game-on-harmony-device-by-webview-03"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-03.png" alt="run-unity-game-on-harmony-device-by-webview-03"></p>
 <h3 id="22webviewurl">2.2. 初始化webview，并加载url</h3>
 <p>在MainAbilitySlice中，添加方法initWebview</p>
 <pre><code>    // 初始化webview，并加载url
@@ -51,9 +51,9 @@ authorSlug: "dev"
         webView.load(url);
     }
 </code></pre>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-04.png" alt="run-unity-game-on-harmony-device-by-webview-04"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-04.png" alt="run-unity-game-on-harmony-device-by-webview-04"></p>
 <p>并在onStart方法中调用。</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-05.png" alt="run-unity-game-on-harmony-device-by-webview-05"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-05.png" alt="run-unity-game-on-harmony-device-by-webview-05"></p>
 <h2 id="3">3. 隐藏标题栏</h2>
 <p>添加完Webview组件，就可以用它来查看网页了。</p>
 <p>下图中，展示了我的博客</p>
@@ -61,9 +61,9 @@ authorSlug: "dev"
 <p><a href="https://xmanyou.com/">https://xmanyou.com/</a></p>
 </blockquote>
 <p>可以看到，标题栏还在。</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-06.png" alt="run-unity-game-on-harmony-device-by-webview-06"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-06.png" alt="run-unity-game-on-harmony-device-by-webview-06"></p>
 <p>为了提供更好的体验，我们想办法把它隐藏。以下方法来自钟发发老师。</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-07.png" alt="run-unity-game-on-harmony-device-by-webview-07"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-07.png" alt="run-unity-game-on-harmony-device-by-webview-07"></p>
 <p>两个步骤：</p>
 <h3 id="31configjsonnotitlebar">3.1. 在config.json中设置NoTitleBar</h3>
 <pre><code>    &quot;abilities&quot;: [
@@ -88,7 +88,7 @@ authorSlug: "dev"
       // setUIContent 之前
 </code></pre>
 <p>再次测试Webview，这次标题栏就隐藏了。</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-08.png" alt="run-unity-game-on-harmony-device-by-webview-08"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-08.png" alt="run-unity-game-on-harmony-device-by-webview-08"></p>
 <h2 id="4webviewunitywebgl">4. 设置Webview加载Unity Webgl游戏</h2>
 <p>首先，用Unity打包Webgl游戏，并上传到服务器上。<br>
 然后，用Webview加载Unity游戏的链接。</p>
@@ -99,9 +99,9 @@ authorSlug: "dev"
 <p>《用DevEco 2.2远程真机调试+Cocos Creator 3.2开发一个鸿蒙游戏》<br>
 <a href="https://xmanyou.com/build-a-harmony-game-with-cocos-creator-and-run-on-remote-device/">https://xmanyou.com/build-a-harmony-game-with-cocos-creator-and-run-on-remote-device/</a></p>
 </blockquote>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-09.png" alt="run-unity-game-on-harmony-device-by-webview-09"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-09.png" alt="run-unity-game-on-harmony-device-by-webview-09"></p>
 <p>完成~</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-10.png" alt="run-unity-game-on-harmony-device-by-webview-10"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-10.png" alt="run-unity-game-on-harmony-device-by-webview-10"></p>
 <h1 id="">如何加载本地资源？</h1>
 <p>你可能已经注意到了，本文介绍的方法，游戏代码是放在服务器上的，如果你没有服务器，或者想把资源放在游戏包中，可以参考官方WebView文档，里边有详细介绍如何加载本地资源。<br>
 如果有空尝试的话，我会再出一篇相关文章。</p>
@@ -111,5 +111,5 @@ authorSlug: "dev"
 </blockquote>
 <h1 id="">特别鸣谢</h1>
 <p>非常感谢钟发发老师在我遇到困难时，第一时间伸出援手，非常感谢。</p>
-<p><img src="/images/2021/07/run-unity-game-on-harmony-device-by-webview-11.png" alt="run-unity-game-on-harmony-device-by-webview-11"></p>
+<p><img src="/content/images/2021/07/run-unity-game-on-harmony-device-by-webview-11.png" alt="run-unity-game-on-harmony-device-by-webview-11"></p>
 <!--kg-card-end: markdown-->

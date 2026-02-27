@@ -31,7 +31,7 @@ authorSlug: "dev"
 	*/
 	export function rect(x?: number, y?: number, w?: number, h?: number): Rect;	
 </code></pre>
-<p><img src="/images/2019/08/CocosCreator_cc_rect_x_y_parameter_means_origin.png" alt="CocosCreator_cc_rect_x_y_parameter_means_origin"></p>
+<p><img src="/content/images/2019/08/CocosCreator_cc_rect_x_y_parameter_means_origin.png" alt="CocosCreator_cc_rect_x_y_parameter_means_origin"></p>
 <h2 id="">做个笔记</h2>
 <p><strong>这里的x和y指的是矩形的左下角，也就是origin，或者(minX, minY)。</strong></p>
 <!--kg-card-end: markdown-->

@@ -13,5 +13,5 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><p>网址 <a href="https://appicon.co">https://appicon.co</a></p>
 <p>可以在线生成iOS或者Android的App图标，很省事。</p>
-<p><img src="/images/2019/11/appicon.co.png" alt="appicon.co"></p>
+<p><img src="/content/images/2019/11/appicon.co.png" alt="appicon.co"></p>
 <!--kg-card-end: markdown-->

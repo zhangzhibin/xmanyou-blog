@@ -65,7 +65,7 @@ Java类中的<strong>静态</strong>方法名</p>
 <h4 id="3">3) 注意事项</h4>
 <p><strong>支持类型</strong><br>
 目前 Cocos Creator 中支持的 Java 类型签名有下面 4 种：<br>
-<img src="/images/2019/11/CocosCreator_JSB_Java_Parameters_Signatures.png" alt="CocosCreator_JSB_Java_Parameters_Signatures"></p>
+<img src="/content/images/2019/11/CocosCreator_JSB_Java_Parameters_Signatures.png" alt="CocosCreator_JSB_Java_Parameters_Signatures"></p>
 <p>也就是说，要使用Cocos Creator的jsb方法，只能用最基础的int/float/bool/string类型，不支持其他复杂类型，比如自定义对象，回调方法等。</p>
 <p><strong>UI线程和GL线程</strong></p>
 <p>Android的App中是区分UI线程和GL线程的，不同的接口需要在不同的线程中调用。<br>

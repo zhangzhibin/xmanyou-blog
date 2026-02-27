@@ -44,9 +44,9 @@ renderTexture.readPixels(pixels, x, y, w, h);
 <p>升级到2.2.0以后发现截图出现了问题。</p>
 <p>截图的分辨率还是正常的，但是，实际的图像尺寸被缩小了很多，外围还增加了很多黑色块（背景色）</p>
 <p>旧的截图是这样子：</p>
-<p><img src="/images/2019/11/kitty-petting-1.jpg" alt="kitty-petting-1"></p>
+<p><img src="/content/images/2019/11/kitty-petting-1.jpg" alt="kitty-petting-1"></p>
 <p>新的截图变成了这样子：<br>
-<img src="/images/2019/11/kitty-petting-3.jpg" alt="kitty-petting-3"></p>
+<img src="/content/images/2019/11/kitty-petting-3.jpg" alt="kitty-petting-3"></p>
 <h2 id="">解决方法</h2>
 <h3 id="">猜想</h3>
 <p>为什么会这样子呢？</p>
@@ -54,10 +54,10 @@ renderTexture.readPixels(pixels, x, y, w, h);
 <p>联想到 Cocos Creator在2.1.x版本后添加了3D功能，是否是因为摄像机的3D功能造成的影响呢？</p>
 <h3 id="">测试</h3>
 <p>于是打开截图用的Camera的3D属性，进行测试。</p>
-<p><img src="/images/2019/11/Kitty-Petting-Cocos-Camera-3D.png" alt="Kitty-Petting-Cocos-Camera-3D"></p>
+<p><img src="/content/images/2019/11/Kitty-Petting-Cocos-Camera-3D.png" alt="Kitty-Petting-Cocos-Camera-3D"></p>
 <p><strong>结果我直接被整蒙了……</strong></p>
 <p>因为，打开3D选项，什么都不改的情况下，截图直接就黑屏了……</p>
-<p><img src="/images/2019/11/kitty-petting-2.jpg" alt="kitty-petting-2"></p>
+<p><img src="/content/images/2019/11/kitty-petting-2.jpg" alt="kitty-petting-2"></p>
 <h3 id="">检查</h3>
 <p>深呼吸，淡定，再淡定~</p>
 <p>先检查了一下，相机的类型和参数：</p>
@@ -70,13 +70,13 @@ renderTexture.readPixels(pixels, x, y, w, h);
 这个是摄像机在正交投影模式下的视窗大小</p>
 <h3 id="">调试</h3>
 <p>把Near Plane改成0以后，终于能截图成功了：</p>
-<p><img src="/images/2019/11/kitty-petting-5.jpg" alt="kitty-petting-5"></p>
+<p><img src="/content/images/2019/11/kitty-petting-5.jpg" alt="kitty-petting-5"></p>
 <p>不过还是有点问题，还需要调整Ortho Size参数。</p>
 <h2 id="">结论</h2>
 <p>经过一番测试，调整成以下参数后，截图基本正常了。</p>
 <p><strong>Near Plane=0</strong><br>
 <strong>Ortho Size=150</strong></p>
-<p><img src="/images/2019/11/Kitty-Petting-Cocos-Camera-3D-param.png" alt="Kitty-Petting-Cocos-Camera-3D-param"></p>
+<p><img src="/content/images/2019/11/Kitty-Petting-Cocos-Camera-3D-param.png" alt="Kitty-Petting-Cocos-Camera-3D-param"></p>
 <p>最新的截图基本跟旧版截图一致了。<br>
-<img src="/images/2019/11/kitty-petting-4.jpg" alt="kitty-petting-4"></p>
+<img src="/content/images/2019/11/kitty-petting-4.jpg" alt="kitty-petting-4"></p>
 <!--kg-card-end: markdown-->

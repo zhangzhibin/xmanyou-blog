@@ -16,7 +16,7 @@ authorSlug: "dev"
 <pre><code>Showing Recent Messages
 :-1: Unable to resolve build file: XCBCore.BuildFile (missingTargetProductReference(&quot;79d71ebbcc59a2e880640b6a34c1bdf59976d97c913f0f92a6528252dcadbc42&quot;)) (in target 'sdkbox-sample-ccc200-mobile')
 </code></pre>
-<p><img src="/images/2019/07/sdkbox_error.png" alt="sdkbox_error"></p>
+<p><img src="/content/images/2019/07/sdkbox_error.png" alt="sdkbox_error"></p>
 <h2 id="">可能原因</h2>
 <p><em>参考</em>：<a href="https://stackoverflow.com/questions/50708012/error-unable-to-resolve-build-file-xcbcore-buildfile">https://stackoverflow.com/questions/50708012/error-unable-to-resolve-build-file-xcbcore-buildfile</a></p>
 <p>根据stackoverflow上的这个问题描述，可能是因为我在某种情况下无意中多次打开了同一个XCode工程。</p>

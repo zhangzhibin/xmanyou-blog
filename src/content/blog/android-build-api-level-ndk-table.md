@@ -14,8 +14,8 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><h1 id="">官方文档</h1>
 <p><a href="https://source.android.com/setup/start/build-numbers">https://source.android.com/setup/start/build-numbers</a></p>
 <h1 id="">对照表</h1>
-<p><img src="/images/2020/08/Android_version_build_ndk_table_01.png" alt="Android_version_build_ndk_table_01"></p>
-<p><img src="/images/2020/08/Android_version_build_ndk_table_02.png" alt="Android_version_build_ndk_table_02"></p>
+<p><img src="/content/images/2020/08/Android_version_build_ndk_table_01.png" alt="Android_version_build_ndk_table_01"></p>
+<p><img src="/content/images/2020/08/Android_version_build_ndk_table_02.png" alt="Android_version_build_ndk_table_02"></p>
 <h1 id="">版本号格式</h1>
 <h2 id="android800oreo">Android 8.0.0(Oreo以后）</h2>
 <p>在 Android 8.0.0 (Oreo) 及更高版本中，每个 build 均采用 build ID 格式 PVBB.YYMMDD.bbb[.Cn] 进行标识，其中：</p>

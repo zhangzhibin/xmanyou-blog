@@ -30,40 +30,40 @@ mac系统下，地址是</p>
 <p>CocosCreator.app/Contents/Resources/engine</p>
 </blockquote>
 <p>CocosCreator工具提供了一个快速打开这个文件夹的按钮：<br>
-<img src="/images/2020/01/CocosCreator_custom_engine_02.png" alt="CocosCreator_custom_engine_02"></p>
+<img src="/content/images/2020/01/CocosCreator_custom_engine_02.png" alt="CocosCreator_custom_engine_02"></p>
 <p>把engine目录拷贝到你的工作目录下。<br>
-<img src="/images/2020/01/CocosCreator_custom_engine_03.png" alt="CocosCreator_custom_engine_03"></p>
+<img src="/content/images/2020/01/CocosCreator_custom_engine_03.png" alt="CocosCreator_custom_engine_03"></p>
 <p>2). git，这里有最新最全的源码</p>
 <blockquote>
 <p><a href="https://github.com/cocos-creator/engine">https://github.com/cocos-creator/engine</a></p>
 </blockquote>
 <p>直接下载或者fork/clone到本地。</p>
-<p><img src="/images/2020/01/CocosCreator_custom_engine_01.png" alt="CocosCreator_custom_engine_01"></p>
+<p><img src="/content/images/2020/01/CocosCreator_custom_engine_01.png" alt="CocosCreator_custom_engine_01"></p>
 <h2 id="2">2. 安装打包工具</h2>
 <p><strong>注意</strong> 没有装node.js环境的话，需要先装node。</p>
 <p>打开命令行，进入到刚刚拷贝的engine目录<br>
 1). 安装gulp</p>
 <pre><code>npm install -g gulp
 </code></pre>
-<p><img src="/images/2020/01/CocosCreator_custom_engine_04.png" alt="CocosCreator_custom_engine_04"></p>
+<p><img src="/content/images/2020/01/CocosCreator_custom_engine_04.png" alt="CocosCreator_custom_engine_04"></p>
 <p>2). 安装其他依赖</p>
 <pre><code>npm install
 </code></pre>
 <h2 id="3">3. 试编译</h2>
 <pre><code>gulp build
 </code></pre>
-<p><img src="/images/2020/01/CocosCreator_custom_engine_05.png" alt="CocosCreator_custom_engine_05"></p>
+<p><img src="/content/images/2020/01/CocosCreator_custom_engine_05.png" alt="CocosCreator_custom_engine_05"></p>
 <p><strong>注意：</strong> 如果遇到内存问题(JavaScript heap out of memory)，则加上参数<br>
-<img src="/images/2020/01/CocosCreator_custom_engine_06.png" alt="CocosCreator_custom_engine_06"></p>
+<img src="/content/images/2020/01/CocosCreator_custom_engine_06.png" alt="CocosCreator_custom_engine_06"></p>
 <pre><code>gulp build --max-old-space-size=8192
 </code></pre>
 <p>现在应该可以编译成功了<br>
-<img src="/images/2020/01/CocosCreator_custom_engine_07.png" alt="CocosCreator_custom_engine_07"></p>
+<img src="/content/images/2020/01/CocosCreator_custom_engine_07.png" alt="CocosCreator_custom_engine_07"></p>
 <p>编译成功后，可以在engine目录下找到bin目录<br>
-<img src="/images/2020/01/CocosCreator_custom_engine_08.png" alt="CocosCreator_custom_engine_08"></p>
+<img src="/content/images/2020/01/CocosCreator_custom_engine_08.png" alt="CocosCreator_custom_engine_08"></p>
 <h2 id="4">4. 修改引擎</h2>
 <p>验证是否修改成功，最快的方法是修改版本信息<br>
-<img src="/images/2020/01/CocosCreator_custom_engine_09.png" alt="CocosCreator_custom_engine_09"></p>
+<img src="/content/images/2020/01/CocosCreator_custom_engine_09.png" alt="CocosCreator_custom_engine_09"></p>
 <ul>
 <li>
 <p>找到要修改的文件<br>
@@ -73,7 +73,7 @@ mac系统下，地址是</p>
 <p>修改成 &quot;2.2.2 remake&quot;</p>
 </li>
 </ul>
-<p><img src="/images/2020/01/CocosCreator_custom_engine_10.png" alt="CocosCreator_custom_engine_10"></p>
+<p><img src="/content/images/2020/01/CocosCreator_custom_engine_10.png" alt="CocosCreator_custom_engine_10"></p>
 <ul>
 <li>保存，重新执行打包命令。</li>
 </ul>
@@ -84,14 +84,14 @@ mac系统下，地址是</p>
 <li>勾掉使用内置的JavaScript引擎</li>
 <li>选择修改过的engine目录（不是bin目录）</li>
 </ul>
-<p><img src="/images/2020/01/CocosCreator_custom_engine_11.png" alt="CocosCreator_custom_engine_11"></p>
+<p><img src="/content/images/2020/01/CocosCreator_custom_engine_11.png" alt="CocosCreator_custom_engine_11"></p>
 <p>修改过程中，提示“需要重启编辑器”。</p>
 <ul>
 <li>关闭工程，重启Coccos Creator</li>
 </ul>
-<p><img src="/images/2020/01/CocosCreator_custom_engine_12.png" alt="CocosCreator_custom_engine_12"></p>
+<p><img src="/content/images/2020/01/CocosCreator_custom_engine_12.png" alt="CocosCreator_custom_engine_12"></p>
 <h2 id="6">6. 测试</h2>
 <p>启动后，预览，并开启开发者工具：<br>
-<img src="/images/2020/01/CocosCreator_custom_engine_13.png" alt="CocosCreator_custom_engine_13"></p>
+<img src="/content/images/2020/01/CocosCreator_custom_engine_13.png" alt="CocosCreator_custom_engine_13"></p>
 <p><strong>搞定！</strong></p>
 <!--kg-card-end: markdown-->

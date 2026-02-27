@@ -11,7 +11,7 @@ slug: "a-lightweight-todo-extension-built-with-ai"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><p><img src="/images/2026/02/10dos-1.png" alt="10dos-1"></p>
+<!--kg-card-begin: markdown--><p><img src="/content/images/2026/02/10dos-1.png" alt="10dos-1"></p>
 <h2 id="">问题背景</h2>
 <p>做这个项目主要有2个目的：</p>
 <ul>
@@ -26,7 +26,7 @@ authorSlug: "dev"
 <h2 id="">解决方法</h2>
 <p>这个工具最好是在手边随时能打开，于是，浏览器插件，就是最好的形式。因为，毕竟大部分的时间都是上网摸鱼嘛。</p>
 <p>开发工具嘛，就选我最熟悉的Cursor。</p>
-<p><img src="/images/2026/02/simple-todo-extension-built-with-ai.jpg" alt="simple-todo-extension-built-with-ai"></p>
+<p><img src="/content/images/2026/02/simple-todo-extension-built-with-ai.jpg" alt="simple-todo-extension-built-with-ai"></p>
 <p>可能因为需求比较清晰，且功能比较简单，整个开发过程异常顺利。</p>
 <p>核心功能：</p>
 <ul>
@@ -35,7 +35,7 @@ authorSlug: "dev"
 </ul>
 <p>然后，最后我就把它发布到了chrome 商店：<br>
 <a href="https://chromewebstore.google.com/detail/10dos/kcphneilcldimkjgfmoiffiklfapcopm">https://chromewebstore.google.com/detail/10dos/kcphneilcldimkjgfmoiffiklfapcopm</a></p>
-<p><img src="/images/2026/02/10dos-extension-2.jpg" alt="10dos-extension-in-chrome-store"></p>
+<p><img src="/content/images/2026/02/10dos-extension-2.jpg" alt="10dos-extension-in-chrome-store"></p>
 <p>清单：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/zhangzhibin/10dos">https://github.com/zhangzhibin/10dos</a></li>

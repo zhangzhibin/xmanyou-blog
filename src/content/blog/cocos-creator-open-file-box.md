@@ -13,9 +13,9 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
 <p>文件选择对话框，在App开发中是很常用的一个组件，但是，在游戏开发中并不常见，所以Cocos Creator也没有提供这个组件。</p>
-<p><img src="/images/2020/07/CocosCreator_Open_File_Dialog_01.png" alt="CocosCreator_Open_File_Dialog_01"></p>
+<p><img src="/content/images/2020/07/CocosCreator_Open_File_Dialog_01.png" alt="CocosCreator_Open_File_Dialog_01"></p>
 <p>但是，有没有办法在Cocos Creator的项目中使用这个组件呢？</p>
-<p><img src="/images/2020/07/CocosCreator_Open_File_Dialog_02.png" alt="CocosCreator_Open_File_Dialog_02"></p>
+<p><img src="/content/images/2020/07/CocosCreator_Open_File_Dialog_02.png" alt="CocosCreator_Open_File_Dialog_02"></p>
 <p>答案当然是：<strong>有!</strong></p>
 <h1 id="">解决方法</h1>
 <h2 id="1">方法1，直接调用操作系统的文件对话框组件。</h2>
@@ -30,7 +30,7 @@ authorSlug: "dev"
 <p>参考：<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file</a></p>
 </blockquote>
 <p>在线示例：<a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_file">https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_file</a></p>
-<p><img src="/images/2020/07/CocosCreator_Open_File_Dialog_03.png" alt="CocosCreator_Open_File_Dialog_03"></p>
+<p><img src="/content/images/2020/07/CocosCreator_Open_File_Dialog_03.png" alt="CocosCreator_Open_File_Dialog_03"></p>
 <p>Cocos Creator项目使用的是JavaScript语言，如果能直接调用HTML的接口，那么就可以省去了很多封装的工作。</p>
 <p>有几个选择</p>
 <h3 id="1">选项 1). 静态添加</h3>
@@ -114,7 +114,7 @@ if(inputBox){
 </ol>
 <blockquote>
 <p>File choose dialog can only be shown with a user activation<br>
-<img src="/images/2020/07/CocosCreator_Open_File_Dialog_04.png" alt="CocosCreator_Open_File_Dialog_04"></p>
+<img src="/content/images/2020/07/CocosCreator_Open_File_Dialog_04.png" alt="CocosCreator_Open_File_Dialog_04"></p>
 </blockquote>
 <pre><code>let inputBox = this.getInputBox(this.inputBoxId, this.containerId);
 if(inputBox){

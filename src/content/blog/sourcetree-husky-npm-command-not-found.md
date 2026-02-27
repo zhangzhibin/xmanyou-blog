@@ -22,7 +22,7 @@ npm run lint
 <p>在命令行中可以正常commit，并正确触发钩子，但是，在SourceTree中，却报错了：</p>
 <pre><code>.husky/pre-commit: Line 4 npm: command not found
 </code></pre>
-<p><img src="/images/2021/11/sourcetree-husky-npm-command-not-found-01.png" alt="sourcetree-husky-npm-command-not-found-01"></p>
+<p><img src="/content/images/2021/11/sourcetree-husky-npm-command-not-found-01.png" alt="sourcetree-husky-npm-command-not-found-01"></p>
 <h1 id="">解决方法</h1>
 <p>错误描述告诉我们，这是因为SourceTree找不到husky钩子中需要使用的命令。</p>
 <p><strong>解决方法</strong><br>

@@ -11,7 +11,7 @@ slug: "jing-ying-zhe-yang-cheng-bi-ji-du-shu-bi-ji"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/images/2018/08/-------.jpeg" alt="-------"><br>
+<!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p><img src="/content/images/2018/08/-------.jpeg" alt="-------"><br>
 本文作者：优衣库的创始人，柳井正</p>
 <p>经营者的四项能力：</p>
 <h3 id="1">1. 创新的能力</h3>

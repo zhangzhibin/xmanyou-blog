@@ -47,7 +47,7 @@ authorSlug: "dev"
 <p>完成。</p>
 <h1 id="3">3. 使用方法</h1>
 <p>从手机或者浏览器打开游戏，看到绿色按钮vConsole，表示添加成功。</p>
-<p><img src="/images/2021/03/h5-game-debug-log-vconsole-01.png" alt="h5-game-debug-log-vconsole-01"></p>
+<p><img src="/content/images/2021/03/h5-game-debug-log-vconsole-01.png" alt="h5-game-debug-log-vconsole-01"></p>
 <p>点击vConsole按钮，调出界面：</p>
-<p><img src="/images/2021/03/h5-game-debug-log-vconsole-02.png" alt="h5-game-debug-log-vconsole-02"></p>
+<p><img src="/content/images/2021/03/h5-game-debug-log-vconsole-02.png" alt="h5-game-debug-log-vconsole-02"></p>
 <!--kg-card-end: markdown-->

@@ -8,7 +8,7 @@ tagSlugs: ["dev", "ar", "arkit"]
 draft: false
 type: post
 slug: "arkit-realitykit-reality-composer"
-image: "/images/2019/06/Snip20190614_69.png"
+image: "/content/images/2019/06/Snip20190614_69.png"
 authorSlug: "dev"
 ---
 

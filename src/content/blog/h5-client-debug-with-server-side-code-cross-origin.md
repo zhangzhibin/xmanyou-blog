@@ -19,7 +19,7 @@ authorSlug: "dev"
 <p>而服务端代码，要么跑在服务端开发人员的机器上，或者由客户端开发下载后在本地运行，可能会运行在<br>
 <a href="http://localhost:8080/">http://localhost:8080/</a></p>
 <p>如果直接从客户端访问服务端的接口，则会出现跨域的问题：<br>
-<img src="/images/2019/11/CocosCreator_cross_origin_01.png" alt="CocosCreator_cross_origin_01"></p>
+<img src="/content/images/2019/11/CocosCreator_cross_origin_01.png" alt="CocosCreator_cross_origin_01"></p>
 <blockquote>
 <p>Access to XMLHttpRequest at 'localhost:8080/login' from origin '<a href="http://localhost:7457">http://localhost:7457</a>' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https</p>
 </blockquote>
@@ -45,7 +45,7 @@ this.ServeJSON()
 </code></pre>
 <h4 id="">注意</h4>
 <p>值得注意的地方是，如果你像我一样，把客户端和服务端都运行在本地，那么，开启跨域访问后，通过Chrome来调试，运行时可能还是不行，那么你可以试试把服务端的地址从localhost 替换成 127.0.0.1</p>
-<p><img src="/images/2019/11/CocosCreator_cross_origin_02.png" alt="CocosCreator_cross_origin_02"></p>
+<p><img src="/content/images/2019/11/CocosCreator_cross_origin_02.png" alt="CocosCreator_cross_origin_02"></p>
 <h3 id="2">2. 通过反向代理，让客户端和服务端运行到同一个域上</h3>
 <p>既然不在同一个域上，那就想办法让他们“<strong>运行</strong>”在同一个域上，这可以通过反向代理的方式实现。</p>
 <p>以Nginx为例，在nginx的配置文件(mac上，默认在 /usr/local/etc/nginx/nginx.conf)</p>

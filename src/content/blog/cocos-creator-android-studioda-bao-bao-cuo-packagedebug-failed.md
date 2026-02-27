@@ -18,11 +18,11 @@ authorSlug: "dev"
 <ol>
 <li>通过Android Stuido -&gt; Help -&gt; Edit Custom VM Options ... 选项打开或者创建虚机配置文件。</li>
 </ol>
-<p><img src="/images/2019/10/Android_Studio_Edit_Custom_VM_Options.png" alt="Android_Studio_Edit_Custom_VM_Options"></p>
+<p><img src="/content/images/2019/10/Android_Studio_Edit_Custom_VM_Options.png" alt="Android_Studio_Edit_Custom_VM_Options"></p>
 <ol start="2">
 <li>添加虚拟机内存设置</li>
 </ol>
-<p><img src="/images/2019/10/Android_Studio_Edit_Custom_VM_Options_Memory.png" alt="Android_Studio_Edit_Custom_VM_Options_Memory"></p>
+<p><img src="/content/images/2019/10/Android_Studio_Edit_Custom_VM_Options_Memory.png" alt="Android_Studio_Edit_Custom_VM_Options_Memory"></p>
 <pre><code>-Xms128m
 -Xmx4096m
 -XX:MaxPermSize=1024m

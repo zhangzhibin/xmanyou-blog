@@ -11,7 +11,7 @@ slug: "python-venv-virtual-enrionment"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><p><img src="/images/2020/04/python.png" alt="python"></p>
+<!--kg-card-begin: markdown--><p><img src="/content/images/2020/04/python.png" alt="python"></p>
 <h1 id="0">0. 什么是虚拟环境</h1>
 <p>依赖库冲突，或者说运行环境冲突，是开发人员经常遇到的很头疼的问题。虚拟环境，就是为了解决Python运行环境中的这个问题提供的一个方案。</p>
 <blockquote>

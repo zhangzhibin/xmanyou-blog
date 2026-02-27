@@ -18,7 +18,7 @@ WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status
 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))': /simple/urllib3/
 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))': /simple/urllib3/
 </code></pre>
-<p><img src="/images/2022/04/python-pip-ssleoferror-with-vpn.png" alt="python-pip-ssleoferror-with-vpn"></p>
+<p><img src="/content/images/2022/04/python-pip-ssleoferror-with-vpn.png" alt="python-pip-ssleoferror-with-vpn"></p>
 <h2 id="">解决方法</h2>
 <h3 id="">最简单的解决方法</h3>
 <p>关掉vpn</p>

@@ -15,12 +15,12 @@ authorSlug: "dev"
 <p>手动从命令行导入sdkbox插件，提示错误：</p>
 <pre><code>#FATAL: unsupported cocos2d-x major version:unknown
 </code></pre>
-<p><img src="/images/2019/08/sdkbox_unsupported_cocos2d-x_major_version_unknown.png" alt="sdkbox_unsupported_cocos2d-x_major_version_unknown"></p>
+<p><img src="/content/images/2019/08/sdkbox_unsupported_cocos2d-x_major_version_unknown.png" alt="sdkbox_unsupported_cocos2d-x_major_version_unknown"></p>
 <h2 id="">原因</h2>
 <p>因为执行sdkbox命令的路径不对。</p>
 <h2 id="">解决方法</h2>
 <p>到 build/jsb-link目录下执行。</p>
 <h2 id="">参考</h2>
 <p><a href="http://www.sdkbox.com/answers/question/fatal-unsupported-cocos2d-x-major-version/">http://www.sdkbox.com/answers/question/fatal-unsupported-cocos2d-x-major-version/</a><br>
-<img src="/images/2019/08/sdkbox_unsupported_cocos2d-x_major_version_unknown_02.png" alt="sdkbox_unsupported_cocos2d-x_major_version_unknown_02"></p>
+<img src="/content/images/2019/08/sdkbox_unsupported_cocos2d-x_major_version_unknown_02.png" alt="sdkbox_unsupported_cocos2d-x_major_version_unknown_02"></p>
 <!--kg-card-end: markdown-->

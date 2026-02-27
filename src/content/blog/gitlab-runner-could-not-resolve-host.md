@@ -34,7 +34,7 @@ Cleaning up file based variables
 00:01
 ERROR: Job failed: exit code 1
 </code></pre>
-<p><img src="/images/2021/03/gitlab-runner-job-error-could-not-resolve-host-01.png" alt="gitlab-runner-job-error-could-not-resolve-host-01"></p>
+<p><img src="/content/images/2021/03/gitlab-runner-job-error-could-not-resolve-host-01.png" alt="gitlab-runner-job-error-could-not-resolve-host-01"></p>
 <h1 id="">解决方法</h1>
 <p>从日志中可以发现，错误的地方是在runner试图从gitlab拉取代码时发生的。</p>
 <p>其中9bc3f7e4d778是gitlab对应的容器名，也就是gitlab的容器机器名字。</p>
@@ -68,7 +68,7 @@ clone_url = &quot;gitlab的外部访问url&quot;
 <p>如果遇到修改后，gitlab-runner无法启动，甚至报错：</p>
 <pre><code>gitlab-runner    | FATAL: Service run failed                           error=toml: cannot load TOML value of type []interface {} into a Go string
 </code></pre>
-<p><img src="/images/2021/03/gitlab-runner-load-toml-value-failed.png" alt="gitlab-runner-load-toml-value-failed"></p>
+<p><img src="/content/images/2021/03/gitlab-runner-load-toml-value-failed.png" alt="gitlab-runner-load-toml-value-failed"></p>
 <p>可以尝试将旧的config.toml备份，然后创建一个新的。</p>
 <h1 id="">参考</h1>
 <ul>

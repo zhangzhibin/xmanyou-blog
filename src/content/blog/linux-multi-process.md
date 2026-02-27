@@ -45,7 +45,7 @@ authorSlug: "remote_pluto"
       echo posix_getpid() ." Experiment Finish\r\n";
     }
   }
-</code></pre><!--kg-card-end: code--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/images/2019/12/fork--.jpg" class="kg-image"></figure><!--kg-card-end: image--><h2 id="--1">进程之间的文件共享</h2><ul><li>执行fork时，子进程会获得父进程所有文件描述符的副本.这些副本的创建方式类似于dup(),这也意味着子进程中的描述符均指向相同的打开的文件句柄。举例来说如果子进程更新了文件偏移量，会影响到父进程中相应的描述符</li><li>在使用fork调用后，如果不需要对文件描述符的共享方式，需要注意两点:1.令父子进程使用不同的描述符。2.各自关闭不再使用的描述符</li></ul><!--kg-card-begin: code--><pre><code>  public function shareFileDescriptor()
+</code></pre><!--kg-card-end: code--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/content/images/2019/12/fork--.jpg" class="kg-image"></figure><!--kg-card-end: image--><h2 id="--1">进程之间的文件共享</h2><ul><li>执行fork时，子进程会获得父进程所有文件描述符的副本.这些副本的创建方式类似于dup(),这也意味着子进程中的描述符均指向相同的打开的文件句柄。举例来说如果子进程更新了文件偏移量，会影响到父进程中相应的描述符</li><li>在使用fork调用后，如果不需要对文件描述符的共享方式，需要注意两点:1.令父子进程使用不同的描述符。2.各自关闭不再使用的描述符</li></ul><!--kg-card-begin: code--><pre><code>  public function shareFileDescriptor()
   {
     $file = fopen($this-&gt;mShareFile,"r");
     echo "before fork the current offset is:".ftell($file)."\r\n";
@@ -67,4 +67,4 @@ authorSlug: "remote_pluto"
         break;
     }
   }
-</code></pre><!--kg-card-end: code--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/images/2019/12/fork----------.png" class="kg-image"></figure><!--kg-card-end: image--><h2 id="fork-">fork的内存语义</h2><ul><li>内核将每一进程的代码标记位只读,使进程无法修改自身代码。这样，父子进程可共享同一代码段。系统调用fork在子进程创建代码段时，其构建的一系列进程级页表均指向与父进程相同的福利内存页帧</li><li>对于父进程数据段、堆段、和栈段中的各页，内核采用写时复制技术</li></ul><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/images/2019/12/----.jpg" class="kg-image"></figure><!--kg-card-end: image--><h2 id="--2">进程间通讯</h2><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/images/2019/12/IPC-Overview.png" class="kg-image"></figure><!--kg-card-end: image-->
+</code></pre><!--kg-card-end: code--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/content/images/2019/12/fork----------.png" class="kg-image"></figure><!--kg-card-end: image--><h2 id="fork-">fork的内存语义</h2><ul><li>内核将每一进程的代码标记位只读,使进程无法修改自身代码。这样，父子进程可共享同一代码段。系统调用fork在子进程创建代码段时，其构建的一系列进程级页表均指向与父进程相同的福利内存页帧</li><li>对于父进程数据段、堆段、和栈段中的各页，内核采用写时复制技术</li></ul><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/content/images/2019/12/----.jpg" class="kg-image"></figure><!--kg-card-end: image--><h2 id="--2">进程间通讯</h2><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="/content/images/2019/12/IPC-Overview.png" class="kg-image"></figure><!--kg-card-end: image-->

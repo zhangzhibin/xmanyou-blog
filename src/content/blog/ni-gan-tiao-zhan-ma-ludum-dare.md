@@ -8,7 +8,7 @@ tagSlugs: ["za-qi-za-ba", "ludum-dare"]
 draft: false
 type: post
 slug: "ni-gan-tiao-zhan-ma-ludum-dare"
-image: "/images/2017/11/70898681-1.png"
+image: "/content/images/2017/11/70898681-1.png"
 authorSlug: "dev"
 ---
 
@@ -22,7 +22,7 @@ authorSlug: "dev"
 <p>现在线上有非常多的游戏比赛（Game Jam），非常建议有志自己做游戏的同学，选择一个这样的活动，作为自己的目标。</p>
 <p>今天介绍一下：</p>
 <h3 id="ludumdare">Ludum Dare</h3>
-<p><img src="/images/2017/11/71812925.png" alt="71812925"></p>
+<p><img src="/content/images/2017/11/71812925.png" alt="71812925"></p>
 <blockquote>
 <p><a href="https://ldjam.com/">https://ldjam.com/</a></p>
 </blockquote>
@@ -32,7 +32,7 @@ authorSlug: "dev"
 <p>2002年4月的一天，Geof Howland提出一个挑战：我们试试能不能在24小时内从0开始制作一款游戏？差不多20个人参加了这次活动。</p>
 <p>这就是第一届Ludum Dare，那时候，Game Jam这个词甚至还没有被发明出来。</p>
 <p>作为参与者，他们很快就发现，24小时感觉不是很够用，于是，在2002年7月的第二届活动中，他们改成了48小时，从此就一直延续下去了。</p>
-<p><img src="/images/2017/11/71386316.png" alt="71386316"></p>
+<p><img src="/content/images/2017/11/71386316.png" alt="71386316"></p>
 <h3 id="">主题</h3>
 <p>每届LD游戏比赛会围绕一个主题进行，而这个主题是由社区投票选出。</p>
 <p>LD40正在进行的投票游戏主题有：</p>
@@ -93,10 +93,10 @@ authorSlug: "dev"
 <h3 id="">奖励</h3>
 <p>没有任何物质和金钱奖励。唯一的奖励，就是你的作品。</p>
 <p>你用48小时制作出了一款游戏，还有什么比这个更值得骄傲的吗？</p>
-<p><img src="/images/2017/11/70898681.png" alt="70898681"></p>
+<p><img src="/content/images/2017/11/70898681.png" alt="70898681"></p>
 <h3 id="">最后</h3>
 <p>从LD的历史和各种规则设定可以看出，这是一场纯粹游戏爱好者给自己做的一个游戏。</p>
 <p>生活本该这么单纯的，不是么？</p>
 <p>如果你有什么想法，欢迎关注我的公众号给我留言：阿斌的日常<br>
-<img src="/images/2017/11/qrcode_for_unitymvp.jpg" alt="qrcode_for_unitymvp"></p>
+<img src="/content/images/2017/11/qrcode_for_unitymvp.jpg" alt="qrcode_for_unitymvp"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

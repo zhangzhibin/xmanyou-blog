@@ -97,6 +97,6 @@ http {
 
 </code></pre>
 <h1 id="3minio">3. minio设置公开访问</h1>
-<p><img src="/images/2021/08/minio-change-public-access-policy.png" alt="minio-change-public-access-policy"></p>
+<p><img src="/content/images/2021/08/minio-change-public-access-policy.png" alt="minio-change-public-access-policy"></p>
 <p>完成。</p>
 <!--kg-card-end: markdown-->

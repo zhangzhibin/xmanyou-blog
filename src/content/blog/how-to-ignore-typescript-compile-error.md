@@ -18,7 +18,7 @@ authorSlug: "dev"
 <p>比如，以下代码就报了这么一个错误：</p>
 <pre><code>TS2322: Type 'null' is not assignable to type 'string[]'
 </code></pre>
-<p><img src="/images/2020/05/TypeScript_ignore_error01.png" alt="TypeScript_ignore_error01"></p>
+<p><img src="/content/images/2020/05/TypeScript_ignore_error01.png" alt="TypeScript_ignore_error01"></p>
 <h1 id="">解决方法</h1>
 <p>针对我们这种懒癌患者，TypeScript很贴心地提供一个工具：ts-ignore</p>
 <p>只需要将下边这行代码放在报错的代码前边，一切就安静了：</p>
@@ -26,7 +26,7 @@ authorSlug: "dev"
 这里是报错的正确代码
 </code></pre>
 <p>像这样子：<br>
-<img src="/images/2020/05/TypeScript_ignore_error02.png" alt="TypeScript_ignore_error02"></p>
+<img src="/content/images/2020/05/TypeScript_ignore_error02.png" alt="TypeScript_ignore_error02"></p>
 <h1 id="">友情提示</h1>
 <p>这个方法虽然好用，但是仅限于在你<strong>确定一定以及肯定</strong>代码没问题的时候才能用。</p>
 <!--kg-card-end: markdown-->

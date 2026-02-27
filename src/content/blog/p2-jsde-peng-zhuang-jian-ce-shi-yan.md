@@ -8,7 +8,7 @@ tagSlugs: ["dev", "h5", "p2-js"]
 draft: false
 type: post
 slug: "p2-jsde-peng-zhuang-jian-ce-shi-yan"
-image: "/images/2017/12/19944868-1.png"
+image: "/content/images/2017/12/19944868-1.png"
 authorSlug: "dev"
 ---
 
@@ -54,9 +54,9 @@ noCollisionsShape.collisionMask = 0;</p>
 <p><strong>注意：当不设置这两个值时，默认是进行碰撞检测的。</strong></p>
 <h3 id="">测试</h3>
 <p>方法 p2.Body.overlaps(body:p2.Body) 可以在引擎调用step后查询碰撞两个刚体的碰撞结果。以下是分组测试结果：</p>
-<p><img src="/images/2017/12/89319090.png" alt="89319090"></p>
+<p><img src="/content/images/2017/12/89319090.png" alt="89319090"></p>
 <p>实验结果图：<br>
-<img src="/images/2017/12/19944868.png" alt="19944868"></p>
+<img src="/content/images/2017/12/19944868.png" alt="19944868"></p>
 <h3 id="">结论</h3>
 <ol>
 <li>仅当参与碰撞检测的两个刚体中，至少有一个是DYNAMIC时，引擎才会判定碰撞成功。</li>
@@ -71,8 +71,8 @@ noCollisionsShape.collisionMask = 0;</p>
 </blockquote>
 <h3 id="">问题</h3>
 <p>那么问题就来了，如果要用p2.js来实现Unity里的 trigger，该怎么配置呢？</p>
-<p><img src="/images/2017/12/6888105e-2efa-43d9-8399-825bdb8450fd.png" alt="6888105e-2efa-43d9-8399-825bdb8450fd"></p>
+<p><img src="/content/images/2017/12/6888105e-2efa-43d9-8399-825bdb8450fd.png" alt="6888105e-2efa-43d9-8399-825bdb8450fd"></p>
 <hr>
 <p>如果你有什么问题和评论，欢迎关注我的公众号 <strong>阿斌的日常</strong> 与我讨论。<br>
-<img src="/images/2017/12/qrcode_for_unitymvp.jpg" alt="qrcode_for_unitymvp"></p>
+<img src="/content/images/2017/12/qrcode_for_unitymvp.jpg" alt="qrcode_for_unitymvp"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

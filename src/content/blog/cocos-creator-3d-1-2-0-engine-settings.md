@@ -22,18 +22,18 @@ authorSlug: "dev"
 <ul>
 <li>
 <p>1.1.x版本<br>
-<img src="/images/2020/10/CocosCreator3d-1.1-project-settings01.png" alt="CocosCreator3d-1.1-project-settings01"></p>
+<img src="/content/images/2020/10/CocosCreator3d-1.1-project-settings01.png" alt="CocosCreator3d-1.1-project-settings01"></p>
 </li>
 <li>
 <p>1.2.x版本<br>
-<img src="/images/2020/10/CocosCreator3d-1.2-project-settings.png" alt="CocosCreator3d-1.2-project-settings"></p>
+<img src="/content/images/2020/10/CocosCreator3d-1.2-project-settings.png" alt="CocosCreator3d-1.2-project-settings"></p>
 </li>
 </ul>
 <p><strong>也许</strong> Cocos可能着急将3D与2D功能统一到3.0版本，没有太多时间在1.2版本的文档同步上。</p>
 <h1 id="">解决方法</h1>
 <p><strong>那么，1.2版本的自定义引擎入口在哪里呢？</strong></p>
 <p>如果你是Mac版本，那么可以在<strong>偏好设置</strong>里找到<strong>引擎管理器</strong><br>
-<img src="/images/2020/10/CocosCreator3d-1.2-general-settings.png" alt="CocosCreator3d-1.2-general-settings"></p>
-<p><img src="/images/2020/10/CocosCreator3d-1.2-enging-settings.png" alt="CocosCreator3d-1.2-enging-settings"></p>
+<img src="/content/images/2020/10/CocosCreator3d-1.2-general-settings.png" alt="CocosCreator3d-1.2-general-settings"></p>
+<p><img src="/content/images/2020/10/CocosCreator3d-1.2-enging-settings.png" alt="CocosCreator3d-1.2-enging-settings"></p>
 <p>Windows版本请自行寻找各个菜单项。</p>
 <!--kg-card-end: markdown-->

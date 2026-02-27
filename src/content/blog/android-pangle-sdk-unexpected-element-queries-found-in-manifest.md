@@ -17,10 +17,10 @@ authorSlug: "dev"
 &gt; Android resource linking failed
   Output:  .../android_studio/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:39: error: unexpected element &lt;queries&gt; found in &lt;manifest&gt;.
 </code></pre>
-<p><img src="/images/2021/04/android_studio_unexpected_queries_found_in_manifest_01.png" alt="android_studio_unexpected_queries_found_in_manifest_01"></p>
+<p><img src="/content/images/2021/04/android_studio_unexpected_queries_found_in_manifest_01.png" alt="android_studio_unexpected_queries_found_in_manifest_01"></p>
 <p>根据提示，报错的位置是AndroidManifest.xml文件第39行，应该有一个无法识别的queries元素。</p>
 <p>但是，却怎么也没有找到！</p>
-<p><img src="/images/2021/04/android_studio_unexpected_queries_found_in_manifest_02.png" alt="android_studio_unexpected_queries_found_in_manifest_02"></p>
+<p><img src="/content/images/2021/04/android_studio_unexpected_queries_found_in_manifest_02.png" alt="android_studio_unexpected_queries_found_in_manifest_02"></p>
 <p>这是怎么回事呢？</p>
 <h1 id="">解决方法</h1>
 <p>于是上google搜索。</p>
@@ -39,9 +39,9 @@ authorSlug: "dev"
 </ul>
 <p>如果是4.1以上版本的话，已经能识别这个元素，不需要升级。</p>
 <p>我看了一下，祖传项目里用的还是gradle 3.2.0</p>
-<p><img src="/images/2021/04/android_studio_unexpected_queries_found_in_manifest_03.png" alt="android_studio_unexpected_queries_found_in_manifest_03"></p>
+<p><img src="/content/images/2021/04/android_studio_unexpected_queries_found_in_manifest_03.png" alt="android_studio_unexpected_queries_found_in_manifest_03"></p>
 <p>于是升级到最近的3.3.3</p>
-<p><img src="/images/2021/04/android_studio_unexpected_queries_found_in_manifest_05.png" alt="android_studio_unexpected_queries_found_in_manifest_05"></p>
+<p><img src="/content/images/2021/04/android_studio_unexpected_queries_found_in_manifest_05.png" alt="android_studio_unexpected_queries_found_in_manifest_05"></p>
 <p>重新编译，成功~</p>
-<p><img src="/images/2021/04/android_studio_unexpected_queries_found_in_manifest_04.png" alt="android_studio_unexpected_queries_found_in_manifest_04"></p>
+<p><img src="/content/images/2021/04/android_studio_unexpected_queries_found_in_manifest_04.png" alt="android_studio_unexpected_queries_found_in_manifest_04"></p>
 <!--kg-card-end: markdown-->

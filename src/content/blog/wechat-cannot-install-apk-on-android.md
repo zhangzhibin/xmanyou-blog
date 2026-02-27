@@ -13,9 +13,9 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>
 <p>有时候，为了快速测试，我们会用微信直接传apk文件给测试人员。</p>
-<p><img src="/images/2019/07/install_apk_on_wechat_apk.1_00.jpeg" alt="install_apk_on_wechat_apk.1_00"></p>
+<p><img src="/content/images/2019/07/install_apk_on_wechat_apk.1_00.jpeg" alt="install_apk_on_wechat_apk.1_00"></p>
 <p>但是，从手机上收到的.apk文件，会直接被改成.apk.1，直接打开的话<br>
-<img src="/images/2019/07/install_apk_on_wechat_apk.1_05.png" alt="install_apk_on_wechat_apk.1_05"></p>
+<img src="/content/images/2019/07/install_apk_on_wechat_apk.1_05.png" alt="install_apk_on_wechat_apk.1_05"></p>
 <h2 id="">原因</h2>
 <p>据说，这是微信出于<em>安全</em>考虑进行的操作。<br>
 安卓手机微信会将收到的.apk文件重命名为.apk.1文件，导致无法直接进行安装。</p>
@@ -33,9 +33,9 @@ authorSlug: "dev"
 1). 下载并安装<br>
 2). 在微信中打开.apk.1文件<br>
 3). 选择“用其他应用程序打开”</p>
-<p><img src="/images/2019/07/install_apk_on_wechat_apk.1_06.png" alt="install_apk_on_wechat_apk.1_06"></p>
+<p><img src="/content/images/2019/07/install_apk_on_wechat_apk.1_06.png" alt="install_apk_on_wechat_apk.1_06"></p>
 <p>4). 可以顺利进入安装界面<br>
-<img src="/images/2019/07/install_apk_on_wechat_apk.1_01.jpeg" alt="install_apk_on_wechat_apk.1_01"></p>
+<img src="/content/images/2019/07/install_apk_on_wechat_apk.1_01.jpeg" alt="install_apk_on_wechat_apk.1_01"></p>
 <ol start="2">
 <li>手动模式<br>
 如果不愿意安装补丁程序，可以利用文件管理器来手动安装。<br>

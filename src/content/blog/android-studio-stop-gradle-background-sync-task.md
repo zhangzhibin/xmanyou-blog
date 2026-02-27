@@ -13,13 +13,13 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>Android Studio打开工程有时候会自动运行gradle的同步任务（sync）。当网络不好的时候，这个任务会花很长很长时间才能结束，而且往往是失败的。</p>
-<p><img src="/images/2020/02/AndroidStudio_gradle_background_task.png" alt="AndroidStudio_gradle_background_task"></p>
+<p><img src="/content/images/2020/02/AndroidStudio_gradle_background_task.png" alt="AndroidStudio_gradle_background_task"></p>
 <p>当同步任务在进行时，还没法进行别的操作:<br>
-<img src="/images/2020/02/AndroidStudio_gradle_background_task_featrue_unavailable.png" alt="AndroidStudio_gradle_background_task_featrue_unavailable"></p>
+<img src="/content/images/2020/02/AndroidStudio_gradle_background_task_featrue_unavailable.png" alt="AndroidStudio_gradle_background_task_featrue_unavailable"></p>
 <p>那么，有什么办法能够让gradle任务快点结束呢？</p>
 <h2 id="">解决方法</h2>
 <p>办法是在命令行里执行</p>
 <pre><code>gradlew --stop
 </code></pre>
-<p><img src="/images/2020/02/AndroidStudio_gradle_stop_sync_task.png" alt="AndroidStudio_gradle_stop_sync_task"></p>
+<p><img src="/content/images/2020/02/AndroidStudio_gradle_stop_sync_task.png" alt="AndroidStudio_gradle_stop_sync_task"></p>
 <!--kg-card-end: markdown-->

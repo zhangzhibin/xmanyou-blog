@@ -108,7 +108,7 @@ docker run hello-world
 <li>配置docker hub镜像</li>
 </ol>
 <p>阿里云提供镜像加速服务<br>
-<img src="/images/2021/02/aliyun-docker-hub-mirrior.png" alt="aliyun-docker-hub-mirrior"></p>
+<img src="/content/images/2021/02/aliyun-docker-hub-mirrior.png" alt="aliyun-docker-hub-mirrior"></p>
 <p>检查当前镜像设置</p>
 <pre><code>
 systemctl cat docker | grep '\-\-registry\-mirror'

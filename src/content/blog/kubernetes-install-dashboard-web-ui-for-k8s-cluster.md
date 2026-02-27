@@ -51,10 +51,10 @@ dashboard只能在本机通过localhost或者127.0.0.1进行访问。<br>
 <blockquote>
 <p><a href="http://127.0.0.1:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/">http://127.0.0.1:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/</a></p>
 </blockquote>
-<p><img src="/images/2021/05/k8s-dashboard-web-ui.png" alt="k8s-dashboard-web-ui"></p>
+<p><img src="/content/images/2021/05/k8s-dashboard-web-ui.png" alt="k8s-dashboard-web-ui"></p>
 <h2 id="3dashboard">3. 登录dashboard</h2>
 <p><strong>注意</strong> 当前仅支持通过token登录</p>
-<p><img src="/images/2021/05/k8s-dashboard-login-with-token-only.png" alt="k8s-dashboard-login-with-token-only"></p>
+<p><img src="/content/images/2021/05/k8s-dashboard-login-with-token-only.png" alt="k8s-dashboard-login-with-token-only"></p>
 <p>所以，需要先创建一个用户，并获取登录token。</p>
 <h3 id="token">创建用户，并获取token</h3>
 <blockquote>
@@ -101,7 +101,7 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6IndHVXJBb3pjc2plQlR0T2ZoMGt4Znh6Ty1vNnpuNjIxS1JPVElD
 </code></pre>
 <h3 id="token">使用token登录</h3>
 <p>看到以下界面就表示成功了<br>
-<img src="/images/2021/05/k8s-dashboard-overview.png" alt="k8s-dashboard-overview"></p>
+<img src="/content/images/2021/05/k8s-dashboard-overview.png" alt="k8s-dashboard-overview"></p>
 <h2 id="4">4. 移除用户</h2>
 <p>如果要移除刚刚创建的用户，可以用以下命令</p>
 <pre><code>kubectl -n kubernetes-dashboard delete serviceaccount admin-user

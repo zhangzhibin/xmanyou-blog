@@ -8,7 +8,7 @@ tagSlugs: ["dev", "unity", "h5"]
 draft: false
 type: post
 slug: "unity-2020-1-build-project-tiny-failed"
-image: "/images/2020/08/Unity_Project_Tiny_error_05-1.png"
+image: "/content/images/2020/08/Unity_Project_Tiny_error_05-1.png"
 authorSlug: "dev"
 ---
 
@@ -30,22 +30,22 @@ authorSlug: "dev"
 <p>在测试的时候遇到2个编译问题：</p>
 <h2 id="1">1). 编译进度无法完成</h2>
 <p>卡在 Download and unpack .StevedoreVersion，如下图</p>
-<p><img src="/images/2020/08/Unity_Project_Tiny_error_05.png" alt="Unity_Project_Tiny_error_05"></p>
+<p><img src="/content/images/2020/08/Unity_Project_Tiny_error_05.png" alt="Unity_Project_Tiny_error_05"></p>
 <h3 id="">解决方法</h3>
 <p>这是网络问题，需要使用vpn。</p>
 <h2 id="2">2). 修改项目后，无法编译。</h2>
 <p>报错：</p>
 <pre><code>FormatException: Input string was not in a correct format.
 </code></pre>
-<p><img src="/images/2020/08/Unity_Project_Tiny_error_01.png" alt="Unity_Project_Tiny_error_01"></p>
+<p><img src="/content/images/2020/08/Unity_Project_Tiny_error_01.png" alt="Unity_Project_Tiny_error_01"></p>
 <p>这个问题说起来就很奇葩了：<br>
 <strong>为什么刚打开工程时可以正常编译，但是修改以后就不行了呢？</strong></p>
 <p>打开发生错误的代码：<br>
-<img src="/images/2020/08/Unity_Project_Tiny_error_04.png" alt="Unity_Project_Tiny_error_04"></p>
+<img src="/content/images/2020/08/Unity_Project_Tiny_error_04.png" alt="Unity_Project_Tiny_error_04"></p>
 <p>这分明是Unity自带的代码啊。</p>
 <p>仔细阅读一下，猜测好像是跟Unity Editor（也就是编辑器）的版本有关系。又看了一下我的Unity版本：<br>
 2020.1.1f1c1</p>
-<p><img src="/images/2020/08/Unity_Project_Tiny_error_02.png" alt="Unity_Project_Tiny_error_02"></p>
+<p><img src="/content/images/2020/08/Unity_Project_Tiny_error_02.png" alt="Unity_Project_Tiny_error_02"></p>
 <p>把版本号 2020.1.1f1c1 代入到代码里……<br>
 出错是显然的……</p>
 <h3 id="">解决方法</h3>
@@ -54,7 +54,7 @@ authorSlug: "dev"
 <blockquote>
 <p><a href="https://unity3d.com/get-unity/download/archive">https://unity3d.com/get-unity/download/archive</a></p>
 </blockquote>
-<p><img src="/images/2020/08/Unity_Project_Tiny_error_03.png" alt="Unity_Project_Tiny_error_03"></p>
-<p><img src="/images/2020/08/Unity_Project_Tiny_error_06.png" alt="Unity_Project_Tiny_error_06"></p>
+<p><img src="/content/images/2020/08/Unity_Project_Tiny_error_03.png" alt="Unity_Project_Tiny_error_03"></p>
+<p><img src="/content/images/2020/08/Unity_Project_Tiny_error_06.png" alt="Unity_Project_Tiny_error_06"></p>
 <p><strong>实测结果</strong>：国际版没有这个问题。</p>
 <!--kg-card-end: markdown-->

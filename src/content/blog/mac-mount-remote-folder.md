@@ -30,17 +30,17 @@ authorSlug: "dev"
 </li>
 </ul>
 <p>这两个文件都可以从osxfuse网站上下载： <a href="https://osxfuse.github.io/">https://osxfuse.github.io/</a></p>
-<p><img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-01.png" alt="MacFuse-sshfs-mount-remote-folder-01"></p>
+<p><img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-01.png" alt="MacFuse-sshfs-mount-remote-folder-01"></p>
 <h2 id="macfuse">安装 MacFUSE</h2>
-<p><img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-02.png" alt="MacFuse-sshfs-mount-remote-folder-02"></p>
-<p><img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-03.png" alt="MacFuse-sshfs-mount-remote-folder-03"></p>
+<p><img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-02.png" alt="MacFuse-sshfs-mount-remote-folder-02"></p>
+<p><img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-03.png" alt="MacFuse-sshfs-mount-remote-folder-03"></p>
 <p>安装完后，可以在系统设置里找到MacFUSE<br>
-<img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-04.png" alt="MacFuse-sshfs-mount-remote-folder-04"></p>
+<img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-04.png" alt="MacFuse-sshfs-mount-remote-folder-04"></p>
 <p>检查一下是否是最新版本<br>
-<img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-05.png" alt="MacFuse-sshfs-mount-remote-folder-05"></p>
+<img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-05.png" alt="MacFuse-sshfs-mount-remote-folder-05"></p>
 <p>重启系统</p>
 <h2 id="sshfs">安装sshfs</h2>
-<p><img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-08.png" alt="MacFuse-sshfs-mount-remote-folder-08"></p>
+<p><img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-08.png" alt="MacFuse-sshfs-mount-remote-folder-08"></p>
 <h2 id="sshfs">使用sshfs映射远程文件夹</h2>
 <p>命令：</p>
 <ul>
@@ -49,9 +49,9 @@ authorSlug: "dev"
 <pre><code>sshfs &lt;用户名&gt;@&lt;服务器&gt;:&lt;服务器上的绝对路径&gt; &lt;本地目标文件夹&gt; -ovolname=&lt;映射后的文件夹名称&gt;
 </code></pre>
 <p>如果没有提供-ovolname参数，则会使用系统参数<br>
-<img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-06.png" alt="MacFuse-sshfs-mount-remote-folder-06"></p>
+<img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-06.png" alt="MacFuse-sshfs-mount-remote-folder-06"></p>
 <p>建议提供-ovolname参数，这样在finder中，名字会更友好一些：<br>
-<img src="/images/2021/02/MacFuse-sshfs-mount-remote-folder-07.png" alt="MacFuse-sshfs-mount-remote-folder-07"></p>
+<img src="/content/images/2021/02/MacFuse-sshfs-mount-remote-folder-07.png" alt="MacFuse-sshfs-mount-remote-folder-07"></p>
 <ul>
 <li>2). 取消映射</li>
 </ul>

@@ -23,7 +23,7 @@ authorSlug: "dev"
 <p>这种做法的原理是，不同浏览器的userAgent值不同。</p>
 <p>这个原理很简单，但是，问题是：市面上的浏览器太多了，需要判定太多的值。</p>
 <p>网站<a href="http://detectmobilebrowsers.com/">detectmobilebrowsers</a>提供了一个匹配方法，可以适配目前大部分的手机浏览器。</p>
-<p><img src="/images/2021/09/how-to-detect-mobile-browsers.png" alt="how-to-detect-mobile-browsers"></p>
+<p><img src="/content/images/2021/09/how-to-detect-mobile-browsers.png" alt="how-to-detect-mobile-browsers"></p>
 <p>该网站还提供代码下载，非常方便。</p>
 <h2 id="typescript">示例代码(typescript)</h2>
 <pre><code class="language-TypeScript">function detectMobileBrowser(a){

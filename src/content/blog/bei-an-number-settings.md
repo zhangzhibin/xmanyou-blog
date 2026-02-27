@@ -28,5 +28,5 @@ authorSlug: "dev"
 <p><a href="https://beian.miit.gov.cn">https://beian.miit.gov.cn</a></p>
 </blockquote>
 <p>把地址改一下，应该就可以了吧……</p>
-<p><img src="/images/2021/01/beian.png" alt="beian"></p>
+<p><img src="/content/images/2021/01/beian.png" alt="beian"></p>
 <!--kg-card-end: markdown-->

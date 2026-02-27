@@ -28,7 +28,7 @@ authorSlug: "dev"
 <h2 id="windows10doh">手动开启Windows 10的DoH功能的详细步骤</h2>
 <h3 id="">第一步，修改注册表</h3>
 <p>按下 <code>Windows + R</code> 组合键，调出“运行”窗口，然后输入regedit.exe</p>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-01.png" alt="enable-doh-dns-over-https-on-windows-01"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-01.png" alt="enable-doh-dns-over-https-on-windows-01"></p>
 <p>即可打开注册表编辑器。</p>
 <p>从左边的树形结构中，找到以下键：</p>
 <pre><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters
@@ -38,19 +38,19 @@ authorSlug: "dev"
 <ul>
 <li>1). 在Parameters右边的空白区域点右键，选择<code>新建-&gt;DWORD</code></li>
 </ul>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-02.png" alt="enable-doh-dns-over-https-on-windows-02"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-02.png" alt="enable-doh-dns-over-https-on-windows-02"></p>
 <ul>
 <li>2). 输入名字：EnableAutoDoh</li>
 </ul>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-03.png" alt="enable-doh-dns-over-https-on-windows-03"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-03.png" alt="enable-doh-dns-over-https-on-windows-03"></p>
 <ul>
 <li>
 <p>3). 新创建的键，默认值是0，双击刚刚添加的EnableAutoDoh，修改值为2<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-04.png" alt="enable-doh-dns-over-https-on-windows-04"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-04.png" alt="enable-doh-dns-over-https-on-windows-04"></p>
 </li>
 <li>
 <p>4). 确认修改正确后，就可以关闭注册表了。<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-05.png" alt="enable-doh-dns-over-https-on-windows-05"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-05.png" alt="enable-doh-dns-over-https-on-windows-05"></p>
 </li>
 </ul>
 <h3 id="dns">第二步，配置DNS</h3>
@@ -60,38 +60,38 @@ authorSlug: "dev"
 <li>1). 打开Windows设置<br>
 按下Windows键，或者直接点击左下角Windows图标，打开“开始”菜单，然后点击“设置”</li>
 </ul>
-<p><img src="/images/2021/11/enable-doh-dns-over-https-on-windows-06.jpg" alt="enable-doh-dns-over-https-on-windows-06"></p>
+<p><img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-06.jpg" alt="enable-doh-dns-over-https-on-windows-06"></p>
 <ul>
 <li>
 <p>2). 打开网络与Internet选项<br>
 从Windows设置中选中“网络与Internet”。<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-07.png" alt="enable-doh-dns-over-https-on-windows-07"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-07.png" alt="enable-doh-dns-over-https-on-windows-07"></p>
 </li>
 <li>
 <p>3). 点击左侧的<strong>以太网选项</strong>，然后选择右侧相关设置中的<strong>更改适配器选项</strong><br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-08.jpg" alt="enable-doh-dns-over-https-on-windows-08"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-08.jpg" alt="enable-doh-dns-over-https-on-windows-08"></p>
 </li>
 <li>
 <p>4). 打开以太网卡的DNS设置页面<br>
 从<strong>网络连接</strong>列表中，选择你的以太网卡<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-09.png" alt="enable-doh-dns-over-https-on-windows-09"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-09.png" alt="enable-doh-dns-over-https-on-windows-09"></p>
 </li>
 </ul>
 <p>双击，打开以太网卡状态<br>
 点击<strong>属性</strong>按钮，打开<strong>以太网属性</strong><br>
 在<strong>网络</strong>页面的列表中，选择<strong>Internet协议版本4(TCP/IPv4)</strong><br>
 双击，打开<strong>Internet协议版本4(TCP/IPv4)属性页</strong>，可以看到DNS服务器设置<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-10.png" alt="enable-doh-dns-over-https-on-windows-10"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-10.png" alt="enable-doh-dns-over-https-on-windows-10"></p>
 <ul>
 <li>5). 手动设置DNS服务器地址<br>
 首选，CloudFlare的1.1.1.1<br>
 备选，谷歌的8.8.8.8<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-11.png" alt="enable-doh-dns-over-https-on-windows-11"></li>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-11.png" alt="enable-doh-dns-over-https-on-windows-11"></li>
 </ul>
 <p>配置好后，点击确定关闭。</p>
 <h3 id="3dnsclient">3. 重启DNS Client客户端服务</h3>
 <p>由于DNS Client服务无法直接手动重启，所以，直接重启电脑。<br>
-<img src="/images/2021/11/enable-doh-dns-over-https-on-windows-12.jpg" alt="enable-doh-dns-over-https-on-windows-12"></p>
+<img src="/content/images/2021/11/enable-doh-dns-over-https-on-windows-12.jpg" alt="enable-doh-dns-over-https-on-windows-12"></p>
 <p>顺利的话，就完成了。</p>
 <h2 id="doh">有没有自动配置DoH的方法呢？</h2>
 <p>有的，请看下一篇: 《使用软件一键自动为Windows 10配置DoH功能》</p>

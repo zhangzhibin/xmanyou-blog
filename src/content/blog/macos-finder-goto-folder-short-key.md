@@ -18,10 +18,10 @@ authorSlug: "dev"
 <h2 id="">解决方法</h2>
 <h3 id="1finder">情况1. 在Finder环境下</h3>
 <p>通过Finder来浏览文件时，可以通过菜单中的“前往文件夹”来打开指定路径。</p>
-<p><img src="/images/2020/02/macOS_finder_go_to_folder01.png" alt="macOS_finder_go_to_folder01"></p>
-<p><img src="/images/2020/02/macOS_finder_go_to_folder02.png" alt="macOS_finder_go_to_folder02"></p>
+<p><img src="/content/images/2020/02/macOS_finder_go_to_folder01.png" alt="macOS_finder_go_to_folder01"></p>
+<p><img src="/content/images/2020/02/macOS_finder_go_to_folder02.png" alt="macOS_finder_go_to_folder02"></p>
 <h3 id="2">情况2. 在其他应用中</h3>
 <p>这是一个比较特别的情况。当我们在别的应用里想要<strong>文件对话框</strong>打开特殊目录时，没法调用Finder的菜单来开启“前往文件夹”。</p>
 <p>这时候，可以通过快捷方式“Shift + Command + g&quot;来开启：</p>
-<p><img src="/images/2020/02/macOS_finder_go_to_folder03.png" alt="macOS_finder_go_to_folder03"></p>
+<p><img src="/content/images/2020/02/macOS_finder_go_to_folder03.png" alt="macOS_finder_go_to_folder03"></p>
 <!--kg-card-end: markdown-->

@@ -17,13 +17,13 @@ authorSlug: "dev"
 <ul>
 <li>开发者中心 <a href="https://ldc2.layabox.com/">https://ldc2.layabox.com/</a></li>
 <li>文档入口 <a href="https://ldc2.layabox.com/doc/?language=zh&amp;nav=zh-ts-0-3-0">https://ldc2.layabox.com/doc/?language=zh&amp;nav=zh-ts-0-3-0</a><br>
-<img src="/images/2020/10/Laya2.x-doc.png" alt="Laya2.x-doc"></li>
+<img src="/content/images/2020/10/Laya2.x-doc.png" alt="Laya2.x-doc"></li>
 </ul>
 <h2 id="1x">版本1.x文档地址</h2>
 <ul>
 <li>开发者中心 <a href="https://ldc.layabox.com/">https://ldc.layabox.com/</a></li>
 <li>下载地址 <a href="https://ldc.layabox.com/layadownload/?type=layaairide-LayaAir%20IDE%201.8.12%20beta">https://ldc.layabox.com/layadownload/?type=layaairide-LayaAir IDE 1.8.12 beta</a></li>
 <li>文档入口 <a href="https://ldc.layabox.com/doc/?nav=zh-as-0-3-0">https://ldc.layabox.com/doc/?nav=zh-as-0-3-0</a><br>
-<img src="/images/2020/10/Laya1.x-doc.png" alt="Laya1.x-doc"></li>
+<img src="/content/images/2020/10/Laya1.x-doc.png" alt="Laya1.x-doc"></li>
 </ul>
 <!--kg-card-end: markdown-->

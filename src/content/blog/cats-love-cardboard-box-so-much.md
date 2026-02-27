@@ -8,18 +8,18 @@ tagSlugs: ["za-qi-za-ba"]
 draft: false
 type: post
 slug: "cats-love-cardboard-box-so-much"
-image: "/images/2019/10/cat-in-a-box02-2.jpg"
+image: "/content/images/2019/10/cat-in-a-box02-2.jpg"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><p><img src="/images/2019/10/cat-in-a-box01-1.jpg" alt="cat-in-a-box01-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box02-1.jpg" alt="cat-in-a-box02-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box03-1.jpg" alt="cat-in-a-box03-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box04-1.jpg" alt="cat-in-a-box04-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box05-1.jpg" alt="cat-in-a-box05-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box06-1.jpg" alt="cat-in-a-box06-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box07-1.jpg" alt="cat-in-a-box07-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box08-1.jpg" alt="cat-in-a-box08-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box09-1.jpg" alt="cat-in-a-box09-1"></p>
-<p><img src="/images/2019/10/cat-in-a-box10-1.jpg" alt="cat-in-a-box10-1"></p>
+<!--kg-card-begin: markdown--><p><img src="/content/images/2019/10/cat-in-a-box01-1.jpg" alt="cat-in-a-box01-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box02-1.jpg" alt="cat-in-a-box02-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box03-1.jpg" alt="cat-in-a-box03-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box04-1.jpg" alt="cat-in-a-box04-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box05-1.jpg" alt="cat-in-a-box05-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box06-1.jpg" alt="cat-in-a-box06-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box07-1.jpg" alt="cat-in-a-box07-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box08-1.jpg" alt="cat-in-a-box08-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box09-1.jpg" alt="cat-in-a-box09-1"></p>
+<p><img src="/content/images/2019/10/cat-in-a-box10-1.jpg" alt="cat-in-a-box10-1"></p>
 <!--kg-card-end: markdown-->

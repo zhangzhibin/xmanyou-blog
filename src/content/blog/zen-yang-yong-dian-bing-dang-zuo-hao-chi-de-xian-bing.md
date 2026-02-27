@@ -41,7 +41,7 @@ authorSlug: "dev"
 <li>洋葱和胡萝卜切碎，加入猪肉馅</li>
 <li>继续顺一个方向搅动，直到上劲，或者搅不动为止。</li>
 </ol>
-<p><img src="/images/2019/09/------01.jpeg" alt="用电饼铛做好吃的馅饼01"></p>
+<p><img src="/content/images/2019/09/------01.jpeg" alt="用电饼铛做好吃的馅饼01"></p>
 <h3 id="">第三步，包馅饼</h3>
 <ol>
 <li>醒好的面拿出来，放到撒了干面粉的案板上。</li>
@@ -52,7 +52,7 @@ authorSlug: "dev"
 <li>收口。</li>
 <li>收口朝下倒扣在案板上，轻轻压扁。</li>
 </ol>
-<p><img src="/images/2019/09/------02.jpeg" alt="用电饼铛做好吃的馅饼02"></p>
+<p><img src="/content/images/2019/09/------02.jpeg" alt="用电饼铛做好吃的馅饼02"></p>
 <h3 id="">第四步，烤馅饼</h3>
 <ol>
 <li>电饼铛用湿布擦洗干净</li>
@@ -62,18 +62,18 @@ authorSlug: "dev"
 <li>根据电饼铛的热度，烤制10分钟。</li>
 <li>每5分钟检查一下烤制的程度，表面出现焦黄痕迹，说明快熟了。</li>
 </ol>
-<p><img src="/images/2019/09/------03.jpeg" alt="用电饼铛做好吃的馅饼03"></p>
+<p><img src="/content/images/2019/09/------03.jpeg" alt="用电饼铛做好吃的馅饼03"></p>
 <h3 id="">第五步，吃馅饼</h3>
 <ol>
 <li>用筷子将一个馅饼夹出来，放到盘子里。</li>
 <li>趁热试吃，小心烫。</li>
 <li>确定熟了，就可以把所有的馅饼都盛出来，装盘</li>
 </ol>
-<p><img src="/images/2019/09/------05.jpeg" alt="用电饼铛做好吃的馅饼05"></p>
+<p><img src="/content/images/2019/09/------05.jpeg" alt="用电饼铛做好吃的馅饼05"></p>
 <h3 id="">第六步，拍照</h3>
 <ol>
 <li>用“美食”模式拍照</li>
 <li>晒盆友圈</li>
 </ol>
-<p><img src="/images/2019/09/------04.jpeg" alt="用电饼铛做好吃的馅饼04"></p>
+<p><img src="/content/images/2019/09/------04.jpeg" alt="用电饼铛做好吃的馅饼04"></p>
 <!--kg-card-end: markdown-->

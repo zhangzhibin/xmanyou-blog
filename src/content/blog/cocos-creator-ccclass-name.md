@@ -19,7 +19,7 @@ or
 set the 'serializable' attribute of 'BalancePlayground.testRulers' to 'false'.
 </code></pre>
 <p>同时，在编辑器的属性检查器里，无法正常显示该类的属性值：<br>
-<img src="/images/2019/02/Snip20190226_8.png" alt="Snip20190226_8"></p>
+<img src="/content/images/2019/02/Snip20190226_8.png" alt="Snip20190226_8"></p>
 <p>这是为什么呢？</p>
 <p>这个错误描述是相当的容易误会。</p>
 <p>上代码，原始出错的代码(TypeScript)：</p>
@@ -55,5 +55,5 @@ export default class RulerConfig {
 // 引用地方不需要改动
 </code></pre>
 <p>然后就OK了，属性检测器显示正常：<br>
-<img src="/images/2019/02/Snip20190226_9.png" alt="Snip20190226_9"></p>
+<img src="/content/images/2019/02/Snip20190226_9.png" alt="Snip20190226_9"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

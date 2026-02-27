@@ -15,14 +15,14 @@ authorSlug: "dev"
 <p>自从TestFlight允许通过链接直接加入测试以后，极大地方便了beta测试的过程。</p>
 <p>但是，beta测试的审核有时候反而要比正式版本慢很多。我们最近有个App提交beta测试审核，第一个版本，居然审了一天多。</p>
 <p>刚刚提交的版本状态是，“<strong>正在等待审核</strong>”<br>
-<img src="/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_01.jpeg" alt="TestFlight 此beta版本目前不接受任何新测试员: 正在等待审核"></p>
+<img src="/content/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_01.jpeg" alt="TestFlight 此beta版本目前不接受任何新测试员: 正在等待审核"></p>
 <p>左等右等，盼星星盼月亮，终于等到“<strong>正在审核</strong>”</p>
-<p><img src="/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_02.jpeg" alt="TestFlight 此beta版本目前不接受任何新测试员: 正在审核"></p>
+<p><img src="/content/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_02.jpeg" alt="TestFlight 此beta版本目前不接受任何新测试员: 正在审核"></p>
 <p>某天终于是“<strong>审核通过</strong>”了，高兴得忘记了截图。</p>
 <p>看到“<strong>审核通过</strong>”，我就兴冲冲地去<strong>创建公开链接</strong>，然后发给测试组。可是，咦，怎么看到这么个页面：<br>
-<img src="/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_04.jpeg" alt="TestFlight 此beta版本目前不接受任何新测试员"></p>
+<img src="/content/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_04.jpeg" alt="TestFlight 此beta版本目前不接受任何新测试员"></p>
 <p>如果用TestFlight打开，则是：</p>
-<p><img src="/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_06.png" alt="TestFlight 此beta版本目前不接受任何新测试员"></p>
+<p><img src="/content/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_06.png" alt="TestFlight 此beta版本目前不接受任何新测试员"></p>
 <p>这是怎么回事？</p>
 <h2 id="">原因</h2>
 <ol>
@@ -34,11 +34,11 @@ authorSlug: "dev"
 <ol>
 <li>
 <p><strong>添加测试人数</strong><br>
-<img src="/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_07.png" alt="TestFlight 此beta版本目前不接受任何新测试员：添加测试人数"></p>
+<img src="/content/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_07.png" alt="TestFlight 此beta版本目前不接受任何新测试员：添加测试人数"></p>
 </li>
 <li>
 <p><strong>发送邀请</strong> （这里借用网上截图一张~）<br>
-<img src="/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_08.png" alt="TestFlight 此beta版本目前不接受任何新测试员：发送邀请"></p>
+<img src="/content/images/2019/07/TestFlight_This_beta_isnt_accepting_any_new_testers_right_now_08.png" alt="TestFlight 此beta版本目前不接受任何新测试员：发送邀请"></p>
 </li>
 <li>
 <p><strong>耐心等待</strong>几分钟</p>

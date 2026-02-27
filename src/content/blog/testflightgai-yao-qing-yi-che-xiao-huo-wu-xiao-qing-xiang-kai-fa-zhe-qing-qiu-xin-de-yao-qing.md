@@ -14,11 +14,11 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
 <p>TestFlight是很方便的测试应用的工具，只需要应用开发者在苹果后台创建一个测试链接，然后添加测试者的邮箱，就能一键发送安装链接到测试者的邮箱。</p>
 <p>然后测试者通过邮件的指引就能把应用安装到手机上，而且通常这个链接是可以一直用的。</p>
-<p><img src="/images/2021/10/TestFlight-invalid-invitation-02.png" alt="TestFlight-invalid-invitation-02"></p>
+<p><img src="/content/images/2021/10/TestFlight-invalid-invitation-02.png" alt="TestFlight-invalid-invitation-02"></p>
 <p>但是呢，有时候点击链接的时候却会报错：</p>
 <pre><code>该邀请已撤销或无效，请向开发者请求新的邀请。
 </code></pre>
-<p><img src="/images/2021/10/TestFlight-invalid-invitation.png" alt="TestFlight-invalid-invitation"></p>
+<p><img src="/content/images/2021/10/TestFlight-invalid-invitation.png" alt="TestFlight-invalid-invitation"></p>
 <p>这是怎么回事呢？</p>
 <h1 id="">解决方法</h1>
 <p>原因有几个：</p>

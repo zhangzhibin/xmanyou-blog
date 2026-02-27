@@ -42,7 +42,7 @@ authorSlug: "dev"
 </code></pre>
 <ul>
 <li>3). 错误截图<br>
-<img src="/images/2021/10/nuxt.js-error-page-example.png" alt="nuxt.js-error-page-example"></li>
+<img src="/content/images/2021/10/nuxt.js-error-page-example.png" alt="nuxt.js-error-page-example"></li>
 </ul>
 <p>参考：<a href="https://nuxtjs.org/docs/concepts/views/#error-page">https://nuxtjs.org/docs/concepts/views/#error-page</a></p>
 <!--kg-card-end: markdown-->

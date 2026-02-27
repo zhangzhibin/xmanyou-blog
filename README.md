@@ -15,12 +15,12 @@ node scripts/ghost-to-astro.mjs ghost/your-export.json src/content/blog
 
 ## 图片
 
-正文和封面图路径已从 `/content/images/` 替换为 `/images/`。
+正文和封面图路径与 Ghost 一致，使用 `/content/images/YYYY/MM/文件名`。
 
-若有旧站点的 `content/images` 目录，请复制到 `public/images`：
+若有旧站点的 `content/images` 目录，请复制到 `public/content/images`：
 
 ```bash
-cp -r /path/to/ghost/content/images/* public/images/
+mkdir -p public/content && cp -r /path/to/ghost/content/images public/content/
 ```
 
 ## 开发

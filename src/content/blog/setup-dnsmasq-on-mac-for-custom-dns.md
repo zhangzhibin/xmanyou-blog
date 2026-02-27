@@ -31,7 +31,7 @@ Dnsmasq是一个开源的轻量级DNS转发和DHCP、TFTP服务器，使用C语�
 <h1 id="dnsmasq">安装 dnsmasq</h1>
 <pre><code>brew install dnsmasq
 </code></pre>
-<p><img src="/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-01.png" alt="setup-dnsmasq-on-mac-for-custom-dns-01"></p>
+<p><img src="/content/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-01.png" alt="setup-dnsmasq-on-mac-for-custom-dns-01"></p>
 <h1 id="dnsmasq">使用 dnsmasq</h1>
 <h2 id="">一些命令</h2>
 <ul>
@@ -68,14 +68,14 @@ address=/test.xmanyou.com/127.0.0.1
 address=/.apps.xmanyou.com/127.0.0.1
 </code></pre>
 <h2 id="dns">指定dns服务器</h2>
-<p><img src="/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-02.png" alt="setup-dnsmasq-on-mac-for-custom-dns-02"></p>
+<p><img src="/content/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-02.png" alt="setup-dnsmasq-on-mac-for-custom-dns-02"></p>
 <h2 id="">测试</h2>
 <pre><code>dig test.xmanyou.com
 </code></pre>
-<p><img src="/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-03.png" alt="setup-dnsmasq-on-mac-for-custom-dns-03"></p>
+<p><img src="/content/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-03.png" alt="setup-dnsmasq-on-mac-for-custom-dns-03"></p>
 <pre><code>dig  123.apps.xmanyou.com
 </code></pre>
-<p><img src="/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-04.png" alt="setup-dnsmasq-on-mac-for-custom-dns-04"></p>
+<p><img src="/content/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-04.png" alt="setup-dnsmasq-on-mac-for-custom-dns-04"></p>
 <h2 id="usrlocaletcdnsmasqconf">/usr/local/etc/dnsmasq.conf 配置文件完整示例</h2>
 <pre><code># 严格按照/etc/resolv.conf文件指定的dsn解析器的顺序进行解析
 strict-order

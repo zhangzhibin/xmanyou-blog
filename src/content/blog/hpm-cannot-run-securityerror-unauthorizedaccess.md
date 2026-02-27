@@ -25,7 +25,7 @@ o.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。
     + CategoryInfo          : SecurityError: (:) []，PSSecurityException
     + FullyQualifiedErrorId : UnauthorizedAccess
 </code></pre>
-<p><img src="/images/2021/02/hpm-cannot-run-SecurityError-UnauthorizedAccess-01.png" alt="hpm-cannot-run-SecurityError-UnauthorizedAccess-01"></p>
+<p><img src="/content/images/2021/02/hpm-cannot-run-SecurityError-UnauthorizedAccess-01.png" alt="hpm-cannot-run-SecurityError-UnauthorizedAccess-01"></p>
 <h1 id="">解决方法</h1>
 <ul>
 <li>1). 以管理员权限运行powershell</li>
@@ -38,9 +38,9 @@ o.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。
 中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?
 [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”): Y
 </code></pre>
-<p><img src="/images/2021/02/hpm-cannot-run-SecurityError-UnauthorizedAccess-02.png" alt="hpm-cannot-run-SecurityError-UnauthorizedAccess-02"></p>
+<p><img src="/content/images/2021/02/hpm-cannot-run-SecurityError-UnauthorizedAccess-02.png" alt="hpm-cannot-run-SecurityError-UnauthorizedAccess-02"></p>
 <ul>
 <li>3). 重新执行hpm -V命令，此时应该没有报错，并打印出hpm的版本信息。</li>
 </ul>
-<p><img src="/images/2021/02/hpm-cannot-run-SecurityError-UnauthorizedAccess-03.png" alt="hpm-cannot-run-SecurityError-UnauthorizedAccess-03"></p>
+<p><img src="/content/images/2021/02/hpm-cannot-run-SecurityError-UnauthorizedAccess-03.png" alt="hpm-cannot-run-SecurityError-UnauthorizedAccess-03"></p>
 <!--kg-card-end: markdown-->

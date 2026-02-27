@@ -20,13 +20,13 @@ authorSlug: "dev"
 <p>这里以Mac为例，介绍一下卸载方法。</p>
 <h4 id="">官方链接</h4>
 <p><a href="https://helpx.adobe.com/flash-player/kb/uninstall-flash-player-mac-os.html">https://helpx.adobe.com/flash-player/kb/uninstall-flash-player-mac-os.html</a></p>
-<p><img src="/images/2019/06/Snip20190611_50.png" alt="Snip20190611_50"></p>
+<p><img src="/content/images/2019/06/Snip20190611_50.png" alt="Snip20190611_50"></p>
 <p><strong>注意，根据你的Mac版本，选择不同版本的卸载软件。</strong></p>
 <h4 id="">具体步骤</h4>
 <ol>
 <li>检查你的Mac系统版本</li>
 </ol>
-<p><img src="/images/2019/06/Snip20190611_52.png" alt="Snip20190611_52"></p>
+<p><img src="/content/images/2019/06/Snip20190611_52.png" alt="Snip20190611_52"></p>
 <ol start="2">
 <li>根据Mac系统版本，下载不同的卸载软件</li>
 </ol>
@@ -38,7 +38,7 @@ authorSlug: "dev"
 <li>运行卸载软件（需要关闭已经打开的浏览器）</li>
 </ol>
 <p>一路确定，某些步骤需要输入用户密码，因为需要修改系统设置。</p>
-<p><img src="/images/2019/06/UN05.gif" alt="UN05"></p>
+<p><img src="/content/images/2019/06/UN05.gif" alt="UN05"></p>
 <ol start="4">
 <li><strong>搞定</strong></li>
 </ol>

@@ -24,7 +24,7 @@ authorSlug: "dev"
 </ul>
 <h2 id="">第三步，选择矿池，挖矿开始挖矿</h2>
 <p>下载好gminer以后，解压，可以看到一系列文件：<br>
-<img src="/images/2021/03/eth-mining-gminer.png" alt="eth-mining-gminer"></p>
+<img src="/content/images/2021/03/eth-mining-gminer.png" alt="eth-mining-gminer"></p>
 <p>其中 mine_eth.bat 就是用于挖以太坊eth的脚本了。<br>
 用文本工具打开，可以看到内容非常简单：</p>
 <pre><code>miner.exe --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5
@@ -45,7 +45,7 @@ pause
 <p>但是，居然报错了！！！</p>
 <pre><code>Error on GPU0: out of memory
 </code></pre>
-<p><img src="/images/2021/03/eth-mining-gminer-out-of-memory.png" alt="eth-mining-gminer-out-of-memory"></p>
+<p><img src="/content/images/2021/03/eth-mining-gminer-out-of-memory.png" alt="eth-mining-gminer-out-of-memory"></p>
 <p>这可怎么办？</p>
 <h1 id="outofmemory">Out Of Memory的原因</h1>
 <p>搜了一下，原来是因为我的1650s只有4G显存。</p>
@@ -57,14 +57,14 @@ pause
 pause
 </code></pre>
 <p>修改矿池，然后把钱包地址改成自己的地址，可以了：<br>
-<img src="/images/2021/03/eth-mining-t-rex-out-of-memory.png" alt="eth-mining-t-rex-out-of-memory"></p>
+<img src="/content/images/2021/03/eth-mining-t-rex-out-of-memory.png" alt="eth-mining-t-rex-out-of-memory"></p>
 <h1 id="">算力？？</h1>
 <p>好奇的我，又查了一下1650s挖以太坊的收益：</p>
 <blockquote>
 <p><a href="https://minerstat.com/hardware/nvidia-gtx-1650-super?lang=zh">https://minerstat.com/hardware/nvidia-gtx-1650-super?lang=zh</a></p>
 </blockquote>
 <p>结果大吃一惊！</p>
-<p><img src="/images/2021/03/eth-mining-with-1650s.png" alt="eth-mining-with-1650s"></p>
+<p><img src="/content/images/2021/03/eth-mining-with-1650s.png" alt="eth-mining-with-1650s"></p>
 <p>由于显存不足，居然挖不动以太坊ETH……</p>
 <p>债见~</p>
 <!--kg-card-end: markdown-->

@@ -11,7 +11,7 @@ slug: "ghibli-style-web-design-with-cursor-ai-dns-over-https-org"
 authorSlug: "dev"
 ---
 
-<!--kg-card-begin: markdown--><p><img src="/images/2025/03/ghibli-style-web-design-dns-over-https-org.png" alt="ghibli-style-web-design-dns-over-https-org"></p>
+<!--kg-card-begin: markdown--><p><img src="/content/images/2025/03/ghibli-style-web-design-dns-over-https-org.png" alt="ghibli-style-web-design-dns-over-https-org"></p>
 <p>最近每天花大量时间在用AI编程，能不自己动手的，就绝不多写一行代码。我也逐渐沦为了：<strong>AI监工</strong>。</p>
 <p>喏，花了2天，搭了一个，不对，让AI搭了一个 doh，也就是关于 DNS over HTTPS的文档站点。</p>
 <p>技术架构：</p>
@@ -27,12 +27,12 @@ authorSlug: "dev"
 <p>简单测试完，就上线了：<br>
 <a href="https://dns-over-https.org">https://dns-over-https.org</a></p>
 <p>闲着无聊，就让豆包点评了一下：</p>
-<p><img src="/images/2025/03/doubao-talk-about-dns-over-https-org.jpg" alt="doubao-talk-about-dns-over-https-org"></p>
+<p><img src="/content/images/2025/03/doubao-talk-about-dns-over-https-org.jpg" alt="doubao-talk-about-dns-over-https-org"></p>
 <p>总结起来就是：就这？</p>
 <p>这几天不是openai生成吉卜力风格图片大火吗？然后公众号上也有人推了用ai生成吉卜力风格的网页。</p>
 <p>于是乎，我想试一下下。</p>
 <p>然后，就是这个了：<br>
-<img src="/images/2025/03/ghibli-style-web-design-dns-over-https-org.png" alt="ghibli-style-web-design-dns-over-https-org"></p>
+<img src="/content/images/2025/03/ghibli-style-web-design-dns-over-https-org.png" alt="ghibli-style-web-design-dns-over-https-org"></p>
 <p>网页风格设计是这次与ai协作的新尝试，遇到了不少坑，很多文字说不清楚的问题，只好截图让ai自己领会。</p>
 <h2 id="">总结</h2>
 <p>这次项目吸取了之前的经验，加上项目相对比较简单，所以完成的还算顺利。新增加的经验：</p>

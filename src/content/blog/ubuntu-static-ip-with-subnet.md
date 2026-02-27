@@ -19,7 +19,7 @@ Gateway: 10.10.10.1
 Name Servers: 10.10.10.1
 </code></pre>
 <p>示例 2.<br>
-<img src="/images/2021/05/ubuntu-install-static-ip.png" alt="ubuntu-install-static-ip"></p>
+<img src="/content/images/2021/05/ubuntu-install-static-ip.png" alt="ubuntu-install-static-ip"></p>
 <p>更多参考：<br>
 <a href="https://opensource.com/article/16/12/cidr-network-notation-configuration-linux">https://opensource.com/article/16/12/cidr-network-notation-configuration-linux</a></p>
 <!--kg-card-end: markdown-->

@@ -41,5 +41,5 @@ authorSlug: "dev"
 <li>2). 如果将apk复制到手机上，然后再安装，则installer为 com.android.packageinstaller</li>
 <li>3). 如果是从google play商店安装，则installer 可能为 com.android.vending（待上线确认）</li>
 </ul>
-<p><img src="/images/2021/07/android-how-to-detect-apk-source-installer.png" alt="android-how-to-detect-apk-source-installer"></p>
+<p><img src="/content/images/2021/07/android-how-to-detect-apk-source-installer.png" alt="android-how-to-detect-apk-source-installer"></p>
 <!--kg-card-end: markdown-->

@@ -19,7 +19,7 @@ authorSlug: "dev"
         collider.apply();  // 调用apply以后才会重新生成box2d的相关对象
 </code></pre>
 <p>这里，最重要的是调用apply方法，文档：</p>
-<p><img src="/images/2018/11/Snip20181112_10.png" alt="Snip20181112_10"></p>
+<p><img src="/content/images/2018/11/Snip20181112_10.png" alt="Snip20181112_10"></p>
 <p>参考</p>
 <blockquote>
 <p><a href="https://docs.cocos.com/creator/api/zh/classes/PhysicsCollider.html">https://docs.cocos.com/creator/api/zh/classes/PhysicsCollider.html</a><br>

@@ -14,7 +14,7 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
 <p>在VMWare ESXi虚拟机上安装openwrt系统时，通常是用直接挂载openwrt磁盘的方法。</p>
 <p>但是，有时候下载下来的磁盘文件挂载后，并不能启动：</p>
-<p><img src="/images/2021/03/vmware-esxi-openwrt-lede-disk-type-not-supported.png" alt="vmware-esxi-openwrt-lede-disk-type-not-supported"></p>
+<p><img src="/content/images/2021/03/vmware-esxi-openwrt-lede-disk-type-not-supported.png" alt="vmware-esxi-openwrt-lede-disk-type-not-supported"></p>
 <pre><code>Unsupported and/or invalid disk type
 </code></pre>
 <p>这是因为，这个.vmdk文件并不是ESXi的格式，而是VMWare Player、VMWare Fushion或者VMware Workstation的磁盘文件，需要进行格式转换。</p>

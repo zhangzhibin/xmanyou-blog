@@ -18,7 +18,7 @@ authorSlug: "dev"
 </code></pre>
 <h1 id="">解决方法</h1>
 <p>这是因为Nexus docker镜像使用的用户id是200，需要有映射到容器中/nexus-data目录的本地的权限。</p>
-<p><img src="/images/2021/12/setup-nexus-with-docker-got-permission-error.png" alt="setup-nexus-with-docker-got-permission-error"></p>
+<p><img src="/content/images/2021/12/setup-nexus-with-docker-got-permission-error.png" alt="setup-nexus-with-docker-got-permission-error"></p>
 <p>最简单的方式就是将这个目录的所有权修改为200。</p>
 <pre><code>sudo chown -R 200 &lt;本地nexus-data目录&gt;
 </code></pre>
@@ -39,5 +39,5 @@ $ docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nex
 <pre><code>$ mkdir /some/dir/nexus-data &amp;&amp; chown -R 200 /some/dir/nexus-data
 $ docker run -d -p 8081:8081 --name nexus -v /some/dir/nexus-data:/nexus-data sonatype/nexus3
 </code></pre>
-<p><img src="/images/2021/12/setup-nexus-with-docker-got-permission-error-02.png" alt="setup-nexus-with-docker-got-permission-error-02"></p>
+<p><img src="/content/images/2021/12/setup-nexus-with-docker-got-permission-error-02.png" alt="setup-nexus-with-docker-got-permission-error-02"></p>
 <!--kg-card-end: markdown-->

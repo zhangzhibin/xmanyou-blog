@@ -26,10 +26,10 @@ authorSlug: "dev"
 </ol>
 <p>首先，通常会先把按钮所在区域用高亮显示，提示玩家“只有这里可以点”。</p>
 <p>Cocos Creator中，提供了Mask组件，勾选inverted（反向遮罩），可以快速的进行掏洞。</p>
-<p><img src="/images/2019/08/CocosCreator_mask_inverted.png" alt="CocosCreator_mask_inverted"></p>
+<p><img src="/content/images/2019/08/CocosCreator_mask_inverted.png" alt="CocosCreator_mask_inverted"></p>
 <p>这个组件会在子节点上掏出一个洞来，所以添加一个半透明的黑色子节点，就可以显示高亮区域了。</p>
 <p>像这样子：<br>
-<img src="/images/2019/08/CocosCreator_use_mask_for_highlight.png" alt="CocosCreator_use_mask_for_highlight"></p>
+<img src="/content/images/2019/08/CocosCreator_use_mask_for_highlight.png" alt="CocosCreator_use_mask_for_highlight"></p>
 <ol start="2">
 <li><strong>判断玩家的触摸操作是否在可操作区域</strong></li>
 </ol>

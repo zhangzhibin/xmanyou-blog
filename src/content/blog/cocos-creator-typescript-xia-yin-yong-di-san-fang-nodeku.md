@@ -34,7 +34,7 @@ authorSlug: "dev"
 <p>这里，只需要改成这样既可：</p>
 <pre><code>import { Base64 } from 'js-base64';
 </code></pre>
-<p><img src="/images/2018/12/Snipaste_2018-12-18_16-06-18.png" alt="Snipaste_2018-12-18_16-06-18"></p>
+<p><img src="/content/images/2018/12/Snipaste_2018-12-18_16-06-18.png" alt="Snipaste_2018-12-18_16-06-18"></p>
 <p>特别注意 Cocos Creator官方的注意事项提醒：<br>
-<img src="/images/2018/12/Snipaste_2018-12-18_16-08-38.png" alt="Snipaste_2018-12-18_16-08-38"></p>
+<img src="/content/images/2018/12/Snipaste_2018-12-18_16-08-38.png" alt="Snipaste_2018-12-18_16-08-38"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

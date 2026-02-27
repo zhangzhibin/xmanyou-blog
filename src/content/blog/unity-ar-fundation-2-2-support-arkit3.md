@@ -8,7 +8,7 @@ tagSlugs: ["dev", "unity", "arkit", "ar"]
 draft: false
 type: post
 slug: "unity-ar-fundation-2-2-support-arkit3"
-image: "/images/2019/06/Snip20190609_38-1.png"
+image: "/content/images/2019/06/Snip20190609_38-1.png"
 authorSlug: "dev"
 ---
 
@@ -17,16 +17,16 @@ authorSlug: "dev"
 <ol>
 <li>动作捕捉</li>
 </ol>
-<p><img src="/images/2019/06/Snip20190609_39.png" alt="Snip20190609_39"></p>
+<p><img src="/content/images/2019/06/Snip20190609_39.png" alt="Snip20190609_39"></p>
 <ol start="2">
 <li>人物遮挡</li>
 </ol>
-<p><img src="/images/2019/06/Snip20190609_40.png" alt="Snip20190609_40"></p>
+<p><img src="/content/images/2019/06/Snip20190609_40.png" alt="Snip20190609_40"></p>
 <p>没过几天，6月6日，著名游戏引擎Unity就在官方博客上高调宣布，<strong>AR Fundation</strong> 2.2 支持了ARKit3。</p>
 <blockquote>
 <p>原文地址：<a href="https://blogs.unity3d.com/2019/06/06/ar-foundation-support-for-arkit-3/">https://blogs.unity3d.com/2019/06/06/ar-foundation-support-for-arkit-3/</a></p>
 </blockquote>
-<p><img src="/images/2019/06/Snip20190609_42.png" alt="Snip20190609_42"></p>
+<p><img src="/content/images/2019/06/Snip20190609_42.png" alt="Snip20190609_42"></p>
 <p>我们来一起围观一下，到底是怎么回事。</p>
 <h1 id="1arf">1.首先，ARF 都支持了哪些功能。</h1>
 <blockquote>
@@ -69,7 +69,7 @@ authorSlug: "dev"
 <p><a href="https://github.com/Unity-Technologies/arfoundation-samples">https://github.com/Unity-Technologies/arfoundation-samples</a></p>
 <h1 id="4">4.支持哪些设备</h1>
 <p>以上功能，需要A12芯片和苹果什么神经网络支持的设备才能使用。</p>
-<p><img src="/images/2019/06/Snip20190610_46.png" alt="Snip20190610_46"></p>
+<p><img src="/content/images/2019/06/Snip20190610_46.png" alt="Snip20190610_46"></p>
 <p>也就是说，必须要<strong>XR以上的设备</strong>才行，X都不行！</p>
 <p><em>精不精彩？</em></p>
 <p><em>惊不惊喜？</em></p>

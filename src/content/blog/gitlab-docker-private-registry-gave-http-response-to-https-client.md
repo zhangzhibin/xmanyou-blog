@@ -40,7 +40,7 @@ Error response from daemon: Get https://192.168.1.12:49264/v2/: http: server gav
 <ul>
 <li>linux环境中，daemon.json位于: /etc/docker/daemon.json</li>
 <li>在mac或者windows中，可以通过ui界面来修改配置：<br>
-<img src="/images/2021/03/docker-registry-insecure-http-01.png" alt="docker-registry-insecure-http-01"></li>
+<img src="/content/images/2021/03/docker-registry-insecure-http-01.png" alt="docker-registry-insecure-http-01"></li>
 </ul>
 <p>改完，重启docker daemon 即可。</p>
 <!--kg-card-end: markdown-->

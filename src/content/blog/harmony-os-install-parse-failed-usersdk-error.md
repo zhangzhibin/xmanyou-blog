@@ -19,7 +19,7 @@ Failure[INSTALL_PARSE_FAILED_USESDK_ERROR]
 $ hdc shell rm -rf /sdcard/f77dae0261d749f2af3674f4d96eeba1
 Error while Deploying HAP
 </code></pre>
-<p><img src="/images/2021/04/harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-01.png" alt="harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-01"></p>
+<p><img src="/content/images/2021/04/harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-01.png" alt="harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-01"></p>
 <h1 id="">解决方法</h1>
 <p>从错误描述来看，应该是设备的版本和开发工具的sdk版本不一致导致的。</p>
 <h2 id="1">1. 终极解决方法</h2>
@@ -33,7 +33,7 @@ Error while Deploying HAP
       &quot;releaseType&quot;: &quot;Beta1&quot; &lt;--- 找到这一行，删除这一行，以及上一行的最后的逗号。
     }
 </code></pre>
-<p><img src="/images/2021/04/harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-02.png" alt="harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-02"></p>
+<p><img src="/content/images/2021/04/harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-02.png" alt="harmony-os-INSTALL_PARSE_FAILED_USESDK_ERROR-02"></p>
 <p>再次运行，就可以安装上了。</p>
 <h1 id="">参考</h1>
 <ul>

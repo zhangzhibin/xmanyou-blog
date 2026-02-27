@@ -20,13 +20,13 @@ authorSlug: "dev"
 <ol>
 <li>
 <p>Trivia &amp; Word 问答与填字<br>
-<img src="/images/2019/04/Snipaste_2019-04-02_11-13-40.png" alt="Snipaste_2019-04-02_11-13-40"><br>
+<img src="/content/images/2019/04/Snipaste_2019-04-02_11-13-40.png" alt="Snipaste_2019-04-02_11-13-40"><br>
 其中投票问答测试类游戏，几乎每隔一段时间就会出现一个爆款，月活达千万(10M+)<br>
 填字类游戏则是常青树，大概是因为这种游戏在英文国家是非常传统的日常游戏。</p>
 </li>
 <li>
 <p>Board 桌游<br>
-<img src="/images/2019/04/Snipaste_2019-04-02_11-13-29.png" alt="Snipaste_2019-04-02_11-13-29"><br>
+<img src="/content/images/2019/04/Snipaste_2019-04-02_11-13-29.png" alt="Snipaste_2019-04-02_11-13-29"><br>
 LUDO是一个类似飞行棋的游戏，在某些国家也是很传统的线下游戏。</p>
 <blockquote>
 <p>参考 <a href="https://en.wikipedia.org/wiki/Ludo_(board_game)">https://en.wikipedia.org/wiki/Ludo_(board_game)</a><br>
@@ -36,28 +36,28 @@ LUDO是一个类似飞行棋的游戏，在某些国家也是很传统的线下�
 </li>
 <li>
 <p>Puzzle/Match 3 解谜与三消<br>
-<img src="/images/2019/04/Snipaste_2019-04-02_11-13-51.png" alt="Snipaste_2019-04-02_11-13-51"><br>
+<img src="/content/images/2019/04/Snipaste_2019-04-02_11-13-51.png" alt="Snipaste_2019-04-02_11-13-51"><br>
 跳跳球是这个榜的常青树，但是严格来说，它并不属于Puzzle，而应该是Action。</p>
 </li>
 <li>
 <p>Sports 体育运动<br>
-<img src="/images/2019/04/Snipaste_2019-04-02_11-14-00.png" alt="Snipaste_2019-04-02_11-14-00"><br>
+<img src="/content/images/2019/04/Snipaste_2019-04-02_11-14-00.png" alt="Snipaste_2019-04-02_11-14-00"><br>
 这个榜上只有台球(8 Ball Pool)是常青树</p>
 </li>
 <li>
 <p>Action/Moba/Runner 动作<br>
-<img src="/images/2019/04/Snipaste_2019-04-02_11-14-12.png" alt="Snipaste_2019-04-02_11-14-12"><br>
+<img src="/content/images/2019/04/Snipaste_2019-04-02_11-14-12.png" alt="Snipaste_2019-04-02_11-14-12"><br>
 动作类的游戏非常多，但是，数据好的并不多。</p>
 </li>
 <li>
 <p>Strategy / Simulation 策略与模拟<br>
-<img src="/images/2019/04/Snipaste_2019-04-02_11-14-20.png" alt="Snipaste_2019-04-02_11-14-20"><br>
+<img src="/content/images/2019/04/Snipaste_2019-04-02_11-14-20.png" alt="Snipaste_2019-04-02_11-14-20"><br>
 策略和模拟类游戏的居然排名这么靠后，有点意外。其中，《鲲来了》之前的数据曾经是9M。也许跟统计周期有关。</p>
 </li>
 </ol>
 <h3 id="">不受欢迎的游戏品类</h3>
 <p>以下品类，截止发文日期，还未产生出1M以上月活的游戏。<br>
-<img src="/images/2019/04/Snipaste_2019-04-02_11-29-04.png" alt="Snipaste_2019-04-02_11-29-04"></p>
+<img src="/content/images/2019/04/Snipaste_2019-04-02_11-29-04.png" alt="Snipaste_2019-04-02_11-29-04"></p>
 <ol>
 <li>Bingo （不知道是啥）</li>
 <li>Builders 建造</li>

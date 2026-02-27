@@ -16,13 +16,13 @@ authorSlug: "dev"
 <pre><code>Must Not Contain Internal SDK
 游戏不能包含内部SDK版本
 </code></pre>
-<p><img src="/images/2021/01/fbig-upload-error-internal-sdk-.png" alt="fbig-upload-error-internal-sdk-"></p>
+<p><img src="/content/images/2021/01/fbig-upload-error-internal-sdk-.png" alt="fbig-upload-error-internal-sdk-"></p>
 <p>英文错误提示：</p>
 <pre><code>Must Not Contain Internal SDK
 
 Games must not include an internal SDK version
 </code></pre>
-<p><img src="/images/2021/01/fbig-upload-error-internal-sdk-2.png" alt="fbig-upload-error-internal-sdk-2"></p>
+<p><img src="/content/images/2021/01/fbig-upload-error-internal-sdk-2.png" alt="fbig-upload-error-internal-sdk-2"></p>
 <h1 id="">解决方法</h1>
 <p>导致这个错误的原因是，facebook小游戏的sdk被直接添加到了游戏包里，并从游戏包中加载，而不是从Facebook的cdn加载。</p>
 <p>解决步骤：</p>

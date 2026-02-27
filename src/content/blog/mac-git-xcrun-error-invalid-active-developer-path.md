@@ -23,7 +23,7 @@ xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools
 <pre><code>xcode-select --install
 </code></pre>
 <p>在弹窗中选择“<strong>安装</strong>”<br>
-<img src="/images/2021/03/missing-xrun-xcode-select.png" alt="missing-xrun-xcode-select"></p>
+<img src="/content/images/2021/03/missing-xrun-xcode-select.png" alt="missing-xrun-xcode-select"></p>
 <p>然后ok了。</p>
 <p>如果还不行，可以参考这篇文章提到的另一个方法</p>
 <blockquote>

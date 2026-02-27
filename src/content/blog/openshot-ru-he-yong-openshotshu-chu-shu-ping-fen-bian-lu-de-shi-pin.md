@@ -14,7 +14,7 @@ authorSlug: "dev"
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>OpenShot 是一个开源的视频编辑软件。</p>
 <pre><code>官网 https://www.openshot.org
 </code></pre>
-<p><img src="/images/2019/03/7a060e09-6595-417d-96cb-7562fdd4a873.jpg" alt="7a060e09-6595-417d-96cb-7562fdd4a873"></p>
+<p><img src="/content/images/2019/03/7a060e09-6595-417d-96cb-7562fdd4a873.jpg" alt="7a060e09-6595-417d-96cb-7562fdd4a873"></p>
 <h3 id="">问题</h3>
 <p>OpenShot默认是不支持输出竖屏分辨率的视频的。<br>
 比如常用的1080P格式的视频分辨率是1920x1080。<br>
@@ -60,10 +60,10 @@ height=1080
 <p>取个好识别的名字</p>
 <ol start="5">
 <li>重启OpenShot, 然后在菜单中选择刚刚修改的配置:<br>
-<img src="/images/2019/03/Snipaste_2019-03-13_12-59-31.png" alt="Snipaste_2019-03-13_12-59-31"></li>
+<img src="/content/images/2019/03/Snipaste_2019-03-13_12-59-31.png" alt="Snipaste_2019-03-13_12-59-31"></li>
 </ol>
 <p>显示如下，尺寸为 1080x1920<br>
-<img src="/images/2019/03/ba62b487-0cc6-4f73-84f4-d26d6f09d0a9.png" alt="ba62b487-0cc6-4f73-84f4-d26d6f09d0a9"></p>
+<img src="/content/images/2019/03/ba62b487-0cc6-4f73-84f4-d26d6f09d0a9.png" alt="ba62b487-0cc6-4f73-84f4-d26d6f09d0a9"></p>
 <ol start="6">
 <li>输出测试，完。</li>
 </ol>

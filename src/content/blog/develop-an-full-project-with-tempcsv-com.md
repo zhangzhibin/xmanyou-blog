@@ -22,7 +22,7 @@ authorSlug: "dev"
 <p>为了更深入的了解 Cursor 的能力边界，我做了一个大胆的实验：能否让 Cursor 完成所有的代码？</p>
 <p>作为一个半桶水产品经理，我脑补了一个需求：在线分享csv文件。</p>
 <p>经过几天的努力，我和Cursor完成这么一个产品：tempcsv.com</p>
-<p><img src="/images/2025/03/temcsv.com-screenshot.png" alt="temcsv.com-screenshot"></p>
+<p><img src="/content/images/2025/03/temcsv.com-screenshot.png" alt="temcsv.com-screenshot"></p>
 <h2 id="">过程</h2>
 <p>整个项目是一个从信心满满到烂尾的过程。</p>
 <h3 id="">启动</h3>

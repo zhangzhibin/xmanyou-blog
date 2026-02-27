@@ -33,25 +33,25 @@ authorSlug: "dev"
 <li><strong>创建镜像</strong></li>
 </ol>
 <p>对ECS1创建镜像</p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_01.png" alt="aliyun_ecs_copy_01"></p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_02.png" alt="aliyun_ecs_copy_02"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_01.png" alt="aliyun_ecs_copy_01"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_02.png" alt="aliyun_ecs_copy_02"></p>
 <ol start="3">
 <li><strong>复制镜像</strong></li>
 </ol>
 <p>如果两台ECS服务器不在同一个区，则需要先把镜像复制到目标ECS所在的区域。</p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_03.png" alt="aliyun_ecs_copy_03"></p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_04.png" alt="aliyun_ecs_copy_04"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_03.png" alt="aliyun_ecs_copy_03"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_04.png" alt="aliyun_ecs_copy_04"></p>
 <ol start="4">
 <li><strong>导入镜像</strong></li>
 </ol>
 <p>由于是直接使用阿里云ECS生成的镜像，所以可以直接导入。</p>
 <p>在目标ECS的控制面上，选择<strong>更换系统盘</strong></p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_05.png" alt="aliyun_ecs_copy_05"></p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_06.png" alt="aliyun_ecs_copy_06"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_05.png" alt="aliyun_ecs_copy_05"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_06.png" alt="aliyun_ecs_copy_06"></p>
 <blockquote>
 <p><strong>费用</strong>：因为镜像大小跟ECS2的系统盘大小一样，所以不需要扩容，费用为0。</p>
 </blockquote>
-<p><img src="/images/2019/07/aliyun_ecs_copy_07.png" alt="aliyun_ecs_copy_07"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_07.png" alt="aliyun_ecs_copy_07"></p>
 <p>导入的时候，秘钥可以选择保留镜像的秘钥，这样就客户端不需要重新上传ssh key。</p>
 <ol start="5">
 <li><strong>修改DNS</strong></li>
@@ -62,12 +62,12 @@ authorSlug: "dev"
 <li><strong>复制安全组策略</strong></li>
 </ol>
 <p>用导入导出工具，将ECS1的安全组策略复制到ECS2上。</p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_08.png" alt="aliyun_ecs_copy_08"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_08.png" alt="aliyun_ecs_copy_08"></p>
 <ol start="7">
 <li>客户端<strong>清除相关known hosts</strong></li>
 </ol>
 <p>服务器启动以后，就可以从客户端尝试连接了。如果遇到known hosts的错误：</p>
-<p><img src="/images/2019/07/aliyun_ecs_copy_10.png" alt="aliyun_ecs_copy_10"></p>
+<p><img src="/content/images/2019/07/aliyun_ecs_copy_10.png" alt="aliyun_ecs_copy_10"></p>
 <p>可以打开~/.ssh/known_hosts文件，把里边ECS2的相关字段都删除。</p>
 <p>重新连接，提示是否要把添加到list of known hosts里，选择yes。</p>
 <p>连接成功。</p>

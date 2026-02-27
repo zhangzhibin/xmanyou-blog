@@ -13,7 +13,7 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><h2 id="">问题环境</h2>
 <p>Unity输出iOS工程，支持两种模式：</p>
-<p><img src="/images/2019/07/Unity_Build_Settings_01.png" alt="Unity_Build_Settings_01"></p>
+<p><img src="/content/images/2019/07/Unity_Build_Settings_01.png" alt="Unity_Build_Settings_01"></p>
 <ol>
 <li>使用快捷键，直接输出并打包调试 (<strong>Build And Run</strong>)</li>
 </ol>
@@ -26,7 +26,7 @@ authorSlug: "dev"
 输出以后会自动进入打包调试。调试功能需要调用XCode的工具，联调的时候，经常会挂，导致必须强制关闭Unity。</p>
 <ol start="2">
 <li>使用菜单，调出打包设置(<strong>Build Settings...</strong>)页面，从这里选择打包。<br>
-<img src="/images/2019/07/Unity_Build_Settings_02.png" alt="Unity_Build_Settings_02"></li>
+<img src="/content/images/2019/07/Unity_Build_Settings_02.png" alt="Unity_Build_Settings_02"></li>
 </ol>
 <p>从这两个菜单进行输出。如果选择Build，则只输出工程，如果选择BuildAndRun，输出工程后会自动尝试调试。</p>
 <p><strong>不好的地方</strong><br>
@@ -102,7 +102,7 @@ public static class AutoBuilder {
 }
 </code></pre>
 <p>然后，你就可以通过点击菜单，直接输出工程了<br>
-<img src="/images/2019/07/Unity_Build_Settings_03.png" alt="Unity_Build_Settings_03"></p>
+<img src="/content/images/2019/07/Unity_Build_Settings_03.png" alt="Unity_Build_Settings_03"></p>
 <p>你还可以参考文档，为这个菜单项添加一个快捷键<br>
 <a href="https://learn.unity.com/tutorial/editor-scripting#5c7f8528edbc2a002053b5f9">https://learn.unity.com/tutorial/editor-scripting#5c7f8528edbc2a002053b5f9</a></p>
 <h2 id="">参考</h2>

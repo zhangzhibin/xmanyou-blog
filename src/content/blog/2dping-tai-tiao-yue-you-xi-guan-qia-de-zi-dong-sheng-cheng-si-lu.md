@@ -8,7 +8,7 @@ tagSlugs: ["dev", "ying-zi-lai-liao", "shadowrunner", "level-design"]
 draft: false
 type: post
 slug: "2dping-tai-tiao-yue-you-xi-guan-qia-de-zi-dong-sheng-cheng-si-lu"
-image: "/images/2017/11/75165643-1.png"
+image: "/content/images/2017/11/75165643-1.png"
 authorSlug: "dev"
 ---
 
@@ -19,11 +19,11 @@ authorSlug: "dev"
 <ol>
 <li>
 <p>建立关卡的模板，例如一个关卡对应的尺寸是 m x n。<br>
-<img src="/images/2017/11/75035675.png" alt="75035675"></p>
+<img src="/content/images/2017/11/75035675.png" alt="75035675"></p>
 </li>
 <li>
 <p>建立分区模板，每个分区的尺寸为 w x h。<br>
-<img src="/images/2017/11/75094230.png" alt="75094230"></p>
+<img src="/content/images/2017/11/75094230.png" alt="75094230"></p>
 </li>
 <li>
 <p>对关卡进行分割，按照分区模板的尺寸，分割成不同的区域。</p>
@@ -43,7 +43,7 @@ authorSlug: "dev"
 </li>
 </ol>
 <p>最后结果：<br>
-<img src="/images/2017/11/75165643.png" alt="75165643"></p>
+<img src="/content/images/2017/11/75165643.png" alt="75165643"></p>
 <p>关键点：</p>
 <ol>
 <li>分区模板，模板的数量，决定了随机填充以后，关卡的随机程度。</li>

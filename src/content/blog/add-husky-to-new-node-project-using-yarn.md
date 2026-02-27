@@ -38,7 +38,7 @@ yarn add husky --dev
 </code></pre>
 <h1 id="4">4. 测试钩子</h1>
 <p>提交一个commit，检查是否有输出</p>
-<p><img src="/images/2021/11/add-husky-to-new-node-project.png" alt="add-husky-to-new-node-project"></p>
+<p><img src="/content/images/2021/11/add-husky-to-new-node-project.png" alt="add-husky-to-new-node-project"></p>
 <p>完成。</p>
 <h1 id="">其他</h1>
 <p>关于Husky: <a href="https://typicode.github.io/husky/#/">https://typicode.github.io/husky/#/</a></p>

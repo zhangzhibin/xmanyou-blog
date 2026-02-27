@@ -22,7 +22,7 @@ ERROR: Failed to resolve: com.ironsource.adapters:facebookadapter:4.3.21
 Show in Project Structure dialog
 Affected Modules: app
 </code></pre>
-<p><img src="/images/2020/10/IronSource-adapter-failed.png" alt="IronSource-adapter-failed"></p>
+<p><img src="/content/images/2020/10/IronSource-adapter-failed.png" alt="IronSource-adapter-failed"></p>
 <p>奇怪的是，相同网络条件下，IronSource的另一个依赖库com.ironsource.sdk:mediationsdk却没有报错。</p>
 <p>无论怎么设置Http Proxy代理服务器，都无法解决改问题。</p>
 <h1 id="">解决方法</h1>
@@ -39,5 +39,5 @@ Affected Modules: app
 }
 </code></pre>
 <p>像这样子：<br>
-<img src="/images/2020/10/IronSource-adapter-gradle-repo.png" alt="IronSource-adapter-gradle-repo"></p>
+<img src="/content/images/2020/10/IronSource-adapter-gradle-repo.png" alt="IronSource-adapter-gradle-repo"></p>
 <!--kg-card-end: markdown-->

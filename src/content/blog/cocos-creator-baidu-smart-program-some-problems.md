@@ -30,7 +30,7 @@ authorSlug: "dev"
 <a href="https://docs.cocos.com/creator/manual/zh/scripting/subpackage.html">https://docs.cocos.com/creator/manual/zh/scripting/subpackage.html</a></p>
 </blockquote>
 <p>配置好分包以后，打包输出百度小游戏，可以看到subpackages被正常创建</p>
-<p><img src="/images/2019/11/Cocos_Creator_subpackages.png" alt="Cocos_Creator_subpackages"></p>
+<p><img src="/content/images/2019/11/Cocos_Creator_subpackages.png" alt="Cocos_Creator_subpackages"></p>
 <p>工具中测试也正常，但是，对不起，在真机上无法正常启动，也不报错，看日志应该是找不到分包中的资源。</p>
 <h3 id="">解决方法</h3>
 <p>在Cocos加载第一个场景前，先加载分包。可以修改百度小游戏入口文件main.js</p>

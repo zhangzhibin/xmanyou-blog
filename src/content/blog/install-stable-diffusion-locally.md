@@ -38,16 +38,16 @@ authorSlug: "dev"
 <pre><code>https://github.com 的链接前添加：https://ghproxy.com/
 </code></pre>
 <p>参考：<a href="https://savokiss.com/tech/sdw-install-error.html">https://savokiss.com/tech/sdw-install-error.html</a><br>
-<img src="/images/2023/05/install-stable-dififfusion-webui-01.png" alt="install-stable-dififfusion-webui-01"></p>
+<img src="/content/images/2023/05/install-stable-dififfusion-webui-01.png" alt="install-stable-dififfusion-webui-01"></p>
 <p>顺利的话，最后一步是从huggingface下载模型：<br>
-<img src="/images/2023/05/install-stable-dififfusion-webui-02.png" alt="install-stable-dififfusion-webui-02"></p>
+<img src="/content/images/2023/05/install-stable-dififfusion-webui-02.png" alt="install-stable-dififfusion-webui-02"></p>
 <p>经过漫长的等待，终于所有都100%了<br>
-<img src="/images/2023/05/install-stable-dififfusion-webui-03.png" alt="install-stable-dififfusion-webui-03"></p>
+<img src="/content/images/2023/05/install-stable-dififfusion-webui-03.png" alt="install-stable-dififfusion-webui-03"></p>
 <h2 id="">操作页面</h2>
 <p>用浏览器打开页面：<code>http://127.0.0.1:7860/</code></p>
 <p>随便输入几个关键词测试一下，比如 cartoon, football, beach</p>
 <p>emmmmm...不是太理想...<br>
-<img src="/images/2023/05/install-stable-dififfusion-webui-04.png" alt="install-stable-dififfusion-webui-04"></p>
+<img src="/content/images/2023/05/install-stable-dififfusion-webui-04.png" alt="install-stable-dififfusion-webui-04"></p>
 <p>下一步，也许是如何用gpt来生成提示词……</p>
 <p>再见。</p>
 <!--kg-card-end: markdown-->

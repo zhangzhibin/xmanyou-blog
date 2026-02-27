@@ -13,9 +13,9 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><h1 id="">问题背景</h1>
 <p>白鹭引擎虽然提供了Facebook小游戏的打包选项，但是比较奇怪的是，居然是直接使用口令上传到后台。<br>
-<img src="/images/2021/06/Egret-for-Facebook-instant-game-01.png" alt="Egret-for-Facebook-instant-game-01"></p>
+<img src="/content/images/2021/06/Egret-for-Facebook-instant-game-01.png" alt="Egret-for-Facebook-instant-game-01"></p>
 <p>更重要的是，你即使提供了口令，也没法上传成功：<br>
-<img src="/images/2021/06/Egret-for-Facebook-instant-game-02.png" alt="Egret-for-Facebook-instant-game-02"></p>
+<img src="/content/images/2021/06/Egret-for-Facebook-instant-game-02.png" alt="Egret-for-Facebook-instant-game-02"></p>
 <p>而且！Egret不提供打包好的临时文件……</p>
 <h1 id="">解决方法</h1>
 <p>其实Facebook小游戏的接入很简单，这里提供一个egret白鹭引擎项目的模板，供快速打包Facebook小游戏：</p>

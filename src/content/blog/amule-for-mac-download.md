@@ -13,7 +13,7 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><p>aMule是类似eMule的全平台p2p软件。</p>
 <p>官网是：<a href="http://www.amule.org/">http://www.amule.org/</a><br>
-<img src="/images/2019/09/Snip20190918_8.png" alt="amule_org"></p>
+<img src="/content/images/2019/09/Snip20190918_8.png" alt="amule_org"></p>
 <p>但是人家很傲娇，不提供二进制文件的下载……</p>
 <pre><code>We offer no official binaries, (maybe except for Windows and MacOS, that's yet to be decided), so please bug your distro's maintainers to update their packages, or you can browse the list of user-supplied packages.
 </code></pre>

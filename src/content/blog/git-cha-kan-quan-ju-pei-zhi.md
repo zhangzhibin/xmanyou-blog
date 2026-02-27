@@ -16,5 +16,5 @@ authorSlug: "dev"
 <p>git config --list --show-origin</p>
 </blockquote>
 <h4 id="">示例</h4>
-<p><img src="/images/2018/12/Snipaste_2018-12-17_09-12-33.png" alt="Snipaste_2018-12-17_09-12-33"></p>
+<p><img src="/content/images/2018/12/Snipaste_2018-12-17_09-12-33.png" alt="Snipaste_2018-12-17_09-12-33"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

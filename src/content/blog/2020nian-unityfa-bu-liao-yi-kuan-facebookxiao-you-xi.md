@@ -19,12 +19,12 @@ Unity居然悄咪咪地制作并发布了一款Facebook小游戏！</p>
 <p><a href="https://fb.gg/play/388790642515896">https://fb.gg/play/388790642515896</a></p>
 </blockquote>
 <p>游戏名字叫《Skelebuddies Halloween Run》，翻译过来就是《骷髅兄弟万圣节大逃亡》</p>
-<p><img src="/images/2021/01/6420274.png" alt="6420274"></p>
+<p><img src="/content/images/2021/01/6420274.png" alt="6420274"></p>
 <p>经过漫长的加载过程<br>
-<img src="/images/2021/01/bc440790-1e55-4cdc-a5f9-e49a1ff20ace.png" alt="bc440790-1e55-4cdc-a5f9-e49a1ff20ace"></p>
+<img src="/content/images/2021/01/bc440790-1e55-4cdc-a5f9-e49a1ff20ace.png" alt="bc440790-1e55-4cdc-a5f9-e49a1ff20ace"></p>
 <p>终于可以进入游戏了<br>
-<img src="/images/2021/01/12890969.png" alt="12890969"><br>
-<img src="/images/2021/01/10537989.png" alt="10537989"></p>
+<img src="/content/images/2021/01/12890969.png" alt="12890969"><br>
+<img src="/content/images/2021/01/10537989.png" alt="10537989"></p>
 <p>玩法很简单，作为一个土人，你需要在规定时间内，躲过重重障碍，把路上遇到的骷髅兄弟们，一路押送到最远端的城堡。</p>
 <p>听起来是不是很容易？<br>
 但是，玩起来真心不是这么容易。<br>
@@ -55,18 +55,18 @@ Unity居然悄咪咪地制作并发布了一款Facebook小游戏！</p>
 </ol>
 </li>
 </ul>
-<p><img src="/images/2021/01/1764735.png" alt="1764735"></p>
+<p><img src="/content/images/2021/01/1764735.png" alt="1764735"></p>
 <p>然后，又看看另一个帖子，Project Tiny 0.31版本已经于 11月初发布</p>
 <blockquote>
 <p><a href="https://forum.unity.com/threads/project-tiny-0-31-preview-is-available.998752/">https://forum.unity.com/threads/project-tiny-0-31-preview-is-available.998752/</a></p>
 </blockquote>
-<p><img src="/images/2021/01/857157.png" alt="857157"></p>
+<p><img src="/content/images/2021/01/857157.png" alt="857157"></p>
 <p>可以看到，Unity引擎团队还在很努力的进行更新。</p>
 <p>相关的开发文档<br>
 想体验的话，需要安装Unity 2020.1.10f1，并仔细阅读以下文档：</p>
 <blockquote>
 <p><a href="https://docs.google.com/document/d/1A8hen2hLFY5FLkC5gd3JP2Z-IpHfnAX-CpYLK3aOdwA/edit">https://docs.google.com/document/d/1A8hen2hLFY5FLkC5gd3JP2Z-IpHfnAX-CpYLK3aOdwA/edit</a></p>
 </blockquote>
-<p><img src="/images/2021/01/8067360.png" alt="8067360"></p>
+<p><img src="/content/images/2021/01/8067360.png" alt="8067360"></p>
 <p>好吧，我们就继续等待吧。</p>
 <!--kg-card-end: markdown-->

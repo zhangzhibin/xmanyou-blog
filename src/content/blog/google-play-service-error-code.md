@@ -13,7 +13,7 @@ authorSlug: "dev"
 
 <!--kg-card-begin: markdown--><h2 id="">问题背景</h2>
 <p>接入Google Play服务时，难免遇到各种错误，比如<br>
-<img src="/images/2020/02/GooglePlay_ErrorCode.png" alt="GooglePlay_ErrorCode"></p>
+<img src="/content/images/2020/02/GooglePlay_ErrorCode.png" alt="GooglePlay_ErrorCode"></p>
 <p>通常我们可以用result.getDebugMessage()来获取错误描述，result.getErrorCode来获取错误码。</p>
 <p>然后对比官方文档来查看详细错误信息。</p>
 <h2 id="">官方文档</h2>

@@ -39,7 +39,7 @@ authorSlug: "dev"
 <p><strong>注意</strong><br>
 认准官网标志哈，不要从第三方下载。</p>
 <p>与很多sdk不同，TapDB的sdk提供的是aar的包，而不是maven之类的网络库，所以下载后，解压，然后复制到工程里。</p>
-<p><img src="/images/2021/07/tapdb-sdk-integration-01.png" alt="tapdb-sdk-integration-01"></p>
+<p><img src="/content/images/2021/07/tapdb-sdk-integration-01.png" alt="tapdb-sdk-integration-01"></p>
 <h2 id="2gradletapdbsdk">2.在Gradle中引用TapDB SDK</h2>
 <pre><code>dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
@@ -67,12 +67,12 @@ public static void init(Context context, String appId, String channel, String ap
 <h2 id="5tapdbsdk">5.测试TapDB SDK</h2>
 <h3 id="1">1). 添加测试设备</h3>
 <p>下载并安装TapDB客户端，然后在企业管理界面中，扫描二维码来添加测试设备。</p>
-<p><img src="/images/2021/07/tapdb-sdk-integration-02.png" alt="tapdb-sdk-integration-02"></p>
-<p><img src="/images/2021/07/tapdb-sdk-integration-03.png" alt="tapdb-sdk-integration-03"></p>
+<p><img src="/content/images/2021/07/tapdb-sdk-integration-02.png" alt="tapdb-sdk-integration-02"></p>
+<p><img src="/content/images/2021/07/tapdb-sdk-integration-03.png" alt="tapdb-sdk-integration-03"></p>
 <h3 id="2">2). 运行测试应用</h3>
 <p>使用添加到后台的测试设备进入游戏，如果一切正常，TapDB后台会显示激活的设备数量，并提示<br>
 <strong>调试完成，进入项目</strong></p>
-<p><img src="/images/2021/07/tapdb-sdk-integration-04.png" alt="tapdb-sdk-integration-04"></p>
+<p><img src="/content/images/2021/07/tapdb-sdk-integration-04.png" alt="tapdb-sdk-integration-04"></p>
 <h2 id="6">6. 常见问题</h2>
 <h3 id="61tapdb">6.1. TapDB后台显示项目一直处于调试状态，始终无法变成正式项目。</h3>
 <p>检查以下几点：</p>
@@ -86,9 +86,9 @@ TapDB的初始化方法有好几个，必须用带version参数的那两个：</
 <pre><code>TapDB.init(app, TAPDB_ID, CHANNEL_ID, version, null);
 </code></pre>
 <p>如果在日志中看到以下信息，表示使用的init方法不对：<br>
-<img src="/images/2021/07/tapdb-sdk-integration-05.png" alt="tapdb-sdk-integration-05"></p>
+<img src="/content/images/2021/07/tapdb-sdk-integration-05.png" alt="tapdb-sdk-integration-05"></p>
 <p>正确姿势<br>
-<img src="/images/2021/07/tapdb-sdk-integration-06.png" alt="tapdb-sdk-integration-06"></p>
+<img src="/content/images/2021/07/tapdb-sdk-integration-06.png" alt="tapdb-sdk-integration-06"></p>
 <h1 id="">官方技术支持</h1>
 <p>如果接入一直遇到问题，可以联系TapDB的官方技术支持，在网站上可以找到他们的企业微信联系方式。</p>
 <!--kg-card-end: markdown-->

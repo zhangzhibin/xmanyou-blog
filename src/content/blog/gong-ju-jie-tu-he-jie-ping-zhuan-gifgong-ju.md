@@ -19,7 +19,7 @@ authorSlug: "dev"
 地址：<a href="https://snip.qq.com/">https://snip.qq.com/</a><br>
 系统：Mac only<br>
 说明：居然是腾讯出品的小工具，而且不会给你推游戏。<br>
-<img src="/images/2018/12/Snipaste_2018-12-17_09-25-15.png" alt="Snipaste_2018-12-17_09-25-15"></p>
+<img src="/content/images/2018/12/Snipaste_2018-12-17_09-25-15.png" alt="Snipaste_2018-12-17_09-25-15"></p>
 </li>
 <li>
 <p>截图工具 Snipaste<br>
@@ -27,7 +27,7 @@ authorSlug: "dev"
 系统：Windows/Mac, Linux(待更新)<br>
 说明：Snip最奇怪的是，居然只有Mac版本，于是google snip的替代品时找到了这个。<br>
 自称首先是贴图工具，然后才是截图工具。我暂时先当截图工具用。<br>
-<img src="/images/2018/12/Snipaste_2018-12-17_09-31-41.png" alt="Snipaste_2018-12-17_09-31-41"></p>
+<img src="/content/images/2018/12/Snipaste_2018-12-17_09-31-41.png" alt="Snipaste_2018-12-17_09-31-41"></p>
 </li>
 <li>
 <p>截屏转Gif工具 ScreenToGif<br>
@@ -37,5 +37,5 @@ authorSlug: "dev"
 可以录Gif，还可以编辑Gif。</p>
 </li>
 </ol>
-<p><img src="/images/2018/12/Snipaste_2018-12-17_09-34-53.png" alt="Snipaste_2018-12-17_09-34-53"></p>
+<p><img src="/content/images/2018/12/Snipaste_2018-12-17_09-34-53.png" alt="Snipaste_2018-12-17_09-34-53"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

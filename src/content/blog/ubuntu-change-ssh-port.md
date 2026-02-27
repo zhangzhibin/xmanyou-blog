@@ -59,7 +59,7 @@ IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
 Someone could be eavesdropping on you right now (man-in-the-middle attack)!
 It is also possible that a host key has just been changed.
 </code></pre>
-<p><img src="/images/2021/03/ssh-known-host-key-changed.png" alt="ssh-known-host-key-changed"></p>
+<p><img src="/content/images/2021/03/ssh-known-host-key-changed.png" alt="ssh-known-host-key-changed"></p>
 <p>表示客户端之前已经连接过，需要修改 .ssh/known_hosts</p>
 <p>删掉之前的host记录，然后重新连接即可。</p>
 <!--kg-card-end: markdown-->

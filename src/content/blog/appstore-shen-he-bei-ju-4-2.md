@@ -12,7 +12,7 @@ authorSlug: "dev"
 ---
 
 <!--kg-card-begin: markdown--><!--kg-card-begin: markdown--><p>最近在Facebook上架了一个Instant Game小游戏 Stacky Stack：<br>
-<img src="/images/2019/03/Banner1200x675.png" alt="Banner1200x675"></p>
+<img src="/content/images/2019/03/Banner1200x675.png" alt="Banner1200x675"></p>
 <p>游戏地址：</p>
 <blockquote>
 <p><a href="https://www.facebook.com/instantgames/play/2333613016921232/?source=www_play_url">https://www.facebook.com/instantgames/play/2333613016921232/?source=www_play_url</a></p>

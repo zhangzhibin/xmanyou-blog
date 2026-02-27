@@ -8,7 +8,7 @@ tagSlugs: ["za-qi-za-ba", "ludum-dare", "ld40"]
 draft: false
 type: post
 slug: "lun-ru-he-zai-dai-wa-de-bai-mang-zhi-zhong-chou-kong-can-jia-shi-jie-shang-zui-da-de-you-xi-da-sai"
-image: "/images/2017/12/Snip20171204_19.png"
+image: "/content/images/2017/12/Snip20171204_19.png"
 authorSlug: "dev"
 ---
 
@@ -77,5 +77,5 @@ authorSlug: "dev"
 <a href="https://blackshadowgame.com/games/NoMoveNoDie/">https://blackshadowgame.com/games/NoMoveNoDie/</a></p>
 <p>欢迎到下边我们的LD页面围观，学习如何用英文吐槽游戏。<br>
 <a href="https://ldjam.com/events/ludum-dare/40/no-move-no-die">https://ldjam.com/events/ludum-dare/40/no-move-no-die</a></p>
-<p><img src="/images/2017/12/Snip20171205_26.png" alt="Snip20171205_26"></p>
+<p><img src="/content/images/2017/12/Snip20171205_26.png" alt="Snip20171205_26"></p>
 <!--kg-card-end: markdown--><!--kg-card-end: markdown-->

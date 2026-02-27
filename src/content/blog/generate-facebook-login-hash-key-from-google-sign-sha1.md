@@ -17,7 +17,7 @@ authorSlug: "dev"
 <pre><code>keytool -exportcert -alias &lt;别名&gt; -keystore &lt;key store文件&gt; | openssl sha1 -binary | openssl base64
 </code></pre>
 <p>如果没有添加谷歌托管签名服务对应秘钥的hash值，而直接将游戏上线，会导致Facebook登录功能失败：<br>
-<img src="/images/2021/08/fb-login-invalid-hash-key.png" alt="fb-login-invalid-hash-key"></p>
+<img src="/content/images/2021/08/fb-login-invalid-hash-key.png" alt="fb-login-invalid-hash-key"></p>
 <h1 id="">解决方法</h1>
 <p>由于谷歌的托管服务没有提供key store文件，只提供了sha-1等的二进制表示串，没法用Facebook提供的命令来获取hash值，这可怎么办呢？</p>
 <p>Stackoverflow上，有人提供了个快速的方法，详细步骤：</p>
@@ -29,7 +29,7 @@ authorSlug: "dev"
 <pre><code>btoa('签名的SHA-1值'.split(':').map(hc =&gt; String.fromCharCode(parseInt(hc, 16))).join(''))
 </code></pre>
 <p>就会输出Facebook所需的hash值了。</p>
-<p><img src="/images/2021/08/fb-login-invalid-hash-key2.png" alt="fb-login-invalid-hash-key2"></p>
+<p><img src="/content/images/2021/08/fb-login-invalid-hash-key2.png" alt="fb-login-invalid-hash-key2"></p>
 <h2 id="">总结一下</h2>
 <ul>
 <li>hex map 转换成 base64</li>

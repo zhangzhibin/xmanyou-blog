@@ -27,8 +27,8 @@ Production-Grade，是云原生基金会（CNCF）项目成熟度标准中的最
 </blockquote>
 <h2 id="k8s">k8s的竞品有哪些？</h2>
 <p>通过google的自动搜索提示，可以看到最经常拿来与k8s对比的项目/概念：</p>
-<p><img src="/images/2021/04/k8s_vs_docker_and_xxx.png" alt="k8s_vs_docker_and_xxx"></p>
-<p><img src="/images/2021/04/k8s_vs_xxx.png" alt="k8s_vs_xxx"></p>
+<p><img src="/content/images/2021/04/k8s_vs_docker_and_xxx.png" alt="k8s_vs_docker_and_xxx"></p>
+<p><img src="/content/images/2021/04/k8s_vs_xxx.png" alt="k8s_vs_xxx"></p>
 <p>这些项目涵盖了以下话题：</p>
 <ul>
 <li>容器</li>

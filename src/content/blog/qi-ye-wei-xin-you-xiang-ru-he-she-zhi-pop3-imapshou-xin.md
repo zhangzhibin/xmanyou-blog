@@ -22,20 +22,20 @@ authorSlug: "dev"
 </ol>
 <h3 id="">企业微信管理员允许客户端访问</h3>
 <p>这个步骤由管理员在企业微信后台的操作，邮件 -&gt; 安全管理工具 -&gt; 客户端访问限制</p>
-<p><img src="/images/2026/02/qiye-weixin-mail-pop-imap-settings-04--1-.png" alt="qiye-weixin-mail-pop-imap-settings-04--1-"></p>
-<p><img src="/images/2026/02/qiye-weixin-mail-pop-imap-settings-05--1-.png" alt="qiye-weixin-mail-pop-imap-settings-05--1-"></p>
+<p><img src="/content/images/2026/02/qiye-weixin-mail-pop-imap-settings-04--1-.png" alt="qiye-weixin-mail-pop-imap-settings-04--1-"></p>
+<p><img src="/content/images/2026/02/qiye-weixin-mail-pop-imap-settings-05--1-.png" alt="qiye-weixin-mail-pop-imap-settings-05--1-"></p>
 <h3 id="popimap">邮箱用户获取企业微信邮箱 pop/imap 访问密码</h3>
 <ol>
 <li>登录企业微信邮箱（微信企业邮），注意不是企业微信后台！地址：<a href="https://exmail.qq.com/">https://exmail.qq.com/</a></li>
 </ol>
-<p><img src="/images/2026/02/qiye-weixin-mail-pop-imap-settings-03--1-.png" alt="qiye-weixin-mail-pop-imap-settings-03--1-"></p>
+<p><img src="/content/images/2026/02/qiye-weixin-mail-pop-imap-settings-03--1-.png" alt="qiye-weixin-mail-pop-imap-settings-03--1-"></p>
 <ol start="2">
 <li>设置(邮箱设置)-&gt;收发信设置-&gt;开启IMAP/SMTP服务（或者POP/SMTP服务）</li>
 </ol>
-<p><img src="/images/2026/02/qiye-weixin-mail-pop-imap-settings-01.jpg" alt="qiye-weixin-mail-pop-imap-settings-01"></p>
+<p><img src="/content/images/2026/02/qiye-weixin-mail-pop-imap-settings-01.jpg" alt="qiye-weixin-mail-pop-imap-settings-01"></p>
 <ol start="3">
 <li>设置(邮箱设置)-&gt;邮箱绑定-&gt;生成新密码<br>
-<img src="/images/2026/02/qiye-weixin-mail-pop-imap-settings-02.jpg" alt="qiye-weixin-mail-pop-imap-settings-02"></li>
+<img src="/content/images/2026/02/qiye-weixin-mail-pop-imap-settings-02.jpg" alt="qiye-weixin-mail-pop-imap-settings-02"></li>
 </ol>
 <p>完成。</p>
 <!--kg-card-end: markdown-->

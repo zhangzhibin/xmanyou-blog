@@ -21,11 +21,11 @@ authorSlug: "dev"
 <ul>
 <li>
 <p>1). 首先，找到&quot;<strong>我的应用数据</strong>&quot;<br>
-<img src="/images/2021/01/synology-cloud-sync-baidu-pan-location-apps.png" alt="synology-cloud-sync-baidu-pan-location-apps"></p>
+<img src="/content/images/2021/01/synology-cloud-sync-baidu-pan-location-apps.png" alt="synology-cloud-sync-baidu-pan-location-apps"></p>
 </li>
 <li>
 <p>2). 然后，找到&quot;<strong>Cloud Sync</strong>&quot;，就可以找到同步到百度盘的文件了<br>
-<img src="/images/2021/01/synology-cloud-sync-baidu-pan-location-apps-02.png" alt="synology-cloud-sync-baidu-pan-location-apps-02"></p>
+<img src="/content/images/2021/01/synology-cloud-sync-baidu-pan-location-apps-02.png" alt="synology-cloud-sync-baidu-pan-location-apps-02"></p>
 </li>
 </ul>
 <p>需要注意的是，“我的应用数据”这个文件夹的实际名字，其实是“apps”。</p>
@@ -34,5 +34,5 @@ authorSlug: "dev"
 <ul>
 <li>1). 2020年起，百度云盘对群晖的配额限制为100G</li>
 </ul>
-<p><img src="/images/2021/01/synology-cloud-sync-baidu-pan-100g-limit.png" alt="synology-cloud-sync-baidu-pan-100g-limit"></p>
+<p><img src="/content/images/2021/01/synology-cloud-sync-baidu-pan-100g-limit.png" alt="synology-cloud-sync-baidu-pan-100g-limit"></p>
 <!--kg-card-end: markdown-->
