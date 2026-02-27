@@ -132,6 +132,7 @@
 .site-footer-build-with-ai a:hover {
   color: #fff;
 }
+
 .site-footer .site-footer-meta {
   order: 3;
   display: flex;
@@ -200,6 +201,76 @@
 .author-template .post-feed {
   padding-top: max(1.5vmin, 14px) !important;
   margin-top: 0 !important;
+}
+
+/* 文章页底部内链：所属标签文章、上一篇下一篇 */
+.article-footer {
+  margin-top: max(6vmin, 40px);
+  padding-top: max(4vmin, 28px);
+  border-top: 1px solid var(--color-border, #e1e1e1);
+}
+.article-footer-section {
+  margin-bottom: 1.6em;
+}
+.article-footer-section:last-child {
+  margin-bottom: 0;
+}
+.article-footer-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: var(--color-darkgrey, #15171a);
+}
+.article-footer-heading-tag {
+  color: var(--ghost-accent-color);
+  text-decoration: underline;
+  font-weight: inherit;
+}
+.article-footer-heading-tag:hover {
+  opacity: 0.9;
+}
+.article-footer-related-list {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+}
+.article-footer-related-list li {
+  margin: 0 0 6px;
+  padding: 0;
+}
+.article-footer-related-list a {
+  color: var(--ghost-accent-color);
+  text-decoration: underline;
+}
+.article-footer-related-list a:hover {
+  opacity: 0.9;
+}
+.article-footer-related-total {
+  font-size: 1.4rem;
+  color: var(--color-secondary-text, #979797);
+  margin: 0;
+}
+.article-footer-prev-next {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 24px;
+}
+.article-footer-link {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--ghost-accent-color);
+  text-decoration: underline;
+  max-width: 50%;
+}
+.article-footer-link.disabled {
+  color: var(--color-secondary-text, #979797);
+  text-decoration: none;
+  cursor: default;
+}
+.article-footer-next {
+  text-align: right;
+  margin-left: auto;
 }
 
 /* 4. 摘要样式：左侧竖线 + 背景 + 内边距 */

@@ -14,6 +14,34 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 const isPage = entry.data.type === 'page';
 const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
+
+// 仅文章页：相关文章（同 tag 最近 6 篇 + 总数）、上一篇下一篇（仅按时间，仅含 post）
+let tagLinks: { slug: string; label: string }[] = [];
+let relatedByTag: typeof entry[] = [];
+let totalRelatedCount = 0;
+let prevEntry: typeof entry | null = null;
+let nextEntry: typeof entry | null = null;
+if (!isPage) {
+  const allPosts = (await getCollection('blog', ({ data }) => !data.draft && data.type === 'post'))
+    .sort((a, b) => (b.data.pubDate?.valueOf() ?? 0) - (a.data.pubDate?.valueOf() ?? 0));
+  const currentIndex = allPosts.findIndex((p) => p.id === entry.id);
+  if (currentIndex >= 0) {
+    prevEntry = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
+    nextEntry = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
+  }
+  const tagSlugs = entry.data.tagSlugs ?? [];
+  const tags = entry.data.tags ?? [];
+  if (tagSlugs.length > 0) {
+    tagLinks = tagSlugs.map((s, i) => ({ slug: s, label: tags[i] ?? s }));
+    const sameTag = allPosts.filter(
+      (p) => p.id !== entry.id && (p.data.tagSlugs ?? []).some((t) => tagSlugs.includes(t))
+    );
+    totalRelatedCount = sameTag.length;
+    relatedByTag = sameTag.slice(0, 6);
+  }
+}
+
+const toSlug = (e: typeof entry) => (e.data.slug || e.id || '').replace(/\.mdx?$/, '');
 ---
 
 <Layout
@@ -79,6 +107,50 @@ const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
         <section class="gh-content gh-canvas">
           <Content />
         </section>
+        <footer class="article-footer gh-canvas">
+          {(tagLinks.length > 0 || relatedByTag.length > 0) && (
+            <section class="article-footer-section article-footer-tags" aria-label="相关文章">
+              <h3 class="article-footer-heading">
+                相关文章（
+                {tagLinks.length > 0 ? (
+                  tagLinks.map((t, i) => (
+                    <>
+                      {i > 0 && '、'}
+                      <a href={`/tag/${t.slug}/`} class="article-footer-heading-tag">{t.label}</a>
+                    </>
+                  ))
+                ) : (
+                  'tag'
+                )}
+                ）
+              </h3>
+              {relatedByTag.length > 0 && (
+                <>
+                  <ul class="article-footer-related-list">
+                    {relatedByTag.map((p) => (
+                      <li><a href={`/${toSlug(p)}/`}>{p.data.title}</a></li>
+                    ))}
+                  </ul>
+                  <p class="article-footer-related-total">共 {totalRelatedCount} 篇</p>
+                </>
+              )}
+            </section>
+          )}
+          <section class="article-footer-section article-footer-nav" aria-label="上一篇下一篇">
+            <div class="article-footer-prev-next">
+              {prevEntry ? (
+                <a href={`/${toSlug(prevEntry)}/`} class="article-footer-link article-footer-prev" rel="prev">上一篇：{prevEntry.data.title}</a>
+              ) : (
+                <span class="article-footer-link article-footer-prev disabled">上一篇</span>
+              )}
+              {nextEntry ? (
+                <a href={`/${toSlug(nextEntry)}/`} class="article-footer-link article-footer-next" rel="next">下一篇：{nextEntry.data.title}</a>
+              ) : (
+                <span class="article-footer-link article-footer-next disabled">下一篇</span>
+              )}
+            </div>
+          </section>
+        </footer>
       </article>
     </main>
   )}
