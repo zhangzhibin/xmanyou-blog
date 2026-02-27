@@ -328,13 +328,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 12px 24px;
+  gap: 12px 0;
 }
 .article-footer-link {
   font-size: 1.6rem;
   font-weight: 500;
   color: var(--ghost-accent-color);
   text-decoration: underline;
+  min-width: 0;
   max-width: 50%;
 }
 .article-footer-link.disabled {
