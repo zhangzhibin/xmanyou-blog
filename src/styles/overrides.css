@@ -273,6 +273,71 @@
   margin-left: auto;
 }
 
+/* 正文内代码块与行内代码：确保 pre/code 样式生效 */
+.gh-content pre,
+.gh-canvas pre {
+  background: #15171a;
+  border-radius: 6px;
+  color: #e5eff5;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  overflow-x: auto;
+  padding: 16px 20px;
+  margin: 1.5em 0;
+  white-space: pre;
+  font-family: var(--font-mono, Menlo, Courier, monospace);
+}
+
+/* 代码块复制按钮容器（由脚本注入） */
+.copy-code-wrapper {
+  position: relative;
+  margin: 1.5em 0;
+}
+.copy-code-wrapper > pre {
+  margin: 0;
+}
+.copy-code-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 6px 10px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #e5eff5;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.copy-code-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.copy-code-btn.copied {
+  background: rgba(76, 175, 80, 0.3);
+  border-color: rgba(76, 175, 80, 0.6);
+}
+.gh-content pre code,
+.gh-canvas pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  border: none;
+}
+.gh-content :not(pre) > code,
+.gh-canvas :not(pre) > code {
+  background: #f0f6f9;
+  border: 1px solid #e1eaef;
+  border-radius: 0.25em;
+  color: #15171a;
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  font-family: var(--font-mono, Menlo, Courier, monospace);
+}
+
 /* 4. 摘要样式：左侧竖线 + 背景 + 内边距 */
 .article-excerpt {
   margin-top: 20px;

@@ -63,7 +63,8 @@ By default, the Nuxt.js development server host is localhost  which is only acce
 <pre><code>yarn build
 </code></pre>
 <h2 id="dockerfile">完整Dockerfile</h2>
-<pre><code>FROM node:14-alpine
+```dockerfile
+FROM node:14-alpine
 
 ENV NUXT_VERSION=2.15.7
 
@@ -72,18 +73,18 @@ WORKDIR /app
 ADD package.json yarn.lock nuxt.config.js ./
 
 RUN : \
-  &amp;&amp; yarn install \
-  &amp;&amp; yarn cache clean \
-  &amp;&amp; :
+  && yarn install \
+  && yarn cache clean \
+  && :
 
 # 复制nuxt build文件夹
 ADD .nuxt ./.nuxt
 # 如果使用了content模块，还需要复制content文件夹
 # ADD ./src/content ./src/content
 
-ENTRYPOINT [&quot;npx&quot;, &quot;nuxt-start&quot;]
+ENTRYPOINT ["npx", "nuxt-start"]
 EXPOSE 3000
-</code></pre>
+```
 <h2 id="nuxtconfigjs">完整nuxt.config.js</h2>
 <pre><code>export default {
   srcDir: 'src/',

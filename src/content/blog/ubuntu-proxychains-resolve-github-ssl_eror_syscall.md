@@ -39,19 +39,20 @@ curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:44
 <ul>
 <li>2). 添加socks5 代理</li>
 </ul>
-<pre><code>sudo vi /etc/proxychains.conf
+```ini
+sudo vi /etc/proxychains.conf
 
 移除ProxyList中默认的socks4代理，然后添加
-socks5 &lt;proxy ip&gt; &lt;proxy 端口&gt;
+socks5 <proxy ip> <proxy 端口>
 
 参考：
 [ProxyList]
 # add proxy here ...
 # meanwile
-# defaults set to &quot;tor&quot;
+# defaults set to "tor"
 socks5 127.0.0.1 7890
 #socks4         127.0.0.1 9050
-</code></pre>
+```
 <ul>
 <li>3). 用proxychains调用安装脚本</li>
 </ul>

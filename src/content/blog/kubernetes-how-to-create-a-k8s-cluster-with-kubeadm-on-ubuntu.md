@@ -34,7 +34,8 @@ authorSlug: "dev"
 <ul>
 <li>首先，安装和配置的先决条件：</li>
 </ul>
-<pre><code>cat &lt;&lt;EOF | sudo tee /etc/modules-load.d/containerd.conf
+```bash
+cat <<EOF | sudo tee /etc/modules-load.d/containerd.conf
 overlay
 br_netfilter
 EOF
@@ -43,7 +44,7 @@ sudo modprobe overlay
 sudo modprobe br_netfilter
 
 # 设置必需的 sysctl 参数，这些参数在重新启动后仍然存在。
-cat &lt;&lt;EOF | sudo tee /etc/sysctl.d/99-kubernetes-cri.conf
+cat <<EOF | sudo tee /etc/sysctl.d/99-kubernetes-cri.conf
 net.bridge.bridge-nf-call-iptables  = 1
 net.ipv4.ip_forward                 = 1
 net.bridge.bridge-nf-call-ip6tables = 1
@@ -51,17 +52,18 @@ EOF
 
 # 应用 sysctl 参数而无需重新启动
 sudo sysctl --system
-</code></pre>
+```
 <ul>
 <li>然后，配置使用systemd cgroup驱动</li>
 </ul>
-<pre><code># i). 先初始化配置文件
+```bash
+# i). 先初始化配置文件
 containerd config default | sudo tee /etc/containerd/config.toml
 
 # ii). 修改配置文件
 vi /etc/containerd/config.toml
 在字段
-  [plugins.&quot;io.containerd.grpc.v1.cri&quot;.containerd.runtimes.runc.options]
+  [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
 添加
     SystemdCgroup = true
 保存
@@ -73,20 +75,19 @@ sudo systemctl restart containerd
 sudo vi /etc/docker/daemon.json
 
 {
-  &quot;exec-opts&quot;: [&quot;native.cgroupdriver=systemd&quot;],
-  &quot;log-driver&quot;: &quot;json-file&quot;,
-  &quot;log-opts&quot;: {
-    &quot;max-size&quot;: &quot;100m&quot;
+  "exec-opts": ["native.cgroupdriver=systemd"],
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "100m"
   },
-  &quot;storage-driver&quot;: &quot;overlay2&quot;
+  "storage-driver": "overlay2"
 }
 
 # v). 重启docker服务
 sudo systemctl enable docker
 sudo systemctl daemon-reload
 sudo systemctl restart docker
-
-</code></pre>
+```
 <h1 id="2kubeadmkubectlkubelet">2. 安装kubeadm/kubectl/kubelet</h1>
 <p>参考</p>
 <blockquote>

@@ -49,7 +49,8 @@ this.ServeJSON()
 <h3 id="2">2. 通过反向代理，让客户端和服务端运行到同一个域上</h3>
 <p>既然不在同一个域上，那就想办法让他们“<strong>运行</strong>”在同一个域上，这可以通过反向代理的方式实现。</p>
 <p>以Nginx为例，在nginx的配置文件(mac上，默认在 /usr/local/etc/nginx/nginx.conf)</p>
-<pre><code># 服务端
+```nginx
+# 服务端
 location /gameserver/ {
 	rewrite ^/gameserver(/.*)$ $1 break;
     proxy_pass http://localhost:8080;
@@ -60,6 +61,6 @@ location /game/ {
 	rewrite ^/game(/.*)$ $1 break;
     proxy_pass http://localhost:7457;
 }
-</code></pre>
+```
 <p>然后，通过浏览器访问 <a href="http://localhost:8888/game/">http://localhost:8888/game/</a> 就可以正常调试了。</p>
 <!--kg-card-end: markdown-->

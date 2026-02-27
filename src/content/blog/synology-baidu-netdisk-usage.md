@@ -69,14 +69,16 @@ ed5bc7887765        johnshine/baidunetdisk-crossover-vnc:latest   &quot;/entrypo
 <ul>
 <li>3). 连接到容器</li>
 </ul>
-<pre><code>sudo docker exec -it recursing_shaw bash
+```bash
+sudo docker exec -it recursing_shaw bash
 
 # 连接成功后，就进入到了容器的/home/baidu目录，也就是默认的下载目录
-</code></pre>
+```
 <ul>
 <li>4). 将之前下载的文件或者文件夹移动到挂载目录，也就是baidunetdiskdownload</li>
 </ul>
-<pre><code>baidu@9d1bc70f8025:~$ ls
+```bash
+baidu@9d1bc70f8025:~$ ls
 baidunetdiskdownload  李狗嗨全集
 
 baidu@9d1bc70f8025:~$ mv 李狗嗨全集 ./baidunetdiskdownload/
@@ -86,7 +88,7 @@ baidu@9d1bc70f8025:~$ ls
 baidunetdiskdownload
 
 baidu@9d1bc70f8025:~$ exit
-</code></pre>
+```
 <p><strong>注意</strong><br>
 如果文件比较多，移动需要花一点时间。</p>
 <p>然后回到群晖检查一下BDdownload目录，就看到我之前下载的李狗嗨全集了。</p>

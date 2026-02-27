@@ -35,35 +35,29 @@ apt-get install \
 <ol start="3">
 <li>检查软件包的合法性</li>
 </ol>
-<pre><code>
+```bash
 $ curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
-
-
-
-
 
 # 官方源
 
 # $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-</code></pre>
+```
 <ol start="4">
 <li>添加docker软件源</li>
 </ol>
-<pre><code>
+```bash
 $ sudo add-apt-repository \
-   &quot;deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \
+   "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \
    $(lsb_release -cs) \
-   stable&quot;
+   stable"
 
 # 官方源
 
 # $ sudo add-apt-repository \
-#    &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+#    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
 #    $(lsb_release -cs) \
-#    stable&quot;
-
-</code></pre>
+#    stable"
+```
 <ol start="5">
 <li>安装docker</li>
 </ol>

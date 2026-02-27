@@ -26,7 +26,9 @@ authorSlug: "dev"
 <h2 id="">总结</h2>
 <p>如果是外部模块，需要检查是否正确安装。如果是本地模块，需要检查路径(含文件名)是否正确。</p>
 <h2 id="dockerfile">Dockerfile参考</h2>
-<pre><code>FROM node:16
+
+```dockerfile
+FROM node:16
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -37,7 +39,6 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-
 RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
@@ -46,6 +47,6 @@ RUN npm install
 COPY . .
 
 EXPOSE 8003
-CMD [ &quot;node&quot;, &quot;server.js&quot; ]
-</code></pre>
+CMD [ "node", "server.js" ]
+```
 <!--kg-card-end: markdown-->

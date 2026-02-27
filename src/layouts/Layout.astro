@@ -117,6 +117,50 @@ const nav = siteConfig.navigation;
       document.querySelector('.gh-burger')?.addEventListener('click', function () {
         document.body.classList.toggle('gh-head-open');
       });
+
+      (function () {
+        function initCopyCode() {
+          var pres = document.querySelectorAll('.gh-content pre, .gh-canvas pre');
+          pres.forEach(function (pre) {
+            if (pre.closest('.copy-code-wrapper')) return;
+            var wrapper = document.createElement('div');
+            wrapper.className = 'copy-code-wrapper';
+            pre.parentNode.insertBefore(wrapper, pre);
+            wrapper.appendChild(pre);
+
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'copy-code-btn';
+            btn.textContent = '复制';
+            btn.setAttribute('aria-label', '复制代码');
+            wrapper.appendChild(btn);
+
+            btn.addEventListener('click', function () {
+              var code = pre.querySelector('code');
+              var text = (code || pre).innerText || (code || pre).textContent || '';
+              navigator.clipboard.writeText(text).then(
+                function () {
+                  btn.textContent = '已复制';
+                  btn.classList.add('copied');
+                  setTimeout(function () {
+                    btn.textContent = '复制';
+                    btn.classList.remove('copied');
+                  }, 1800);
+                },
+                function () {
+                  btn.textContent = '复制失败';
+                  setTimeout(function () { btn.textContent = '复制'; }, 1500);
+                }
+              );
+            });
+          });
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initCopyCode);
+        } else {
+          initCopyCode();
+        }
+      })();
     </script>
   </body>
 </html>

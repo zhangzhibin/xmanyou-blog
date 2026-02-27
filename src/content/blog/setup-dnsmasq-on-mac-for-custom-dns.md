@@ -56,17 +56,19 @@ Dnsmasq是一个开源的轻量级DNS转发和DHCP、TFTP服务器，使用C语�
 <li>listen-address <ip1>,<ip2></li>
 </ul>
 <p><strong>示例</strong></p>
-<pre><code># 严格按照/etc/resolv.conf文件指定的dsn解析器的顺序进行解析
+```ini
+# 严格按照/etc/resolv.conf文件指定的dsn解析器的顺序进行解析
 strict-order
 # 服务监听地址，设置为127.0.0.1仅限本机使用
 listen-address=127.0.0.1
-</code></pre>
+```
 <h3 id="dns">添加dns解析记录</h3>
-<pre><code># 不使用通配符
+```ini
+# 不使用通配符
 address=/test.xmanyou.com/127.0.0.1
 # 使用通配符
 address=/.apps.xmanyou.com/127.0.0.1
-</code></pre>
+```
 <h2 id="dns">指定dns服务器</h2>
 <p><img src="/content/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-02.png" alt="setup-dnsmasq-on-mac-for-custom-dns-02"></p>
 <h2 id="">测试</h2>
@@ -77,7 +79,8 @@ address=/.apps.xmanyou.com/127.0.0.1
 </code></pre>
 <p><img src="/content/images/2021/09/setup-dnsmasq-on-mac-for-custom-dns-04.png" alt="setup-dnsmasq-on-mac-for-custom-dns-04"></p>
 <h2 id="usrlocaletcdnsmasqconf">/usr/local/etc/dnsmasq.conf 配置文件完整示例</h2>
-<pre><code># 严格按照/etc/resolv.conf文件指定的dsn解析器的顺序进行解析
+```ini
+# 严格按照/etc/resolv.conf文件指定的dsn解析器的顺序进行解析
 strict-order
 # 服务监听地址，设置为127.0.0.1仅限本机使用
 listen-address=127.0.0.1
@@ -85,7 +88,7 @@ listen-address=127.0.0.1
 address=/test.xmanyou.com/127.0.0.1
 # 使用通配符解析 *.apps.xmanyou.com
 address=/.apps.xmanyou.com/127.0.0.1
-</code></pre>
+```
 <p>好了，现在可以在内网进行域名测试了，测试完毕后再部署到生产环境就很省心了。</p>
 <h1 id="">参考</h1>
 <ul>

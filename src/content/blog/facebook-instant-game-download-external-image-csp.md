@@ -47,7 +47,8 @@ authorSlug: "dev"
 <p>那么，方法也就明确了。</p>
 <h3 id="">第一步，服务端开放跨域访问</h3>
 <p>以Nginx举例，可以在配置文件中添加以下设置：</p>
-<pre><code># https://enable-cors.org/server_nginx.html
+```nginx
+# https://enable-cors.org/server_nginx.html
 #
 # Wide-open CORS config for nginx
 #
@@ -80,7 +81,7 @@ location / {
         add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
      }
 }
-</code></pre>
+```
 <h3 id="blob">第二步，使用blob协议来读取图片数据</h3>
 <p>有两种方式可以读取blob数据</p>
 <ol>

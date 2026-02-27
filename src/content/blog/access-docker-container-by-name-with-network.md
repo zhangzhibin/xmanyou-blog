@@ -34,18 +34,19 @@ authorSlug: "dev"
 <p>同样是network</p>
 <p>docker-compose v3.5以后，可以很方便地为network命名，然后在不同compose中使用相同的network，可以将不同文件中的service连接到一起。</p>
 <p>用法</p>
-<pre><code># 定义
-networks: 
+```yaml
+# 定义
+networks:
   share-network:
-    name: &quot;share-network01&quot;
+    name: "share-network01"
 
 # 在service中指定
 services:
   service1:
-    image: &lt;image&gt;
-    networks: 
+    image: <image>
+    networks:
       - share-network
-</code></pre>
+```
 <h2 id="">其他</h2>
 <p>更多docker network命令，可以参考</p>
 <blockquote>

@@ -15,7 +15,8 @@ authorSlug: "dev"
 <p>原文地址: <a href="https://enable-cors.org/server_nginx.html">https://enable-cors.org/server_nginx.html</a></p>
 </blockquote>
 <p>在Server段中添加以下</p>
-<pre><code>#
+```nginx
+#
 # Wide-open CORS config for nginx
 #
 location / {
@@ -47,5 +48,5 @@ location / {
         add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
      }
 }
-</code></pre>
+```
 <!--kg-card-end: markdown-->
