@@ -93,6 +93,14 @@ const nav = siteConfig.navigation;
               ))}
             </ul>
           </nav>
+          <section class="site-footer-build-with-ai" aria-label="Build with AI">
+            <h3 class="site-footer-build-with-ai-title">Build with AI</h3>
+            <ul>
+              {siteConfig.buildWithAi.map((item) => (
+                <li><a href={item.url} target="_blank" rel="noopener">{item.label}</a></li>
+              ))}
+            </ul>
+          </section>
           <div class="site-footer-meta">
             <span class="copyright"><a href="/">{siteConfig.title}</a> &copy; {new Date().getFullYear()}</span>
             <span class="site-footer-icp">

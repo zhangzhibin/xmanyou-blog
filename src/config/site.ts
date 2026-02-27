@@ -15,9 +15,16 @@ export const siteConfig = {
     { label: '首页', url: '/' },
     { label: '关于我们', url: '/tag/games/' },
     { label: '开发笔记', url: '/tag/dev/' },
+    { label: 'AI', url: '/tag/ai/' },
     { label: 'Cocos', url: '/tag/cocos-creator/' },
     { label: 'Unity', url: '/tag/unity/' },
     { label: '读书', url: '/tag/books/' },
     { label: 'Privacy', url: '/privacy/' },
+  ] as const,
+  /** 底部 Build with AI 栏目：label 显示名称， url 外链 */
+  buildWithAi: [
+    { label: 'DNS over HTTPS', url: 'https://dns-over-https.org' },
+    { label: '临时CSV分享', url: 'https://tempcsv.com' },
+    { label: '极简Todo插件', url: 'https://10dos.com' },
   ] as const,
 } as const;

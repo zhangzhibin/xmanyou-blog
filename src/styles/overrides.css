@@ -102,8 +102,38 @@
   order: 1;
   margin-bottom: 0;
 }
-.site-footer .site-footer-meta {
+.site-footer-build-with-ai {
   order: 2;
+  margin: 0;
+}
+.site-footer-build-with-ai-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+.site-footer-build-with-ai ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0 16px;
+}
+.site-footer-build-with-ai li {
+  margin: 0;
+  padding: 0;
+}
+.site-footer-build-with-ai a {
+  color: hsla(0, 0%, 100%, 0.7);
+  text-decoration: none;
+}
+.site-footer-build-with-ai a:hover {
+  color: #fff;
+}
+.site-footer .site-footer-meta {
+  order: 3;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
