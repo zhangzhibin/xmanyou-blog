@@ -1,0 +1,16 @@
+/* Astro 项目覆盖：Ghost 注入的变量 + 分页显示 */
+:root {
+  --ghost-accent-color: #15171a;
+}
+
+/* Casper 默认隐藏分页（无限滚动），我们使用传统分页 */
+.pagination {
+  display: grid !important;
+}
+
+/* 归档页标题 */
+.feed-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0 0 4vmin;
+}

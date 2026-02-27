@@ -1,0 +1,49 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import PostCard from '../../../../components/PostCard.astro';
+import Pagination from '../../../../components/Pagination.astro';
+import { getCollection } from 'astro:content';
+
+const POSTS_PER_PAGE = 20;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && (data.tagSlugs?.length ?? 0) > 0);
+  const slugSet = new Set<string>();
+  for (const p of posts) {
+    for (const s of p.data.tagSlugs ?? []) slugSet.add(s);
+  }
+  const paths: { params: { slug: string; page: string }; props: { slug: string; page: number } }[] = [];
+  const perPage = 20;
+  for (const slug of slugSet) {
+    const tagPosts = posts.filter((p) => (p.data.tagSlugs ?? []).includes(slug));
+    const totalPages = Math.ceil(tagPosts.length / perPage);
+    for (let p = 2; p <= totalPages; p++) {
+      paths.push({ params: { slug, page: String(p) }, props: { slug, page: p } });
+    }
+  }
+  return paths;
+}
+
+const { slug, page } = Astro.props;
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && (data.tagSlugs ?? []).includes(slug)))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+const posts = allPosts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+const tagName = allPosts[0] ? (() => {
+  const idx = allPosts[0].data.tagSlugs?.indexOf(slug) ?? -1;
+  return idx >= 0 ? (allPosts[0].data.tags[idx] ?? slug) : slug;
+})() : slug;
+---
+
+<Layout title={`${tagName} - 第${page}页 - 厦门暗游网络科技有限公司`} description={`标签 ${tagName} 的文章列表`}>
+  <main id="site-main" class="site-main outer tag-template">
+    <div class="inner posts">
+      <div class="post-feed">
+        {posts.map((entry) => (
+          <PostCard entry={entry} />
+        ))}
+      </div>
+      <Pagination currentPage={page} totalPages={totalPages} baseUrl={`/tag/${slug}/`} />
+    </div>
+  </main>
+</Layout>

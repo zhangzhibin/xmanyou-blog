@@ -1,25 +1,28 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import Pagination from '../../components/Pagination.astro';
 import { getCollection } from 'astro:content';
+
+const POSTS_PER_PAGE = 20;
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft && data.type === 'post'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+const posts = allPosts.slice(0, POSTS_PER_PAGE);
 ---
 
-<Layout title="Blog - All Posts" description="博客文章列表">
-  <h1>All Posts</h1>
-  <ul>
-    {
-      (await getCollection('blog', ({ data }) => !data.draft && data.type === 'post'))
-        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-        .map((entry) => (
-          <li>
-            <a href={`/${(entry.data.slug || entry.id || '').replace(/\.mdx?$/, '')}/`}>
-              {entry.data.title}
-            </a>
-            <span> — {entry.data.author}</span>
-            <time datetime={entry.data.pubDate.toISOString()}>
-              {entry.data.pubDate.toLocaleDateString('zh-CN')}
-            </time>
-          </li>
-        ))
-    }
-  </ul>
+<Layout title="文章归档 - 厦门暗游网络科技有限公司" description="博客文章列表">
+  <main id="site-main" class="site-main outer">
+    <div class="inner posts">
+      <h1 class="feed-title">文章归档</h1>
+      <div class="post-feed">
+        {posts.map((entry, i) => (
+          <PostCard entry={entry} isLarge={i === 0} />
+        ))}
+      </div>
+      {totalPages > 1 && (
+        <Pagination currentPage={1} totalPages={totalPages} baseUrl="/blog/" />
+      )}
+    </div>
+  </main>
 </Layout>

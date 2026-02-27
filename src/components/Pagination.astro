@@ -1,0 +1,56 @@
+---
+interface Props {
+  currentPage: number;
+  totalPages: number;
+  baseUrl: string;
+}
+
+const { currentPage, totalPages, baseUrl } = Astro.props;
+
+function pageUrl(page: number): string {
+  if (page === 1) return baseUrl.replace(/\/$/, '') || '/';
+  return `${baseUrl.replace(/\/$/, '')}/page/${page}/`;
+}
+
+function getPageNumbers(): (number | 'ellipsis')[] {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, i) => i + 1);
+  }
+  const pages: (number | 'ellipsis')[] = [1];
+  if (currentPage > 3) pages.push('ellipsis');
+  const start = Math.max(2, currentPage - 1);
+  const end = Math.min(totalPages - 1, currentPage + 1);
+  for (let i = start; i <= end; i++) {
+    if (!pages.includes(i)) pages.push(i);
+  }
+  if (currentPage < totalPages - 2) pages.push('ellipsis');
+  if (totalPages > 1) pages.push(totalPages);
+  return pages;
+}
+---
+
+<nav class="pagination" aria-label="分页">
+  {currentPage > 1 ? (
+    <a href={pageUrl(currentPage - 1)} rel="prev">上一页</a>
+  ) : (
+    <span class="disabled">上一页</span>
+  )}
+  <span class="page-number">
+    {getPageNumbers().map((p) =>
+      p === 'ellipsis' ? (
+        <span>…</span>
+      ) : (
+        p === currentPage ? (
+          <span class="current">{p}</span>
+        ) : (
+          <a href={pageUrl(p)}>{p}</a>
+        )
+      )
+    )}
+  </span>
+  {currentPage < totalPages ? (
+    <a href={pageUrl(currentPage + 1)} rel="next" class="older-posts">下一页</a>
+  ) : (
+    <span class="disabled older-posts">下一页</span>
+  )}
+</nav>

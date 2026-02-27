@@ -1,0 +1,44 @@
+---
+interface Props {
+  entry: import('astro:content').CollectionEntry<'blog'>;
+  isLarge?: boolean;
+}
+
+const { entry, isLarge = false } = Astro.props;
+const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
+const primaryTag = entry.data.tags[0] ?? entry.data.tagSlugs?.[0] ?? '';
+const postUrl = `/${slug}/`;
+---
+
+<article class={`post-card ${!entry.data.image ? 'no-image' : ''} ${isLarge ? 'post-card-large' : ''}`}>
+  {entry.data.image && (
+    <a href={postUrl} class="post-card-image-link">
+      <img class="post-card-image" src={entry.data.image} alt="" loading="lazy" />
+    </a>
+  )}
+  <div class="post-card-content">
+    <a href={postUrl} class="post-card-content-link">
+      <header class="post-card-header">
+        {primaryTag && (
+          <div class="post-card-tags">
+            <span class="post-card-primary-tag">{primaryTag}</span>
+          </div>
+        )}
+        <h2 class="post-card-title">{entry.data.title}</h2>
+      </header>
+      {entry.data.description && (
+        <div class="post-card-excerpt">{entry.data.description}</div>
+      )}
+    </a>
+    <footer class="post-card-meta">
+      <time class="post-card-meta-date" datetime={entry.data.pubDate.toISOString().slice(0, 10)}>
+        {entry.data.pubDate.toLocaleDateString('zh-CN')}
+      </time>
+      {entry.data.author && (
+        <>
+          <span class="post-card-meta-length">{entry.data.author}</span>
+        </>
+      )}
+    </footer>
+  </div>
+</article>

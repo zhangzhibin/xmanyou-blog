@@ -1,4 +1,7 @@
 ---
+import '../styles/casper.css';
+import '../styles/overrides.css';
+
 interface Props {
   title: string;
   description?: string;
@@ -13,7 +16,7 @@ const ogImage = image ? (image.startsWith('http') ? image : `${site.replace(/\/$
 ---
 
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="no-infinite-scroll">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,17 +29,47 @@ const ogImage = image ? (image.startsWith('http') ? image : `${site.replace(/\/$
     {ogImage && <meta property="og:image" content={ogImage} />}
     {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about-us/">关于</a>
-        <a href="/privacy/">隐私</a>
-      </nav>
-    </header>
-    <main>
-      <slot />
-    </main>
+  <body class="is-head-left-logo has-serif-title">
+    <div class="viewport">
+      <header id="gh-head" class="gh-head outer">
+        <div class="gh-head-inner inner">
+          <div class="gh-head-brand">
+            <a class="gh-head-logo no-image" href="/">厦门暗游</a>
+            <button class="gh-burger" type="button" aria-label="菜单"></button>
+          </div>
+          <nav class="gh-head-menu">
+            <ul class="nav">
+              <li><a href="/">首页</a></li>
+              <li><a href="/blog/">归档</a></li>
+              <li><a href="/about-us/">关于</a></li>
+              <li><a href="/privacy/">隐私</a></li>
+            </ul>
+          </nav>
+          <div class="gh-head-actions"></div>
+        </div>
+      </header>
+      <div class="site-content">
+        <slot />
+      </div>
+      <footer class="site-footer outer">
+        <div class="inner">
+          <section class="copyright"><a href="/">厦门暗游</a> &copy; {new Date().getFullYear()}</section>
+          <nav class="site-footer-nav">
+            <ul>
+              <li><a href="/">首页</a></li>
+              <li><a href="/blog/">归档</a></li>
+              <li><a href="/about-us/">关于</a></li>
+              <li><a href="/privacy/">隐私</a></li>
+            </ul>
+          </nav>
+          <div class="gh-powered-by"><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
+        </div>
+      </footer>
+    </div>
+    <script is:inline>
+      document.querySelector('.gh-burger')?.addEventListener('click', function () {
+        document.body.classList.toggle('gh-head-open');
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,43 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import PostCard from '../../../../components/PostCard.astro';
+import Pagination from '../../../../components/Pagination.astro';
+import { getCollection } from 'astro:content';
+
+const POSTS_PER_PAGE = 20;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && data.authorSlug);
+  const slugSet = new Set(posts.map((p) => p.data.authorSlug).filter(Boolean));
+  const paths: { params: { slug: string; page: string }; props: { slug: string; page: number } }[] = [];
+  const perPage = 20;
+  for (const slug of slugSet) {
+    const authorPosts = posts.filter((p) => p.data.authorSlug === slug);
+    const totalPages = Math.ceil(authorPosts.length / perPage);
+    for (let p = 2; p <= totalPages; p++) {
+      paths.push({ params: { slug, page: String(p) }, props: { slug, page: p } });
+    }
+  }
+  return paths;
+}
+
+const { slug, page } = Astro.props;
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && data.authorSlug === slug))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+const posts = allPosts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+const authorName = allPosts[0]?.data.author ?? slug;
+---
+
+<Layout title={`${authorName} - 第${page}页 - 厦门暗游网络科技有限公司`} description={`${authorName} 的文章列表`}>
+  <main id="site-main" class="site-main outer author-template">
+    <div class="inner posts">
+      <div class="post-feed">
+        {posts.map((entry) => (
+          <PostCard entry={entry} />
+        ))}
+      </div>
+      <Pagination currentPage={page} totalPages={totalPages} baseUrl={`/author/${slug}/`} />
+    </div>
+  </main>
+</Layout>

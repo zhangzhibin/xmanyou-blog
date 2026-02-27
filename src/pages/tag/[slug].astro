@@ -1,0 +1,57 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getCollection } from 'astro:content';
+
+const POSTS_PER_PAGE = 20;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && (data.tagSlugs?.length ?? 0) > 0);
+  const slugSet = new Set<string>();
+  for (const p of posts) {
+    for (const s of p.data.tagSlugs ?? []) slugSet.add(s);
+  }
+  return Array.from(slugSet).map((slug) => ({
+    params: { slug },
+    props: { slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft && data.type === 'post' && (data.tagSlugs ?? []).includes(slug)))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+const posts = allPosts.slice(0, POSTS_PER_PAGE);
+const tagName = allPosts[0] ? (() => {
+  const idx = allPosts[0].data.tagSlugs?.indexOf(slug) ?? -1;
+  return idx >= 0 ? (allPosts[0].data.tags[idx] ?? slug) : slug;
+})() : slug;
+---
+
+<Layout title={`${tagName} - 厦门暗游网络科技有限公司`} description={`标签 ${tagName} 的文章列表`}>
+  <main id="site-main" class="site-main outer tag-template">
+    <div class="inner posts">
+      <div class="post-feed">
+        <section class="post-card post-card-large no-image">
+          <div class="post-card-content">
+            <div class="post-card-content-link">
+              <header class="post-card-header">
+                <h2 class="post-card-title">{tagName}</h2>
+              </header>
+              <div class="post-card-excerpt">
+                共 {allPosts.length} 篇文章
+              </div>
+            </div>
+          </div>
+        </section>
+        {posts.map((entry) => (
+          <PostCard entry={entry} />
+        ))}
+      </div>
+      {totalPages > 1 && (
+        <Pagination currentPage={1} totalPages={totalPages} baseUrl={`/tag/${slug}/`} />
+      )}
+    </div>
+  </main>
+</Layout>
