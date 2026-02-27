@@ -14,6 +14,18 @@
 .gh-head a {
   color: inherit;
 }
+/* 页眉 Logo：图标 + 站点名 */
+.gh-head-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.gh-head-logo img {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  max-height: 32px;
+}
 .gh-head .gh-burger::before,
 .gh-head .gh-burger::after {
   background-color: #fff;
@@ -146,6 +158,12 @@
   font-size: 1.3rem;
   color: inherit;
 }
+.site-footer-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
 .site-footer-meta .copyright a,
 .site-footer-meta .site-footer-icp a,
 .site-footer-meta .site-footer-powered a {
@@ -217,6 +235,29 @@
 }
 .article-footer-section:last-child {
   margin-bottom: 0;
+}
+/* 文章尾：微信公众号关注模块（在相关文章之前） */
+.article-footer-wechat {
+  text-align: center;
+}
+.article-footer-wechat .article-footer-heading {
+  margin-bottom: 6px;
+}
+.article-footer-wechat-desc {
+  font-size: 1.4rem;
+  color: var(--color-secondary-text, #979797);
+  margin: 0 0 14px;
+}
+.article-footer-wechat-qr-wrap {
+  display: inline-block;
+  line-height: 0;
+}
+.article-footer-wechat-qr {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border, #e1e1e1);
 }
 .article-footer-heading {
   font-size: 1.6rem;

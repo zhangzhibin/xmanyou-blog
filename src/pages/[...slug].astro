@@ -108,6 +108,13 @@ const toSlug = (e: typeof entry) => (e.data.slug || e.id || '').replace(/\.mdx?$
           <Content />
         </section>
         <footer class="article-footer gh-canvas">
+          <section class="article-footer-section article-footer-wechat" aria-label="微信公众号">
+            <h3 class="article-footer-heading">扫一扫关注微信公众号：耿直的IT男阿斌</h3>
+            <p class="article-footer-wechat-desc">聊一聊IT男眼中的世界</p>
+            <a href="/about-us/" class="article-footer-wechat-qr-wrap" title="关注微信公众号：耿直的IT男阿斌">
+              <img class="article-footer-wechat-qr" src="/wechat-official-qrcode.jpg" alt="微信公众号：耿直的IT男阿斌" width="200" height="200" />
+            </a>
+          </section>
           {(tagLinks.length > 0 || relatedByTag.length > 0) && (
             <section class="article-footer-section article-footer-tags" aria-label="相关文章">
               <h3 class="article-footer-heading">
