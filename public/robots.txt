@@ -1,4 +1,2 @@
 User-agent: *
 Sitemap: https://xmanyou.com/sitemap-index.xml
-Disallow: /ghost/
-Disallow: /p/

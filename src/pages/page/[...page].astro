@@ -22,7 +22,7 @@ const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
 const posts = allPosts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
 ---
 
-<Layout title={`厦门暗游网络科技有限公司 - 第${page}页`} description="影子工作室博客">
+<Layout title={`厦门暗游网络科技有限公司 - 第${page}页`} description="影子工作室博客" canonicalSlug={`page/${page}`}>
   <main id="site-main" class="site-main outer">
     <div class="inner posts">
       <div class="post-feed">

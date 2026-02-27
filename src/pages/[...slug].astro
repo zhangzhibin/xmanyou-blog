@@ -16,7 +16,16 @@ const isPage = entry.data.type === 'page';
 const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
 ---
 
-<Layout title={entry.data.title} description={entry.data.description} image={entry.data.image} canonicalSlug={slug}>
+<Layout
+  title={entry.data.title}
+  description={entry.data.description}
+  image={entry.data.image}
+  canonicalSlug={slug}
+  ogType={isPage ? 'website' : 'article'}
+  articlePublishedTime={!isPage && entry.data.pubDate ? entry.data.pubDate.toISOString() : undefined}
+  articleAuthor={!isPage ? entry.data.author : undefined}
+  articleTags={!isPage && entry.data.tags?.length ? entry.data.tags : undefined}
+>
   {isPage ? (
     <main id="site-main" class="site-main">
       <article class="article page">

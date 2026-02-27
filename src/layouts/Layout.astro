@@ -11,11 +11,22 @@ interface Props {
   description?: string;
   image?: string;
   canonicalSlug?: string;
+  /** 页面类型：文章页应传 "article" 以正确设置 og:type */
+  ogType?: 'website' | 'article';
+  /** 文章发布时间 (ISO 8601)，仅 ogType=article 时使用 */
+  articlePublishedTime?: string;
+  /** 文章修改时间 (ISO 8601)，可选 */
+  articleModifiedTime?: string;
+  /** 文章作者，仅 ogType=article 时使用 */
+  articleAuthor?: string;
+  /** 文章标签，仅 ogType=article 时使用 */
+  articleTags?: string[];
 }
 
-const { title, description = '', image, canonicalSlug } = Astro.props;
+const { title, description = '', image, canonicalSlug, ogType = 'website', articlePublishedTime, articleModifiedTime, articleAuthor, articleTags } = Astro.props;
 const site = import.meta.env.SITE || 'https://xmanyou.com';
-const canonicalUrl = canonicalSlug ? `${site}/${canonicalSlug}/` : undefined;
+const base = site.replace(/\/$/, '');
+const canonicalUrl = canonicalSlug !== undefined ? (canonicalSlug ? `${base}/${canonicalSlug}/` : `${base}/`) : undefined;
 const ogImage = image ? (image.startsWith('http') ? image : `${site.replace(/\/$/, '')}${image.startsWith('/') ? image : '/' + image}`) : undefined;
 const nav = siteConfig.navigation;
 ---
@@ -28,11 +39,16 @@ const nav = siteConfig.navigation;
     <meta name="description" content={description} />
     <title>{title}</title>
     {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <meta property="og:site_name" content={siteConfig.title} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     {ogImage && <meta property="og:image" content={ogImage} />}
     {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+    {ogType === 'article' && articlePublishedTime && <meta property="article:published_time" content={articlePublishedTime} />}
+    {ogType === 'article' && articleModifiedTime && <meta property="article:modified_time" content={articleModifiedTime} />}
+    {ogType === 'article' && articleAuthor && <meta property="article:author" content={articleAuthor} />}
+    {ogType === 'article' && articleTags?.length ? articleTags.map((tag) => <meta property="article:tag" content={tag} />) : null}
     {adsenseClient && (
       <script
         async
