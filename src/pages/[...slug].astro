@@ -55,8 +55,8 @@ const toSlug = (e: typeof entry) => (e.data.slug || e.id || '').replace(/\.mdx?$
   articleTags={!isPage && entry.data.tags?.length ? entry.data.tags : undefined}
 >
   {isPage ? (
-    <main id="site-main" class="site-main">
-      <article class="article page">
+    <main id="site-main" class="site-main page-template">
+      <article class="article post">
         <header class="article-header gh-canvas">
           <h1 class="article-title">{entry.data.title}</h1>
         </header>

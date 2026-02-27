@@ -19,6 +19,7 @@ export const siteConfig = {
     { label: 'Cocos', url: '/tag/cocos-creator/' },
     { label: 'Unity', url: '/tag/unity/' },
     { label: '读书', url: '/tag/books/' },
+    { label: '联系我们', url: '/about-us/' },
     { label: 'Privacy', url: '/privacy/' },
   ] as const,
   /** 底部 Build with AI 栏目：label 显示名称， url 外链 */
