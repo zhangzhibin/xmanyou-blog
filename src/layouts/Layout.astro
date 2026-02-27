@@ -1,6 +1,7 @@
 ---
 import '../styles/casper.css';
 import '../styles/overrides.css';
+import { siteConfig } from '../config/site';
 
 interface Props {
   title: string;
@@ -13,6 +14,7 @@ const { title, description = '', image, canonicalSlug } = Astro.props;
 const site = import.meta.env.SITE || 'https://xmanyou.com';
 const canonicalUrl = canonicalSlug ? `${site}/${canonicalSlug}/` : undefined;
 const ogImage = image ? (image.startsWith('http') ? image : `${site.replace(/\/$/, '')}${image.startsWith('/') ? image : '/' + image}`) : undefined;
+const nav = siteConfig.navigation;
 ---
 
 <!DOCTYPE html>
@@ -34,15 +36,14 @@ const ogImage = image ? (image.startsWith('http') ? image : `${site.replace(/\/$
       <header id="gh-head" class="gh-head outer">
         <div class="gh-head-inner inner">
           <div class="gh-head-brand">
-            <a class="gh-head-logo no-image" href="/">厦门暗游</a>
+            <a class="gh-head-logo no-image" href="/">{siteConfig.title}</a>
             <button class="gh-burger" type="button" aria-label="菜单"></button>
           </div>
           <nav class="gh-head-menu">
             <ul class="nav">
-              <li><a href="/">首页</a></li>
-              <li><a href="/blog/">归档</a></li>
-              <li><a href="/about-us/">关于</a></li>
-              <li><a href="/privacy/">隐私</a></li>
+              {nav.map((item) => (
+                <li><a href={item.url}>{item.label}</a></li>
+              ))}
             </ul>
           </nav>
           <div class="gh-head-actions"></div>
@@ -53,13 +54,12 @@ const ogImage = image ? (image.startsWith('http') ? image : `${site.replace(/\/$
       </div>
       <footer class="site-footer outer">
         <div class="inner">
-          <section class="copyright"><a href="/">厦门暗游</a> &copy; {new Date().getFullYear()}</section>
+          <section class="copyright"><a href="/">{siteConfig.title}</a> &copy; {new Date().getFullYear()}</section>
           <nav class="site-footer-nav">
             <ul>
-              <li><a href="/">首页</a></li>
-              <li><a href="/blog/">归档</a></li>
-              <li><a href="/about-us/">关于</a></li>
-              <li><a href="/privacy/">隐私</a></li>
+              {nav.map((item) => (
+                <li><a href={item.url}>{item.label}</a></li>
+              ))}
             </ul>
           </nav>
           <div class="gh-powered-by"><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
