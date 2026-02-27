@@ -89,6 +89,44 @@
   padding: 0;
 }
 
+/* 页脚两段式：第1行导航，第2行版权+备案+Powered by */
+.site-footer .site-footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: unset;
+}
+.site-footer .site-footer-nav {
+  order: 1;
+  margin-bottom: 0;
+}
+.site-footer .site-footer-meta {
+  order: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 16px;
+  font-size: 1.3rem;
+  color: inherit;
+}
+.site-footer-meta .copyright a,
+.site-footer-meta .site-footer-icp a,
+.site-footer-meta .site-footer-powered a {
+  color: inherit;
+}
+.site-footer-meta .site-footer-icp::before,
+.site-footer-meta .site-footer-powered::before {
+  content: "·";
+  margin: 0 12px 0 0;
+  opacity: 0.7;
+}
+.site-footer-meta .copyright + .site-footer-icp::before {
+  margin-left: 4px;
+}
+
 /* 归档页标题 */
 .feed-title {
   font-size: 2.4rem;
