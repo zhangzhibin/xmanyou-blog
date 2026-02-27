@@ -71,9 +71,11 @@ const toSlug = (e: typeof entry) => (e.data.slug || e.id || '').replace(/\.mdx?$
         <header class="article-header gh-canvas">
           {entry.data.tagSlugs?.length > 0 && (
             <div class="article-tag post-card-tags">
-              <span class="post-card-primary-tag">
-                <a href={`/tag/${entry.data.tagSlugs[0]}/`}>{entry.data.tags[0] ?? entry.data.tagSlugs[0]}</a>
-              </span>
+              {entry.data.tagSlugs.map((tagSlug, i) => (
+                <span class="post-card-primary-tag">
+                  <a href={`/tag/${tagSlug}/`}>{entry.data.tags?.[i] ?? tagSlug}</a>
+                </span>
+              ))}
             </div>
           )}
           <h1 class="article-title">{entry.data.title}</h1>

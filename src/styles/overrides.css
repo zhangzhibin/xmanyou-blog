@@ -158,11 +158,18 @@
   font-size: 1.3rem;
   color: inherit;
 }
+/* 图标与文字同一行时垂直居中对齐（子项统一 align-self: center） */
+.site-footer-meta > * {
+  align-self: center;
+}
 .site-footer-icon {
   flex-shrink: 0;
   width: 24px;
   height: 24px;
-  vertical-align: middle;
+  display: block;
+}
+.site-footer-meta .copyright {
+  margin: 0;
 }
 .site-footer-meta .copyright a,
 .site-footer-meta .site-footer-icp a,
@@ -204,6 +211,24 @@
 .post-template .article-header .article-tag {
   margin-top: 0;
   margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+.post-template .article-header .article-tag .post-card-primary-tag {
+  display: inline-block;
+}
+.post-template .article-header .article-tag .post-card-primary-tag a {
+  display: inline-block;
+  padding: 4px 10px;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  font-size: 1.4rem;
+  color: var(--color-secondary-text, #979797);
+}
+.post-template .article-header .article-tag .post-card-primary-tag a:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--color-darkgrey, #15171a);
 }
 
 /* 2. 标题字号 */
