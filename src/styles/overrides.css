@@ -3,6 +3,19 @@
   --ghost-accent-color: #15171a;
 }
 
+/* 导航栏背景色 + 深色下的汉堡图标 */
+.gh-head {
+  background-color: #0a0b0c !important;
+  color: #fff;
+}
+.gh-head a {
+  color: inherit;
+}
+.gh-head .gh-burger::before,
+.gh-head .gh-burger::after {
+  background-color: #fff;
+}
+
 /* 桌面端导航栏始终显示（Casper 依赖 .is-dropdown-loaded 才显示 nav，我们无此逻辑） */
 @media (min-width: 992px) {
   #gh-head .gh-head-menu,
@@ -16,22 +29,46 @@
   }
 }
 
-/* Casper 默认隐藏分页（无限滚动），我们使用传统分页 */
+/* Casper 默认隐藏分页（无限滚动），我们使用传统分页 + 间距 */
 .pagination {
   display: grid !important;
+  gap: 0 24px;
+  align-items: center;
+}
+.pagination .page-number {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pagination .page-number > * + * {
+  margin-left: 0;
+}
+.pagination a,
+.pagination .disabled {
+  padding: 4px 0;
+}
+.pagination .page-number a,
+.pagination .page-number .current {
+  min-width: 2em;
+  text-align: center;
 }
 
-/* 首页 Hero 区缩小高度（从原 Casper 大块改为紧凑） */
+/* 首页 Hero 区：黑色背景、紧凑高度、副标题字号加大 */
 .site-header-content--compact {
   padding-top: 4vmin;
   padding-bottom: 4vmin;
+  background-color: #0a0b0c;
+  color: #fff;
 }
 .site-header-content--compact .site-description {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
+  color: rgba(255, 255, 255, 0.9);
 }
 
-/* 列表卡片立体边框（类似旧博客） */
+/* 列表卡片立体边框 + 内容区内边距 */
 .post-feed .post-card {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -45,10 +82,66 @@
 .post-feed .post-card-image-link {
   border-radius: 4px 4px 0 0;
 }
+.post-feed .post-card .post-card-content {
+  padding: 20px 24px 24px;
+}
+.post-feed .post-card .post-card-content-link {
+  padding: 0;
+}
 
 /* 归档页标题 */
 .feed-title {
   font-size: 2.4rem;
   font-weight: 700;
   margin: 0 0 4vmin;
+}
+
+/* ---------- 文章详情页（main 带 .post-template 时生效） ---------- */
+/* 1. 正文区域顶部留白 + 覆盖 article 自带的顶部大 padding（Casper 默认 max(8vmin, 40px)） */
+#site-main.post-template {
+  padding-top: max(1.2vmin, 12px);
+}
+.post-template .article {
+  padding-top: max(1.5vmin, 14px) !important;
+}
+.post-template .article-header {
+  padding-top: max(0.8vmin, 8px);
+  padding-bottom: max(3vmin, 20px) !important;
+}
+.post-template .article-header .article-tag {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+/* 2. 标题字号 */
+.post-template .article-title {
+  font-size: clamp(3.2rem, 5vw, 4.6rem) !important;
+}
+
+/* 3. 作者、日期与正文间距 */
+.post-template .article-byline {
+  margin-top: min(22px, 5vmin) !important;
+  margin-bottom: 0;
+}
+.post-template .article-header + .gh-content {
+  margin-top: max(4vmin, 28px) !important;
+}
+
+/* ---------- 标签/作者归档页：缩小顶部空白（Casper .post-feed 默认 padding-top 很大） ---------- */
+.tag-template .post-feed,
+.author-template .post-feed {
+  padding-top: max(1.5vmin, 14px) !important;
+  margin-top: 0 !important;
+}
+
+/* 4. 摘要样式：左侧竖线 + 背景 + 内边距 */
+.article-excerpt {
+  margin-top: 20px;
+  padding: 16px 20px;
+  background: rgba(0, 0, 0, 0.04);
+  border-left: 4px solid var(--ghost-accent-color);
+  border-radius: 0 6px 6px 0;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: var(--color-secondary-text);
 }

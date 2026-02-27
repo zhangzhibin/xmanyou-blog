@@ -29,7 +29,7 @@ const slug = (entry.data.slug || entry.id || '').replace(/\.mdx?$/, '');
       </article>
     </main>
   ) : (
-    <main id="site-main" class="site-main">
+    <main id="site-main" class="site-main post-template">
       <article class="article post">
         <header class="article-header gh-canvas">
           {entry.data.tagSlugs?.length > 0 && (
