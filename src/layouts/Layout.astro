@@ -3,6 +3,9 @@ import '../styles/casper.css';
 import '../styles/overrides.css';
 import { siteConfig } from '../config/site';
 
+const adsenseClient = siteConfig.adsenseClient;
+const ga4Id = siteConfig.ga4MeasurementId;
+
 interface Props {
   title: string;
   description?: string;
@@ -30,6 +33,19 @@ const nav = siteConfig.navigation;
     <meta property="og:type" content="website" />
     {ogImage && <meta property="og:image" content={ogImage} />}
     {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+    {adsenseClient && (
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+        crossorigin="anonymous"
+      />
+    )}
+    {ga4Id && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} />
+        <script is:inline set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${ga4Id}');`} />
+      </>
+    )}
   </head>
   <body class="is-head-left-logo has-serif-title">
     <div class="viewport">

@@ -6,6 +6,10 @@ export const siteConfig = {
   title: '厦门暗游网络科技有限公司',
   /** 首页 Hero 副标题（原博客的站点描述） */
   subtitle: '游戏让生活更有趣，关注鸿蒙、Unity、Cocos、Laya、Egret、AR，影子工作室',
+  /** Google AdSense 发布商 ID（ca-pub-xxx） */
+  adsenseClient: 'ca-pub-1021360033002473',
+  /** Google Analytics 4 衡量 ID（G-xxx） */
+  ga4MeasurementId: 'G-1MMVY7SYZ1',
   /** 导航菜单：label 显示文字， url 链接 */
   navigation: [
     { label: '首页', url: '/' },
