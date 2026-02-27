@@ -1,6 +1,9 @@
 /* Astro 项目覆盖：Ghost 注入的变量 + 分页显示 */
 :root {
   --ghost-accent-color: #15171a;
+  /* 标题与正文统一为无衬线体，与导航等一致 */
+  --gh-font-heading: var(--font-sans);
+  --gh-font-body: var(--font-sans);
 }
 
 /* 导航栏背景色 + 深色下的汉堡图标 */
@@ -271,6 +274,14 @@
 .article-footer-next {
   text-align: right;
   margin-left: auto;
+}
+
+/* 正文内图片：宽度不超出文章容器，避免横向溢出（覆盖内联 width） */
+.gh-content img,
+.gh-canvas .gh-content img {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
 }
 
 /* 正文内代码块与行内代码：确保 pre/code 样式生效 */
